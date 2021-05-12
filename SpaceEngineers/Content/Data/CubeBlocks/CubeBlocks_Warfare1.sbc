@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <!-- Decorative Blocks -->
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockWeaponRack</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WeaponRack</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WeaponRack.dds</Icon>
+      <Description>Description_WeaponRack</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\Large\WeaponRack.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <MountPoints>
+          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.2" Default="true" />
+          <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+          <MountPoint Side="Right" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+          <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+          <MountPoint Side="Top" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WeaponRackConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WeaponRackConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WeaponRackConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>WeaponRack</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <EmissiveColorPreset>Basic</EmissiveColorPreset>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <PCU>10</PCU>
+      <!-- <DLC>Warfare1</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockWeaponRack</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WeaponRack</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WeaponRack_small.dds</Icon>
+      <Description>Description_WeaponRack</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <Model>Models\Cubes\Small\WeaponRack.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <MountPoints>
+          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.2"  />
+          <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.4" EndY="2" />
+          <MountPoint Side="Right" StartX="0.6" StartY="0" EndX="1" EndY="2" />
+          <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
+          <MountPoint Side="Top" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WeaponRackConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WeaponRackConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>WeaponRack</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <EmissiveColorPreset>Basic</EmissiveColorPreset>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>10</PCU>
+      <!-- <DLC>Warfare1</DLC> -->
+    </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>FireCover</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_FireCover</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\FireCover.dds</Icon>
+          <Description>Description_FireCover</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\FireCover.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="SteelPlate" Count="4" />
+              <Component Subtype="Construction" Count="10" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="0.4" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="1" EndY="1" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\FireCoverConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\FireCoverConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FireCoverConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>8</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>FireCoverCorner</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_FireCoverCorner</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\FireCoverCorner.dds</Icon>
+          <Description>Description_FireCover</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\FireCoverCorner.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="SteelPlate" Count="8" />
+              <Component Subtype="Construction" Count="20" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="1" EndY="1" Default="true" />
+              <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="0.9" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="0.4" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\FireCoverCornerConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\FireCoverCornerConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FireCoverCornerConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringX>HalfY</MirroringX>
+          <MirroringY>XHalfY</MirroringY>
+          <MirroringZ>MinusHalfY</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>12</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>HalfWindow</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_HalfWindow</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\HalfWindow.dds</Icon>
+          <Description>Description_Window</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\HalfWindow.mwm</Model>
+          <Components>
+              <Component Subtype="Girder" Count="4" />
+              <Component Subtype="SteelPlate" Count="5" />
+              <Component Subtype="BulletproofGlass" Count="10" />
+              <Component Subtype="SteelPlate" Count="5" />
+          </Components>
+          <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfWindowConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfWindowConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfWindowConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>HalfWindow</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>HalfWindowInv</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_HalfWindowInv</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\HalfWindowInv.dds</Icon>
+          <Description>Description_Window</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\HalfWindowInv.mwm</Model>
+          <Components>
+              <Component Subtype="Girder" Count="4" />
+              <Component Subtype="SteelPlate" Count="5" />
+              <Component Subtype="BulletproofGlass" Count="10" />
+              <Component Subtype="SteelPlate" Count="5" />
+          </Components>
+          <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfWindowConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfWindowConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfWindowConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>HalfWindowCorner</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_HalfWindowCorner</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\HalfWindowCorner.dds</Icon>
+          <Description>Description_Window</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\HalfWindowCorner.mwm</Model>
+          <Components>
+              <Component Subtype="Girder" Count="8" />
+              <Component Subtype="SteelPlate" Count="10" />
+              <Component Subtype="BulletproofGlass" Count="20" />
+              <Component Subtype="SteelPlate" Count="10" />
+          </Components>
+          <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.9" EndY="0.1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfWindowCornerConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfWindowCornerConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfWindowCornerConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringX>MinusHalfY</MirroringX>
+          <MirroringY>ZHalfY</MirroringY>
+          <MirroringZ>HalfY</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+      
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>HalfWindowCornerInv</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_HalfWindowCornerInv</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\HalfWindowCornerInv.dds</Icon>
+          <Description>Description_Window</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\HalfWindowCornerInv.mwm</Model>
+          <Components>
+              <Component Subtype="Girder" Count="8" />
+              <Component Subtype="SteelPlate" Count="10" />
+              <Component Subtype="BulletproofGlass" Count="20" />
+              <Component Subtype="SteelPlate" Count="10" />
+          </Components>
+          <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Top" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.9" EndY="0.1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfWindowCornerConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfWindowCornerConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfWindowCornerConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringX>MinusHalfY</MirroringX>
+          <MirroringY>ZHalfY</MirroringY>
+          <MirroringZ>HalfY</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>Embrasure</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_Embrasure</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\Embrasure.dds</Icon>
+          <Description>Description_Embrasure</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\Embrasure.mwm</Model>
+          <Components>
+              <Component Subtype="SteelPlate" Count="20" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="MetalGrid" Count="10" />
+              <Component Subtype="SteelPlate" Count="10" />
+          </Components>
+          <CriticalComponent Subtype="MetalGrid" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Top" StartX="0.15" StartY="0" EndX="0.85" EndY="0.4" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.6" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Left" StartX="0.6" StartY="0" EndX="1" EndY="0.85" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.4" EndY="0.85" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Embrasure_Construction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Embrasure_Construction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Embrasure_Construction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>Embrasure</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>12</BuildTimeSeconds>
+          <IsAirTight>false</IsAirTight>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>PassageSciFi</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_Passage3</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageSciFi.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageSciFi.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="74" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="SmallTube" Count="48" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageSciFi</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>16</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>PassageSciFiWall</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_Passage3Wall</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageSciFiWall.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageSciFiWall.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="50" />
+              <Component Subtype="Construction" Count="14" />
+              <Component Subtype="SmallTube" Count="32" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="1" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+              <MountPoint Side="Right" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiWallConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiWallConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiWallConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageSciFiWall</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>12</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>PassageSciFiIntersection</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_Passage3Cross</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageSciFiIntersection.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageSciFiIntersection.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="35" />
+              <Component Subtype="Construction" Count="10" />
+              <Component Subtype="SmallTube" Count="25" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Left" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.2" Default="true" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.8" EndX="0.2" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiIntersectionConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiIntersectionConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiIntersectionConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageSciFiIntersection</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>PassageSciFiGate</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_Passage3Frame</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageSciFiGate.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageSciFiGate.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="35" />
+              <Component Subtype="Construction" Count="10" />
+              <Component Subtype="SmallTube" Count="25" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.5" Default="true" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
+              <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiGateConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiGateConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiGateConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageSciFiGate</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+      <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+          <Id>
+              <TypeId>InteriorLight</TypeId>
+              <SubtypeId>PassageSciFiLight</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_Passage3Light</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageSciFiLight.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageSciFiLight.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="74" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="SmallTube" Count="48" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiLightConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageSciFiLight</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <LightRadius Min="1" Max="10" Default="3.6" />
+          <LightFalloff Min="0" Max="3" Default="1.3" />
+          <LightIntensity Min="0.5" Max="10" Default="5" />
+          <ResourceSinkGroup>Utility</ResourceSinkGroup>
+          <RequiredPowerInput>0.00006</RequiredPowerInput>
+          <Flare>InteriorLight</Flare>
+          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+          <DamagedSound>ParticleElectrical</DamagedSound>
+          <BuildTimeSeconds>16</BuildTimeSeconds>
+          <PCU>25</PCU>
+          <!-- <DLC>Warfare1</DLC> -->
+      </Definition>
+
+
+
+      <!-- End of Decorative Blocks -->
+  </CubeBlocks>
+</Definitions>

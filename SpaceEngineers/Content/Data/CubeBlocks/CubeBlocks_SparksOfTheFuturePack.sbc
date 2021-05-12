@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+      
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>LargeLCDPanel5x5</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_LCD_Panel5x5</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LCDPanel3x3.dds</Icon>
+      <Description>Description_TextPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\LCDPanel5x5.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="25" />
+        <Component Subtype="Construction" Count="150" />
+        <Component Subtype="Computer" Count="25" />scifi
+        <Component Subtype="Display" Count="250" />
+        <Component Subtype="BulletproofGlass" Count="150" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" Default="true"/>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="0.1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\LCDPanel5x5Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel5x5Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel5x5Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LCDPanel5x5</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0025</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+          <ScreenAreas>
+               <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="5" ScreenHeight="5" />
+               <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="5" ScreenHeight="5" />              
+               <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="5" ScreenHeight="5" />
+               <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="5" ScreenHeight="5" />
+          </ScreenAreas>
+	  <MaxScreenRenderDistance>400</MaxScreenRenderDistance>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>LargeLCDPanel5x3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_LCD_Panel5x3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LCDPanel5x3.dds</Icon>
+      <Description>Description_TextPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\LCDPanel5x3.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Construction" Count="90" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="Display" Count="150" />
+        <Component Subtype="BulletproofGlass" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="3" Default="true"/>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="0.1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\LCDPanel5x3Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel5x3Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel5x3Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LCDPanel5x3Rot</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0015</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <ScreenAreas>
+          <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+          <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="3" ScreenHeight="5" />
+          <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
+          <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="3" ScreenHeight="5" />
+          </ScreenAreas>
+      <MaxScreenRenderDistance>400</MaxScreenRenderDistance>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>LargeLCDPanel3x3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_LCD_Panel3x3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LCDPanel3x3.dds</Icon>
+      <Description>Description_TextPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\LCDPanel3x3.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Display" Count="90" />
+        <Component Subtype="BulletproofGlass" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" Default="true"/>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
+        <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="3" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="0.1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\LCDPanel3x3Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel3x3Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel3x3Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LCDPanel3x3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0009</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+          <ScreenAreas>
+               <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="3" ScreenHeight="3" />
+               <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="3" ScreenHeight="3" />              
+               <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="3" ScreenHeight="3" />
+               <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="3" ScreenHeight="3" />
+          </ScreenAreas>
+      <MaxScreenRenderDistance>400</MaxScreenRenderDistance>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlockSciFiWall</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SciFiWall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SciFiWall.dds</Icon>
+      <Description>Description_InteriorWall</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SciFiWall.mwm</Model>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorWallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorWallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorWallConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SciFiWall</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>true</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>  
+
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesStraight1</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesStraight1</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraight1.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesStraight1.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="6" />
+              <Component Subtype="SmallTube" Count="6" />
+              <Component Subtype="Construction" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesStraightConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesStraight1</BlockPairName>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>  
+
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesStraight2</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesStraight2</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraight2.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesStraight2.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="6" />
+              <Component Subtype="SmallTube" Count="6" />
+              <Component Subtype="Construction" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesStraightConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesStraight2</BlockPairName>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>
+     
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesCorner</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesCorner</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesCorner.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesCorner.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="6" />
+              <Component Subtype="SmallTube" Count="6" />
+              <Component Subtype="Construction" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Front" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Bottom" StartX="0.6" StartY="0.4" EndX="1" EndY="0.6" />
+              <MountPoint Side="Bottom" StartX="0.4" StartY="0" EndX="0.6" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesCornerConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesCornerConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesCornerConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesCorner</BlockPairName>
+          <MirroringX>MinusHalfY</MirroringX>
+          <MirroringY>ZHalfY</MirroringY>
+          <MirroringZ>YHalfY</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesBendUp</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesBendUp</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesBendUp.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesBendUp.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="12" />
+              <Component Subtype="SmallTube" Count="12" />
+              <Component Subtype="Construction" Count="4" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0.4" EndX="0.06" EndY="0.6" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesBendUpConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesBendUpConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesBendUpConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesBendUp</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>8</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>
+      
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesBendDown</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesBendDown</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesBendDown.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesBendDown.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="3" />
+              <Component Subtype="SmallTube" Count="3" />
+              <Component Subtype="Construction" Count="1" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="0.06" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\NeonTubesBendDownConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesBendDownConstruction_2.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesBendDown</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>4</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>  
+      
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesStraightEnd1</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesStraightEnd1</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraightEnd1.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesStraightEnd1.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="6" />
+              <Component Subtype="SmallTube" Count="6" />
+              <Component Subtype="Construction" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesStraightConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesStraightEnd1</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>
+      
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesStraightEnd2</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesStraightEnd2</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraightEnd2.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesStraightEnd2.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="SmallTube" Count="6" />
+              <Component Subtype="Construction" Count="4" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesStraightEnd2Construction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightEnd2Construction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightEnd2Construction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesStraightEnd2</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>8</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>
+      
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesStraightDown</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesStraightDown</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraightDown.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesStraightDown.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="9" />
+              <Component Subtype="SmallTube" Count="9" />
+              <Component Subtype="Construction" Count="3" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesStraightConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesStraightDown</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>7</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>  
+      
+      <Definition>
+          <Id>
+           <TypeId>EmissiveBlock</TypeId>
+           <SubtypeId>LargeNeonTubesU</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_NeonTubesU</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTubesU.dds</Icon>
+          <Description>Description_NeonTubes</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\NeonTubesU.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="18" />
+              <Component Subtype="SmallTube" Count="18" />
+              <Component Subtype="Construction" Count="6" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+              <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0.4" EndX="0.06" EndY="0.6" />
+              <MountPoint Side="Top" StartX="0.94" StartY="0.4" EndX="1" EndY="0.6" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="0.6" Default="true" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\NeonTubesUConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesUConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesUConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>NeonTubesU</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>TerminalBlock</TypeId>
+              <SubtypeId>LargeBlockSciFiTerminal</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_SciFiTerminal</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\NeonTerminal.dds</Icon>
+          <Description>Description_ControlPanel</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\SciFiTerminal.mwm</Model>
+          <Components>
+              <Component Subtype="Construction" Count="4" />
+              <Component Subtype="Computer" Count="2" />
+              <Component Subtype="Display" Count="4" />
+              <Component Subtype="InteriorPlate" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="Display" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartY="0.3" StartX="0.3" EndY="0.8" EndX="0.7" />
+          </MountPoints>
+          <IsStandAlone>false</IsStandAlone>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiTerminalConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiTerminalConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiTerminalConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>SciFiTerminal</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+          <DamagedSound>ParticleElectrical</DamagedSound>
+          <DestroyEffectOffset>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>1.1</Z>
+          </DestroyEffectOffset>
+          <PCU>5</PCU>
+          <IsAirTight>false</IsAirTight>
+          <!-- <DLC>SparksOfTheFuture</DLC> -->
+      </Definition>
+      
+      <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>LargeSciFiButtonTerminal</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SciFiButtonTerminal</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SciFiButtonTerminal.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SciFiButtonTerminal.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Construction" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.4" StartY="0.25" EndX="0.6" EndY="0.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SciFiButtonTerminalConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiButtonTerminalConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiButtonTerminalConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SciFiButtonTerminal</BlockPairName>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" />
+      </ScreenAreas>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>1</ButtonCount>
+      <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+      </ButtonSymbols>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>      
+
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+          <TypeId>Door</TypeId>
+          <SubtypeId>SmallSideDoor</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SideDoor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallSideDoor.dds</Icon>
+      <Description>Description_Door</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="4" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\SideDoor.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <OpenSound>BlockDoorSmallOpen</OpenSound>
+      <CloseSound>BlockDoorSmallClose</CloseSound>
+      <Components>
+          <Component Subtype="InteriorPlate" Count="4" />
+          <Component Subtype="Construction" Count="10" />
+          <Component Subtype="BulletproofGlass" Count="4" />
+          <Component Subtype="Motor" Count="2" />
+          <Component Subtype="Display" Count="1" />
+          <Component Subtype="Computer" Count="2" />
+          <Component Subtype="InteriorPlate" Count="6" />
+          <Component Subtype="Construction" Count="16" />
+          <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+          <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
+          <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+          <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+          <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+          <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SideDoorConstruction_1.mwm" />
+          <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SideDoorConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SideDoor</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <DisassembleRatio>1.2</DisassembleRatio>
+      <ResourceSinkGroup>Doors</ResourceSinkGroup>
+      <MaxOpen>1.76</MaxOpen>
+      <OpeningSpeed>4.8</OpeningSpeed>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>115</PCU>
+	    <DepressurizationEffectOffset x="0.5" y="0" z ="0" />
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlockBarCounter</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BarCounter</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\BarCounter_SciFi.dds</Icon>
+      <Description>Description_BarCounter</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\Large\BarCounter_SciFi.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="6" />
+        <Component Subtype="InteriorPlate" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.25" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.28" EndY="0.37" />
+        <MountPoint Side="Right" StartX="0.72" StartY="0" EndX="1" EndY="0.37" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BarCounter_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BarCounter_SciFi_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BarCounter_SciFi_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BarCounter</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>LargeBlockBarCounterCorner</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BarCounterCorner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\BarCounterCorner_SciFi.dds</Icon>
+      <Description>Description_BarCounter</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\Large\BarCounterCorner_SciFi.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="14" />
+        <Component Subtype="Construction" Count="14" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="BulletproofGlass" Count="10" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.25" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.28" EndY="0.37" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+        <MountPoint Side="Back" StartX="0.72" StartY="0" EndX="1" EndY="0.37" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BarCounterCorner</BlockPairName>
+      <MirroringX>MinusHalfY</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+      <Id>
+        <TypeId>ButtonPanel</TypeId>
+        <SubtypeId>LargeSciFiButtonPanel</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SciFiButtonPanel</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ButtonPanel_SciFi.dds</Icon>
+      <Description>Description_ButtonPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ButtonPanel_SciFi.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="Construction" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.4" />
+        <MountPoint Side="Bottom" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ButtonPanel_SciFiConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ButtonPanel_SciFiConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ButtonPanel_SciFiConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SciFiButtonPanel</BlockPairName>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Numpad1" TextureResolution="128" ScreenWidth="3" ScreenHeight="2" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Numpad2" TextureResolution="128" ScreenWidth="3" ScreenHeight="2" />
+        <ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_Numpad3" TextureResolution="128" ScreenWidth="3" ScreenHeight="2" />
+        <ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Numpad4" TextureResolution="128" ScreenWidth="3" ScreenHeight="2" />
+      </ScreenAreas>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <ButtonCount>4</ButtonCount>
+      <ButtonSymbols>
+        <string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\TwoButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\ThreeButton.dds</string>
+        <string>Textures\GUI\Icons\buttons\FourButton.dds</string>
+      </ButtonSymbols>
+      <UnassignedButtonColor>
+        <X>0.34</X>
+        <Y>0.34</Y>
+        <Z>0.34</Z>
+        <W>0</W>
+      </UnassignedButtonColor>
+      <ButtonColors>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+        <Vector4>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>0.3</Z>
+          <W>1</W>
+        </Vector4>
+      </ButtonColors>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>     
+      
+      <!-- Region Thrusters-->
+      
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallBlockSmallThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterSmall_SciFi.dds</Icon>
+      <Description>Description_IonThrust</Description>
+      <CubeSize>Small</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\IonThrusterSmall_SciFi.mwm</Model>
+      <ThrusterType>Ion</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Thrust" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\IonThrusterSmall_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\IonThrusterSmall_SciFi_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>SmallThrustSciFi</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>14400</ForceMagnitude>
+      <MaxPowerConsumption>0.200</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.4</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>      
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallBlockLargeThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterLarge_SciFi.dds</Icon>
+      <Description>Description_IonThrust</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\IonThrusterLarge_SciFi.mwm</Model>
+      <ThrusterType>Ion</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Thrust" Count="12" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\IonThrusterLarge_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\IonThrusterLarge_SciFi_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>LargeThrustSciFi</BlockPairName>
+      <Center x="1" y="0" z="2" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>172800</ForceMagnitude>
+      <MaxPowerConsumption>2.4</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.2</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridLargeThruster</FlameFlare>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>     
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeBlockSmallThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterSmall_SciFi.dds</Icon>
+      <Description>Description_IonThrust</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\IonThrusterSmall_SciFi.mwm</Model>
+      <ThrusterType>Ion</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="Thrust" Count="80" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\IonThrusterSmall_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\IonThrusterSmall_SciFi_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\IonThrusterSmall_SciFi_Construction3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>SmallThrustSciFi</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>345600</ForceMagnitude>
+      <MaxPowerConsumption>3.36</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>500</FlameVisibilityDistance>
+      <FlameGlareQuerySize>1</FlameGlareQuerySize>
+      <PrimarySound>LrgShipSmJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>      
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeBlockLargeThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi.dds</Icon>
+      <Description>Description_IonThrust</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\IonThrusterLarge_SciFi.mwm</Model>
+      <ThrusterType>Ion</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="70" />
+        <Component Subtype="LargeTube" Count="40" />
+        <Component Subtype="Thrust" Count="960" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\IonThrusterLarge_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\IonThrusterLarge_SciFi_Construction2.mwm" />
+        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\IonThrusterLarge_SciFi_Construction3.mwm" />
+        <Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\IonThrusterLarge_SciFi_Construction4.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\IonThrusterLarge_SciFi_Construction5.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>LargeThrustSciFi</BlockPairName>
+      <Center x="1" y="0" z="2" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>4320000</ForceMagnitude>
+      <MaxPowerConsumption>33.6</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridLargeThruster</FlameFlare>
+      <FlameVisibilityDistance>700</FlameVisibilityDistance>
+      <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
+      <PrimarySound>LrgShipLrgJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>    
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+          <!--Atmospheric Thrusters-->
+
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
+      <Description>Description_AtmosphericThrust</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AtmosphericThrusterLarge_SciFi.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="50" />
+        <Component Subtype="MetalGrid" Count="40" />
+        <Component Subtype="Motor" Count="1100" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="130" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Left" StartX="2" StartY="1" EndX="4" EndY="2" />
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="3" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterLarge_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterLarge_SciFi_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterLarge_SciFi_Construction3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>LargeAtmoThrustSciFi</BlockPairName>
+      <Center x="1" y="1" z="2" />
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>6480000</ForceMagnitude>
+      <MaxPowerConsumption>16.8</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>500</FlameVisibilityDistance>
+      <FlameGlareQuerySize>1</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>5</PropellerAccelerationTime>
+      <PropellerDecelerationTime>10</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>400</PropellerMaxVisibleDistance>
+      <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>      
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterSmall_SciFi.dds</Icon>
+      <Description>Description_AtmosphericThrust</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AtmosphericThrusterSmall_SciFi.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="110" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterSmall_SciFi_Construction3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>SmallAtmoThrustSciFi</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>648000</ForceMagnitude>
+      <MaxPowerConsumption>2.4</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>500</FlameVisibilityDistance>
+      <FlameGlareQuerySize>1</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>5</PropellerAccelerationTime>
+      <PropellerDecelerationTime>10</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>250</PropellerMaxVisibleDistance>
+      <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>      
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Small_AtmosphericThrusterLarge_SciFi.dds</Icon>
+      <Description>Description_AtmosphericThrust</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AtmosphericThrusterLarge_SciFi.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="MetalGrid" Count="8" />
+        <Component Subtype="Motor" Count="90" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="4" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="4" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterLarge_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterLarge_SciFi_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>LargeAtmoThrustSciFi</BlockPairName>
+      <Center x="1" y="1" z="2" />
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>576000</ForceMagnitude>
+      <MaxPowerConsumption>2.4</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.2</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridLargeThruster</FlameFlare>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>3</PropellerAccelerationTime>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>200</PropellerMaxVisibleDistance>
+      <PrimarySound>SmShipLrgJetAtmo</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU> 
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+      
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Small_AtmosphericThrusterSmall_SciFi.dds</Icon>
+      <Description>Description_AtmosphericThrust</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AtmosphericThrusterSmall_SciFi.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="MetalGrid" Count="1" />
+        <Component Subtype="Motor" Count="18" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true" />
+        <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>SmallAtmoThrustSciFi</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>96000</ForceMagnitude>
+      <MaxPowerConsumption>0.600</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+
+      <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+      <FlameDamageLengthScale>0.35</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.5</FlameLengthScale>
+      <FlameIdleColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+          <X>0.3</X>
+          <Y>0.3</Y>
+          <Z>0.3</Z>
+          <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>SciFiEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.25</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>3</PropellerAccelerationTime>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>60</PropellerMaxVisibleDistance>
+      <PrimarySound>SmShipSmJetAtmo</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>false</IsAirTight>      
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
+    </Definition>
+    <!-- End Region Thrust-->
+     
+  </CubeBlocks>
+</Definitions>
