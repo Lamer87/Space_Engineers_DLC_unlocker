@@ -10,4 +10,4 @@ Example: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
 
 To download the archive, click on the green "Code" button and then on "Download zip".
 
-I promise i will keep this unlocker updated :)
+I promise that I will keep this unlocker updated for next releases :)
