@@ -13,3 +13,5 @@ To download the archive, click on the green "Code" button and then on "Download 
 I promise that I will keep this unlocker updated for next releases :)
 
 download from [MEGA.nz](https://mega.nz/file/OVATzSRQ#CK0PE4lREO5panNIModG2zLOZ0TXQl-jNMd5vc-0fBg)
+
+Русскоязычная страница playground.ru: [ссылка](https://www.playground.ru/space_engeneers/cheat/space_engineers_dlc_unlocker_by_lamer87-1110458)
