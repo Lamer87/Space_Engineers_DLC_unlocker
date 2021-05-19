@@ -1,4 +1,4 @@
-## All DLCs unlocked up to: `Warfare 1 v1.198`
+## All DLCs unlocked up to: `v1.198 - Warfare 1`
 
 As "[ColorfulRainbow](https://github.com/0x000015/ColorfulRainbow)" is no longer updated, I decided to continue its work (Special thanks to user 0x000015).
 
