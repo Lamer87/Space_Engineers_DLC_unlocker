@@ -12,7 +12,7 @@ To download the archive, click on the green "Code" button and then on "Download 
 Or download it from [MEGA.nz](https://mega.nz/file/OVATzSRQ#CK0PE4lREO5panNIModG2zLOZ0TXQl-jNMd5vc-0fBg)
 
 If some minor bug patches prevents proper operation of the game, let me know in the discussion tab.  
-Otherwise, I will update the unlocker with the next major release.
+Otherwise, I will update the unlocker with the next major release (I'm currently not playing due to summer job).
 
 ---
 
