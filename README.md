@@ -2,8 +2,6 @@
 
 Space Engineers DLC unlocker
 
-As "[ColorfulRainbow](https://github.com/0x000015/ColorfulRainbow)" is no longer updated, I decided to continue its work (Special thanks to user 0x000015).
-
 You have to replace the game files with those in the archive.
 If you mess with something, a backup is included so you don't have to recheck your files from Steam.
 
@@ -15,3 +13,7 @@ To download the archive, click on the green "Code" button and then on "Download 
 I promise that I will keep this unlocker updated for next releases :)
 
 download from [MEGA.nz](https://mega.nz/file/OVATzSRQ#CK0PE4lREO5panNIModG2zLOZ0TXQl-jNMd5vc-0fBg)
+
+---
+
+Special thanks to user 0x000015, that made [ColorfulRainbow](https://github.com/0x000015/ColorfulRainbow), but is no longer updated.
