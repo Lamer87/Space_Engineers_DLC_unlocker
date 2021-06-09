@@ -16,4 +16,4 @@ Otherwise, I will update the unlocker with the next major release (I'm currently
 
 ---
 
-Special thanks to user 0x000015, that made [ColorfulRainbow](https://github.com/0x000015/ColorfulRainbow), but is no longer updated.
+Special thanks to user 0x000015, that made [ColorfulRainbow](https://github.com/0x000015/ColorfulRainbow), but it's no longer updated.
