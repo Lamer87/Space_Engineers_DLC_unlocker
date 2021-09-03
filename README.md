@@ -14,7 +14,8 @@ Or download it from [MEGA.nz](https://mega.nz/file/OdIBgK5B#XNFf175_yigNXa6eToka
 If some minor bug patches prevents proper operation of the game, let me know in the discussion tab.  
 Otherwise, I will update the unlocker with the next major release (I'm currently not playing due to summer job).
 
-If you want to edit the files yourself, be careful because with each update, small changes are made in almost all the files,  
+If you want to edit the files yourself, be careful because with each update,  
+small changes are made in almost all the files,  
 so it is NOT enough to edit only the last file added by the DLC.
 
 ---
