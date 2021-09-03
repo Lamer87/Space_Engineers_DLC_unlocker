@@ -19,6 +19,6 @@ If you want to edit the files yourself, be careful because with each update, sma
 
 ---
 
-Other Space Engineers DLC unlockers:  
+Other Space Engineers DLC unlockers which are currently updated:  
 By [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
 By [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker)  
