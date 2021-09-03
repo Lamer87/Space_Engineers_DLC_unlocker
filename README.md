@@ -2,6 +2,8 @@
 
 Space Engineers DLC unlocker
 
+---
+
 You have to replace the game files with those in the archive.
 If you mess with something, a backup is included so you don't have to recheck your files from Steam.
 
@@ -18,5 +20,3 @@ small changes are made in almost all the files,
 so it is NOT enough to edit only the last file added by the DLC.
 
 ---
-
-Special thanks to user 0x000015, that made [ColorfulRainbow](https://github.com/0x000015/ColorfulRainbow), but it's no longer updated.
