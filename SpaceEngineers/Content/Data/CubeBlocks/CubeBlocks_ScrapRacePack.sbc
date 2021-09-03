@@ -59,7 +59,7 @@
             <RequiredPowerInput>0.0002</RequiredPowerInput>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
-			<!-- <DLC>ScrapRace</DLC>			 -->
+			<!-- <DLC>ScrapRace</DLC> -->			
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
