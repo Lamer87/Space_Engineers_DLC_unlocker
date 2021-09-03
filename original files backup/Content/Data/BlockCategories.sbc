@@ -21,6 +21,7 @@
         <string>ProgrammableBlock/LargeProgrammableBlock</string>
         <string>Assembler/BasicAssembler</string>
         <string>Assembler/LargeAssembler</string>
+        <string>Assembler/LargeAssemblerIndustrial</string>
         <string>AirtightSlideDoor/LargeBlockSlideDoor</string>
         <string>Door/LargeBlockOffsetDoor</string>
         <string>BatteryBlock/LargeBlockBatteryBlock</string>
@@ -29,7 +30,9 @@
         <string>ButtonPanel/ButtonPanelLarge</string>
         <string>ButtonPanel/LargeSciFiButtonPanel</string>
         <string>ButtonPanel/LargeSciFiButtonTerminal</string>
+        <string>ButtonPanel/VerticalButtonPanelLarge</string>
         <string>CargoContainer/LargeBlockLargeContainer</string>
+        <string>CargoContainer/LargeBlockLargeIndustrialContainer</string>
         <string>CargoContainer/LargeBlockSmallContainer</string>
         <string>Cockpit/CockpitOpen</string>
         <string>Cockpit/LargeBlockCockpit</string>
@@ -38,8 +41,15 @@
         <string>Collector/Collector</string>
         <string>Conveyor/LargeBlockConveyor</string>
         <string>ConveyorSorter/LargeBlockConveyorSorter</string>
+        <string>ConveyorSorter/LargeBlockConveyorSorterIndustrial</string>
         <string>ConveyorConnector/ConveyorTube</string>
         <string>ConveyorConnector/ConveyorTubeCurved</string>
+        <string>Conveyor/LargeBlockConveyorPipeJunction</string>
+        <string>Conveyor/LargeBlockConveyorPipeIntersection</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeSeamless</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeCorner</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeFlange</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeEnd</string>
         <string>CubeBlock/ArmorAlpha</string>
         <string>CubeBlock/ArmorCenter</string>
         <string>CubeBlock/ArmorCorner</string>
@@ -123,6 +133,7 @@
 		
 		
         <string>CubeBlock/LargeBlockInteriorWall</string>
+        <string>CubeBlock/LargeBlockCylindricalColumn</string>
         <string>CubeBlock/LargeBlockSciFiWall</string>
         <string>CubeBlock/LargeCoverWall</string>
         <string>CubeBlock/LargeCoverWallHalf</string>
@@ -170,6 +181,7 @@
         <string>CubeBlock/HalfWindowInv</string>
         <string>CubeBlock/HalfWindowCorner</string>
         <string>CubeBlock/HalfWindowCornerInv</string>
+          
         <string>CubeBlock/Embrasure</string>
         <string>CubeBlock/DeadBody01</string>
         <string>CubeBlock/DeadBody02</string>
@@ -177,6 +189,7 @@
         <string>CubeBlock/DeadBody04</string>
         <string>CubeBlock/DeadBody05</string>
         <string>CubeBlock/DeadBody06</string>
+          
         <string>CubeBlock/LargeSymbolA</string>
         <string>CubeBlock/LargeSymbolB</string>
         <string>CubeBlock/LargeSymbolC</string>
@@ -221,6 +234,7 @@
         <string>CubeBlock/LargeSymbolColon</string>
         <string>CubeBlock/LargeSymbolExclamationMark</string>
         <string>CubeBlock/LargeSymbolQuestionMark</string>
+          
         <string>ExhaustBlock/LargeExhaustPipe</string>
         <string>Decoy/LargeDecoy</string>
         <string>Door/(null)</string>
@@ -240,6 +254,8 @@
         <string>InteriorLight/SmallLight</string>
         <string>InteriorTurret/LargeInteriorTurret</string>
         <string>LandingGear/LargeBlockLandingGear</string>
+        <string>LandingGear/LargeBlockMagneticPlate</string>
+        <string>LandingGear/LargeBlockSmallMagneticPlate</string>
         <string>LargeGatlingTurret/(null)</string>
         <string>LargeMissileTurret/(null)</string>
         <string>MedicalRoom/LargeMedicalRoom</string>
@@ -267,6 +283,9 @@
         <string>CubeBlock/PassageSciFiWall</string>
         <string>CubeBlock/PassageSciFiIntersection</string>
         <string>CubeBlock/PassageSciFiGate</string>
+        <string>CubeBlock/PassageScifiCorner</string>
+        <string>CubeBlock/PassageSciFiTjunction</string>
+        <string>CubeBlock/PassageSciFiWindow</string>
         <string>PistonBase/LargePistonBase</string>
         <string>PistonTop/LargePistonTop</string>
         <string>Projector/LargeProjector</string>
@@ -275,6 +294,7 @@
         <string>Reactor/LargeBlockLargeGenerator</string>
         <string>Reactor/LargeBlockSmallGenerator</string>
         <string>Refinery/LargeRefinery</string>
+        <string>Refinery/LargeRefineryIndustrial</string>
         <string>Refinery/Blast Furnace</string>
         <string>ReflectorLight/LargeBlockFrontLight</string>
         <string>RemoteControl/LargeBlockRemoteControl</string>
@@ -300,6 +320,8 @@
         <string>Thrust/LargeBlockSmallAtmosphericThrustSciFi</string>
         <string>Thrust/LargeBlockLargeHydrogenThrust</string>
         <string>Thrust/LargeBlockSmallHydrogenThrust</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrustIndustrial</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrustIndustrial</string>
         <string>VirtualMass/VirtualMassLarge</string>
         <string>Warhead/LargeWarhead</string>
         <string>Wheel/RealWheel</string>
@@ -320,6 +342,7 @@
         <string>OxygenTank/(null)</string>
         <string>OxygenTank/LargeHydrogenTank</string>
         <string>OxygenTank/LargeHydrogenTankSmall</string>
+        <string>OxygenTank/LargeHydrogenTankIndustrial</string>
         <string>AirVent/(null)</string>
         <string>AirtightHangarDoor/(null)</string>
         <string>Door/LargeBlockGate</string>
@@ -362,41 +385,86 @@
         <string>StoreBlock/AtmBlock</string>
 		<string>CubeBlock/FoodDispenser</string>
 		<string>VendingMachine/FoodDispenser</string>
-		  <string>Jukebox/Jukebox</string>
-		  <string>Cockpit/OpenCockpitLarge</string>
-		  <string>LCDPanelsBlock/LabEquipment</string>
-		  <string>CubeBlock/Shower</string>
-		  <string>CubeBlock/WindowWall</string>
-		  <string>CubeBlock/WindowWallLeft</string>
-		  <string>CubeBlock/WindowWallRight</string>
-		  <string>LCDPanelsBlock/MedicalStation</string>
-		  <string>TextPanel/TransparentLCDLarge</string>
-		  <string>TextPanel/TransparentLCDSmall</string>
-		  <string>CubeBlock/Catwalk</string>
-		  <string>CubeBlock/CatwalkCorner</string>
-		  <string>CubeBlock/CatwalkStraight</string>
-		  <string>CubeBlock/CatwalkWall</string>
-          <string>CubeBlock/CatwalkRailingEnd</string>
-          <string>CubeBlock/CatwalkRailingHalfRight</string>
-          <string>CubeBlock/CatwalkRailingHalfLeft</string>
-		  <string>CubeBlock/GratedStairs</string>
-		  <string>CubeBlock/GratedHalfStairs</string>
-          <string>CubeBlock/GratedHalfStairsMirrored</string>
-		  <string>CubeBlock/RailingStraight</string>
-		  <string>CubeBlock/RailingDouble</string>
-		  <string>CubeBlock/RailingCorner</string>
-		  <string>CubeBlock/RailingDiagonal</string>
-          <string>CubeBlock/RailingHalfRight</string>
-          <string>CubeBlock/RailingHalfLeft</string>
-		  <string>ReflectorLight/RotatingLightLarge</string>
-		  <string>ReflectorLight/RotatingLightSmall</string>
-		  <string>CubeBlock/Freight1</string>
-		  <string>CubeBlock/Freight2</string>
-		  <string>CubeBlock/Freight3</string>
-          <string>CubeBlock/StorageShelf1</string>
-          <string>CubeBlock/StorageShelf2</string>
-          <string>CubeBlock/StorageShelf3</string>
-          <string>TargetDummyBlock/TargetDummy</string>
+		<string>Jukebox/Jukebox</string>
+		<string>Cockpit/OpenCockpitLarge</string>
+		<string>LCDPanelsBlock/LabEquipment</string>
+		<string>CubeBlock/Shower</string>
+		<string>CubeBlock/WindowWall</string>
+		<string>CubeBlock/WindowWallLeft</string>
+		<string>CubeBlock/WindowWallRight</string>
+		<string>LCDPanelsBlock/MedicalStation</string>
+		<string>TextPanel/TransparentLCDLarge</string>
+		<string>TextPanel/TransparentLCDSmall</string>
+		<string>CubeBlock/Catwalk</string>
+		<string>CubeBlock/CatwalkCorner</string>
+		<string>CubeBlock/CatwalkStraight</string>
+		<string>CubeBlock/CatwalkWall</string>
+        <string>CubeBlock/CatwalkRailingEnd</string>
+        <string>CubeBlock/CatwalkRailingHalfRight</string>
+        <string>CubeBlock/CatwalkRailingHalfLeft</string>
+		<string>CubeBlock/GratedStairs</string>
+		<string>CubeBlock/GratedHalfStairs</string>
+        <string>CubeBlock/GratedHalfStairsMirrored</string>
+		<string>CubeBlock/RailingStraight</string>
+		<string>CubeBlock/RailingDouble</string>
+		<string>CubeBlock/RailingCorner</string>
+		<string>CubeBlock/RailingDiagonal</string>
+        <string>CubeBlock/RailingHalfRight</string>
+        <string>CubeBlock/RailingHalfLeft</string>
+		<string>ReflectorLight/RotatingLightLarge</string>
+		<string>ReflectorLight/RotatingLightSmall</string>
+		<string>CubeBlock/Freight1</string>
+		<string>CubeBlock/Freight2</string>
+		<string>CubeBlock/Freight3</string>
+        <string>CubeBlock/StorageShelf1</string>
+        <string>CubeBlock/StorageShelf2</string>
+        <string>CubeBlock/StorageShelf3</string>
+        <string>TargetDummyBlock/TargetDummy</string>
+
+        <string>CubeBlock/LargeGridBeamBlock</string>
+        <string>CubeBlock/LargeGridBeamBlockSlope</string>
+        <string>CubeBlock/LargeGridBeamBlockRound</string>
+        <string>CubeBlock/LargeGridBeamBlockSlope2x1Base</string>
+        <string>CubeBlock/LargeGridBeamBlockSlope2x1Tip</string>
+        <string>CubeBlock/LargeGridBeamBlockHalf</string>
+        <string>CubeBlock/LargeGridBeamBlockHalfSlope</string>
+        <string>CubeBlock/LargeGridBeamBlockEnd</string>
+        <string>CubeBlock/LargeGridBeamBlockJunction</string>
+        <string>CubeBlock/LargeGridBeamBlockTJunction</string>
+
+        <string>CubeBlock/LargeArmorPanelLight</string>
+		<string>CubeBlock/LargeArmorSlopedSidePanelLight</string>
+		<string>CubeBlock/LargeArmorSlopedPanelLight</string>
+        <string>CubeBlock/LargeArmorHalfPanelLight</string>
+        <string>CubeBlock/LargeArmorQuarterPanelLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelTipLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelLight</string>     
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv</string>
+        <string>CubeBlock/LargeArmorHalfSlopedPanelLight</string>        
+        <string>CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight</string>
+		<string>CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft</string>
+          
+        <string>CubeBlock/LargeArmorPanelHeavy</string>
+		<string>CubeBlock/LargeArmorSlopedSidePanelHeavy</string>
+		<string>CubeBlock/LargeArmorSlopedPanelHeavy</string>
+        <string>CubeBlock/LargeArmorHalfPanelHeavy</string>
+        <string>CubeBlock/LargeArmorQuarterPanelHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelTipHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavy</string>     
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavyInv</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavyInv</string>
+        <string>CubeBlock/LargeArmorHalfSlopedPanelHeavy</string>        
+        <string>CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyRight</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyRight</string>
+		<string>CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyLeft</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyLeft</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -445,6 +513,7 @@
         <string>CubeBlock/SmallArmorInvCorner</string>
         <string>CubeBlock/SmallArmorSide</string>
         <string>CubeBlock/SmallArmorAlpha</string>
+        <string>CubeBlock/SmallBlockCylindricalColumn</string>
         <string>CubeBlock/SmallBlockArmorBlock</string>
         <string>CubeBlock/SmallBlockArmorCorner</string>
         <string>CubeBlock/SmallBlockArmorCornerInv</string>
@@ -541,6 +610,7 @@
         <string>CubeBlock/SmallWindow1x2SideLeftInv</string>
         <string>CubeBlock/SmallWindow1x2SideRightInv</string>
         <string>CubeBlock/SmallWindow1x1SideInv</string>
+          
         <string>CubeBlock/SmallSymbolA</string>
         <string>CubeBlock/SmallSymbolB</string>
         <string>CubeBlock/SmallSymbolC</string>
@@ -585,14 +655,18 @@
         <string>CubeBlock/SmallSymbolColon</string>
         <string>CubeBlock/SmallSymbolExclamationMark</string>
         <string>CubeBlock/SmallSymbolQuestionMark</string>
+          
         <string>ExhaustBlock/SmallExhaustPipe</string>
         <string>Decoy/SmallDecoy</string>
         <string>Drill/SmallBlockDrill</string>
         <string>Gyro/SmallBlockGyro</string>
         <string>LandingGear/SmallBlockLandingGear</string>
+        <string>LandingGear/SmallBlockMagneticPlate</string>
+        <string>LandingGear/SmallBlockSmallMagneticPlate</string>
         <string>LargeGatlingTurret/SmallGatlingTurret</string>
         <string>LargeMissileTurret/SmallMissileTurret</string>
         <string>MergeBlock/SmallShipMergeBlock</string>
+        <string>MergeBlock/SmallShipSmallMergeBlock</string>
         <string>MotorRotor/SmallRotor</string>
         <string>MotorStator/SmallStator</string>
         <string>MotorSuspension/SmallSuspension1x1</string>
@@ -639,6 +713,8 @@
         <string>Thrust/SmallBlockSmallAtmosphericThrustSciFi</string>
         <string>Thrust/SmallBlockLargeHydrogenThrust</string>
         <string>Thrust/SmallBlockSmallHydrogenThrust</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrustIndustrial</string>
+        <string>Thrust/SmallBlockSmallHydrogenThrustIndustrial</string>
         <string>VirtualMass/VirtualMassSmall</string>
         <string>Warhead/SmallWarhead</string>
         <string>Wheel/SmallRealWheel</string>
@@ -677,6 +753,52 @@
         <string>CubeBlock/BarredWindowSide</string>
         <string>CubeBlock/BarredWindowFace</string>
         <string>CargoContainer/SmallBlockWeaponRack</string>
+
+        <string>CubeBlock/LargeGridBeamBlockTJunction</string>
+        <string>CubeBlock/SmallGridBeamBlock</string>
+        <string>CubeBlock/SmallGridBeamBlockSlope</string>
+        <string>CubeBlock/SmallGridBeamBlockRound</string>
+        <string>CubeBlock/SmallGridBeamBlockSlope2x1Base</string>
+        <string>CubeBlock/SmallGridBeamBlockSlope2x1Tip</string>
+        <string>CubeBlock/SmallGridBeamBlockHalf</string>
+        <string>CubeBlock/SmallGridBeamBlockHalfSlope</string>
+        <string>CubeBlock/SmallGridBeamBlockEnd</string>
+        <string>CubeBlock/SmallGridBeamBlockJunction</string>
+        <string>CubeBlock/SmallGridBeamBlockTJunction</string>
+
+        <string>CubeBlock/SmallArmorPanelLight</string>
+		<string>CubeBlock/SmallArmorSlopedSidePanelLight</string>
+		<string>CubeBlock/SmallArmorSlopedPanelLight</string>
+        <string>CubeBlock/SmallArmorHalfPanelLight</string>
+        <string>CubeBlock/SmallArmorQuarterPanelLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelTipLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLight</string>     
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv</string>
+        <string>CubeBlock/SmallArmorHalfSlopedPanelLight</string>        
+        <string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight</string>
+		<string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft</string>
+          
+        <string>CubeBlock/SmallArmorPanelHeavy</string>
+		<string>CubeBlock/SmallArmorSlopedSidePanelHeavy</string>
+		<string>CubeBlock/SmallArmorSlopedPanelHeavy</string>
+        <string>CubeBlock/SmallArmorHalfPanelHeavy</string>
+        <string>CubeBlock/SmallArmorQuarterPanelHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelTipHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavy</string>     
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavyInv</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavyInv</string>
+        <string>CubeBlock/SmallArmorHalfSlopedPanelHeavy</string>        
+        <string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyRight</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyRight</string>
+		<string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyLeft</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft</string>	
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -765,8 +887,72 @@
 		<string>CubeBlock/LargeBlockHeavyArmorCornerSquareInverted</string>
 		<string>CubeBlock/LargeBlockArmorHalfSlopedCorner</string>
 		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCorner</string>
-		
-		
+          
+        <string>CubeBlock/LargeArmorPanelLight</string>
+		<string>CubeBlock/LargeArmorSlopedSidePanelLight</string>
+		<string>CubeBlock/LargeArmorSlopedPanelLight</string>
+        <string>CubeBlock/LargeArmorHalfPanelLight</string>
+        <string>CubeBlock/LargeArmorQuarterPanelLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelTipLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelLight</string>     
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelLight</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelLightInv</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelLightInv</string>
+        <string>CubeBlock/LargeArmorHalfSlopedPanelLight</string>        
+        <string>CubeBlock/LargeArmor2x1HalfSlopedPanelLightRight</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightRight</string>
+		<string>CubeBlock/LargeArmor2x1HalfSlopedPanelLightLeft</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelLightLeft</string>
+        <string>CubeBlock/LargeArmorPanelHeavy</string>
+		<string>CubeBlock/LargeArmorSlopedSidePanelHeavy</string>
+		<string>CubeBlock/LargeArmorSlopedPanelHeavy</string>
+        <string>CubeBlock/LargeArmorHalfPanelHeavy</string>
+        <string>CubeBlock/LargeArmorQuarterPanelHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedPanelTipHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavy</string>     
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavy</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideBasePanelHeavyInv</string>
+        <string>CubeBlock/LargeArmor2x1SlopedSideTipPanelHeavyInv</string>
+        <string>CubeBlock/LargeArmorHalfSlopedPanelHeavy</string>        
+        <string>CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyRight</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyRight</string>
+		<string>CubeBlock/LargeArmor2x1HalfSlopedPanelHeavyLeft</string>
+        <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyLeft</string>
+          
+        <string>CubeBlock/SmallArmorPanelLight</string>
+		<string>CubeBlock/SmallArmorSlopedSidePanelLight</string>
+		<string>CubeBlock/SmallArmorSlopedPanelLight</string>
+        <string>CubeBlock/SmallArmorHalfPanelLight</string>
+        <string>CubeBlock/SmallArmorQuarterPanelLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelTipLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLight</string>     
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLight</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelLightInv</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelLightInv</string>
+        <string>CubeBlock/SmallArmorHalfSlopedPanelLight</string>        
+        <string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightRight</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightRight</string>
+		<string>CubeBlock/SmallArmor2x1HalfSlopedPanelLightLeft</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelLightLeft</string>
+        <string>CubeBlock/SmallArmorPanelHeavy</string>
+		<string>CubeBlock/SmallArmorSlopedSidePanelHeavy</string>
+		<string>CubeBlock/SmallArmorSlopedPanelHeavy</string>
+        <string>CubeBlock/SmallArmorHalfPanelHeavy</string>
+        <string>CubeBlock/SmallArmorQuarterPanelHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedPanelTipHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavy</string>     
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavy</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideBasePanelHeavyInv</string>
+        <string>CubeBlock/SmallArmor2x1SlopedSideTipPanelHeavyInv</string>
+        <string>CubeBlock/SmallArmorHalfSlopedPanelHeavy</string>        
+        <string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyRight</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyRight</string>
+		<string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyLeft</string>
+        <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft</string>			
       </ItemIds>       
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -906,10 +1092,17 @@
         <string>ConveyorTubeCurved</string>
         <string>ConveyorTubeSmallCurved</string>
         <string>ConveyorTubeCurvedMedium</string>
+        <string>Conveyor/LargeBlockConveyorPipeJunction</string>
+        <string>Conveyor/LargeBlockConveyorPipeIntersection</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeSeamless</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeCorner</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeFlange</string>
+        <string>ConveyorConnector/LargeBlockConveyorPipeEnd</string>
         <!--<string>SmallShipConveyorHub</string>-->
         <string>ConveyorSorter/LargeBlockConveyorSorter</string>
         <string>ConveyorSorter/MediumBlockConveyorSorter</string>
         <string>ConveyorSorter/SmallBlockConveyorSorter</string>
+        <string>ConveyorSorter/LargeBlockConveyorSorterIndustrial</string>
         <string>ShipConnector/ConnectorMedium</string>
         <string>ShipConnector/ConnectorSmall</string>
         <string>ShipConnector/Connector</string>
@@ -1069,9 +1262,11 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>Refinery/LargeRefinery</string>
+        <string>Refinery/LargeRefineryIndustrial</string>
         <string>Refinery/Blast Furnace</string>
         <string>Assembler/BasicAssembler</string>
         <string>Assembler/LargeAssembler</string>
+        <string>Assembler/LargeAssemblerIndustrial</string>
         <string>Projector/LargeProjector</string>
         <string>OxygenGenerator/(null)</string>
         <string>SurvivalKit/SurvivalKit</string>
@@ -1371,6 +1566,62 @@
             <string>CubeBlock/PassageSciFiWall</string>
             <string>CubeBlock/PassageSciFiIntersection</string>
             <string>CubeBlock/PassageSciFiGate</string>
+            <string>CubeBlock/PassageScifiCorner</string>
+            <string>CubeBlock/PassageSciFiTjunction</string>
+            <string>CubeBlock/PassageSciFiWindow</string>
+          </ItemIds>
+      </Category>
+
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+          <Id>
+              <TypeId>GuiBlockCategoryDefinition</TypeId>
+              <SubtypeId/>
+          </Id>
+          <DisplayName>DisplayName_DLC_IndustrialPackDLC</DisplayName>
+          <Name>IndustrialPack</Name>
+          <StrictSearch>true</StrictSearch>
+          <ItemIds>
+              <string>LandingGear/LargeBlockMagneticPlate</string>
+              <string>LandingGear/SmallBlockMagneticPlate</string>
+              <string>ButtonPanel/VerticalButtonPanelLarge</string>
+              <string>CargoContainer/LargeBlockLargeIndustrialContainer</string>
+              <string>OxygenTank/LargeHydrogenTankIndustrial</string>
+              <string>Thrust/SmallBlockLargeHydrogenThrustIndustrial</string>
+              <string>Thrust/SmallBlockSmallHydrogenThrustIndustrial</string>
+              <string>Thrust/LargeBlockLargeHydrogenThrustIndustrial</string>
+              <string>Thrust/LargeBlockSmallHydrogenThrustIndustrial</string>
+              <string>Conveyor/LargeBlockConveyorPipeJunction</string>
+              <string>Conveyor/LargeBlockConveyorPipeIntersection</string>
+              <string>ConveyorConnector/LargeBlockConveyorPipeSeamless</string>
+              <string>ConveyorConnector/LargeBlockConveyorPipeCorner</string>
+              <string>ConveyorConnector/LargeBlockConveyorPipeFlange</string>
+              <string>ConveyorConnector/LargeBlockConveyorPipeEnd</string>
+              <string>Assembler/LargeAssemblerIndustrial</string>
+              <string>Refinery/LargeRefineryIndustrial</string>
+              <string>CubeBlock/LargeBlockCylindricalColumn</string>
+              <string>CubeBlock/SmallBlockCylindricalColumn</string>
+              <string>ConveyorSorter/LargeBlockConveyorSorterIndustrial</string>
+              <string>CubeBlock/LargeGridBeamBlock</string>
+              <string>CubeBlock/LargeGridBeamBlockSlope</string>
+              <string>CubeBlock/LargeGridBeamBlockRound</string>
+              <string>CubeBlock/LargeGridBeamBlockSlope2x1Base</string>
+              <string>CubeBlock/LargeGridBeamBlockSlope2x1Tip</string>
+              <string>CubeBlock/LargeGridBeamBlockHalf</string>
+              <string>CubeBlock/LargeGridBeamBlockHalfSlope</string>
+              <string>CubeBlock/LargeGridBeamBlockEnd</string>
+              <string>CubeBlock/LargeGridBeamBlockJunction</string>
+              <string>CubeBlock/LargeGridBeamBlockTJunction</string>
+              <string>CubeBlock/SmallGridBeamBlock</string>
+              <string>CubeBlock/SmallGridBeamBlockSlope</string>
+              <string>CubeBlock/SmallGridBeamBlockRound</string>
+              <string>CubeBlock/SmallGridBeamBlockSlope2x1Base</string>
+              <string>CubeBlock/SmallGridBeamBlockSlope2x1Tip</string>
+              <string>CubeBlock/SmallGridBeamBlockHalf</string>
+              <string>CubeBlock/SmallGridBeamBlockHalfSlope</string>
+              <string>CubeBlock/SmallGridBeamBlockEnd</string>
+              <string>CubeBlock/SmallGridBeamBlockJunction</string>
+              <string>CubeBlock/SmallGridBeamBlockTJunction</string>
+              
           </ItemIds>
       </Category>
 

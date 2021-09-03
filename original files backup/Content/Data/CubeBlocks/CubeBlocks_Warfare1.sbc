@@ -617,6 +617,149 @@
           <DLC>Warfare1</DLC>
       </Definition>
 
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>PassageScifiCorner</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_PassageScifiCorner</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageScifiCorner.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageScifiCorner.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="74" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="SmallTube" Count="48" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.2" Default="true" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.2" EndX="0.2" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageScifiCornerConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageScifiCornerConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageScifiCornerConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageScifiCorner</BlockPairName>
+          <MirroringX>YHalfY</MirroringX>
+          <MirroringY>XHalfY</MirroringY>
+          <MirroringZ>MinusHalfY</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>16</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <DLC>Warfare1</DLC>
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>PassageSciFiTjunction</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_PassageSciFiTjunction</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageSciFiT-junction.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageSciFiT-junction.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="55" />
+              <Component Subtype="Construction" Count="16" />
+              <Component Subtype="SmallTube" Count="38" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.2" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0.8" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiT-junctionConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiT-junctionConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiT-junctionConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageSciFiTjunction</BlockPairName>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>14</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <DLC>Warfare1</DLC>
+      </Definition>
+
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>PassageSciFiWindow</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_PassageSciFiWindow</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\PassageSciFiWindow.dds</Icon>
+          <Description>Description_Passage</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\PassageSciFiWindow.mwm</Model>
+          <Components>
+              <Component Subtype="InteriorPlate" Count="60" />
+              <Component Subtype="Construction" Count="16" />
+              <Component Subtype="BulletproofGlass" Count="16" />
+              <Component Subtype="SmallTube" Count="38" />
+          </Components>
+          <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+              <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="1" Default="true" />
+              <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageSciFiConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageSciFiConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageSciFiWindowConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PassageSciFiWindow</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>16</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <DLC>Warfare1</DLC>
+      </Definition>
 
 
       <!-- End of Decorative Blocks -->
