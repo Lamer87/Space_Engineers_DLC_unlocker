@@ -19,6 +19,6 @@ If you want to edit the files yourself, be careful because with each update, sma
 
 ---
 
-Other Space Engineers DLC unlockers:
-[AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)
-[Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker)
+Other Space Engineers DLC unlockers:  
+[AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
+[Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker)  
