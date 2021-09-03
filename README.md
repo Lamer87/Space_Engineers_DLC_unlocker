@@ -9,7 +9,7 @@ Extract the "Content" folder in your game directory.
 Example: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
 
 To download the archive, click on the green "Code" button and then on "Download zip".  
-Or download it from [MEGA.nz]()
+Or download it from [MEGA.nz](https://mega.nz/file/OdIBgK5B#XNFf175_yigNXa6eTokah3UjqnUjCgm7qMDQ7Ph80ss)
 
 If some minor bug patches prevents proper operation of the game, let me know in the discussion tab.  
 Otherwise, I will update the unlocker with the next major release (I'm currently not playing due to summer job).
