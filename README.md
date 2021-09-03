@@ -1,6 +1,4 @@
---- i'm working on the update, sorry for late, check this page the 4 or 5 september ---
-
-## All DLCs unlocked up to: `v1.198 - Warfare 1`
+## All DLCs unlocked up to: `v1.199 - Heavy Industry`
 
 Space Engineers DLC unlocker
 
@@ -11,10 +9,13 @@ Extract the "Content" folder in your game directory.
 Example: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
 
 To download the archive, click on the green "Code" button and then on "Download zip".  
-Or download it from [MEGA.nz](https://mega.nz/file/OVATzSRQ#CK0PE4lREO5panNIModG2zLOZ0TXQl-jNMd5vc-0fBg)
+Or download it from [MEGA.nz]()
 
 If some minor bug patches prevents proper operation of the game, let me know in the discussion tab.  
 Otherwise, I will update the unlocker with the next major release (I'm currently not playing due to summer job).
+
+If you want to edit the files yourself, be careful because with each update, small changes are made in almost all the files,  
+so it is NOT enough to edit only the last file added by the DLC.
 
 ---
 
