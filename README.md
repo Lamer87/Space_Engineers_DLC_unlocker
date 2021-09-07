@@ -17,6 +17,8 @@ I will update the unlocker with the next major release.
 
 If you want to edit the files yourself, be careful because with each update, small changes are made in almost all the files, so it is NOT enough to edit only the last file added by the DLC.
 
+---
+
 If you want to play the Frostbite Scenario, you need this: [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 ---
