@@ -1,0 +1,2071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>BridgeWindow1x1Slope</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BridgeWindow1x1Slope</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BridgeWindow1x1Slope.dds</Icon>
+            <Description>Description_Window</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BridgeWindow1x1Slope.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="8" />
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="15" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\BridgeWindow1x1SlopeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\BridgeWindow1x1SlopeConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BridgeWindow1x1Slope</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Top" StartX="0.0" StartY="0" EndX="1" EndY="0.1" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
+                <MountPoint Side="Right" StartX="0.8" StartY="0.4" EndX="1.0" EndY="0.0" PropertiesMask="2" />
+            </MountPoints>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <!--<PhysicalMaterial>Metal</PhysicalMaterial>-->
+            <PCU>1</PCU>
+            <IsAirTight>true</IsAirTight>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>BridgeWindow1x1Face</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BridgeWindow1x1Face</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BridgeWindow1x1Face.dds</Icon>
+            <Description>Description_Window</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BridgeWindow1x1Face.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="8" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\BridgeWindow1x1FaceConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\BridgeWindow1x1FaceConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BridgeWindow1x1Face</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>5</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
+                <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
+                <MountPoint Side="Top" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
+                <MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
+                <MountPoint Side="Top" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+                <MountPoint Side="Front" StartY="0.0" StartX="1.0" EndY="0.4" EndX="0.8" PropertiesMask="2" />
+                <MountPoint Side="Front" StartY="0.2" StartX="0.8" EndY="0.4" EndX="0.6" PropertiesMask="2" />
+                <MountPoint Side="Front" StartY="0.4" StartX="0.6" EndY="0.6" EndX="0.4" PropertiesMask="2" />
+                <MountPoint Side="Front" StartY="0.6" StartX="0.4" EndY="0.8" EndX="0.2" PropertiesMask="2" />
+                <MountPoint Side="Front" StartY="0.8" StartX="0.2" EndY="1.0" EndX="0.0" PropertiesMask="2" />
+            </MountPoints>
+            <IsAirTight>true</IsAirTight>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <!--<PhysicalMaterial>Glass</PhysicalMaterial>-->
+            <PCU>1</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>PassengerBench</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PassengerBench</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerBench.dds</Icon>
+            <Description>Description_PassengerSeat</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\PassengerBench.mwm</Model>
+            <CharacterAnimation>PassengerBench</CharacterAnimation>
+            <UsesDeformation>false</UsesDeformation>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" Default="true" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1.2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="0.4" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\PassengerBenchConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\PassengerBenchConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>PassengerBench</BlockPairName>
+            <MirroringX>OffsetXOddTest</MirroringX>
+            <MirroringZ>YThenOffsetX</MirroringZ>
+            <MirroringY>ZThenOffsetX</MirroringY>
+            <Center x="0" y="0" z="1" />
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+            <DestroySound>PoofExplosionCat2</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeLightPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LightPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightPanel.dds</Icon>
+            <Description>Description_InteriorLight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\LightPanel.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="InteriorPlate" Count="5" />
+                <Component Subtype="Construction" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+                <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.95" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightPanelConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightPanel</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <PointLightEmissiveMaterial>LightPanel_Light</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <LightRadius Min="1" Max="20" Default="3.6" />
+            <LightFalloff Min="0" Max="3" Default="1.3" />
+            <LightIntensity Min="0.5" Max="10" Default="5" />
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1.1</Z>
+            </DestroyEffectOffset>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>SmallLightPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LightPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LightPanel.dds</Icon>
+            <Description>Description_InteriorLight</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\LightPanel.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+                <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.95" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightPanelConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LightPanel</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <PointLightEmissiveMaterial>LightPanel_Light</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <LightRadius Min="1" Max="20" Default="3.6" />
+            <LightFalloff Min="0" Max="3" Default="1.3" />
+            <LightIntensity Min="0.5" Max="10" Default="5" />
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1.1</Z>
+            </DestroyEffectOffset>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LargeBlockSmallGeneratorWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SmallReactorWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ReactorReskinSmall.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ReactorReskinSmall.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="50" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="MetalGrid" Count="4" />
+                <Component Subtype="LargeTube" Count="8" />
+                <Component Subtype="Reactor" Count="100" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="Computer" Count="25" />
+                <Component Subtype="SteelPlate" Count="30" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="1" EndY="0.9" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1" EndY="0.9" Default="true" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.6" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinSmallConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SmallReactorWarfare2</BlockPairName>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>15</MaxPowerOutput>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>LargeBlockLargeGeneratorWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeReactorWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ReactorReskinLarge.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ReactorReskinLarge.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="800" />
+                <Component Subtype="Construction" Count="70" />
+                <Component Subtype="MetalGrid" Count="40" />
+                <Component Subtype="LargeTube" Count="40" />
+                <Component Subtype="Superconductor" Count="100" />
+                <Component Subtype="Reactor" Count="2000" />
+                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="Computer" Count="75" />
+                <Component Subtype="SteelPlate" Count="200" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.9" StartY="1.3" EndX="2.1" EndY="2.6" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2.5" EndY="0.5" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0.9" EndX="2.6" EndY="2.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.6" EndX="2.5" EndY="2.4" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1.8" EndY="0.6" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="2.4" EndX="1.8" EndY="3" />
+                <MountPoint Side="Front" StartX="1.2" StartY="0" EndX="2.5" EndY="0.5" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1.8" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ReactorReskinLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ReactorReskinLargeConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LargeReactorWarfare2</BlockPairName>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>100</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>300</MaxPowerOutput>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.002</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+            <DestroySound>WepLrgWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>SmallBlockSmallGeneratorWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SmallReactorWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallGridReactorReskinSmall.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ReactorReskinSmall.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Reactor" Count="3" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Right" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+                <MountPoint Side="Front" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Front" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0" EndX="0.6" EndY="0.15" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinSmallConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SmallReactorWarfare2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>0.5</MaxPowerOutput>
+            <InventorySize>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.5</Z>
+            </InventorySize>
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.0002</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.0004</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipSmNuclearSm</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>SmallBlockLargeGeneratorWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeReactorWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallGridReactorReskinLarge.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ReactorReskinLarge.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="9" />
+                <Component Subtype="MetalGrid" Count="9" />
+                <Component Subtype="LargeTube" Count="3" />
+                <Component Subtype="Reactor" Count="95" />
+                <Component Subtype="Motor" Count="5" />
+                <Component Subtype="Computer" Count="25" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Right" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+                <MountPoint Side="Left" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Left" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+                <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="2.8" EndY="2.8" />
+                <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="2.8" EndY="2.8" Default="true" />
+                <MountPoint Side="Front" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Front" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+                <MountPoint Side="Back" StartX="1.3" StartY="0" EndX="1.7" EndY="0.5" />
+                <MountPoint Side="Back" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ReactorReskinLargeConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LargeReactorWarfare2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>14.75</MaxPowerOutput>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+            <FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos>
+            <PrimarySound>ShipSmNuclearLrg</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+            <Id>
+                <TypeId>AirtightHangarDoor</TypeId>
+                <SubtypeId>AirtightHangarDoorWarfare2A</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirtightHangarDoorWarfare2A</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoorWarfareA_Base.dds</Icon>
+            <Description>Description_HangarDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="2.5" z="0" />
+            <Center x="0" y="2" z="0" />
+            <Model>Models\Cubes\Large\HangarDoorWarfareA_Base.mwm</Model>
+            <Sound>BlockDoorHangar</Sound>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+                <Component Subtype="SteelPlate" Count="250" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="SmallTube" Count="40" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="SteelPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorWarfareA_BaseConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirtightHangarDoorWarfare2A</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <OpeningSpeed>0.1</OpeningSpeed>
+            <SubpartMovementDistance>2.5</SubpartMovementDistance>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+            <Id>
+                <TypeId>AirtightHangarDoor</TypeId>
+                <SubtypeId>AirtightHangarDoorWarfare2B</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirtightHangarDoorWarfare2B</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoorWarfareB_Base.dds</Icon>
+            <Description>Description_HangarDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="2.5" z="0" />
+            <Center x="0" y="2" z="0" />
+            <Model>Models\Cubes\Large\HangarDoorWarfareB_Base.mwm</Model>
+            <Sound>BlockDoorHangar</Sound>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+                <Component Subtype="SteelPlate" Count="250" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="SmallTube" Count="40" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="SteelPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorWarfareB_BaseConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirtightHangarDoorWarfare2B</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <OpeningSpeed>0.1</OpeningSpeed>
+            <SubpartMovementDistance>2.5</SubpartMovementDistance>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+            <Id>
+                <TypeId>AirtightHangarDoor</TypeId>
+                <SubtypeId>AirtightHangarDoorWarfare2C</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AirtightHangarDoorWarfare2C</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HangarDoorWarfareC_Base.dds</Icon>
+            <Description>Description_HangarDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="2.5" z="0" />
+            <Center x="0" y="2" z="0" />
+            <Model>Models\Cubes\Large\HangarDoorWarfareC_Base.mwm</Model>
+            <Sound>BlockDoorHangar</Sound>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+                <Component Subtype="SteelPlate" Count="250" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="SmallTube" Count="40" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="SteelPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
+                <MountPoint Side="Left" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Right" StartX="0.7" StartY="2" EndX="0.85" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorWarfare_BaseConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorWarfareC_BaseConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AirtightHangarDoorWarfare2C</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <OpeningSpeed>0.1</OpeningSpeed>
+            <SubpartMovementDistance>2.5</SubpartMovementDistance>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallMissileLauncher</TypeId>
+                <SubtypeId>SmallMissileLauncherWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_RocketLauncherWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\RocketlauncherReskin.dds</Icon>
+            <Description>Description_RocketLauncher</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="4" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\RocketLauncherReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="MetalGrid" Count="1" />
+                <Component Subtype="LargeTube" Count="4" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3" />
+                <MountPoint Side="Right" StartX="1" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RocketLauncherReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RocketLauncherReskinConstruction_1.mwm" />
+            </BuildProgressModels>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BlockPairName>RocketLauncherWarfare2</BlockPairName>
+            <Center x="0" y="0" z="2" />
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <WeaponDefinitionId Subtype="SmallMissileLauncher" />
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <InventoryMaxVolume>0.24</InventoryMaxVolume>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>425</PCU>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+            <Id>
+                <TypeId>SmallGatlingGun</TypeId>
+                <SubtypeId>SmallGatlingGunWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_GatlingGunWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\gatlingGunReskin.dds</Icon>
+            <Description>Description_GatlingGun</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="4" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\GatlingGunReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="SmallTube" Count="6" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0" StartY="3" EndX="1" EndY="4" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="3" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GatlingGunReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GatlingGunReskinConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>GatlingGunWarfare2</BlockPairName>
+            <Center x="0" y="0" z="3" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>13</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <WeaponDefinitionId Subtype="GatlingGunWarfare" />
+            <ResourceSinkGroup>Defense</ResourceSinkGroup>
+            <InventoryMaxVolume>0.064</InventoryMaxVolume>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>80</PCU>
+            <InventoryFillFactorMin>.6</InventoryFillFactorMin>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>LargeBlockBatteryBlockWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BatteryWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BatteryReskin.dds</Icon>
+            <Description>Description_Battery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="PowerCell" Count="80">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Computer" Count="25" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SteelPlate" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>12</MaxPowerOutput>
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>12</RequiredPowerInput>
+            <AdaptibleInput>true</AdaptibleInput>
+            <MaxStoredPower>3</MaxStoredPower>
+            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.8</RechargeMultiplier>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>SmallBlockBatteryBlockWarfare2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BatteryWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BatteryReskin_Small.dds</Icon>
+            <Description>Description_Battery</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="PowerCell" Count="20">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="2" />
+                <MountPoint Side="Top" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>4</MaxPowerOutput>
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>4</RequiredPowerInput>
+            <MaxStoredPower>1</MaxStoredPower>
+            <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.8</RechargeMultiplier>
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>SlidingHatchDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SlidingHatchDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HatchDoor.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HatchDoor.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="SteelPlate" Count="25" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1.1" EndY="1" />
+                <MountPoint Side="Top" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1.1" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HatchDoorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HatchDoorConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HatchDoorConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SlidingHatchDoor</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="1" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>26</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.55</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DepressurizationEffectOffset x="0" y="1.25" z ="0" />
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>SlidingHatchDoorHalf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SlidingHatchDoorHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HatchDoorHalf.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HatchDoorHalf.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1.1" EndY="1" />
+                <MountPoint Side="Top" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Top" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+                <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HatchDoorHalfConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HatchDoorHalfConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HatchDoorHalfConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SlidingHatchDoorHalf</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="1" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.55</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DepressurizationEffectOffset x="0" y="1.25" z ="0" />
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SearchlightDefinition">
+            <Id>
+                <TypeId>Searchlight</TypeId>
+                <SubtypeId>SmallSearchlight</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Searchlight</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Small_Searchlight_Racing.dds</Icon>
+            <Description>Description_Searchlight</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <PlaceDecals>false</PlaceDecals>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\Searchlight.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SearchlightConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SearchlightConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Searchlight</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <HasInventory>false</HasInventory>
+            <OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>
+            <WeaponDefinitionId Subtype="LargeInteriorTurret" />
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.0002</RequiredPowerInput>
+            <MinElevationDegrees>-40</MinElevationDegrees>
+            <MaxElevationDegrees>90</MaxElevationDegrees>
+            <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+            <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+            <IdleRotation>true</IdleRotation>
+            <MaxRangeMeters>800</MaxRangeMeters>
+            <RotationSpeed>0.001</RotationSpeed>
+            <ElevationSpeed>0.001</ElevationSpeed>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <MinFov>0.1</MinFov>
+            <MaxFov>1</MaxFov>
+            <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+            <DestroySound>PoofExplosionCat2</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <LightRadius Min="1" Max="5" Default="5" />
+            <LightReflectorRadius Min="10" Max="120" Default="50" />
+            <LightFalloff Min="1" Max="3" Default="1.5" />
+            <LightIntensity Min="0.5" Max="5" Default="3" />
+            <Flare>SpotlightSmall</Flare>
+            <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>Emissive</SpotLightEmissiveMaterial>
+            <ReflectorThickness>1.5</ReflectorThickness>
+            <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>
+            <ReflectorConeDegrees>52</ReflectorConeDegrees>
+            <LightDummyName>spotlight</LightDummyName>
+            <AiEnabled>true</AiEnabled>
+            <Range>2000</Range>
+            <LightShaftOffset>-0.2</LightShaftOffset>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SearchlightDefinition">
+            <Id>
+                <TypeId>Searchlight</TypeId>
+                <SubtypeId>LargeSearchlight</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Searchlight</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Large_Searchlight_Racing.dds</Icon>
+            <Description>Description_Searchlight</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <PlaceDecals>false</PlaceDecals>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Searchlight.mwm</Model>
+            <UseModelIntersection>true</UseModelIntersection>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="LargeTube" Count="2" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SearchlightConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SearchlightConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SearchlightConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0.01</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Searchlight</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+            <HasInventory>false</HasInventory>
+            <OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>
+            <WeaponDefinitionId Subtype="LargeInteriorTurret" />
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.001</RequiredPowerInput>
+            <MinElevationDegrees>-40</MinElevationDegrees>
+            <MaxElevationDegrees>90</MaxElevationDegrees>
+            <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+            <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+            <IdleRotation>true</IdleRotation>
+            <MaxRangeMeters>800</MaxRangeMeters>
+            <RotationSpeed>0.0005</RotationSpeed>
+            <ElevationSpeed>0.0005</ElevationSpeed>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <MinFov>0.1</MinFov>
+            <MaxFov>1</MaxFov>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>10</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <LightRadius Min="2" Max="10" Default="5" />
+            <LightReflectorRadius Min="10" Max="160" Default="120" />
+            <LightFalloff Min="1" Max="3" Default="1.5" />
+            <LightIntensity Min="0.5" Max="5" Default="1" />
+            <Flare>SpotlightLarge</Flare>
+            <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>Emissive</SpotLightEmissiveMaterial>
+            <ReflectorThickness>7</ReflectorThickness>
+            <ReflectorTexture>Textures\Lights\reflector_large.dds</ReflectorTexture>
+            <ReflectorConeDegrees>52</ReflectorConeDegrees>
+            <LightDummyName>spotlight</LightDummyName>
+            <AiEnabled>true</AiEnabled>
+            <Range>2000</Range>
+            <LightShaftOffset>-0.4</LightShaftOffset>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_HeatVentBlockDefinition">
+            <Id>
+                <TypeId>HeatVentBlock</TypeId>
+                <SubtypeId>LargeHeatVentBlock</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HeatVentWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeatVent.dds</Icon>
+            <Description>Description_HeatVent</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <PowerDependency>0.6</PowerDependency>
+            <ColorMinimalPower Hex ="#FF0000" />
+            <ColorMaximalPower Hex ="#FFC514" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HeatVent.mwm</Model>
+            <SubpartRotations>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180"/>
+            </SubpartRotations>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="LargeTube" Count="10" />
+                <Component Subtype="Motor" Count="5" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0.1" EndX="1" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HeatVentConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HeatVentConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HeatVentConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeatVentBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <RequiredPowerInput>0.0002</RequiredPowerInput>
+            <Public>true</Public>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PCU>50</PCU>
+            <IsAirTight>true</IsAirTight>
+            <EmissiveMaterialName>Emissive</EmissiveMaterialName>
+            <LightDummyName>light</LightDummyName>
+            <LightFalloffBounds Min="0" Max="3" Default="1.3" />
+            <LightIntensityBounds Min="0.5" Max="10" Default="2" />
+            <LightRadiusBounds Min="1" Max="10" Default="3.6" />
+            <LightOffsetBounds Min="0" Max="5" Default="0.5" />
+            <IdleSound>BlockOxyGenIdle</IdleSound>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_HeatVentBlockDefinition">
+            <Id>
+                <TypeId>HeatVentBlock</TypeId>
+                <SubtypeId>SmallHeatVentBlock</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HeatVentWarfare2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HeatVent_small.dds</Icon>
+            <Description>Description_HeatVent</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <PowerDependency>0.6</PowerDependency>
+            <ColorMinimalPower Hex ="#FF0000" />
+            <ColorMaximalPower Hex ="#FFC514" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\HeatVent.mwm</Model>
+            <SubpartRotations>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate1" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate2" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate3" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate4" ReveseRotationDirection="true" MinimalPositionAdjustDegrees="315"/>
+                <SubpartRotation SubpartName="subpart_HeatVentPlate5" ReveseRotationDirection="false" MinimalPositionAdjustDegrees="45" MaximalPositionAdjustDegrees="180"/>
+            </SubpartRotations>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Top" StartX="0.9" StartY="0.1" EndX="1" EndY="0.9" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\HeatVentConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HeatVentConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HeatVentBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <RequiredPowerInput>0.0002</RequiredPowerInput>
+            <Public>true</Public>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <PCU>50</PCU>
+            <IsAirTight>true</IsAirTight>
+            <EmissiveMaterialName>Emissive</EmissiveMaterialName>
+            <LightDummyName>light</LightDummyName>
+            <LightFalloffBounds Min="0" Max="3" Default="1.3" />
+            <LightIntensityBounds Min="0.5" Max="10" Default="2" />
+            <LightRadiusBounds Min="1" Max="10" Default="3.6" />
+            <LightOffsetBounds Min="0" Max="5" Default="0.5" />
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockStandingCockpit</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CockpitStandingBridge</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\StandingBridge.dds</Icon>
+            <Description>Description_CockpitStandingBridge</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="4" z="3" />
+            <Model>Models\Cubes\Small\StandingBridge.mwm</Model>
+            <CharacterAnimation>HelmCockpitPoseSmall</CharacterAnimation>
+            <BackpackEnabled>true</BackpackEnabled>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.2" EndX="2.9" EndY="1.1" Default="true"/>
+                <MountPoint Side="Front" StartX="0.1" StartY="1.9" EndX="2.9" EndY="2.3" />
+                <MountPoint Side="Right" StartX="2.1" StartY="0" EndX="2.6" EndY="2" />
+                <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.9" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\StandingBridgeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\StandingBridgeConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>StandingBridge</BlockPairName>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Small" TextureResolution="512" ScreenWidth="3" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="2" Script="TSS_Velocity"/>
+                <!--
+                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon"  />
+                -->
+            </ScreenAreas>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>true</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>true</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Warfare2</DLC> -->
+            <HasInventory>false</HasInventory>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockStandingCockpit</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CockpitStandingBridge</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\StandingBridge.dds</Icon>
+            <Description>Description_CockpitStandingBridge</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\StandingBridge.mwm</Model>
+            <CharacterAnimation>HelmCockpitPose</CharacterAnimation>
+            <BackpackEnabled>true</BackpackEnabled>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.2" StartY="0.05" EndX="0.8" EndY="0.25" Default="true"/>
+                <MountPoint Side="Front" StartX="0.25" StartY="0.38" EndX="0.75" EndY="0.46" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\StandingBridgeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StandingBridgeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\StandingBridgeConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>StandingBridge</BlockPairName>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Small" TextureResolution="512" ScreenWidth="3" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="2" Script="TSS_Velocity"/>
+                <!--
+                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon"  />
+                -->
+            </ScreenAreas>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>true</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>true</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <HasInventory>false</HasInventory>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Warfare2</DLC> -->
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>SmallBlockSmallModularThruster</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SmallModularThruster</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterSmall.dds</Icon>
+            <Description>Description_IonThrust</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
+            <ThrusterType>Ion</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Thrust" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Thrust" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>SmallModularThruster</BlockPairName>
+            <Center x="0" y="0" z="1" />
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>14400</ForceMagnitude>
+            <MaxPowerConsumption>0.200</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+            <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
+            <FlameDamage>0.1</FlameDamage>
+            <FlameLengthScale>1.6</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.5</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.8</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>SmallGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>200</FlameVisibilityDistance>
+            <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+            <PrimarySound>SmShipSmJet</PrimarySound>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>SmallBlockLargeModularThruster</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterLarge.dds</Icon>
+            <Description>Description_IonThrust</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="4" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
+            <ThrusterType>Ion</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="LargeTube" Count="5" />
+                <Component Subtype="Thrust" Count="12" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SteelPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Thrust" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+                <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+                <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+                <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>LargeModularThruster</BlockPairName>
+            <Center x="0" y="1" z="2" />
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>172800</ForceMagnitude>
+            <MaxPowerConsumption>2.4</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+            <FlameDamage>0.2</FlameDamage>
+            <FlameLengthScale>1.1</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.5</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.8</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>SmallGridLargeThruster</FlameFlare>
+            <FlameVisibilityDistance>300</FlameVisibilityDistance>
+            <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+            <PrimarySound>SmShipLrgJet</PrimarySound>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LargeBlockSmallModularThruster</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SmallModularThruster</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterSmall.dds</Icon>
+            <Description>Description_IonThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
+            <ThrusterType>Ion</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="8" />
+                <Component Subtype="Thrust" Count="80" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Thrust" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>SmallModularThruster</BlockPairName>
+            <Center x="0" y="0" z="1" />
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>345600</ForceMagnitude>
+            <MaxPowerConsumption>3.36</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+            <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+            <FlameLengthScale>1.5</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.5</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.8</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PrimarySound>LrgShipSmJet</PrimarySound>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LargeBlockLargeModularThruster</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>
+            <Description>Description_IonThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="4" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
+            <ThrusterType>Ion</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="Construction" Count="70" />
+                <Component Subtype="LargeTube" Count="40" />
+                <Component Subtype="Thrust" Count="960" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+            <CriticalComponent Subtype="Thrust" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+                <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+                <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+                <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>LargeModularThruster</BlockPairName>
+            <Center x="0" y="1" z="2" />
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>4320000</ForceMagnitude>
+            <MaxPowerConsumption>33.6</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+
+            <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.1</X>
+                <Y>0.5</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.1</X>
+                <Y>0.8</Y>
+                <Z>0.8</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridLargeThruster</FlameFlare>
+            <FlameVisibilityDistance>700</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
+            <PrimarySound>LrgShipLrgJet</PrimarySound>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <!-- <DLC>Warfare2</DLC> -->
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        
+        
+    </CubeBlocks>
+</Definitions>
