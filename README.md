@@ -19,7 +19,7 @@ If you want to edit the files yourself, be careful because with each update, sma
 
 ---
 
-If you want to play the Frostbite Scenario, you need this: [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
+If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 ---
 
