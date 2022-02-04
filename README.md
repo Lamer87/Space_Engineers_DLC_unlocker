@@ -25,4 +25,4 @@ If you want to play the Frostbite Scenario, you need this (testing): [Space Engi
 
 Other Space Engineers DLC unlockers which are currently updated:  
 
-[Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) & [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
+[Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker), [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
