@@ -2,27 +2,34 @@
 
 Space Engineers DLC unlocker
 
+<!-- DOWNLOAD LINK: https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/tags/v1.200-Warfare2.zip -->
+[<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="200"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/tags/v1.200-Warfare2.zip)
 ---
+- ***Install***:
+
+Extract the "Content" folder in your game directory  
+*example*: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
 
 You have to replace the game files with those in the archive.  
-If you mess with something, a backup is included so you don't have to recheck your files from Steam.
+If you mess with something, a backup is included so you don't have to recheck all game files from Steam.
 
-Extract the "Content" folder in your game directory.  
-Example: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
-
-To download the archive, click on the green "Code" button and then on "Download zip",  
-or download it from [MEGA.nz](https://mega.nz/file/SJ5mjBrS#OKCPP7PUhkyXudgVU3BOtJDDDFAj19RrYlkBWwXZoAg) (1.200)
-
-I will update the unlocker with the next major release.
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="50"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+---
+- ***Hint***:
 
 If you want to edit the files yourself, be careful because with each update, small changes are made in almost all the files, so it is NOT enough to edit only the last file added by the DLC.
 
+I will update the unlocker with the next major release.
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="50"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
 ---
 
-If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
+If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)
 
 ---
-
 Other Space Engineers DLC unlockers which are currently updated:  
 
-[Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker), [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
+[Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
+
+---
