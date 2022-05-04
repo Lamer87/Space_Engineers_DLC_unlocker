@@ -1,8 +1,3 @@
-WORK IN PROGRESS!
-
-CURRENTLY UPDATING, PLEASE WAIT (or download other unlocker, you can see links at the bottom)
-
-
 ## All DLCs unlocked up to: `v1.201 - Most Wanted`
 
 Space Engineers DLC unlocker
