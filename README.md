@@ -1,4 +1,4 @@
-WORK IN PROGRESS! DO NOT DOWNLOAD!
+WORK IN PROGRESS!
 
 CURRENTLY UPDATING, PLEASE WAIT (or download other unlocker, you can see links at the bottom)
 
