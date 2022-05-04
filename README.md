@@ -1,3 +1,8 @@
+WORK IN PROGRESS! DO NOT DOWNLOAD!
+
+CURRENTLY UPDATING, PLEASE WAIT (or download other unlocker, you can see links at the bottom)
+
+
 ## All DLCs unlocked up to: `v1.200 - Warfare 2`
 
 Space Engineers DLC unlocker
