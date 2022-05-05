@@ -6,7 +6,7 @@ Space Engineers DLC unlocker
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="200"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) > Or use the green "Code" button and click on "Download ZIP"
 
 ---
-> [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry, I couldn't resist, I had to)
+> [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry, I couldn't resist, I had to create it)
 ---
 - ***Install***:
 
