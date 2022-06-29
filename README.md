@@ -8,7 +8,7 @@ Space Engineers DLC unlocker
 ---
 > [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry, I couldn't resist, I had to create it)
 ---
-- ***Install***:
+- ***Installation***:
 
   - Extract the "Content" folder in your game directory  
 *example*: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
@@ -18,7 +18,7 @@ If you mess with something, a backup is included so you don't have to recheck al
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="50"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
-- ***Hint***:
+- ***Notes***:
 
   - If you want to edit the files yourself, be careful because with each update, small changes are made in almost all the files, so it is NOT enough to edit only the last file added by the DLC.
 
