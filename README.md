@@ -3,7 +3,7 @@
 Space Engineers DLC unlocker
 
 <!-- DOWNLOAD LINK: https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip -->
-[<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="200"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) > same as clicking the green "Code" button and then "Download ZIP"
+[<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="200"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) > or click the green "Code" button and then "Download ZIP"
 
 ---
 > [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry, I couldn't resist, I had to create it)
@@ -31,7 +31,7 @@ If you mess with something, a backup is included so you don't have to recheck al
 If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 ---
-Other Space Engineers DLC unlockers which are currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) ;  
-Not updated since 1.200: [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
+Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) ;  
+Not updated to the latest version: [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
 
 ---
