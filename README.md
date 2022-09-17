@@ -31,7 +31,7 @@ If you mess with something, a backup is included so you don't have to recheck al
 If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 ---
-Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) ;  
+Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
 Not updated to the latest version: [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
 
 ---
