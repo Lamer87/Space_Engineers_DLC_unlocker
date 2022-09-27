@@ -28,7 +28,7 @@ Space Engineers DLC unlocker
 
   - If you want to edit the dlc files by yourself, be careful because with each update small changes are made in almost all the previous files, so it is NOT enough to just edit the file added by the last dlc.
 
-  - I will update the unlocker when needed (major releases).
+  - I will update the unlocker when needed (new major releases).
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
