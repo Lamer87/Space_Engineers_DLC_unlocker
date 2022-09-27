@@ -7,9 +7,9 @@ Space Engineers DLC unlocker
 ---
 - ***Installation***:
 
-  - Extract the "Content" folder in your game directory, replacing all files:  
+  - Extract the **"Content"** folder in your game directory, replacing all files:  
 *downloaded archive* -> DLC Unlocker/`Content`  
-*game directory example* -> C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
+*game directory example* -> C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ `Content`  
 
   - If you mess with something, a backup is included so you don't have to recheck all game files from Steam:  
 *downloaded archive* -> Original backup/`Content`
@@ -20,7 +20,7 @@ Space Engineers DLC unlocker
 
   - **For every major release** (not for small patches): before downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, allowing steam to apply the update without problems, then just play and wait for the new unlocker update.
 
-  - If you have automatic updates enabled (and you did the update without restoring the backup files previously), once completed it's best to check the game files from Steam, so you can play smoothly until new unlocker release.
+  - If you have automatic updates enabled (and you did it without restoring the backup files previously), once completed it's best to check the game files from Steam, so you can play smoothly until the new unlocker release.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
