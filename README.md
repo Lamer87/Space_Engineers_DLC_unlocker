@@ -11,12 +11,12 @@ Space Engineers DLC unlocker
 - ***Installation***:
 
   - Extract the "Content" folder in your game directory, replacing game files:  
-*downloaded unlocker archive* -> DLC Unlocker/`Content`  
+*downloaded archive* -> DLC Unlocker/`Content`  
 *game directory example* -> C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\
 
 
   - If you mess with something, a backup is included so you don't have to recheck all game files from Steam:  
-*downloaded unlocker archive* -> Original backup/`Content`
+*downloaded archive* -> Original backup/`Content`
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="50"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
@@ -32,6 +32,8 @@ Space Engineers DLC unlocker
 
 Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
 Not updated to the latest version: [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker)  
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="50"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
 If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
