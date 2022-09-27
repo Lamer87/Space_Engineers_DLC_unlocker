@@ -18,7 +18,7 @@ Space Engineers DLC unlocker
 ---
 - ***Troubleshooting***:
 
-  - **For every major release** (not for small patches): before downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, allowing steam to apply the update without problems, then just wait for the new unlocker update.
+  - **For every major release** (not for small patches): before downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, allowing steam to apply the update without problems, then just play and wait for the new unlocker update.
 
   - If you have automatic updates enabled (and you did the update without restoring the backup files previously), once completed it's best to check the game files from Steam, so you can play smoothly until new unlocker release.
 
@@ -36,11 +36,10 @@ Space Engineers DLC unlocker
 
 Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
 <!-- Not updated to the latest version: [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) -->
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
 If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
-> [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry, I couldn't resist, I had to create it)
+[<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry for this)
