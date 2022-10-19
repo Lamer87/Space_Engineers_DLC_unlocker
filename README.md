@@ -39,7 +39,7 @@ Other DLC unlockers / bypass currently updated: [Wref](https://github.com/wrefgt
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
-If you want to play the Frostbite Scenario, you need this (testing): [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
+If you want to play the Frostbite Scenario, you need this: [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 ---
 [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry for this)
