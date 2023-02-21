@@ -2,6 +2,12 @@
 
 Space Engineers DLC unlocker
 
+## PLEASE do not use the unlocker on the "Automatons beta" version!  
+
+### If I have some time, I will create an alternative unlocker for the beta.  
+Until then, check the other unlockers for any updates: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
+
+---
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) -> or click the green `Code` button and then `Download ZIP`
 
 ---
