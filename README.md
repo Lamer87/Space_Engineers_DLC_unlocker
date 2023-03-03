@@ -57,15 +57,16 @@ If you want to play the Frostbite Scenario without the DLC, you need this: [Fros
 
 <!-- useless code to use occasionally: -->
 
-<!-- # UPDATING - PLEASE WAIT!
-# or take a look at the other dlc unlockers here:
+<!--  escluse freccette, copiare da qui># UPDATING - PLEASE WAIT!
+# just few minutes and the unlocker is ready!
+# or take a look at the other unlockers here:
 ## [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
 # 
 # 
-# -->
+# 
+<fino a qui, incollare all'inizio.  -->
 
-<!-- [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)  
--> or click the green `Code` button and then `Download ZIP` -->
+<!-- [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) -->
 
 <!-- [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)  
 (sorry for this) -->
