@@ -18,7 +18,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
-- ***When a new Major Release comes***:
+- ***For every new Major Release***:
 
   - If you won't be playing it until the unlocker release, there's no need to worry.
 
