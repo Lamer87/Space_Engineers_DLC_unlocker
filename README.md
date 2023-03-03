@@ -1,13 +1,13 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)  
 
-### All DLCs unlocked up to: `v1.201` - *Most Wanted*  
+### ✔️ All DLCs unlocked up to: `v1.201` - *Most Wanted*  
 
->[Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
+💾 [Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
->or use the green **`Code`** button and click on **`Download ZIP`**
+💾 or use the green **`Code`** button then click on **`Download ZIP`**
 
 ---
-- ***Installation***:
+- 🕹️ ***Installation***:
 
   - Extract the **"Content"** folder in your game directory, replacing all files:  
 *zip archive* -> **DLC Unlocker**/`Content`  
@@ -18,7 +18,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
-- ***For every new Major Release***:
+- 🔄 ***For every new Major Release***:
 
   - If you won't be playing it until the new unlocker release, there's no need to worry.
 
@@ -30,7 +30,7 @@
 
 ---
 
-- ***Notes***:
+- 📜 ***Notes***:
 
   - Skins cannot be unlocked as they use a different method.
 
@@ -42,12 +42,12 @@
 
 ---
 
-Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
+📌 Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
 <!-- Not updated: [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) -->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
-If you want to play the Frostbite Scenario without the DLC, you need this: [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
+🧊 If you want to play the Frostbite Scenario without the DLC, you need this: [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 
