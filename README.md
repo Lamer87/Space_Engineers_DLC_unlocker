@@ -2,24 +2,28 @@
 
 ### All DLCs unlocked up to: `v1.201` - *Most Wanted*  
 
-[Click here to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip), or click the green `Code` button and then `Download ZIP`
+>[Click here to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
+
+>or click the green `Code` button and then `Download ZIP`
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
 - ***Installation***:
 
   - Extract the **"Content"** folder in your game directory, replacing all files:  
-*zip archive* -> DLC Unlocker/`Content`  
+*zip archive* -> **DLC Unlocker**/`Content`  
 *example* -> C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers/`Content`  
 
   - If you mess something up, a backup is included so you don't have to re-check all your game files from Steam:  
-*zip archive* -> Original backup/`Content`
+*zip archive* -> **Original backup**/`Content`
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
-- ***When a new Major release comes***:
+- ***When a new Major Release comes***:
 
-  - **Before** downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, then just play and wait for the new unlocker release.
+  - If you won't be playing it until the unlocker update, there's no need to worry.
+
+  - If you want to play it, **before** downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, then just update, play and wait for the new unlocker release.
 
     - If your game was automatically updated without restoring your backups first, it's best to check the game files from Steam.
 
@@ -32,6 +36,8 @@
   - Skins cannot be unlocked, as they use a different method.
 
   - If you want to edit dlc files, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
+
+   - I will update the unlocker at every major release.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
@@ -47,9 +53,8 @@ If you want to play the Frostbite Scenario without the DLC, you need this: [Fros
 
 
 
+
 <!-- -->
-
-
 
 <!-- useless code to use occasionally: -->
 
@@ -67,3 +72,5 @@ If you want to play the Frostbite Scenario without the DLC, you need this: [Fros
 
 <!-- [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)  
 (sorry for this) -->
+
+<!-- - [ ] \quadretto selezionante -->
