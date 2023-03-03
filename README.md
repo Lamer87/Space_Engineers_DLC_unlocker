@@ -1,4 +1,4 @@
-## Space Engineers DLC unlocker  
+## [Space Engineers DLC unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)  
 
 ### All DLCs unlocked up to: `v1.201` - *Most Wanted*  
 
@@ -17,9 +17,9 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
-- ***Troubleshooting***:
+- ***When a new update comes***:
 
-  - **For every major release** (not for small patches): before downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, allowing steam to apply the update without problems, then just play and wait for the new unlocker update.
+  - **For every major release** (not for small patches), before downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, allowing steam to apply the update without problems, then just play and wait for the new unlocker update.
 
   - If you have automatic updates enabled (and you did it without restoring the backup files previously), once completed it's best to check the game files from Steam, so you can play smoothly until the new unlocker release.
 
@@ -32,6 +32,8 @@
   - If you want to edit the dlc files by yourself, be careful because with each update small changes are made in almost all the previous files, so it is NOT enough to just edit the file added by the last dlc.
 
   - I will update the unlocker when needed (new major releases).
+
+  - Skins cannot be unlocked, as they use a different method.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
