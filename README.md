@@ -67,9 +67,7 @@ If you want to play the Frostbite Scenario without the DLC, you need this: [Fros
 <!-- [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)  
 -> or click the green `Code` button and then `Download ZIP` -->
 
-<!-- ### `v1.20X` - *Automatons* -->
-
 <!-- [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)  
 (sorry for this) -->
 
-<!-- - [ ] \quadretto selezionante -->
+<!-- - [ ] \square to select -->
