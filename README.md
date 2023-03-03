@@ -20,11 +20,11 @@
 ---
 - ***When a new Major Release comes***:
 
-  - If you won't be playing it until the unlocker update, there's no need to worry.
+  - If you won't be playing it until the unlocker release, there's no need to worry.
 
-  - If you want to play it, **before** downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, then just update, play and wait for the new unlocker release.
+  - If you want to play it, **before** downloading the update from Steam and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, then just update, play and wait for the new unlocker release.
 
-    - If your game was automatically updated without restoring your backups first, it's best to check the game files from Steam.
+    - If your game was automatically updated without restoring backups first, it's best to check the game files from Steam before playing.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
