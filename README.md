@@ -9,19 +9,19 @@
 - ***Installation***:
 
   - Extract the **"Content"** folder in your game directory, replacing all files:  
-*downloaded archive* -> DLC Unlocker/`Content`  
-*game directory example* -> C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers/`Content`  
+*zip archive* -> DLC Unlocker/`Content`  
+*example* -> C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers/`Content`  
 
   - If you mess with something, a backup is included so you don't have to recheck all game files from Steam:  
-*downloaded archive* -> Original backup/`Content`
+*zip archive* -> Original backup/`Content`
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
-- ***When a new update comes***:
+- ***When a new Major release comes***:
 
-  - **For every major release** (not for small patches), before downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, allowing steam to apply the update without problems, then just play and wait for the new unlocker update.
+  - **Before** downloading the update and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, then just play and wait for the new unlocker release.
 
-  - If you have automatic updates enabled (and you did it without restoring the backup files previously), once completed it's best to check the game files from Steam, so you can play smoothly until the new unlocker release.
+    - If your game was automatically updated without restoring your backups first, it's best to check the game files from Steam.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
@@ -29,11 +29,9 @@
 
 - ***Notes***:
 
-  - If you want to edit the dlc files by yourself, be careful because with each update small changes are made in almost all the previous files, so it is NOT enough to just edit the file added by the last dlc.
-
-  - I will update the unlocker when needed (new major releases).
-
   - Skins cannot be unlocked, as they use a different method.
+
+  - If you want to edit dlc files, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
