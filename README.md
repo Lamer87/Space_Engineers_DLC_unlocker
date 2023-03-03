@@ -20,7 +20,7 @@
 ---
 - ***For every new Major Release***:
 
-  - If you won't be playing it until the unlocker release, there's no need to worry.
+  - If you won't be playing it until the new unlocker release, there's no need to worry.
 
   - If you want to play it, **before** downloading the update from Steam and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, then just update, play and wait for the new unlocker release.
 
