@@ -1,13 +1,8 @@
-## All DLCs unlocked up to: `v1.201` - *Most Wanted*
+## All DLCs unlocked up to: `v1.201` - *Most Wanted*  
 
-Space Engineers DLC unlocker
+### Space Engineers DLC unlocker  
 
-## PLEASE do not use the unlocker on the "Automatons BETA" version!  
 
-### If I have some time, I will create an alternative unlocker for the beta.  
-Until then, check the other unlockers for any updates: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
-
----
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) -> or click the green `Code` button and then `Download ZIP`
 
 ---
@@ -29,7 +24,9 @@ Until then, check the other unlockers for any updates: [Wref](https://github.com
   - If you have automatic updates enabled (and you did it without restoring the backup files previously), once completed it's best to check the game files from Steam, so you can play smoothly until the new unlocker release.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
 ---
+
 - ***Notes***:
 
   - If you want to edit the dlc files by yourself, be careful because with each update small changes are made in almost all the previous files, so it is NOT enough to just edit the file added by the last dlc.
@@ -45,6 +42,7 @@ Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/Spa
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
 If you want to play the Frostbite Scenario, you need this: [Space Engineers Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
 [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ) (sorry for this)
