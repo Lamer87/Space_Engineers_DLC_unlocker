@@ -1,4 +1,4 @@
-## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)  
+## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)  
 
 ### All DLCs unlocked up to: `v1.201` - *Most Wanted*  
 
