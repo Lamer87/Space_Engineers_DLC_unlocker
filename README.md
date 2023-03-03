@@ -6,7 +6,6 @@
 
 >or click the green `Code` button and then `Download ZIP`
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 ---
 - ***Installation***:
 
