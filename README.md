@@ -33,7 +33,7 @@
 
 - ***Notes***:
 
-  - Skins cannot be unlocked, as they use a different method.
+  - Skins cannot be unlocked as they use a different method.
 
   - If you want to edit dlc files, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
 
