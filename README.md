@@ -4,7 +4,7 @@
 
 >[Click here to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
->or click the green `Code` button and then `Download ZIP`
+>or click the green **`Code`** button and then **`Download ZIP`**
 
 ---
 - ***Installation***:
