@@ -24,9 +24,9 @@
     - You can find other unlockers at the bottom of this page, in case this isn't already updated.
 
   - If you want to play the game before the new unlocker release, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.
-    - An example: Warfare 1 dlc blocks gets an update, the ones you've already built still work, but you won't be able to build new ones.
+    - An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones.
 
-      - If this way the game is unstable or buggy, it's best to check the game files from Steam, then wait for the new version of the unlocker.
+      - If this way the game is unstable or buggy, you'd better check the game files from steam, then play without dlc blocks and wait for the new unlocker version.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
