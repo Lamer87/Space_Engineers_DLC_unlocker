@@ -34,11 +34,11 @@
 
 - 📜 ***Notes***:
 
-  - Skins cannot be unlocked as they use a different method.  
+  - Skins cannot be unlocked as they use a different method.
 
-  - If you want to edit dlc files, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.  
+  - If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
 
-   - I will update the unlocker at every major release.  
+   - I will update the unlocker at every major release.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
