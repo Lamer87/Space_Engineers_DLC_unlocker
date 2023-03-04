@@ -20,11 +20,13 @@
 ---
 - 🔄 ***For every new Major Release***:
 
-  - If you won't be playing it until the new unlocker release, there's no need to worry.  
+  - DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version.
+    - You can find other unlockers at the bottom of this page, in case this isn't already updated.
 
-  - If you want to play it, **before** downloading the update from Steam and to avoid ingame crashes/errors upon completion, you need to restore the dlc files inside the "Original backup" folder, then just update, play and wait for the new unlocker release.  
+  - If you want to play the game before the new unlocker release, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.
+    - An example: Warfare 1 dlc blocks gets an update, the ones you've already built still work, but you won't be able to build new ones.
 
-    - If your game was automatically updated without restoring backups first, it's best to check the game files from Steam before playing.  
+      - If this way the game is unstable or buggy, it's best to check the game files from Steam, then wait for the new version of the unlocker.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
