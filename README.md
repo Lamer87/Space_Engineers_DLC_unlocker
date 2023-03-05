@@ -2,11 +2,12 @@
 
 ### 🚀 All DLCs unlocked up to: `v1.201` - *Most Wanted* ✔️
 
+---
 >💾 [Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
 >💾 Or click the green **`Code`** button then **`Download ZIP`**
 
-<!-- >💾 Alternative download from Mega: [Download]() -->
+<!-- >💾 Alternative download from Mega: [link]() -->
 
 ---
 - 🕹️ ***Installation***:
@@ -36,6 +37,8 @@
 
 - 📜 ***Notes***:
 
+  - Skins cannot be unlocked as they use a different method.
+
   - I will update the unlocker at every major release.
 
   - If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
@@ -60,7 +63,7 @@
 
 
 
-
+<!-- -->
 <!-- Useless code to use occasionally:
 
 
@@ -72,10 +75,6 @@
 
 ---
 <fino all'inizio di questa riga, incollare tutto all'inizio del readme
-
-
-blocked skins:
-  - Player skins cannot be unlocked as they use a different method.
 
 
 img download button:
@@ -90,9 +89,7 @@ img nfs-se most wanted:
 [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)
 (sorry for the link, lol)
 
-
 square selector:
 - [ ] \example
-
 
 -->
