@@ -38,9 +38,13 @@
 
   - Skins cannot be unlocked as they use a different method.
 
+  - I will update the unlocker at every major release.
+
   - If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
 
-   - I will update the unlocker at every major release.
+  - Space Engineers on Steam Store: [link](https://store.steampowered.com/app/244850/Space_Engineers/)
+
+  - Space Engineers on CDKeys: [link](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
