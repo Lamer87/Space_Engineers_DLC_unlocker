@@ -4,7 +4,9 @@
 
 >💾 [Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
->💾 or use the green **`Code`** button then click on **`Download ZIP`**
+>💾 Or click the green **`Code`** button then **`Download ZIP`**
+
+<!-- >💾 Alternative download from Mega: [Download]() -->
 
 ---
 - 🕹️ ***Installation***:
@@ -57,24 +59,31 @@
 
 
 
-<!-- -->
+<!-- 
 
-<!-- useless code to use occasionally: -->
+Useless code to use occasionally:
 
-<!--  escluse freccette, copiare da qui># UPDATING - PLEASE WAIT!
+Updating the unlocker:
+# UPDATING - PLEASE WAIT!
 # just few minutes and the unlocker is ready!
 # or take a look at the other unlockers here:
 ## [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
 # 
 # 
 # 
-<fino a qui, incollare all'inizio.  -->
+<fino all'inizio di questa riga
 
-<!-- [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) -->
+img download button:
+[<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
-<!-- [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker) -->
+img empty:
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-<!-- download button: [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)  
-(sorry for this) -->
+img nfs-se most wanted:
+[<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)
+(sorry for this)
 
-<!-- - [ ] \square to select -->
+square selector:
+- [ ] \example
+
+-->
