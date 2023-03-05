@@ -46,8 +46,8 @@
 
 ---
 
-📌 Other DLC unlockers currently updated: [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
-<!-- Not updated: [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) -->
+📌 Other DLC unlockers currently updated: [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
+<!-- Not updated: [AdrianOkay Unlocker](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) -->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -59,31 +59,34 @@
 
 
 
-<!-- 
+<!-- Useless code to use occasionally:
 
-Useless code to use occasionally:
 
-Updating the unlocker:
 # UPDATING - PLEASE WAIT!
 # just few minutes and the unlocker is ready!
 # or take a look at the other unlockers here:
-## [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
-# 
-# 
-# 
-<fino all'inizio di questa riga
+## [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) - or - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="300"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
+---
+<fino all'inizio di questa riga, incollare tutto all'inizio del readme
+
 
 img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
+
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
+
 img nfs-se most wanted:
 [<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)
-(sorry for this)
+(sorry for the link, lol)
+
 
 square selector:
 - [ ] \example
+
 
 -->
