@@ -37,7 +37,9 @@
 
 - 📜 ***Notes***:
 
-  - Skins cannot be unlocked as they use a different method.
+  - This is intended to unlock blocks of DLCs, so you can use them without paying for the DLC.
+
+    - Unfortunately, skins cannot be unlocked the same way, as they use a different method than blocks.
 
   - I will update the unlocker at every major release.
 
