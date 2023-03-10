@@ -21,7 +21,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="5"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-- ⚠️ Troubleshooting:
+- ⚠️ ***Troubleshooting***:
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
     Only the `"Content"` folder must be placed inside the game folder,  
