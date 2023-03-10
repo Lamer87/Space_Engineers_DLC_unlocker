@@ -12,12 +12,20 @@
 ---
 - 🕹️ ***Installation***:
 
-  - Extract the **"Content"** folder in your game directory, replacing all files:  
-*zip archive* -> **DLC Unlocker**/`Content`  
-*example* -> C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers/`Content`  
+  - Copy the **"Content"** folder to the game directory (confirming file replacement):  
+*from zip archive* -> "DLC Unlocker/**`Content`**"  
+*to game (example)* -> "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ "  
 
-  - A backup is included so you don't have to check all your game files from Steam:  
-*zip archive* -> **Original backup**/`Content`  
+  - If needed, a backup is included (same process as above):  
+*from zip archive* -> "Original backup/`Content`" -> *to game folder*  
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="5"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+- ⚠️ Troubleshooting:
+
+  - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
+    Only the `"Content"` folder must be placed inside the game folder,  
+    the one **within** "DLC Unlocker" (to unlock dlcs) **< OR >** the one **within** "Original backup" (to restore default files).  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -26,10 +34,10 @@
   - DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version.
     - You can find other unlockers at the bottom of this page, in case this isn't already updated.
 
-  - If you want to play the game before the new unlocker release, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.
+  - If you want to play the game after a new release but before the new unlocker release, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.
     - An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones.
 
-      - If this way the game is unstable or buggy, you'd better check the game files from steam, then play without dlc blocks and wait for the new unlocker version.
+      - If this way the game is unstable or buggy, you'd better check the game files from steam, then play without dlc blocks and wait for a new unlocker version.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
@@ -37,7 +45,7 @@
 
 - 📜 ***Notes***:
 
-  - This is intended to unlock blocks of DLCs, so you can use them without paying for the DLC.
+  - This is meant to unlock DLC blocks, so you can use them without paying for DLC.
 
     - Unfortunately, skins cannot be unlocked the same way, as they use a different method than blocks.
 
@@ -53,7 +61,7 @@
 
 ---
 
-📌 Other DLC unlockers currently updated: [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
+📌 Other dlc unlockers currently updated: [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ; [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)  
 <!-- Not updated: [AdrianOkay Unlocker](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) -->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
