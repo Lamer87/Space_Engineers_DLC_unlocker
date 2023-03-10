@@ -30,7 +30,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🔄 ***For every new Major Release***:
+- 🔄 ***Important for every new Major Release***:
 
   - DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version.
     - You can find other unlockers at the bottom of this page, in case this isn't already updated.
