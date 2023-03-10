@@ -25,7 +25,8 @@
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
     Only the `"Content"` folder must be placed inside the game folder,  
-    the one **within** "DLC Unlocker" (to unlock dlcs) **< OR >** the one **within** "Original backup" (to restore default files).  
+     - the one **within** "DLC Unlocker" (to unlock dlcs) **< OR >**  
+     - the one **within** "Original backup" (to restore default files).  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="10"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
