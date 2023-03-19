@@ -28,15 +28,15 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🔄 ***Important for every new Major Release***:
+- 🔄 ***Important things for every new Major Release***:
 
-  - DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version.
+  - ⛔ DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
     - You can find other unlockers at the bottom of this page, in case this isn't already updated.
 
   - If you want to play the game after a new dlc update but before the new unlocker release, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.
     - An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones from the Warfare dlc.
 
-  - If this way the game is unstable or buggy, you'd better check the game files from steam, then play without dlc blocks and wait for a new unlocker version.
+  - If this way the game is unstable or buggy, you'd better check the game files from Steam, then play without dlc blocks and wait for a new unlocker version.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
