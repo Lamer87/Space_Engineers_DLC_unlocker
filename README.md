@@ -40,7 +40,7 @@
     <details><summary>Click here to show how to start file checking directly from your browser.</summary><p>
 
     Copy/paste this link into the url bar and press Enter  
-    (even if Steam is closed it will automatically launch to start the check)  
+    (even if Steam is closed it will launch to start the check)  
     ```
     steam://validate/244850
     ```
