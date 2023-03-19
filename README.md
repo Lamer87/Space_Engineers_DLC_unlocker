@@ -28,7 +28,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🔄 ***Important things for every new Major Release***:
+- 🔄 ***Important things for every update with a new DLC***:
 
   - ⛔ DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
     - You can find other unlockers at the bottom of this page, in case this isn't already updated.
@@ -56,7 +56,7 @@
 
     - Unfortunately, skins cannot be unlocked the same way, as they use a different method than blocks.
 
-  - I will update the unlocker at every major release.
+  - I will update the unlocker at every DLC release.
 
   - If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
 
