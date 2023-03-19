@@ -28,7 +28,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🔄 ***Important things for every update with a new DLC***:
+- 🔄 ***Important things for each update that adds new DLC***:
 
   - ⛔ DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
     - You can find other unlockers at the bottom of this page, in case this isn't already updated.
