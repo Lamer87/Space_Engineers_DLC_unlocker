@@ -37,9 +37,10 @@
     - An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones from the Warfare dlc.
 
   - If this way the game is unstable or buggy, you'd better check the game files from Steam, then play without dlc blocks and wait for a new unlocker version.
-    <details><summary>Click here to show how to start file check for Space Engineers directly from your browser.</summary><p>
+    <details><summary>Click here to show how to start file checking directly from your browser.</summary><p>
 
-    ^ Copy/paste this link into the url bar and press Enter (if Steam is closed it will automatically open to start checking):  
+    Copy/paste this link into the url bar and press Enter  
+    (even if Steam is closed it will automatically launch to start the check)  
     ```
     steam://validate/244850
     ```
