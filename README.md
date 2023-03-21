@@ -27,6 +27,12 @@
      - the one **within** "Original backup" (to restore default files).  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+- 🚀 New **Automatons DLC** Coming in April!!!
+
+  - Be prepared for the new update by reading this [Official Guide](https://www.spaceengineersgame.com/new-players/grid-ai-guide/) on **AI blocks**.
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - 🔄 ***Important things for each update that adds a new DLC***:
 
