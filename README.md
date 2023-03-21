@@ -1,6 +1,8 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🚀 All DLCs unlocked up to: `v1.201` - *Most Wanted* ✔️
+💣 New **Automatons DLC** coming in April!!!  
+Be prepared for the new update by reading this [Official Guide](https://www.spaceengineersgame.com/new-players/grid-ai-guide/) on **AI blocks**.
 
 ---
 >💾 [Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
@@ -25,12 +27,6 @@
     Only the `"Content"` folder must be placed inside the game folder,  
      - the one **within** "DLC Unlocker" (to unlock dlcs) **< OR >**  
      - the one **within** "Original backup" (to restore default files).  
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
-- 🚀 New **Automatons DLC** Coming in April!!!
-
-  - Be prepared for the new update by reading this [Official Guide](https://www.spaceengineersgame.com/new-players/grid-ai-guide/) on **AI blocks**.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
