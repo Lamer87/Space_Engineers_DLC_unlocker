@@ -57,6 +57,8 @@ Be prepared for the new update by reading this [Official Guide](https://www.spac
   - This is meant to unlock DLC blocks, so you can use them without paying for DLC.
 
     - Unfortunately, skins cannot be unlocked the same way, as they use a different method than blocks.
+  
+  - To play multiplayer, please restore the backup files included in the archive, otherwise the game hangs on "connection" (this is new to me and requires further investigation)
 
   - I will update the unlocker at every DLC release.
 
