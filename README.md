@@ -28,9 +28,12 @@ Be prepared for the new update by reading this [Official Guide](https://www.spac
      - the one **within** "DLC Unlocker" to unlock dlcs  
      - or the one **within** "Original backup" to restore default files.  
 
+  - If the game hangs on "connecting" when joining a server ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/17)):  
+    Close the game and restore the backup files, then try to connect without the unlocker.
+
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🔄 ***Important things for each update that adds a new DLC***:
+- 🔄 ***Important things you need to know for every new DLC release***:
 
   - ⛔ DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
     - You can find other unlockers at the bottom of this page, in case this isn't already updated.
@@ -64,7 +67,7 @@ Be prepared for the new update by reading this [Official Guide](https://www.spac
 
     - Unfortunately, skins cannot be unlocked the same way, as they use a different method.
   
-  - To play multiplayer, please restore the backup files included in the archive, otherwise the game hangs on "connection" (this is new to me and requires further investigation)
+  - To play multiplayer, please restore the backup files included in the archive, otherwise the game hangs on "connecting" (this is new to me and requires further investigation)
 
   - I will update the unlocker at every DLC release.
 
@@ -98,7 +101,7 @@ Be prepared for the new update by reading this [Official Guide](https://www.spac
 <!-- Useless code to use occasionally:
 
 
-# UPDATING - PLEASE WAIT!
+# UPDATING - PLEASE WAIT! 🤖
 # just few minutes and the unlocker is ready!
 # or take a look at the other unlockers here:
 ## [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) - or - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
