@@ -25,8 +25,8 @@ Be prepared for the new update by reading this [Official Guide](https://www.spac
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
     Only the `"Content"` folder must be placed inside the game folder,  
-     - the one **within** "DLC Unlocker" (to unlock dlcs) **< OR >**  
-     - the one **within** "Original backup" (to restore default files).  
+     - the one **within** "DLC Unlocker" to unlock dlcs  
+     - or the one **within** "Original backup" to restore default files.  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -62,7 +62,7 @@ Be prepared for the new update by reading this [Official Guide](https://www.spac
 
   - This is meant to unlock DLC blocks, so you can use them without paying for DLC.
 
-    - Unfortunately, skins cannot be unlocked the same way, as they use a different method than blocks.
+    - Unfortunately, skins cannot be unlocked the same way, as they use a different method.
   
   - To play multiplayer, please restore the backup files included in the archive, otherwise the game hangs on "connection" (this is new to me and requires further investigation)
 
