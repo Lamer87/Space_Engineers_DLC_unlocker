@@ -1,7 +1,7 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🚀 All DLCs unlocked up to: `v1.201` - *Most Wanted* ✔️
-💣 New **Automatons DLC** coming soon!  
+💣 New **Automatons DLC** coming today!  
 Be prepared for the new update by reading this [Official Guide](https://www.spaceengineersgame.com/new-players/grid-ai-guide/) on **AI blocks**.
 
 ---
