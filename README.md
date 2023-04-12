@@ -34,24 +34,26 @@
 ---
 - 🔄 ***Important things you need to know for every new DLC release***:
 
-  - ⛔ DO NOT re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
-    - You can find other unlockers at the bottom of this page, in case this isn't already updated.
+  - ⛔ DO NOT ⛔ re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
+  - You can find other unlockers at the bottom of this page, in case this isn't already updated.
+  - If you want to play the game after a new dlc update, but before the new unlocker release,  
+     <details><summary>this is what you need to know, just click here.</summary><p>
+     
+     In this case, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.  
+     An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones from the Warfare dlc.  
+     If this way the game is unstable or buggy, you'd better check the game files from Steam, then play without dlc blocks and wait for a new unlocker version.  
 
-  - If you want to play the game after a new dlc update but before the new unlocker release, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.
-    - An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones from the Warfare dlc.
+     This is how to start file checking:  
 
-  - If this way the game is unstable or buggy, you'd better check the game files from Steam, then play without dlc blocks and wait for a new unlocker version.
-    <details><summary>Click here to show how to start file checking</summary><p>
+    - Directly from your browser  
 
-    - Directly from your browser:  
-    
       Copy/paste this link into the url bar and press Enter (even with Steam closed)  
       ```
       steam://validate/244850
       ```
-    
-    - From Steam:  
-    
+
+    - From Steam  
+
       -Right click on Space Engineers, then Properties  
       -select Local Files on the left, then Verify integrity of game files.
     </p></details>
@@ -115,12 +117,5 @@ img download button:
 
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
-img nfs-se most wanted:
-[<img src="https://i.ibb.co/QMrP5yL/SEmw-lol.jpg" width="250"/>](https://youtu.be/dQw4w9WgXcQ)
-(sorry for the link, lol)
-
-square selector:
-- [ ] \example
 
 -->
