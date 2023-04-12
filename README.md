@@ -68,7 +68,7 @@
 
     - Unfortunately, skins cannot be unlocked the same way, as they use a different method.
   
-  - To play multiplayer, please restore the backup files included in the archive, otherwise the game hangs on "connecting" (this is new to me and requires further investigation)
+  - To play multiplayer, please restore the backup files included in the archive, otherwise the game hangs on "connecting" (this is new to me and requires further investigation) ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/17))
 
   - I will update the unlocker at every DLC release.
 
