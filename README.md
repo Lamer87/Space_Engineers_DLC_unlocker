@@ -106,7 +106,7 @@
 # just few minutes and the unlocker is ready!
 # or take a look at the other unlockers here:
 ## [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) - or - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="300"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
 <fino all'inizio di questa riga, incollare tutto all'inizio del readme
