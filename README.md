@@ -7,8 +7,7 @@
 ---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### 🚀 All DLCs unlocked up to: `v1.201` - *Most Wanted* ✔️
-💣 **Automatons DLC** releasing today! Be prepared for it by reading this [Official Guide](https://www.spaceengineersgame.com/new-players/grid-ai-guide/) on **AI blocks**.
+### ✔️ All DLCs unlocked up to: `v1.202` - *Automatons* 🤖
 
 ---
 >💾 [Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
@@ -91,7 +90,7 @@
 
 - 📌 Other dlc unlockers currently updated:
   - [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker)
-  - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
+<!--  - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) -->
 <!--  - [AdrianOkay Unlocker](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) -->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
