@@ -84,7 +84,6 @@
 - 📌 Other dlc unlockers currently updated:
   - [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker)
 <!--  - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) -->
-<!--  - [AdrianOkay Unlocker](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) -->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
