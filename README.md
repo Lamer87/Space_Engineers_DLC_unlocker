@@ -27,7 +27,12 @@
      - or the one **within** "Original backup" to restore default files.  
 
   - If the game hangs on "connecting" when joining a server ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/17)):  
-    Close the game and restore the backup files, then try to connect without the unlocker.
+    Seems to be a conflict between some server-mod and the unlocker, you can try another server or  
+    close the game and restore the backup files, then try to connect and play without the unlocker.  
+
+  - Unable to paste dlc items contained in blueprints on a server ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/19)):  
+    Some game mechanics have changed and sadly there is no way to fix it.  
+
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -67,8 +72,6 @@
 
     - Unfortunately, skins cannot be unlocked the same way, as they use a different method.
   
-  - To play multiplayer, please restore the backup files included in the archive, otherwise the game hangs on "connecting" (this is new to me and requires further investigation) ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/17))
-
   - I will update the unlocker at every DLC release.
 
   - If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
@@ -87,7 +90,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🧊 If you want to play the Frostbite Scenario without the DLC, you need this:
+- 🧊 If you want to play the Frostbite Scenario without the DLC, you need some other files:
   - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -98,9 +101,9 @@
 ---
 
 
+
 <!--  -->
 <!-- Useless code to use occasionally:
-
 
 # 🚧 UPDATING - PLEASE WAIT! 🤖
 # just few minutes and the unlocker is ready!
