@@ -68,17 +68,17 @@
 
 - 📜 ***Notes***:
 
-  - This is meant to unlock DLC blocks, so you can use them without paying for DLC.
+  - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
 
-    - Unfortunately, skins cannot be unlocked the same way, as they use a different method.
+    - Unfortunately, skins and emotes cannot be unlocked the same way, as they use a different method.
   
   - I will update the unlocker at every DLC release.
 
   - If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file.
 
-  - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
-
-  - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
+  - If you want to buy it:
+    - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
+    - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
