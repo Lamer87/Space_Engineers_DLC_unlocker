@@ -30,7 +30,7 @@
     Seems to be a conflict between some server-mod and the unlocker, you can try another server or  
     close the game and restore the backup files (included), then try to connect and play without the unlocker.  
 
-  - Unable to paste dlc items contained in blueprints on a server ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/19)):  
+  - It is no longer possible to paste dlc items contained in blueprints on a server ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/19)):  
     Some game mechanics have changed and sadly there is no way to fix this issue.  
 
 
