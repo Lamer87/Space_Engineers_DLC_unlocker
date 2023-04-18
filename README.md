@@ -31,7 +31,7 @@
     close the game and restore the backup files (included), then try to connect and play without the unlocker.  
 
   - It is no longer possible to paste dlc items contained in blueprints on a server ([discussion here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/19)):  
-    Some game mechanics have been changed and sadly there is no way to fix this issue.  
+    Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
