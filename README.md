@@ -22,7 +22,7 @@
 - ⚠️ ***Troubleshooting***:
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
-    Only the `"Content"` folder must be placed inside the game folder,  
+    Only the `"Content"` folder must be placed inside the game folder:  
      - the one **within** "DLC Unlocker" to unlock dlcs  
      - or the one **within** "Original backup" to restore default files.  
 
