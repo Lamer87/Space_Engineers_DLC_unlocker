@@ -73,7 +73,7 @@
 
   - (1) This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
 
-    - (1.1) Unfortunately, skins and emotes cannot be unlocked the same way, as they use a different method.
+    - Unfortunately, skins and emotes cannot be unlocked the same way, as they use a different method.
   
   - (2) I will update the unlocker at every DLC release.
 
