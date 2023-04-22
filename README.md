@@ -88,17 +88,21 @@
 ---
 ###
 - 📌 Other dlc unlockers currently updated:
-  - [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) (missing some updates in previous dlc files = missing blocks)
-<!--  - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) -->
+
+  - [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) (missing some updates in previous dlc files = missing some blocks)
+
+<!--  - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) (not updated since 1.201)-->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - 🧊 If you want to play the Frostbite Scenario, you need some other files:
+
   - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - 🇮🇹 [ITA] Qui potete trovare la mia traduzione migliorata, che corregge diversi svarioni.
+
   - [Traduzione Italiana Migliorata](https://github.com/Lamer87/Space_Engineers-Traduzione_Italiana_migliorata)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
