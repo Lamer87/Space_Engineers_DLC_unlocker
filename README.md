@@ -1,7 +1,7 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🤖 All DLCs unlocked up to: `v1.202` - *Automatons* ✔️
-The **only one** with all previous dlc files updated, so no missing blocks 😉 (see my 3rd Note)
+The **only one** with all previous dlc files updated, so no missing blocks 😉 (see my 3rd line in "Notes")
 
 ---
 >[💾 Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
@@ -71,15 +71,15 @@ The **only one** with all previous dlc files updated, so no missing blocks 😉 
 
 - 📜 ***Notes***:
 
-  - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
+  - (1) This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
 
-    - Unfortunately, skins and emotes cannot be unlocked the same way, as they use a different method.
+    - (1.1) Unfortunately, skins and emotes cannot be unlocked the same way, as they use a different method.
   
-  - I will update the unlocker at every DLC release.
+  - (2) I will update the unlocker at every DLC release.
 
-  - If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file. 😉
+  - (3) If you want to edit dlc files yourself, be careful because with each update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file. 😉
 
-  - If you want to buy it:
+  - (4) If you want to buy the game:
     - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
     - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
