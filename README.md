@@ -1,7 +1,7 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🤖 All DLCs unlocked up to: `v1.202` - *Automatons* ✔️
-❗ The **ONLY ONE** with all previous dlc files updated, so **NO MISSING BLOCKS** 😉 (why? point 3 in [Notes](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#-2))
+❗ The **ONLY ONE** with all previous dlc files updated, so **NO MISSING BLOCKS** 😉 (see point 3 in [Notes](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#-2))
 
 ---
 >[💾 Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
