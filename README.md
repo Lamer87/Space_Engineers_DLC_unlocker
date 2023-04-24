@@ -40,7 +40,7 @@
 - 🔄 ***Important things you need to know for every new DLC release***:
 
   - ⛔ DO NOT ⛔ re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
-    - You can find other unlockers at the bottom of this page, if this isn't already updated.
+    - You can find other unlockers at the bottom of this page, if this is not updated.
   - If you want to play the game after a new dlc update, but before the new unlocker release:  
      <details><summary>this is what you need to know, just click here.</summary><p>
      
