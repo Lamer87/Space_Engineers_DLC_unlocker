@@ -40,8 +40,8 @@
 - 🔄 ***Important things you need to know for every new DLC release***:
 
   - ⛔ DO NOT ⛔ re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
-  - You can find other unlockers at the bottom of this page, in case this isn't already updated.
-  - If you want to play the game after a new dlc update, but before the new unlocker release,  
+    - You can find other unlockers at the bottom of this page, in case this isn't already updated.
+  - If you want to play the game after a new dlc update, but before the new unlocker release:  
      <details><summary>this is what you need to know, just click here.</summary><p>
      
      In this case, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.  
