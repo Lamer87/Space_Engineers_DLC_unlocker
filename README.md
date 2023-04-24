@@ -87,7 +87,7 @@
 
 ---
 ###
-- 📌 Other dlc unlockers currently updated:
+- 📌 Other dlc unlockers for Space Engineers:
 
   - [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [1.202] ⚠️ (missing some blocks cause previous dlc files not updated)
 
