@@ -50,14 +50,14 @@
 
      This is how to start file checking:  
 
-    - Directly from your browser  
+    - Directly from your browser:  
 
       Copy/paste this link into the url bar and press Enter (even with Steam closed)  
       ```
       steam://validate/244850
       ```
 
-    - From Steam  
+    - From Steam:  
 
       -Right click on Space Engineers, then Properties  
       -select Local Files on the left, then Verify integrity of game files.
