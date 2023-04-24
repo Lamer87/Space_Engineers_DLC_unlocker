@@ -1,7 +1,7 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🤖 All DLCs unlocked up to: `v1.202` - *Automatons* ✔️
-‼️ The **only one** with all dlc files updated, so **NO MISSING BLOCKS** 😉 (see point 3 in [Notes](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#-2))
+‼️ The **only one** with all previous dlc files updated, so **NO MISSING** blocks 😉
 
 ---
 >[💾 Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
@@ -89,9 +89,9 @@
 ###
 - 📌 Other dlc unlockers currently updated:
 
-  - [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) ⚠️ (missing some blocks cause previous dlc files not updated)
+  - [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [1.202] ⚠️ (missing some blocks cause previous dlc files not updated)
 
-<!--  - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) 💤 (not updated since 1.201)-->
+<!--  - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [1.201] 💤 (not updated since 1.201)-->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -130,5 +130,7 @@ img download button:
 
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+(see point 3 in [Notes](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#-2))
 
 -->
