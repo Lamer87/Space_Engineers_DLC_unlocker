@@ -4,9 +4,7 @@
 ‼️ The **only one** with all previous dlc files updated, so **NO MISSING** blocks 😉
 
 ---
->[💾 Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
-
->💾 Or click the green **`Code`** button then **`Download ZIP`**
+>[💾 Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip), or click the green **`Code`** button then **`Download ZIP`**
 
 ---
 - 🕹️ ***Installation***:
