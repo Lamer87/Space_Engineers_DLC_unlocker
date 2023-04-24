@@ -41,8 +41,8 @@
 
   - ⛔ DO NOT ⛔ re-apply the unlocker if it hasn't been updated yet to the latest game version ❗
     - You can find other unlockers at the bottom of this page, if this is not updated.
-  - If you want to play the game after a new dlc update, but before the new unlocker release:  
-     <details><summary>this is what you need to know, just click here.</summary><p>
+  - If you want to play the game after a new dlc update, but before a new unlocker release:  
+     <details><summary>this is what you need to know, click here to show.</summary><p>
      
      In this case, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.  
      An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones from the Warfare dlc.  
