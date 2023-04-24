@@ -23,9 +23,9 @@
 - ⚠️ ***Troubleshooting***:
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
-    Only the `"Content"` folder must be placed inside the game folder:  
-     - the one **within** "DLC Unlocker" to unlock dlcs  
-     - or the one **within** "Original backup" to restore default files
+    Only the `"Content"` folder must be placed inside the game folder:
+    - the one **within** "DLC Unlocker" to unlock dlcs  
+    - or the one **within** "Original backup" to restore default files
 
   - If the game hangs on "connecting" when joining a server (discussion [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/17)):  
     Seems to be a conflict between some server-mod and the unlocker, you can try another server or  
