@@ -44,7 +44,7 @@
     Now if you want, you can copy the folder of this modified mod in:  
     "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods"  
     then rename it (whatever you want), enter the ingame mods list and find it with a HOME icon on the left.  
-    With this trick, the mod with the HOME icon does not get touched from updates.  
+    In this case, the mod with the HOME icon does not get touched from updates.  
      </p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
