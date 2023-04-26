@@ -25,11 +25,11 @@
     - the one **within** "DLC Unlocker" to unlock dlcs  
     - or the one **within** "Original backup" to restore default files
 
-  - If the game hangs on "connecting" when joining a server (discussion [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/17)):  
+  - If the game hangs on "connecting" when joining a server:  
     Seems to be a conflict between some server-mod and the unlocker, you can try another server or  
     close the game and restore the backup files (included), then try to connect and play without the unlocker.  
 
-  - It is no longer possible to paste dlc items contained in blueprints on a server (discussion [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/19)):  
+  - It is no longer possible to paste dlc items contained in blueprints on a server:  
     Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
   - If a block is locked, it is due to some mod that modifies it, making it appear protected by a dlc.  
