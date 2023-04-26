@@ -32,6 +32,11 @@
   - It is no longer possible to paste dlc items contained in blueprints on a server (discussion [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/19)):  
     Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
+  - If a block is locked, it is due to some mod that modifies it, making it appear protected by a dlc.  
+    You can disable that mod, or you can unlock it with a little patience,  
+    but if the mod gets an update you have to do this again:  
+    Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
+    find that mod, open every ".sbc" files and delete all the lines containing "DLC", example `<DLC>Warfare2</DLC>`  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
