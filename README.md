@@ -41,9 +41,10 @@
 
     Warning: if that mod gets an update, you have to repeat the process!  
 
-    But if you want, you can copy the folder of this modified mod in:  
+    But if you want, you can copy the folder of this mod in:  
     "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods"  
-    -rename it (example: mod name + unlocked)  
+    -edit all .scb files deleting all lines containing "DLC"  
+    -rename the mod folder (example: mod name + unlocked)  
     -enter the ingame mods list and find it with a HOME icon on the left.  
     In this case, the mod with the HOME icon does not get touched from updates.  
      </p></details>
