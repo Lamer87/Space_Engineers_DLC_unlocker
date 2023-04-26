@@ -33,9 +33,19 @@
     Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
   - If a block is locked, it is due to some mod that modifies it, making it appear protected by a dlc.  
-    You can disable that mod and play without it, or you can unlock it with a little patience, but if the mod gets an update you have to do this again:  
+    You can disable that mod and play without it,  
+     <details><summary>or you can edit the mod with a little patience, click here to show how.</summary><p>
+
+    Warning: if that mod gets an update, you have to repeat this process:  
+
     go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
     find that mod, open ".sbc" files and delete all the lines containing "DLC", example `<DLC>Warfare2</DLC>`  
+
+    Now if you want, you can copy the folder of this modified mod in:  
+    "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods"  
+    then rename it (whatever you want), enter the ingame mods list and find it with a HOME icon on the left.  
+    With this trick, the mod with the HOME icon does not get touched from updates.  
+     </p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
