@@ -33,7 +33,7 @@
     Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
   - If a block is locked, it is due to some mod that modifies it, making it appear protected by a dlc.  
-    You can disable that mod, or you can unlock it with a little patience, but if the mod gets an update you have to do this again:  
+    You can disable that mod and play without it, or you can unlock it with a little patience, but if the mod gets an update you have to do this again:  
     Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
     find that mod, open ".sbc" files and delete all the lines containing "DLC", example `<DLC>Warfare2</DLC>`  
 
