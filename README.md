@@ -36,14 +36,15 @@
     You can disable that mod and play without it,  
      <details><summary>or you can edit the mod with a little patience, click here to show how.</summary><p>
 
-    Warning: if that mod gets an update, you have to repeat this process:  
-
-    go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
+    Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
     find that mod, open ".sbc" files and delete all the lines containing "DLC", example `<DLC>Warfare2</DLC>`  
 
-    Now if you want, you can copy the folder of this modified mod in:  
+    Warning: if that mod gets an update, you have to repeat the process!  
+
+    But if you want, you can copy the folder of this modified mod in:  
     "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods"  
-    then rename it (whatever you want), enter the ingame mods list and find it with a HOME icon on the left.  
+    -rename it (example: mod name + unlocked)  
+    -enter the ingame mods list and find it with a HOME icon on the left.  
     In this case, the mod with the HOME icon does not get touched from updates.  
      </p></details>
 
