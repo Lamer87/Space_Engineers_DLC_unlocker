@@ -32,8 +32,7 @@
   - It is no longer possible to paste dlc items contained in blueprints on a server:  
     Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
-  - If a block is locked, it is due to some mod that modifies it, making it appear protected by a dlc.  
-    You can disable that mod and play without it,  
+  - If a block is locked by dlc, it is due to some mod that modifies it, making it appear protected by a dlc. You can disable that mod and play without it,  
      <details><summary>or you can edit the mod with a little patience, click here to show how.</summary><p>
 
     Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
