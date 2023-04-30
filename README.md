@@ -33,6 +33,7 @@
     Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
   - If a block is locked by dlc, it is due to some mod that modifies it, making it appear protected by a dlc.  
+    For example: using "Cockpits Re-Animated"<!--(https://steamcommunity.com/sharedfiles/filedetails/?id=2900331965)--> you will have Industrial Cockpit locked by dlc.  
     You can disable that mod and play without it,  
      <details><summary>or you can edit the mod with a little patience, click here to show how.</summary><p>
 
