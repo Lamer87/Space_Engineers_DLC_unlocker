@@ -104,7 +104,7 @@
 ###
 - 📌 Other dlc unlockers for Space Engineers:
 
-  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [1.202] ⚠️ use "Code + Download" instead of "Releases". no previous dlcs update on release (cause missing blocks)
+  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [1.202] ⚠️ use "Code + Download" instead of "Releases". no previous dlcs update on release.
 
   - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [1.201] 💤 not updated
   - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [1.200] 💤 not updated
