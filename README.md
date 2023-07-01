@@ -9,11 +9,11 @@
 ---
 - 🕹️ ***Installation***:
 
-  - Copy the **"Content"** folder to the game directory (confirming file replacement):  
+  - Copy just the **"Content"** folder to the game directory (confirming file replacement):  
 *from zip archive* -> "DLC Unlocker/**`Content`**"  
 *to game (example)* -> "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ "  
 
-  - If needed, a backup is included (same process as above):  
+  - If needed, a backup of all files it's included (same process as above):  
 *from zip archive* -> "Original backup/`Content`" -> *to game folder*  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -21,9 +21,9 @@
 - ⚠️ ***Troubleshooting***:
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
-    Only the `"Content"` folder must be placed inside the game folder:
-    - the one **within** "DLC Unlocker" to unlock dlcs  
-    - or the one **within** "Original backup" to restore default files
+    Only the chosen `"Content"` folder must be placed inside the game folder:
+    - the one **within** "DLC Unlocker" to unlock dlcs or  
+    - the one **within** "Original backup" to restore default files
 
   - If the game hangs on "connecting" when joining a server:  
     Seems to be a conflict between some server-mod and the unlocker, you can try another server or  
@@ -35,18 +35,19 @@
   - If a block is locked by dlc, it is due to some mod that modifies it, making it appear protected by a dlc.  
     For example: using "Cockpits Re-Animated"<!--(https://steamcommunity.com/sharedfiles/filedetails/?id=2900331965)--> you will have Industrial Cockpit locked by dlc.  
     You can disable that mod and play without it,  
-     <details><summary>or you can edit the mod with a little patience, click here to show how.</summary><p>
+     <details><summary>or you can edit the mod, click here to show how.</summary><p>
 
     Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
     find that mod, open ".sbc" files and delete all the lines containing "DLC", example `<DLC>Warfare2</DLC>`  
 
-    Warning: if that mod gets an update, you have to repeat the process!  
+    Warning: if that mod gets an update, you have to repeat this process!  
+    But if you want, you can copy the folder of this mod in:
 
-    But if you want, you can copy the folder of this mod in:  
     "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods"  
     -edit all .scb files deleting all lines containing "DLC"  
     -rename the mod folder (example: mod name + unlocked)  
-    -enter the ingame mods list and find it with a HOME icon on the left.  
+    -enter the ingame mods list and find it with a HOME icon on the left.
+
     In this case, the mod with the HOME icon does not get touched from updates.  
      </p></details>
 
@@ -135,7 +136,7 @@
 # 🚧 UPDATING - PLEASE WAIT! 🤖
 # just few minutes and the unlocker is ready!
 # or take a look at the other unlockers here:
-## [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) - or - [0x000015 Bypass](https://github.com/0x000015/SpaceEngineers-DLC-Bypass)
+## [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker)
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
@@ -147,7 +148,5 @@ img download button:
 
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
-(see point 3 in [Notes](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#-2))
 
 -->
