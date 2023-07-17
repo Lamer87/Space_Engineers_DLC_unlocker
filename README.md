@@ -45,7 +45,7 @@
     But if you want to prevent updating, you can **copy the mod folder** in:
 
     "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods" (AppData is hidden),  
-    or paste this into an explorer window: `%AppData%\SpaceEngineers`,  
+    or paste this into an explorer window: `%AppData%\SpaceEngineers`, press Enter,  
     and if the "Mods" folder doesn't exist, create it.
 
     -Then edit the mod's ".scb" files deleting all lines containing "DLC",  
