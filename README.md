@@ -37,18 +37,23 @@
     You can disable that mod and play without it,  
      <details><summary>or you can edit the mod, click here to show how.</summary><p>
 
-    Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
-    find that mod, open ".sbc" files and delete all the lines containing "DLC", example `<DLC>Warfare2</DLC>`  
+    -Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
+    -Find the mod you want to edit (each folder is a codenamed mod, so you have to search for it),  
+    -Open all ".sbc" files with notepad and delete all lines containing "DLC", example `<DLC>Warfare2</DLC>`.
 
-    Warning: if that mod gets an update, you have to repeat this process!  
-    But if you want, you can copy the folder of this mod in:
+    Warning: if that mod gets updated, you have to repeat this process!  
+    But if you want to prevent updating, you can **copy the mod folder** in:
 
-    "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods"  
-    -edit all .scb files deleting all lines containing "DLC"  
-    -rename the mod folder (example: mod name + unlocked)  
-    -enter the ingame mods list and find it with a HOME icon on the left.
+    "C:\Users\ YOUR ACCOUNT NAME \AppData\Roaming\SpaceEngineers\Mods" (AppData is hidden),  
+    or paste this into an explorer window: `%AppData%\SpaceEngineers`,  
+    and if the "Mods" folder doesn't exist, create it.
 
-    In this case, the mod with the HOME icon does not get touched from updates.  
+    -Then edit the mod's ".scb" files deleting all lines containing "DLC",  
+    -Rename the mod folder how you prefer (example: mod name + unlocked),  
+    -Enter the ingame mods list and find it with that name and a HOME icon on the left.
+
+    Home icon stands for local mod, and does not get touched from updates.  
+    Now you can use this mod instead of the "original" without a dlc lock.
      </p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
