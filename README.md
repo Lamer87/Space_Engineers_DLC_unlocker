@@ -13,7 +13,7 @@
 *from zip archive* -> "DLC Unlocker/**`Content`**"  
 *to game (example)* -> "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ "  
 
-  - If needed, a backup of all files it's included (same process as above):  
+  - If needed, a backup of all files is included (same process as above):  
 *from zip archive* -> "Original backup/`Content`" -> *to game folder*  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -34,8 +34,8 @@
 
   - If a block is locked by dlc, it is due to some mod that modifies it, making it appear protected by a dlc.  
     For example: using "Cockpits Re-Animated"<!--(https://steamcommunity.com/sharedfiles/filedetails/?id=2900331965)--> you will have Industrial Cockpit locked by dlc.  
-    You can disable that mod and play without it,  
-     <details><summary>or you can edit the mod, click here to show how.</summary><p>
+    You can disable this kind of mods and play without them,  
+     <details><summary>or you can just edit them, click here to show how.</summary><p>
 
     -Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
     -Find the mod you want to edit (each folder is a codenamed mod, so you have to search for it),  
@@ -48,7 +48,7 @@
     or paste this into an explorer window: `%AppData%\SpaceEngineers`, press Enter,  
     and if the "Mods" folder doesn't exist, create it.
 
-    -Then edit the mod's ".scb" files deleting all lines containing "DLC",  
+    -Edit the mod's ".scb" files deleting all lines containing "DLC",  
     -Rename the mod folder how you prefer (example: mod name + unlocked),  
     -Enter the ingame mods list and find it with that name and a HOME icon on the left.
 
