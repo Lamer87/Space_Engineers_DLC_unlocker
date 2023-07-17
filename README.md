@@ -98,7 +98,7 @@
   
   - I will update the unlocker at every DLC release.
 
-  - If you want to edit dlc files yourself, be careful because with each dlc update there are probably small changes to the previous ones, so it is NOT enough to edit only the latest dlc file (= missing blocks).
+  - If you want to edit dlc files yourself, be careful because with each dlc update there are probably small changes to the previous ones, so it is NOT enough to edit only the new dlc file (and miss blocks).
 
   - If you want to buy the game:
     - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
