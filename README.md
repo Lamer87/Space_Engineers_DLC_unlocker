@@ -9,7 +9,7 @@
 ---
 - 🕹️ ***Installation***:
 
-  - Copy just the **"Content"** folder to the game directory (confirming file replacement):  
+  - Copy just the **"Content"** folder to the game directory, confirming file replacement:  
 *from zip archive* -> "DLC Unlocker/**`Content`**"  
 *to game (example)* -> "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ "  
 
