@@ -13,7 +13,7 @@
 *from zip archive* -> "DLC Unlocker/**`Content`**"  
 *to game (example)* -> "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ "  
 
-  - If needed, a backup of all files is included (same process as above):  
+  - If needed a backup of all files is included, same process as above but:  
 *from zip archive* -> "Original backup/`Content`" -> *to game folder*  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
