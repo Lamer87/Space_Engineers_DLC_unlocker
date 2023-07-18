@@ -48,7 +48,7 @@
     or paste this into an explorer window: `%AppData%\SpaceEngineers`, press Enter,  
     and if the "Mods" folder doesn't exist, create it.
 
-    -Edit the mod's ".scb" files deleting all lines containing "DLC" (the entire line),  
+    -Edit the mod's ".scb" files with notepad, deleting all lines containing "DLC" (the entire line),  
     -Rename the mod folder how you prefer (example: mod name + unlocked),  
     -Enter the ingame mods list and find it with that name and a HOME icon on the left.
 
