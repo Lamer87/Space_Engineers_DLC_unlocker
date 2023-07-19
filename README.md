@@ -37,6 +37,8 @@
     You can disable this kind of mods and play without them,  
      <details><summary>or you can just edit them, click here to show how.</summary><p>
 
+    ————————————————————————————————————————  
+
     -Go to your Steam mods folder "C:\Program Files (x86)\Steam\steamapps\workshop\content\244850\",  
     -Find the mod you want to edit (each folder is a codenamed mod, so you have to search for it),  
     -Open all ".sbc" files with notepad and delete all lines containing "DLC", example `<DLC>Warfare2</DLC>`.
@@ -54,6 +56,8 @@
 
     Home icon stands for local mod, and does not get touched from updates.  
     Now you can use this mod instead of the "original" without a dlc lock.
+
+    ————————————————————————————————————————  
      </p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -66,7 +70,9 @@
     - You can find other unlockers at the bottom of this page, if this is not updated.
   - If you want to play the game after a new dlc update, but before a new unlocker release:  
      <details><summary>this is what you need to know, click here to show.</summary><p>
-     
+
+    ————————————————————————————————————————  
+
      In this case, you will find new blocks locked and if there was some changes in previous dlcs files, those will appear blocked as well.  
      An example: A new dlc is released and previous Warfare dlc gets an update, the blocks you've already built still work, but you won't be able to build new ones from the Warfare dlc.  
      If this way the game is unstable or buggy, you'd better check the game files from Steam, then play without dlc blocks and wait for a new unlocker version.  
@@ -84,6 +90,9 @@
 
       -Right click on Space Engineers, then Properties  
       -select Local Files on the left, then Verify integrity of game files.
+
+    ————————————————————————————————————————  
+
     </p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
