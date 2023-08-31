@@ -9,30 +9,44 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
-### 🍦 Now using CreamAPI, the old method doesn't work anymore.
+### 🍦 Now using CreamAPI.
+
+### The old .sbc file method no longer works, a different modification is now required.
 
 ---
 >[💾 NOT WORKING PLEASE WAIT - Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip), or click the green **`Code`** button then **`Download ZIP`**
 
 ---
 - 🕹️ ***Installation***:
+  - Download from above.
+  - Unzip the files in this folder:  
+    `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
+  - Play.
 
+- 📇 ***Files in the archive***:
+  - cream_api.ini : the config file  
+  - steam_api64.dll : the creamapi file  
+  - steam_api64_o.dll : the original "steam_api64.dll" but renamed (creamapi NEED it)  
+  - backup\steam_api64.dll : just the original file NOT renamed, so you can just delete the other 3 and restore this one.
 
-1 - C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64  
-2 - rename "steam_api64.dll" to "steam_api64_o.dll" ("o", not zero)  
-3 - then place 2 files in the game folder  
-4 - play.
+- 💡 ***How to restore all to default***:
+  - Delete "cream_api.ini", "steam_api64.dll" and "steam_api64_o.dll"
+  - Open "backup" folder and move "steam_api64.dll" back to "Bin64" folder
 
-to go back:  
-1- delete the 2 added files and rename the file back "steam_api64_o.dll" to "steam_api64.dll".
-
-In this archive:  
-- cream_api.ini : the config file  
-- steam_api64.dll : the creamapi file  
-- steam_api64_o.dll : the original "steam_api64.dll" but renamed (creamapi NEED it)  
-- backup\steam_api64.dll : just the original file NOT renamed, so you can just delete the other 3 and restore this one.
+- 🧰 ***What I did to set up CreamAPI***:
+  - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576)
+  - Checked out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc)
+  - Edited the creamapi.ini file based on the game and its DLCs
+  - Opened the folder:
+    `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
+  - Renamed the file "steam_api64.dll" to "steam_api64_o.dll"
+  - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
+  - Started the game, all dlc unlocked.
 
 <!-- 
+
+- 📜 ***Notes***:
+
    - Copy just the **"Content"** folder to the game directory, confirming file replacement:  
 *from zip archive* -> "DLC Unlocker/**`Content`**"  
 *to game (example)* -> "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ "  
