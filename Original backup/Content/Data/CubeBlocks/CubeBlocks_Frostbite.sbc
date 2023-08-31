@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- Frozen Blocks -->
+
+        <Definition xsi:type="MyObjectBuilder_RadioAntennaDefinition">
+            <Id>
+                <TypeId>RadioAntenna</TypeId>
+                <SubtypeId>LargeBlockRadioAntennaDish</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AntennaDish</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\AntennaDish.dds</Icon>
+            <Description>Description_AntennaDish</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AntennaDish.mwm</Model>
+            <Components>
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="120" />
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="RadioCommunication" Count="40" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="2" StartY="2" EndX="3" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AntennaDishConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AntennaDishConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AntennaDishConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AntennaDish</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>100</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockGate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Gate</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Gate.dds</Icon>
+            <Description>Description_Gate</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Gate.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="600" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SmallTube" Count="100" />
+                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="SteelPlate" Count="200" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1.3" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="3.7" StartY="0" EndX="5" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1.15" EndY="2" />
+                <MountPoint Side="Front" StartX="3.85" StartY="0" EndX="5" EndY="2" />
+                <MountPoint Side="Front" StartX="1.15" StartY="1.85" EndX="3.85" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1.15" EndY="2" />
+                <MountPoint Side="Back" StartX="3.85" StartY="0" EndX="5" EndY="2" />
+                <MountPoint Side="Back" StartX="1.15" StartY="1.85" EndX="3.85" EndY="2" />
+
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GateConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GateConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Gate</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+            <PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+            <MaxOpen>4.83</MaxOpen>
+            <OpeningSpeed>1.2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockOffsetDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_OffsetDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\OffsetDoor.dds</Icon>
+            <Description>Description_OffsetDoor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\OffsetDoor.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="SmallTube" Count="4" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="BulletproofGlass" Count="6" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.2" EndY="0.5" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.8" StartY="0" EndX="1" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OffsetDoorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OffsetDoorConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OffsetDoorConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>OffsetDoor</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DisassembleRatio>1.5</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>1.2</MaxOpen>
+            <OpeningSpeed>3</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody01</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody01</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_1.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody01.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DeadBody</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody02</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody02</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_2.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody02.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody02.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody03</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody03</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_3.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody03.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody03.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody04</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody04</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_4.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody04.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.6" EndY="0.8" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody04.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody05</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody05</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_5.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody05.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.7" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody05.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>DeadBody06</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeadBody06</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DeadBody_6.dds</Icon>
+            <Description>Description_DeadEngineer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\DeadBody06.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="BulletproofGlass" Count="1" />
+                <Component Subtype="RadioCommunication" Count="1" />
+                <Component Subtype="Display" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DeadBody06.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Both</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Both</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>Frostbite</DLC>
+        </Definition>
+
+        <!-- End of Frozen Blocks -->
+    </CubeBlocks>
+</Definitions>

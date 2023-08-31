@@ -1,0 +1,2829 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- Decorative Blocks #3-->
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockColorableSolarPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskin.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SolarCell" Count="32" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="BulletproofGlass" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.16</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockColorableSolarPanelCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCorner.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Girder" Count="6" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.08</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>LargeBlockColorableSolarPanelCornerInverted</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCornerInverted.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="4" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Girder" Count="6" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="SolarCell" Count="16" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="4" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>LargeBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>24</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.08</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockColorableSolarPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskin.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="Girder" Count="4" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="SolarCell" Count="8" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanel</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.04</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockColorableSolarPanelCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCorner.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCorner.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="Girder" Count="2" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="SolarCell" Count="4" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="0" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCornerInverted</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.02</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
+            <Id>
+                <TypeId>SolarPanel</TypeId>
+                <SubtypeId>SmallBlockColorableSolarPanelCornerInverted</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ColorableSolarPanelCornerInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelReskinCornerInverted.dds</Icon>
+            <Description>Description_SolarPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="10" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\SolarPanelReskinCornerInverted.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="Girder" Count="2" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="SolarCell" Count="4" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SolarCell" Index="0" />
+            <Center x="1" y="0" z="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="10" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="5" EndY="1" />
+            </MountPoints>
+
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SolarPanelReskinCornerInvertedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ColorableSolarPanelCornerInverted</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <MirroringBlock>SmallBlockColorableSolarPanelCorner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.02</MaxPowerOutput>
+
+            <PanelOrientation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1</Z>
+            </PanelOrientation>
+            <TwoSidedPanel>true</TwoSidedPanel>
+            <PanelOffset>1.0</PanelOffset>
+            <DamageEffectName>Damage_Electrical_Damaged_SolarPanels</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PhysicalMaterial>GlassOpaque</PhysicalMaterial>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large3X</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>55</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
+            <Id>
+                <TypeId>WindTurbine</TypeId>
+                <SubtypeId>LargeBlockWindTurbineReskin</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_WindTurbineReskin</DisplayName>
+            <Description>Description_WindTurbine</Description>
+            <Icon>Textures\GUI\Icons\Cubes\WindTurbineReskin_Large.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <PlaceDecals>false</PlaceDecals>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="5" z="5" />
+            <Center x="2" y="0" z="2" />
+            <!-- The Offset is there as the Base model had to be placed in the world origin 0,0,0. If the Base of the block was offseted like usual, it couldn't be built properly and had a lot of broken triangles-->
+            <ModelOffset x="0" y="-6.25" z="0" />
+            <Model>Models\Cubes\Large\WindTurbineBaseReskin.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Motor" Count="8" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="InteriorPlate" Count="30" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="2" StartY="2" EndX="3" EndY="3" Default="true" />
+            </MountPoints>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WindTurbineReskin_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbineReskin_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbineReskin_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>WindTurbineReskin</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectId>214</DamageEffectId>
+            <ActionSound>ArcBlockWindTurbine</ActionSound>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
+            <MaxPowerOutput>0.4</MaxPowerOutput>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <IsAirTight>false</IsAirTight>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <RaycasterSize>20</RaycasterSize>
+            <RaycastersCount>9</RaycastersCount>
+            <MinRaycasterClearance>0.3</MinRaycasterClearance>
+            <OptimalGroundClearance>25</OptimalGroundClearance>
+            <RaycastersToFullEfficiency>7</RaycastersToFullEfficiency>
+            <OptimalWindSpeed>80</OptimalWindSpeed>
+            <TurbineSpinUpSpeed>1</TurbineSpinUpSpeed>
+            <TurbineSpinDownSpeed>0.3</TurbineSpinDownSpeed>
+            <TurbineRotationSpeed>4</TurbineRotationSpeed>
+            <PCU>55</PCU>
+            <TargetingGroups>
+                <string>PowerSystems</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LargeBlockBeaconReskin</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BeaconReskin</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BeaconReskin.dds</Icon>
+            <Description>Description_Beacon</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BeaconReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="RadioCommunication" Count="40" />
+                <Component Subtype="SteelPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BeaconReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BeaconReskin</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Beacon properties -->
+            <!-- Antenna info-->
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <EnableLight>true</EnableLight>
+            <Flare>FakeFlare</Flare>
+            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+
+            <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SmallBlockBeaconReskin</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BeaconReskin</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BeaconReskin.dds</Icon>
+            <Description>Description_Beacon</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\BeaconReskin.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SmallTube" Count="1" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="RadioCommunication" Count="4" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0.4" EndX="0.7" EndY="0.7" />
+                <MountPoint Side="Front" StartX="0.4" StartY="0.9" EndX="0.6" EndY="1.2" />
+                <MountPoint Side="Back" StartX="0.4" StartY="0.9" EndX="0.6" EndY="1.2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\BeaconReskinConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\BeaconReskinConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BeaconReskinConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>BeaconReskin</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Beacon properties -->
+            <!-- Antenna info-->
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <EnableLight>true</EnableLight>
+            <Flare>FakeFlare</Flare>
+            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+
+            <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockCryoRoom</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CryoRoom</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CryoRoom.dds</Icon>
+            <Description>Description_CryoChamber</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CryoRoom.mwm</Model>
+            <InteriorModel>Models\Cubes\Large\CryoroomInterior.mwm</InteriorModel>
+            <CharacterAnimation>Idle</CharacterAnimation>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="8" />
+                <Component Subtype="Display" Count="8" />
+                <Component Subtype="Medical" Count="3" />
+                <Component Subtype="Computer" Count="30" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.2" StartY="0.95" EndX="0.8" EndY="1" />
+                <MountPoint Side="Front" StartX="0.2" StartY="0" EndX="0.8" EndY="0.05" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CryoRoomConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CryoRoomConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CryoRoomConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>CryoRoom</BlockPairName>
+            <OverlayTexture>Textures\GUI\Screens\cryopod_interior.dds</OverlayTexture>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <IsPressurized>true</IsPressurized>
+            <OxygenCapacity>1</OxygenCapacity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+            <OutsideSound>BlockCryoOut</OutsideSound>
+            <InsideSound>BlockCryoIn</InsideSound>
+            <EnclosedCockpit>true</EnclosedCockpit>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+    
+            <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockCapCockpit</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CapCockpit</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CapCockpit.dds</Icon>
+            <Description>Description_CockpitIndustrial</Description>
+            <CubeSize>Small</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <Model>Models\Cubes\small\CapCockpit.mwm</Model>
+            <InteriorModel>Models\Cubes\small\CapCockpitInterior.mwm</InteriorModel>
+            <CharacterAnimation>CapCockpitPose</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="Computer" Count="15" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="SteelPlate" Count="15" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="2" />
+                <MountPoint Side="Left" StartX="0.5" StartY="2" EndX="3" EndY="3" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="2" EndX="2.5" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2.5" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CapCockpit_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CapCockpit_Construction_2.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="128" ScreenWidth="3" ScreenHeight="1" Script="TSS_Velocity" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Left" TextureResolution="256" ScreenWidth="6" ScreenHeight="5" Script="TSS_EnergyHydrogen" />
+                <ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_Center" TextureResolution="256" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
+                <ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Right" TextureResolution="256" ScreenWidth="6" ScreenHeight="5" Script="TSS_Gravity" />
+            </ScreenAreas>
+            <BlockPairName>CapCockpit</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <DeformationRatio>0.2</DeformationRatio>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>true</EnableShipControl>
+            <EnableBuilderCockpit>true</EnableBuilderCockpit>
+            <TargetLockingEnabled>true</TargetLockingEnabled>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <PrimarySound>BlockCockpitSm</PrimarySound>
+            <OxygenCapacity>60</OxygenCapacity>
+            <IsPressurized>true</IsPressurized>
+            <GetInSound>ShipSmCockpitIn</GetInSound>
+            <GetOutSound>ShipSmCockpitOut</GetOutSound>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <PCU>150</PCU>
+                <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>HoloLCDLarge</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HoloLCD</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HoloLCDLarge.dds</Icon>
+            <Description>Description_TransparentLCD</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+			<PlaceDecals>false</PlaceDecals>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\HoloLCD.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="Construction" Count="6" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="Construction" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+            </MountPoints>
+            <BlockPairName>HoloLCD</BlockPairName>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HoloLCD_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HoloLCD_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\HoloLCD_Construction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="TransparentScreenArea90" DisplayName="TransparentScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="TransparentScreenArea180" DisplayName="TransparentScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="TransparentScreenArea270" DisplayName="TransparentScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+            <MaterialNamesToHideWhenOffline>
+                <string>HoloScreen</string>
+                <string>TransparentScreenArea_Outside</string>
+            </MaterialNamesToHideWhenOffline>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00002</RequiredPowerInput>
+            <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+            <DamageEffectName>Damage_Electrical_Damaged_HoloLCD</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>HoloLCDSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HoloLCD</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HoloLCD_Small.dds</Icon>
+            <Description>Description_TransparentLCD</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+			<PlaceDecals>false</PlaceDecals>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Small\HoloLCD_Small.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="Construction" Count="3" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="Construction" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.1" StartY="0.8" EndX="0.9" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0.1" StartY="0.8" EndX="0.9" EndY="1" />
+            </MountPoints>
+            <BlockPairName>HoloLCD</BlockPairName>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\HoloLCD_Small_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HoloLCD_Small_Construction_2.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="TransparentScreenArea90" DisplayName="TransparentScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="TransparentScreenArea180" DisplayName="TransparentScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="TransparentScreenArea270" DisplayName="TransparentScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+            <MaterialNamesToHideWhenOffline>
+                <string>HoloScreen</string>
+                <string>TransparentScreenArea_Outside</string>
+            </MaterialNamesToHideWhenOffline>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00002</RequiredPowerInput>
+            <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
+            <DamageEffectName>Damage_Electrical_Damaged_SmallHoloLCD</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <IsStandAlone>false</IsStandAlone>
+            <IsAirTight>false</IsAirTight>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+
+        <Definition xsi:type="MyObjectBuilder_MedicalRoomDefinition">
+            <Id>
+                <TypeId>MedicalRoom</TypeId>
+                <SubtypeId>LargeMedicalRoomReskin</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_MedicalRoomReskin</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MedicalRoomReskin.dds</Icon>
+            <Description>Description_MedicalRoom</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="2" />
+            <Center x="1" y="0" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\MedicalRoomReskin.mwm</Model>
+            <IdleSound>BlockMedical</IdleSound>
+            <ProgressSound>BlockMedicalProgress</ProgressSound>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="220" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="MetalGrid" Count="60" />
+                <Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="LargeTube" Count="5" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="Medical" Count="15" />
+                <Component Subtype="InteriorPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Medical" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="0.5" />
+                <MountPoint Side="Top" StartX="1.5" StartY="0.5" EndX="2" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1.5" EndX="2" EndY="2" Default="true" />
+                <MountPoint Side="Bottom" StartX="1.5" StartY="0" EndX="2" EndY="1.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="1.5" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MedicalRoomReskin_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MedicalRoomReskin_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MedicalRoomReskin_Construction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" />
+            </ScreenAreas>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.14</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.14</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>MedicalRoomReskin</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>50</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<WardrobeCharacterOffset x="-1.65" y="-0.9" z="-0.6" />
+            <PCU>30</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeBlockInsetAquarium</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetAquarium</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Inset_Aquarium.dds</Icon>
+            <Description>Description_Aquarium</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Inset_Aquarium.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="GravityGenerator" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Inset_Aquarium_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Inset_Aquarium_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Inset_Aquarium_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>InsetAquarium</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <LightRadius Min="1" Max="3" Default="1.5" />
+            <LightFalloff Min="0" Max="3" Default="1" />
+            <LightIntensity Min="0.5" Max="5" Default="3" />
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <Flare>TrussLight</Flare>
+            <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockHalfBed</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HalfBed</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HalfBedBlock.dds</Icon>
+            <Description>Description_Bed</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\HalfBlockBed.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <CharacterAnimation>Bed_Laying_Pose</CharacterAnimation>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="14" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="6" />
+                <Component Subtype="Display" Count="3" />
+                <Component Subtype="Construction" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+			</MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfBlockBed_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfBlockBed_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfBlockBed_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>HalfBed</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <OxygenCapacity>1</OxygenCapacity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+            <EmissiveColorPreset>UnpoweredOccupancy</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockHalfBedOffset</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HalfBedOffset</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\OffsetHalfBedBlock.dds</Icon>
+            <Description>Description_Bed</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\HalfBlockBedOffset.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <CharacterAnimation>Bed_Laying_Pose</CharacterAnimation>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="14" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="6" />
+                <Component Subtype="Display" Count="3" />
+                <Component Subtype="Construction" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+                <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+                <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.15" />
+                <MountPoint Side="Right" StartX="0.00" StartY="0.85" EndX="1.0" EndY="1.00" />
+                <MountPoint Side="Right" StartX="0.00" StartY="0.15" EndX="0.10" EndY="0.85" />
+                <MountPoint Side="Right" StartX="0.90" StartY="0.15" EndX="1.00" EndY="0.85" />
+                <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+                <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+                <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Enabled="false" />
+			</MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HalfBlockBedOffset_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HalfBlockBedOffset_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HalfBlockBedOffset_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>HalfBedOffset</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <OxygenCapacity>1</OxygenCapacity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+            <EmissiveColorPreset>UnpoweredOccupancy</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>9</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>LargeFullBlockLCDPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_FullBlockLCD</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\FullBlockLCD.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\FullBlockLCD.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Computer" Count="6" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\FullBlockLCDConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\FullBlockLCDConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FullBlockLCDConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>FullBlockLCDPanel</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <GuiVisible>false</GuiVisible>
+            <ScreenWidth>5</ScreenWidth>
+            <ScreenHeight>3</ScreenHeight>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>SmallFullBlockLCDPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_FullBlockLCD</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\FullBlockLCD.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\FullBlockLCD.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Display" Count="3" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\FullBlockLCDConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\FullBlockLCDConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\FullBlockLCDConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>FullBlockLCDPanel</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <MaxScreenRenderDistance>10</MaxScreenRenderDistance>
+            <GuiVisible>false</GuiVisible>
+            <ScreenWidth>5</ScreenWidth>
+            <ScreenHeight>3</ScreenHeight>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00002</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+				
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>LargeDiagonalLCDPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DiagonalLCD</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DiagonalLCD.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\DiagonalLCD.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Computer" Count="6" />
+                <Component Subtype="Construction" Count="5" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\DiagonalLCDConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DiagonalLCDConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DiagonalLCDConstruction3.mwm" />
+            </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+			</MountPoints>
+            <BlockPairName>DiagonalLCDPanel</BlockPairName>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>HalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <GuiVisible>false</GuiVisible>
+            <ScreenWidth>5</ScreenWidth>
+            <ScreenHeight>3</ScreenHeight>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>SmallDiagonalLCDPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DiagonalLCD</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\DiagonalLCD.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\DiagonalLCD.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Display" Count="3" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\DiagonalLCDConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\DiagonalLCDConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DiagonalLCDConstruction3.mwm" />
+            </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+			</MountPoints>
+            <BlockPairName>DiagonalLCDPanel</BlockPairName>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>HalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+            <GuiVisible>false</GuiVisible>
+            <ScreenWidth>5</ScreenWidth>
+            <ScreenHeight>3</ScreenHeight>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00002</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+ 
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>LargeCurvedLCDPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CurvedLCDPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CurvedLCD.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CurvedLCD.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Computer" Count="6" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CurvedLCDConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CurvedLCDConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CurvedLCDConstruction3.mwm" />
+            </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+			</MountPoints>
+            <BlockPairName>CurvedLCDPanel</BlockPairName>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>HalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <GuiVisible>false</GuiVisible>
+            <ScreenWidth>5</ScreenWidth>
+            <ScreenHeight>3</ScreenHeight>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>SmallCurvedLCDPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CurvedLCDPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CurvedLCD.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\CurvedLCD.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Display" Count="3" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\CurvedLCDConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\CurvedLCDConstruction2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CurvedLCDConstruction3.mwm" />
+            </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="0.50" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+			</MountPoints>
+            <BlockPairName>CurvedLCDPanel</BlockPairName>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringY>ZHalfY</MirroringY>
+			<MirroringZ>HalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
+            <GuiVisible>false</GuiVisible>
+            <ScreenWidth>5</ScreenWidth>
+            <ScreenHeight>3</ScreenHeight>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+            </ScreenAreas>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00002</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>50</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+	
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Truss</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Truss</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Truss.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="20" />
+				<Component Subtype="SmallTube" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Truss</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Truss</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussSmall.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\Truss.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="2" />
+				<Component Subtype="SmallTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Truss</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussSloped</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussSloped</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussCornerLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussCorner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="10" />
+                <Component Subtype="SmallTube" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+                <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussCornerConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussSloped</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussSlopedSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussSloped</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussCornerSmall.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\TrussCorner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="SmallTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0.5" EndX="0.5" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussCornerConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussSloped</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussAngled</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussAngled</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussAngledLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussAngled.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="20" />
+				<Component Subtype="SmallTube" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussAngledConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussAngled</BlockPairName>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussAngledSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussAngled</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussAngledSmall.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\TrussAngled.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="2" />
+				<Component Subtype="SmallTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussAngledConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussAngled</BlockPairName>
+            <MirroringX>HalfY</MirroringX>
+            <MirroringY>XHalfY</MirroringY>
+            <MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussHalf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussHalfLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussHalf.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="10" />
+				<Component Subtype="SmallTube" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1"/>
+				<MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.03" StartY="0.5" EndX="0.97" EndY="0.54"/>
+				<MountPoint Side="Top" StartX="0" StartY="0.5" EndX="0.03" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.97" StartY="0.5" EndX="1" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.03" StartY="0.96" EndX="0.97" EndY="1"/>
+				<MountPoint Side="Bottom" StartX="0.97" StartY="0" EndX="1" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.03" StartY="0" EndX="0.97" EndY="0.04"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.03" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0.03" StartY="0.46" EndX="0.97" EndY="0.5"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussHalfConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussHalf</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussHalfSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussHalfSmall.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\TrussHalf.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+				<Component Subtype="SmallTube" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5"/>
+				<MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1"/>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TrussHalfConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussHalf</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>3</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloor.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="30" />
+                <Component Subtype="Construction" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloor</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorAngled</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorAngled</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorAngledLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorAngled.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="30" />
+                <Component Subtype="Construction" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorAngledConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorAngled</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorAngledInverted</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorAngledInverted</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorAngledInvLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorAngledInverted.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="30" />
+                <Component Subtype="Construction" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1"/>
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorAngledInvertedConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorAngledInverted</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>TrussFloorHalf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussFloorHalf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussFloorHalfLarge.dds</Icon>
+            <Description>Description_Truss</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\TrussFloorHalf.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="12" />
+                <Component Subtype="Construction" Count="8" />
+				<Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="Construction" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.50" EndY="1" />
+				<MountPoint Side="Right" StartX="0.50" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.50" Default="true" />
+				<MountPoint Side="Top" StartX="0.97" StartY="0.54" EndX="1" EndY="0.96" />
+				<MountPoint Side="Top" StartX="0" StartY="0.96" EndX="1" EndY="1" />
+				<MountPoint Side="Top" StartX="0" StartY="0.50" EndX="1" EndY="0.54" />
+				<MountPoint Side="Top" StartX="0" StartY="0.54" EndX="0.03" EndY="0.96" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TrussFloorHalfConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussFloorHalf</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <PCU>1</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>Ladder2</TypeId>
+                <SubtypeId>TrussLadder</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_TrussLadder</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\TrussLadder.dds</Icon>
+            <Description>Description_Ladder</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </Size>
+            <ModelOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+            </ModelOffset>
+            <Model>Models\Cubes\large\TrussLadder.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <Components>
+                <Component Subtype="Girder" Count="20" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="SmallTube" Count="30" />
+				<Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.44" Default="true" />
+				<MountPoint Side="Bottom" StartX="0.27" StartY="0.92" EndX="0.73" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0.73" StartY="0.44" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="0" StartY="0.44" EndX="0.27" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Top" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Top" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Left" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Left" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Right" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Right" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Right" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Back" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Back" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+				<MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+				<MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+				<MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\TrussLadderConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>TrussLadder</BlockPairName>
+            <ExcludedAreaForCamera>
+                <BoundingBox>
+                    <Min>
+                        <X>-0.6</X>
+                        <Y>-1.3</Y>
+                        <Z>-1.3</Z>
+                    </Min>
+                    <Max>
+                        <X>0.6</X>
+                        <Y>-1.1</Y>
+                        <Z>-0.75</Z>
+                    </Max>
+                </BoundingBox>
+                <BoundingBox>
+                    <Min>
+                        <X>-0.6</X>
+                        <Y>1.1</Y>
+                        <Z>-1.3</Z>
+                    </Min>
+                    <Max>
+                        <X>0.6</X>
+                        <Y>1.3</Y>
+                        <Z>-0.75</Z>
+                    </Max>
+                </BoundingBox>
+            </ExcludedAreaForCamera>
+            <CenterOffset xsi:nil="true" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+			<IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>TerminalBlock</TypeId>
+                <SubtypeId>LargeCrate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Crate</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Crate01.dds</Icon>
+            <Description>Description_CrateBlock</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Crate01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="SmallTube" Count="8" />
+                <Component Subtype="Motor" Count="4" />
+				<Component Subtype="Construction" Count="24" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.5" Default="true" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.1" EndX="0.95" EndY="0.4" />
+				<MountPoint Side="Left" StartX="0.05" StartY="0.1" EndX="0.5" EndY="0.4" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.4" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\Crate01Construction_1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Crate01Construction_2.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Crate</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <EnableUseObjectSimpleTargeting>true</EnableUseObjectSimpleTargeting>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Barrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01_Large.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.3" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="0.9" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01_Large_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01_Large_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Barrel</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>SmallBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Barrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="2" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Small\Barrel01.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="1.9" EndY="1.9" Default="true" />
+                <MountPoint Side="Front" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+                <MountPoint Side="Back" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+                <MountPoint Side="Left" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+				<MountPoint Side="Right" StartX="0.8" StartY="0" EndX="1.2" EndY="2.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Barrel01_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Barrel01_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Barrel01_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>Barrel</BlockPairName>
+            <MirroringY>XHalfY</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>8</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrelThree</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarrelThree</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Three.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01Three.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="12" />
+				<Component Subtype="LargeTube" Count="3" />
+                <Component Subtype="Construction" Count="18" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+				<MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.0" EndY="0.6" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.6" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.3" StartY="0" EndX="0.9" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01Three_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01Three_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01Three_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>BarrelThree</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBarrelStack</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_BarrelStack</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Stack.dds</Icon>
+            <Description>Description_Freight</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\Barrel01Stack.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+				<Component Subtype="LargeTube" Count="10" />
+				<Component Subtype="MetalGrid" Count="4" />
+				<Component Subtype="Girder" Count="8" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+				<MountPoint Side="Front" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+				<MountPoint Side="Front" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0.1" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0" EndX="0.9" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.1" />
+				<MountPoint Side="Top" StartX="0" StartY="0" EndX="0.4" EndY="0.4" />
+				<MountPoint Side="Top" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" />
+				<MountPoint Side="Top" StartX="0" StartY="0.6" EndX="0.4" EndY="1.0" />
+				<MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="1.0" EndY="1.0" />
+				<MountPoint Side="Top" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01Stack_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01Stack_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01Stack_Construction_3.mwm" />
+            </BuildProgressModels>
+			<BlockPairName>BarrelStack</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>22</BuildTimeSeconds>
+            <PCU>10</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+	
+        <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+            <Id>
+                <TypeId>Warhead</TypeId>
+                <SubtypeId>LargeExplosiveBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ExplosiveBarrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
+            <Description>Description_ExplosiveBarrel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Barrel01ExplosiveLarge.mwm</Model>
+            <Components>		
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+				<Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="Explosives" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Explosives" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0.6" StartY="0" EndX="1.0" EndY="0.4" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.4" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.6" StartY="0" EndX="1.0" EndY="0.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Barrel01_Large_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Barrel01ExplosiveLarge_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Barrel01ExplosiveLarge_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ExplosiveBarrel</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <ActionSound>WepLrgWarheadExpl</ActionSound>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <ExplosionRadius> 4.4883 </ExplosionRadius>
+            <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+            <EmissiveColorPreset>Timer</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>100</PCU>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+		
+        <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+            <Id>
+                <TypeId>Warhead</TypeId>
+                <SubtypeId>SmallExplosiveBarrel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ExplosiveBarrel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Barrel01Explosive.dds</Icon>
+            <Description>Description_ExplosiveBarrel</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\Barrel01Explosive.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+				<Component Subtype="LargeTube" Count="1" />
+                <Component Subtype="Construction" Count="6" />
+				<Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="Explosives" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Explosives" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2.0" EndY="2.0" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="2.0" EndY="2.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Barrel01_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Barrel01Explosive_Construction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Barrel01Explosive_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ExplosiveBarrel</BlockPairName>
+            <MirroringY>XHalfY</MirroringY>
+            <ActionSound>WepLrgWarheadExpl</ActionSound>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <ExplosionRadius> 4.4883 </ExplosionRadius>
+            <WarheadExplosionDamage>15000</WarheadExplosionDamage>
+            <EmissiveColorPreset>Timer</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>100</PCU>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <IsAirTight>false</IsAirTight>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+	
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockInsetPlantCouch</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetPlantCouch</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Inset_PlantCouch.dds</Icon>
+            <Description>Description_Couch</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\Inset_PlantCouch.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="0.1" EndY="0.8" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0.1" EndX="1" EndY="0.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Inset_PlantCouch_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Inset_PlantCouch_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Inset_PlantCouch_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>Inset_PlantCouch</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+        
+            <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+            <Id>
+                <TypeId>CryoChamber</TypeId>
+                <SubtypeId>LargeBlockInsetBed</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetBed</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InsetBed.dds</Icon>
+            <Description>Description_Bed</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InsetBed.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <CharacterAnimation>Normal_Bed_Laying_Pose</CharacterAnimation>
+            <!-- Random animation poses support
+                <CharacterAnimations>
+                    <DefaultAnimations>
+                        <string>Normal_Bed_Laying_Pose</string>
+                        <string>Bed_Laying_Pose</string>
+                    </DefaultAnimations>
+                    <MaleAnimations>
+                        <string>Normal_Bed_Laying_Pose</string>
+                        <string>Bed_Laying_Pose</string>
+                    </MaleAnimations>
+                    <FemaleAnimations>
+                        <string>Normal_Bed_Laying_Pose</string>
+                        <string>Bed_Laying_Pose</string>
+                    </FemaleAnimations>
+                </CharacterAnimations>
+            -->
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="8" />
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.2" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.95" StartY="0.2" EndX="1" EndY="0.8" />
+                <MountPoint Side="Front" StartX="0" StartY="0.2" EndX="0.05" EndY="0.8" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InsetBedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InsetBedConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InsetBedConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.15</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>InsetBed</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <OxygenCapacity>1</OxygenCapacity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+            <EmissiveColorPreset>UnpoweredOccupancy</EmissiveColorPreset>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
+            <Id>
+                <TypeId>ButtonPanel</TypeId>
+                <SubtypeId>LargeBlockInsetButtonPanel</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetButtonPanel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorButtonPanel.dds</Icon>
+            <Description>Description_ButtonPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\InteriorButtonPanel.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorButtonPanelConstruction1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorButtonPanelConstruction2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorButtonPanelConstruction3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>InsetButtonPanel</BlockPairName>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Left" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" />
+                <ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_Right" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" />
+            </ScreenAreas>
+            <EdgeType>Light</EdgeType>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <ButtonCount>3</ButtonCount>
+            <ButtonSymbols>
+                <string>Textures\GUI\Icons\buttons\OneButton.dds</string>
+            </ButtonSymbols>
+            <UnassignedButtonColor>
+                <X>0.34</X>
+                <Y>0.34</Y>
+                <Z>0.34</Z>
+                <W>0</W>
+            </UnassignedButtonColor>
+            <ButtonColors>
+                <Vector4>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>0.3</Z>
+                    <W>1</W>
+                </Vector4>
+                <Vector4>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>0.3</Z>
+                    <W>1</W>
+                </Vector4>
+                <Vector4>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>0.3</Z>
+                    <W>1</W>
+                </Vector4>
+            </ButtonColors>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>75</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_JukeboxDefinition">
+            <Id>
+                <TypeId>Jukebox</TypeId>
+                <SubtypeId>LargeBlockInsetEntertainmentCorner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetEntertainmentCorner</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\EntertainmentCorner.dds</Icon>
+            <Description>Description_Jukebox</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <GuiVisible>false</GuiVisible>
+            <Model>Models\Cubes\Large\EntertainmentCorner.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="Display" Count="8" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0.1" EndX="0.1" EndY="0.8" />
+                <MountPoint Side="Front" StartX="0.9" StartY="0.1" EndX="1" EndY="0.8" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="1024" ScreenWidth="15" ScreenHeight="9" Script="TSS_Jukebox"/>
+            </ScreenAreas>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\EntertainmentCornerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\EntertainmentCornerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\EntertainmentCornerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>InsetEntertainmentCorner</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>25</PCU>
+            <RequiredPowerInput>0.02</RequiredPowerInput>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockInsetBookshelf</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetBookshelf</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorBookshelf.dds</Icon>
+            <Description>Description_Lockers</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InteriorBookshelf.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorBookshelfConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorBookshelfConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorBookshelfConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>InsetBookshelf</BlockPairName>
+            <MirroringZ>YHalfY</MirroringZ>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringX>MinusHalfY</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <EmissiveColorPreset>Basic</EmissiveColorPreset>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <IsAirTight>true</IsAirTight>
+            <PCU>10</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+            <Id>
+                <TypeId>InteriorLight</TypeId>
+                <SubtypeId>LargeBlockInsetKitchen</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_InsetKitchen</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InteriorKitchen.dds</Icon>
+            <Description>Description_Kitchen</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1"></Size>
+            <ModelOffset x="0" y="0" z="0"></ModelOffset>
+            <Model>Models\Cubes\Large\InteriorKitchen.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="30" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="LargeTube" Count="8" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="BulletproofGlass" Count="6" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.3" />
+                <MountPoint Side="Right" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.3" />
+                <MountPoint Side="Front" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorKitchenConstruction_1.mwm"></Model>
+                <Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\InteriorKitchenConstruction_2.mwm"></Model>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorKitchenConstruction_3.mwm"></Model>
+            </BuildProgressModels>
+            <BlockPairName>InsetKitchen</BlockPairName>
+            <MirroringZ>YHalfY</MirroringZ>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringX>MinusHalfY</MirroringX>
+            <EdgeType>Light</EdgeType>
+            <PointLightEmissiveMaterial>LightPanel_Light</PointLightEmissiveMaterial>
+            <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <LightRadius Min="1" Max="3" Default="1.5"></LightRadius>
+            <LightFalloff Min="0" Max="3" Default="1.3"></LightFalloff>
+            <LightIntensity Min="0.5" Max="10" Default="3"></LightIntensity>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00006</RequiredPowerInput>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <IsAirTight>true</IsAirTight>
+            <PCU>25</PCU>
+            <DLC>DecorativeBlocks3</DLC>
+        </Definition>     
+    
+    </CubeBlocks>
+</Definitions>
