@@ -18,22 +18,22 @@
 - 🕹️ ***Installation***:
 
 
-1 - C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64
-2 - rename "steam_api64.dll" to "steam_api64_o.dll" ("o", not zero)
-3 - then place 2 files in the game folder
+1 - C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64  
+2 - rename "steam_api64.dll" to "steam_api64_o.dll" ("o", not zero)  
+3 - then place 2 files in the game folder  
 4 - play.
 
-to go back:
+to go back:  
 1- delete the 2 added files and rename the file back "steam_api64_o.dll" to "steam_api64.dll".
 
-In this archive:
-- cream_api.ini : the config file
-- steam_api64.dll : the creamapi file
-- steam_api64_o.dll : the original "steam_api64.dll" but renamed (creamapi NEED it)
+In this archive:  
+- cream_api.ini : the config file  
+- steam_api64.dll : the creamapi file  
+- steam_api64_o.dll : the original "steam_api64.dll" but renamed (creamapi NEED it)  
 - backup\steam_api64.dll : just the original file NOT renamed, so you can just delete the other 3 and restore this one.
 
-
-  - Copy just the **"Content"** folder to the game directory, confirming file replacement:  
+<!-- 
+   - Copy just the **"Content"** folder to the game directory, confirming file replacement:  
 *from zip archive* -> "DLC Unlocker/**`Content`**"  
 *to game (example)* -> "C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\ "  
 
@@ -42,7 +42,7 @@ In this archive:
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-<!-- - ⚠️ ***Troubleshooting***:
+- ⚠️ ***Troubleshooting***:
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
     Only the chosen `"Content"` folder must be placed inside the game folder:
