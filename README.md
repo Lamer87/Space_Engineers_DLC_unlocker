@@ -1,5 +1,5 @@
 ## 🚧 The good old unlocking method doesn't seem to work anymore! ❗
-## I'm investigating...
+## I'm investigating, you can check [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/36)...
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
