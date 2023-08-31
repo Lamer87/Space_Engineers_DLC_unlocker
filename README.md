@@ -1,18 +1,34 @@
 ## 🚧 The good old unlocking method doesn't seem to work anymore! ❗
 ## I will create a guide soon, for now check [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/36)...
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
-### Now using CreamAPI, the old method doesn't work anymore.
+### 🍦 Now using CreamAPI, the old method doesn't work anymore.
 
 ---
->[💾 Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip), or click the green **`Code`** button then **`Download ZIP`**
+>[💾 NOT WORKING PLEASE WAIT - Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip), or click the green **`Code`** button then **`Download ZIP`**
 
 ---
 - 🕹️ ***Installation***:
+
+
+1 - C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64
+2 - rename "steam_api64.dll" to "steam_api64_o.dll" ("o", not zero)
+3 - then place 2 files in the game folder
+4 - play.
+
+to go back:
+1- delete the 2 added files and rename the file back "steam_api64_o.dll" to "steam_api64.dll".
+
+In this archive:
+- cream_api.ini : the config file
+- steam_api64.dll : the creamapi file
+- steam_api64_o.dll : the original "steam_api64.dll" but renamed (creamapi NEED it)
+- backup\steam_api64.dll : just the original file NOT renamed, so you can just delete the other 3 and restore this one.
+
 
   - Copy just the **"Content"** folder to the game directory, confirming file replacement:  
 *from zip archive* -> "DLC Unlocker/**`Content`**"  
@@ -23,7 +39,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- ⚠️ ***Troubleshooting***:
+<!-- - ⚠️ ***Troubleshooting***:
 
   - If pasting the folder doesn't prompt you to replace files, you did something wrong:  
     Only the chosen `"Content"` folder must be placed inside the game folder:
@@ -38,7 +54,7 @@
     Some game mechanics has been changed and sadly there is no way to fix this issue.  
 
   - If a block is locked by dlc, it is due to some mod that modifies it, making it appear protected by a dlc.  
-    For example: using "Cockpits Re-Animated"<!--(https://steamcommunity.com/sharedfiles/filedetails/?id=2900331965)--> you will have Industrial Cockpit locked by dlc.  
+    For example: using "Cockpits Re-Animated" you will have Industrial Cockpit locked by dlc.  
     You can disable this kind of mods and play without them,  
      <details><summary>or you can just edit them, click here to show how.</summary><p>
 
@@ -119,14 +135,14 @@
     - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
+ -->
 ---
 ###
 - 📌 Other dlc unlockers that uses old method:
 
-  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v 1.202] use **"Code + Download zip"**, not "Releases" on the right
-  - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v 1.201]
-  - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [for v 1.200]
+  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] use **"Code + Download zip"**, not "Releases" on the right
+  - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v1.201]
+  - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [for v1.200]
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -147,7 +163,7 @@
 
 
 
-
+<!-- -->
 <!-- _ -->
 <!-- Useless code to use occasionally:
 
@@ -164,9 +180,8 @@
 img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
-💡
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-✔️ use **"Code + Download zip"** — ⚠️ do NOT use "Releases" on the right ❗
+✔️⚠️❗💡
 -->
