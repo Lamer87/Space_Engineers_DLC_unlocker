@@ -28,35 +28,11 @@ I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker v
   - `steam_api64.dll` : the creamapi file
   - `steam_api64_o.dll` : the original "steam_api64.dll" but renamed (creamapi NEED it)
   - `backup\steam_api64.dll` : just the original file NOT renamed, if you want to easy restore all to default.
+<!--   - `Backup\CreamAPI\steam_api64.dll` : a backup of the creamapi dll
+  - `Backup\Original\steam_api64.dll` : a backup of the original dll
+  - `CreamAPI_Checker` : the file you need to check if a game update occour, and restore creamapi
+  - `CreamAPI_Remover` : the file you need to easy remove creamapi -->
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
----
-- 💡 ***How to restore all to default***:
-  - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - Delete "cream_api.ini", "steam_api64.dll" and "steam_api64_o.dll"
-  - Open "backup" folder and move "steam_api64.dll" back to "Bin64" folder
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
----
-
-- 🔄 ***If a game patch breaks the unlocker***:
-
-If on the main menù of the game you notice that DLCs has disappeared,  
-it means that the latest patch replaced the "steam_api64.dll" file with an updated one so,  
-wait for a new version of this unlocker or just follow the steps below.  
-
-Please pay attention to the difference between "steam_api64.dll" and "steam_api64 **_o** .dll"
-
-  - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - Copy "steam_api64.dll" to the `Bin64\backup` folder, overwrithing the old one
-  - Delete "steam_api64_o.dll"
-  - Rename "steam_api64.dll" to "steam_api64_o.dll"
-  - Open the CreamAPI archive and unzip only "steam_api64.dll" into "Bin64" folder.
-  - Now you must see the dlcs in the main menù.
-
-If the game does not start or you can't see dlcs in the main menù after this,  
-see the "Troubleshooting" section below on how to check files from steam and wait for an update.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
@@ -89,6 +65,42 @@ see the "Troubleshooting" section below on how to check files from steam and wai
     ————————————————————————————————————————  
 
     </p></details>
+
+<!--  - new troubleshoting here for cmd:
+what if...
+i updated the game or steam auto update,
+all dlc are locked now,
+if i want to remove creamapi
+remove creamapi after update -->
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+---
+
+- 💡 ***How to restore all to default***<!-- (you can use the remover) -->:
+  - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
+  - Delete "cream_api.ini", "steam_api64.dll" and "steam_api64_o.dll"
+  - Open "backup" folder and move "steam_api64.dll" back to "Bin64" folder
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+- 🔄 ***If a game patch breaks the unlocker***<!-- (you can use the checker) -->:
+
+If on the main menù of the game you notice that DLCs has disappeared,  
+it means that the latest patch replaced the "steam_api64.dll" file with an updated one so,  
+wait for a new version of this unlocker or just follow the steps below.  
+
+Please pay attention to the difference between "steam_api64.dll" and "steam_api64 **_o** .dll"
+
+  - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
+  - Copy "steam_api64.dll" to the `Bin64\backup` folder, overwrithing the old one
+  - Delete "steam_api64_o.dll"
+  - Rename "steam_api64.dll" to "steam_api64_o.dll"
+  - Open the CreamAPI archive and unzip only "steam_api64.dll" into "Bin64" folder.
+  - Now you must see the dlcs in the main menù.
+
+If the game does not start or you can't see dlcs in the main menù after this,  
+see the "Troubleshooting" section below on how to check files from steam and wait for an update.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
