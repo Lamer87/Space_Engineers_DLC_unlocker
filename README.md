@@ -1,20 +1,13 @@
-## 🚧 The good old unlocking method doesn't seem to work anymore! ❗
-## I will create a guide soon, for now check [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/36)...
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
-
-
-# 🚧 WORK IN PROGRESS 🚧
-
 ---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
 ### 🍦 Now using CreamAPI.
 
-### The old .sbc file method no longer works, a different modification is now required.
+### ❗ The old .sbc file method no longer works, a different modification is now required ❗
 
 ---
->[💾 NOT WORKING PLEASE WAIT - Click HERE to download](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip), or click the green **`Code`** button then **`Download ZIP`**
+>[💾 Click HERE to download](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->
 
 ---
 - 🕹️ ***Installation***:
@@ -29,7 +22,7 @@
   - `cream_api.ini` : the config file
   - `steam_api64.dll` : the creamapi file
   - `steam_api64_o.dll` : the original "steam_api64.dll" but renamed (creamapi NEED it)
-  - `backup\steam_api64.dll` : just the original file NOT renamed, if you want to restore all to default.
+  - `backup\steam_api64.dll` : just the original file NOT renamed, if you want to easy restore all to default.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -42,8 +35,8 @@
 ---
 - 🔄 ***If a patch breaks the unlocker***:
 
-If on the main menù of the game you notice that the DLC has disappeared,  
-it means the latest patch replaced the "steam_api64.dll" file whit an updated one so,  
+If on the main menù of the game you notice that DLCs has disappeared,  
+it means that the latest patch replaced the "steam_api64.dll" file whit an updated one so,  
 wait for a new version of this unlocker or just follow the steps below.  
 
 (please pay attention to the difference between "steam_api64.dll" and "steam_api64_o.dll")
@@ -124,7 +117,7 @@ see the "Troubleshooting" section on how to check files from steam and wait for 
 
 ---
 
-- 📌 Other dlc unlockers that uses the old method (Automatons 1.202 and before):
+- 📌 Other dlc unlockers that uses the old method, for older game versions (Automatons 1.202 and before):
 
   - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] use "Code + Download zip", not "Releases" on the right
   - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v1.201]
@@ -167,5 +160,5 @@ img download button:
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-✔️⚠️❗💡🔄
+✔️⚠️❗💡🔄🍦🛞🕹️📇🧰🚧🇮🇹🧊📌📜
 -->
