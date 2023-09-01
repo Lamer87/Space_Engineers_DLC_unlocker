@@ -33,7 +33,9 @@
   - Open "backup" folder and move "steam_api64.dll" back to "Bin64" folder
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 ---
+
 - 🔄 ***If a game patch breaks the unlocker***:
 
 If on the main menù of the game you notice that DLCs has disappeared,  
