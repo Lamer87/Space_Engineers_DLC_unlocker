@@ -67,7 +67,10 @@ I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker v
     </p></details>
 
 <!--  - new troubleshoting here for cmd:
-what if...
+setted it to be used a prescindere dalla cartella del gioco
+se ci sono problemi, exec come admin
+
+what if:
 i updated the game or steam auto update,
 all dlc are locked now,
 if i want to remove creamapi
