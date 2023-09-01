@@ -12,7 +12,7 @@ I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker v
 
 ---
 >[💾 Click HERE to download v0.1](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->
-
+<!-- ❗❗❗PLEASE NOTE❗❗❗ if you are already using the v0.1, just restore the file from "backup" folder to "Bin64" **BEFORE** applying the v0.3, then delete the backup folder. -->
 ---
 - 🕹️ ***Installation***:
   - Download from above.
