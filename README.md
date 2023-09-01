@@ -78,7 +78,7 @@ see the "Troubleshooting" section below on how to check files from steam and wai
     - From Steam:  
 
       -Right click on Space Engineers, then Properties  
-      -select Local Files on the left, then Verify integrity of game files.
+      -Select "Local Files" on the left, then "Verify integrity of game files".
 
     ————————————————————————————————————————  
 
