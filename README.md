@@ -34,7 +34,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🔄 ***If a patch breaks the unlocker***:
+- 🔄 ***If a game patch breaks the unlocker***:
 
 If on the main menù of the game you notice that DLCs has disappeared,  
 it means that the latest patch replaced the "steam_api64.dll" file with an updated one so,  
