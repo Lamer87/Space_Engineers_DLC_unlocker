@@ -50,7 +50,7 @@ Please pay attention to the difference between "steam_api64.dll" and "steam_api6
   - Now you must see the dlcs in the main menù.
 
 If the game does not start or you can't see dlcs in the main menù after this,  
-see the "Troubleshooting" section on how to check files from steam and wait for an update.
+see the "Troubleshooting" section below on how to check files from steam and wait for an update.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
