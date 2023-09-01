@@ -45,7 +45,7 @@ wait for a new version of this unlocker or just follow the steps below.
   - Copy "steam_api64.dll" to the `Bin64\backup` folder, overwrithing the old one
   - Delete "steam_api64_o.dll"
   - Rename "steam_api64.dll" to "steam_api64_o.dll"
-  - Open the CreamAPI archive and unzip "steam_api64.dll" into "Bin64" folder.
+  - Open the CreamAPI archive and unzip only "steam_api64.dll" into "Bin64" folder.
   - Now you must see the dlcs in the main menù.
 
 If the game does not start or you can't see dlcs in the main menù after this,  
