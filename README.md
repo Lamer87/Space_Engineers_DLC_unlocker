@@ -7,7 +7,7 @@
 ### ❗ The old .sbc file method no longer works, a different modification is now required ❗
 
 ---
->[💾 Click HERE to download](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) it's a .zip file from Mega<!-- , or click the green **`Code`** button then **`Download ZIP`** -->
+>[💾 Click HERE to download](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a .zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->
 
 ---
 - 🕹️ ***Installation***:
