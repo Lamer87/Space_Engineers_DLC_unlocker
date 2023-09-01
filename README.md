@@ -129,7 +129,8 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🧊 If you want to play the **Frostbite Scenario**, you need some other files:
+- 🧊 If you want to play the **Frostbite Scenario**, you need some other files:  
+     (CreamAPI + these files = it definitely works)
 
   - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
