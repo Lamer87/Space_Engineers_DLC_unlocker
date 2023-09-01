@@ -4,7 +4,7 @@
 ### 🍦 Now using CreamAPI.
 
 ### ❗ The old .sbc file method no longer works, a different modification is now required ❗
-### Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info
+### 🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info
 
 ---
 >[💾 Click HERE to download](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a .zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->
