@@ -71,7 +71,7 @@ I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker v
 setted it to be used a prescindere dalla cartella del gioco
 se ci sono problemi, exec come admin
 rimuovere la cartella backup prima di applicare la nuova
-what does the checker do, and if an update is present
+what does the checker/installer do, and if an update is present
 what does the remover do, and if an update is present
 
 what if:
