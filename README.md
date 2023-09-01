@@ -16,9 +16,10 @@ I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker v
 ---
 - 🕹️ ***Installation***:
   - Download from above.
-  - Unzip all files and folder from the archive in this game folder,  
-    overwrithing one file (no worries, backup included):  
+  - Open your game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
+  - Unzip all files and folder from the archive in the game folder,  
+    overwrithing one file (no worries, backup included)
   - Play.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
