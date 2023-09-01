@@ -69,6 +69,7 @@ I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker v
 <!--  - new troubleshoting here for cmd:
 setted it to be used a prescindere dalla cartella del gioco
 se ci sono problemi, exec come admin
+rimuovere la cartella backup prima di applicare la nuova
 
 what if:
 i updated the game or steam auto update,
