@@ -8,6 +8,7 @@
 
 I'm working on a dos batch file (.cmd) to automate ALL the processes in case an update breaks the unlocker  
 and another one to remove creamapi and restore all to default :)
+I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker version" above.
 
 ---
 >[💾 Click HERE to download](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->
