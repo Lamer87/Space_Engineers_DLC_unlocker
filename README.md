@@ -12,7 +12,8 @@
 ---
 - 🕹️ ***Installation***:
   - Download from above.
-  - Unzip the archive in this folder, overwrithing one file (no worries, backup included):  
+  - Unzip all files and folder from the archive in this folder,
+    overwrithing one file (no worries, backup included):  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - Play.
 
