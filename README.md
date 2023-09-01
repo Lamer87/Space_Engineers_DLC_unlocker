@@ -19,7 +19,7 @@
 ---
 - 🕹️ ***Installation***:
   - Download from above.
-  - Unzip the files in this folder, overwrithing one file (no worries, backup included):  
+  - Unzip the archive in this folder, overwrithing one file (no worries, backup included):  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - Play.
 
@@ -39,15 +39,35 @@
   - Open "backup" folder and move "steam_api64.dll" back to "Bin64" folder
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+- 🔄 ***If a patch breaks the unlocker***:
+
+If on the main menù of the game you notice that the DLC has disappeared,  
+it means the latest patch replaced the "steam_api64.dll" file whit an updated one so,  
+wait for a new version of this unlocker or just follow the steps below.  
+
+(please pay attention to the difference between "steam_api64.dll" and "steam_api64_o.dll")
+
+  - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
+  - Copy "steam_api64.dll" to the `Bin64\backup` folder, overwrithing the old one
+  - Delete "steam_api64_o.dll"
+  - Rename "steam_api64.dll" to "steam_api64_o.dll"
+  - Open the CreamAPI archive and unzip "steam_api64.dll" into "Bin64" folder.
+  - Now you must see the dlcs in the main menù.
+
+If the game does not start or you can't see dlcs in the main menù after this,  
+see the "Troubleshooting" section on how to check files from steam and wait for an update.
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ---
 
 - ⚠️ ***Troubleshooting***:
 
-  - If your antivirus say something, make an exception for the steam_api64.dll.
-    (it's safe, but it's like a crack and software houses don't like it when you use their games for free)
+  - If your antivirus say something, make an exception for the steam_api64.dll.  
+    (it's safe, but it's like a crack and software houses don't like it when you play their games for free)
 
-  - If you are not sure and want to restore files via steam:  
+  - If you are not sure and want to restore default files via steam:  
     <details><summary>click here to show how.</summary><p>
 
     ————————————————————————————————————————  
@@ -86,6 +106,8 @@
     - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
     - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 ---
 
 - 🧰 ***What I did to set up CreamAPI***:
@@ -98,11 +120,13 @@
   - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
   - Started the game, all dlcs unlocked.
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 ---
 
 - 📌 Other dlc unlockers that uses the old method (Automatons 1.202 and before):
 
-  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] use **"Code + Download zip"**, not "Releases" on the right
+  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] use "Code + Download zip", not "Releases" on the right
   - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v1.201]
   - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [for v1.200]
 
@@ -129,10 +153,8 @@
 <!-- _ -->
 <!-- Useless code to use occasionally:
 
-# 🚧 UPDATING - PLEASE WAIT! 🤖
+# 🚧 UPDATING - PLEASE WAIT! 🔄
 # just few minutes and the unlocker is ready!
-# or take a look at the other unlockers here:
-## [Wref Unlocker](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker)
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
@@ -145,5 +167,5 @@ img download button:
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-✔️⚠️❗💡
+✔️⚠️❗💡🔄
 -->
