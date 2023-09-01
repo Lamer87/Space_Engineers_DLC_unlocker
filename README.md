@@ -40,7 +40,7 @@ If on the main menù of the game you notice that DLCs has disappeared,
 it means that the latest patch replaced the "steam_api64.dll" file with an updated one so,  
 wait for a new version of this unlocker or just follow the steps below.  
 
-(please pay attention to the difference between "steam_api64.dll" and "steam_api64_o.dll")
+Please pay attention to the difference between "steam_api64.dll" and "steam_api64**_o**.dll")
 
   - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - Copy "steam_api64.dll" to the `Bin64\backup` folder, overwrithing the old one
