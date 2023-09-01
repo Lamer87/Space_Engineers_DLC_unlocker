@@ -105,8 +105,8 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 ---
 
 - 🧰 ***What I did to set up CreamAPI***:
-  - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576)
-  - Checked out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc)
+  - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
+  - Checked out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc) (steamdb.info)
   - Edited the creamapi.ini file based on the game and its DLCs
   - Opened the folder:
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
