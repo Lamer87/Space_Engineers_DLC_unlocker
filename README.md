@@ -144,6 +144,16 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 
 ---
 
+-  ***Changelog***
+  - v0.1: first manual version.
+  - v0.2: automated version test (not released).
+  - v0.3: automated version with easy installation and support for new game patches.
+<!--  - v0.4: added a title and a parameter to a dos command in cmd files. -->
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+---
+
 - 🧊 If you want to play the **Frostbite Scenario**, you need some other files:  
 
   - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker) (+ my DLC unlocker = definitely works)
