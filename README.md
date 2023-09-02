@@ -8,7 +8,7 @@
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
 ### 🍦 Now using CreamAPI. Unlocker version: `v0.3`
 
-❗ The old .sbc file method no longer works, a different modification is now required ❗
+❗ The old .sbc file method no longer works, a different modification is now required ❗  
 🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info
 
 ---
