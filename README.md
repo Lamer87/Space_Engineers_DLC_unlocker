@@ -60,7 +60,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 
   - Installer `CreamAPI_Checker.cmd`:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
-    What does he do exactly? if CreamAPI is not yet present, so in the case of a new installation or  
+    What does he do exactly? if CreamAPI is not yet present in the case of a new installation or  
     after an update that replaces and updates the "steam_api64.dll" file,  
     it creates a backup of the new original file, and restores the functioning of CreamAPI.  
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
