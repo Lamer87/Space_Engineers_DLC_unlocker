@@ -69,7 +69,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
   - Remover `CreamAPI_Remover.cmd`:  
     The remover first checks if the game has undergone an update that has already replaced  
     the "steam_api64.dll" file or if CreamAPI is still present,  
-    then removes everything accordingly to restore the initial situation depending on that specific case.  
+    then removes everything accordingly to restore the initial situation depending on what specific case.  
 
   - Both the Installer and Remover were created to work regardless of the game path,  
     i.e. if you have the game on "C:", "E:", "Y:" etc. it works anyway.
