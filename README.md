@@ -6,7 +6,7 @@
 - 🔄 Game update proof! if it stops working, just run the checker!
 - 🚸 Newbies proof! now there is an installer/checker and a remover.
 - 🍦 Now using CreamAPI, the old method no longer works.  
-- 🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
+  🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
 
 ---
 <!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`** -->  
