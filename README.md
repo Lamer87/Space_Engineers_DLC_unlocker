@@ -48,15 +48,14 @@ then just follow the installation guide.
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the checker to restore CreamAPI.  
     If it detects that CreamAPI is present and ready, it does nothing.  
-    The installer was created to work regardless of the game path,  
-    for example if you have the game on "C:" or "D:" etc., it works anyway.
 
   - Remover `CreamAPI_Remover.cmd`:  
     The remover first checks if the game has undergone an update that has already replaced  
     the "steam_api64.dll" file or if CreamAPI is still present,  
     then removes everything accordingly to restore the initial situation depending on that specific case.  
-    The remover was created to work regardless of the game path,  
-    for example if you have the game on "C:" or "D:" etc., it works anyway.
+
+  - Both the Installer and Remover were created to work regardless of the path of the game,  
+    i.e. if you have the game on "C:" or "D:" etc., it works anyway.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
