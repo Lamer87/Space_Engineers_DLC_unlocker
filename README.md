@@ -25,6 +25,7 @@ then just follow the installation guide.
     Note: If the game is on "C:", you may need to run as admin (mouse right click, run as admin).
   - You can play.
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🗑️ ***Uninstall***:
   - Just run `CreamAPI_Remover.cmd` to delete all CreamAPI files.  
     Note: if the game has undergone an update don't worry, the remover knows it ;)
