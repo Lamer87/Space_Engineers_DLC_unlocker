@@ -9,9 +9,9 @@
 - 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller).
 
 ---
-<!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`** -->  
 >[💾 Click to download v0.3](https://mega.nz/file/7NgBEISQ#OEFa_XpR8l6kwdhhvBYGFQBcWTu8VfFFQIMoh3TB4hU) from Mega  
-
+<!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`**  
+Note: if you use the GitHub one, the files needed are inside a folder in the archive-->
 >❗❗❗ PLEASE NOTE ❗❗❗ if you are already using the v0.1 ❗❗❗  
 just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.3,  
 then just follow the installation guide.  
