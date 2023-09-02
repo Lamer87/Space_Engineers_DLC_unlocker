@@ -7,7 +7,7 @@
 - 🔄 Game updates proof! if it stops working, just run the checker!
 - 🍦 Now using CreamAPI, already set up for Space Engineers! The old method no longer works.  
   🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
-- 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) to build your own config.
+- 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller).
 
 ---
 <!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`** -->  
