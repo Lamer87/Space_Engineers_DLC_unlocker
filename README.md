@@ -21,7 +21,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
   - Download from above.
   - Open your "Bin64" game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - ❗ If you are using the v0.1 RESTORE the file inside "backup" folder to the "Bin64" game folder. ❗  
+  - ❗ If you are already using the v0.1 RESTORE the file inside "backup" folder to the "Bin64" game folder. ❗  
     ❗ if you don't do this, you will have to recheck all game files from steam. ❗
   - Unzip all files and the folder from the archive in the game "Bin64" folder,  
     if you're asked to overwrite, just do it.
