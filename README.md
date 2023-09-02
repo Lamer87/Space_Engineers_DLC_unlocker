@@ -50,6 +50,8 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
   - `CreamAPI_Checker.cmd` : install CreamAPI // check if a game update occur, and restore CreamAPI
   - `CreamAPI_Remover.cmd` : the file you need to easy remove CreamAPI and restore all to default
   - `Backup\CreamAPI\steam_api64.dll` : the CreamAPI file used by the installer
+  - `Backup\Original\` : an empty folder used by the installer for the original file backup
+  - `Backup\link` : a link to this page
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
