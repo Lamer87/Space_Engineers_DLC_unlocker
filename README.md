@@ -32,7 +32,7 @@ then just follow the installation guide.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 📇 ***Files in the archive v0.3***:
+- 📇 ***Files in the archive `v0.3`***:
   - `cream_api.ini` : the config file of CreamAPI
   - `steam_api64_o.dll` : an empty file in case of new installation, just to not show an error
   - `CreamAPI_Checker.cmd` : install CreamAPI // check if a game update occur, and restore CreamAPI
