@@ -44,7 +44,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-- 📂 ***Files and folders of the archive `v0.3`***:
+- 📂 ***Files and folders in the archive `v0.3`***:
   - `cream_api.ini` : the config file of CreamAPI
   - `steam_api64_o.dll` : an empty file in case of new installation, just to not show an error
   - `CreamAPI_Checker.cmd` : install CreamAPI // check if a game update occur, and restore CreamAPI
