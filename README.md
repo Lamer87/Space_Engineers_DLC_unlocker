@@ -6,10 +6,11 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
-### 🍦 Now using CreamAPI. Unlocker version: `v0.3`
 
-The old .sbc file method no longer works, a different modification is now required ❗  
-Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info 🔗
+- 🔄 Unlocker version: `v0.3`
+- 🍦 Now using CreamAPI.
+- ❗ The old .sbc file method no longer works, a different modification is now required.  
+  Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
 
 ---
 >[💾 The old version till updated guide done - Click HERE to download v0.1](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->  
