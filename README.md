@@ -1,8 +1,3 @@
-# 🚧 UPDATING - PLEASE WAIT! 🔄
-# just few minutes and new version and new guide are ready!
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
-
----
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
@@ -13,7 +8,7 @@
   Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
 
 ---
->[💾 The old version till updated guide done - Click HERE to download v0.1](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->  
+>[💾 Click HERE to download v0.3](https://mega.nz/file/7NgBEISQ#OEFa_XpR8l6kwdhhvBYGFQBcWTu8VfFFQIMoh3TB4hU) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->  
 ❗❗❗PLEASE NOTE❗❗❗ if you are already using the v0.1,  
 just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.3,  
 then just follow the installation guide.
@@ -188,7 +183,7 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 <!-- Useless code to use occasionally:
 
 # 🚧 UPDATING - PLEASE WAIT! 🔄
-# just few minutes and the unlocker is ready!
+# just few minutes and new version and new guide are ready!
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
