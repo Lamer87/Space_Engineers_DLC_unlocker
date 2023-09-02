@@ -9,8 +9,10 @@
   Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
 
 ---
->[💾 Click HERE to download v0.3](https://mega.nz/file/7NgBEISQ#OEFa_XpR8l6kwdhhvBYGFQBcWTu8VfFFQIMoh3TB4hU) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->  
-❗❗❗PLEASE NOTE❗❗❗ if you are already using the v0.1,  
+<!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`** -->  
+>[💾 Click to download v0.3](https://mega.nz/file/7NgBEISQ#OEFa_XpR8l6kwdhhvBYGFQBcWTu8VfFFQIMoh3TB4hU) from Mega  
+
+>❗❗❗PLEASE NOTE❗❗❗ if you are already using the v0.1,  
 just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.3,  
 then just follow the installation guide.
 ---
@@ -179,7 +181,6 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 
 
 <!-- -->
-<!-- _ -->
 <!-- Useless code to use occasionally:
 
 # 🚧 UPDATING - PLEASE WAIT! 🔄
