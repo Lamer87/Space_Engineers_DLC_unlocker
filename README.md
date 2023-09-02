@@ -1,39 +1,42 @@
+# 🚧 UPDATING - PLEASE WAIT! 🔄
+# just few minutes and new version and new guide are ready!
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
+---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
-### 🍦 Now using CreamAPI. Unlocker version: `v0.1`
+### 🍦 Now using CreamAPI. Unlocker version: `v0.3`
 
 ### ❗ The old .sbc file method no longer works, a different modification is now required ❗
 ### 🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info
 
-I'm working on a dos batch file (.cmd) to automate ALL the processes in case an update breaks the unlocker  
-and another one to remove creamapi and restore all to default :)  
-I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker version" above.
-
 ---
->[💾 Click HERE to download v0.1](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->
-<!-- ❗❗❗PLEASE NOTE❗❗❗ if you are already using the v0.1, just restore the file from "backup" folder to "Bin64" **BEFORE** applying the v0.3, then delete the backup folder. -->
+>[💾 The old version till updated guide done - Click HERE to download v0.1](https://mega.nz/file/TVRHWBKI#c26LrGLC9ECuTsPd2LuJsOrw9PVBIa0rmnYP8C7B0eA) (it's a zip file from Mega)<!-- , or click the green **`Code`** button then **`Download ZIP`** -->  
+❗❗❗PLEASE NOTE❗❗❗ if you are already using the v0.1,  
+just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.3,  
+then just follow the guide.
 ---
 - 🕹️ ***Installation***:
   - Download from above.
-  - Open your game folder, example:  
+  - Open your "Bin64" game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - Unzip all files and folder from the archive in the game folder,  
-    overwrithing one file (no worries, backup included)
-  - Play.
+  - ❗ If you are using the v0.1 RESTORE the file inside "backup" folder to the "Bin64" game folder. ❗  
+    ❗ if you don't do this, you will have to recheck all game files from steam. ❗
+  - Unzip all files and the folder from the archive in the game "Bin64" folder,  
+    if you're asked to overwrite, just do it.
+  - Run `CreamAPI_Checker.cmd` to install CreamAPI, it automatically makes necessary backup.  
+    Note: If the game is on "C:", you may need to run as admin (mouse right click, run as admin).
+  - You can play.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 📇 ***Files in the archive***:
-  - `cream_api.ini` : the config file
-  - `steam_api64.dll` : the creamapi file
-  - `steam_api64_o.dll` : the original "steam_api64.dll" but renamed (creamapi NEED it)
-  - `backup\steam_api64.dll` : just the original file NOT renamed, if you want to easy restore all to default.
-<!--   - `Backup\CreamAPI\steam_api64.dll` : a backup of the creamapi dll
-  - `Backup\Original\steam_api64.dll` : a backup of the original dll
-  - `CreamAPI_Checker` : the file you need to check if a game update occour, and restore creamapi
-  - `CreamAPI_Remover` : the file you need to easy remove creamapi -->
-
+- 📇 ***Files in the archive v0.3***:
+  - `cream_api.ini` : the config file of CreamAPI
+  - `steam_api64_o.dll` : an empty file in case of new installation, just to not show an error
+  - `CreamAPI_Checker.cmd` : install CreamAPI // check if a game update occur, and restore CreamAPI
+  - `CreamAPI_Remover.cmd` : the file you need to easy remove CreamAPI and restore all to default
+  - `Backup\CreamAPI\steam_api64.dll` : the CreamAPI file used by the installer
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
@@ -67,6 +70,15 @@ I'll release the v0.2 with those cmd tomorrow, just check the actual "Unlocker v
 
     </p></details>
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+---
+
+- 💡 ***How the new installer and remover work***:
+
+  - Installer:
+    
+
 <!--  - new troubleshoting here for cmd:
 setted it to be used a prescindere dalla cartella del gioco
 se ci sono problemi, exec come admin
@@ -80,18 +92,34 @@ all dlc are locked now,
 if i want to remove creamapi
 remove creamapi after update -->
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 
 ---
 
-- 💡 ***How to restore all to default***<!-- (you can use the remover) -->:
+- 📜 ***Notes***:
+
+  - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
+
+    - Unfortunately, skins and emotes cannot be unlocked.
+
+  - I will update the unlocker when needed.
+
+  - If you want to buy the game:
+    - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
+    - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+<!-- ---
+
+- 💡 ***How to restore all to default***:
   - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - Delete "cream_api.ini", "steam_api64.dll" and "steam_api64_o.dll"
   - Open "backup" folder and move "steam_api64.dll" back to "Bin64" folder
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🔄 ***If a game patch breaks the unlocker***<!-- (you can use the checker) -->:
+- 🔄 ***If a game patch breaks the unlocker***:
 
 If on the main menù of the game you notice that DLCs has disappeared,  
 it means that the latest patch replaced the "steam_api64.dll" file with an updated one so,  
@@ -110,23 +138,7 @@ If the game does not start or you can't see dlcs in the main menù after this,
 see the "Troubleshooting" section below on how to check files from steam and wait for an update.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
----
-
-- 📜 ***Notes***:
-
-  - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-
-    - Unfortunately, skins and emotes cannot be unlocked.
-
-  - I will update the unlocker when needed.
-
-  - If you want to buy the game:
-    - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
-    - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
+ -->
 ---
 
 - 🧰 ***What I did to set up CreamAPI***:
