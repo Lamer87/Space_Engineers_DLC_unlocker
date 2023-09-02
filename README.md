@@ -120,7 +120,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 
   - I will update the unlocker if needed, or right after a new DLC release.
 
-    -  A new dlc requires editing cream_api.ini to add the new dlc code.
+    -  A new dlc requires editing cream_api.ini to add the [new dlc code](https://steamdb.info/app/244850/dlc).
 
   - If you want to buy the game:
     - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
