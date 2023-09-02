@@ -47,7 +47,7 @@ then just follow the installation guide.
     it creates a backup of the new original file, and restores the functioning of CreamAPI.  
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the checker to restore CreamAPI.  
-    Anyway, if it detects that CreamAPI is already present, it does nothing.  
+    If it detects that CreamAPI is already present, it does nothing.  
     The installer was created to work regardless of the game path,  
     for example if you have the game on "C:" or "D:" etc., it works anyway.
 
