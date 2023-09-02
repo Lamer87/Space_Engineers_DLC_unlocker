@@ -125,35 +125,6 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ---
-<!-- ---
-
-- 💡 ***How to restore all to default***:
-  - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - Delete "cream_api.ini", "steam_api64.dll" and "steam_api64_o.dll"
-  - Open "backup" folder and move "steam_api64.dll" back to "Bin64" folder
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
----
-- 🔄 ***If a game patch breaks the unlocker***:
-
-If on the main menù of the game you notice that DLCs has disappeared,  
-it means that the latest patch replaced the "steam_api64.dll" file with an updated one so,  
-wait for a new version of this unlocker or just follow the steps below.  
-
-Please pay attention to the difference between "steam_api64.dll" and "steam_api64 **_o** .dll"
-
-  - Open `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - Copy "steam_api64.dll" to the `Bin64\backup` folder, overwrithing the old one
-  - Delete "steam_api64_o.dll"
-  - Rename "steam_api64.dll" to "steam_api64_o.dll"
-  - Open the CreamAPI archive and unzip only "steam_api64.dll" into "Bin64" folder.
-  - Now you must see the dlcs in the main menù.
-
-If the game does not start or you can't see dlcs in the main menù after this,  
-see the "Troubleshooting" section below on how to check files from steam and wait for an update.
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
- -->
 
 - 🧰 ***What I did to set up CreamAPI***:
   - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
@@ -193,7 +164,7 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 <!-- Useless code to use occasionally:
 
 # 🚧 UPDATING - PLEASE WAIT! 🔄
-# just few minutes and new version and new guide are ready!
+# just few minutes and the new version is ready!
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
@@ -206,5 +177,5 @@ img download button:
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-✔️⚠️❗💡🔄🔂🍦🛞🕹️📇📂🧰🚧🇮🇹🧊📌📜
+✔️⚠️❗💡🔄🔂🍦🛞🕹️📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸
 -->
