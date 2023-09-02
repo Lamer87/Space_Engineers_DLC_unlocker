@@ -81,14 +81,20 @@ then just follow the guide.
     What does he do exactly? if CreamAPI is not yet present, so in the case of a new installation or  
     after an update that replaces and updates the "steam_api64.dll" file,  
     it creates a backup of the new original file, and restores the functioning of CreamAPI.  
+    So, if the game gets updated, you don't even have to download a new version of the unlocker,  
+    just run the checker to restore CreamAPI.  
     Anyway, if it detects that CreamAPI is already present, it does nothing.  
-    The installer was created to work regardless of the path of the game,  
-    for example if you have the game on "C:" or "D:" etc., nothing changes.
+    The installer was created to work regardless of the game path,  
+    for example if you have the game on "C:" or "D:" etc., it works anyway.
 
   - Remover `CreamAPI_Remover.cmd`:
     The remover first checks if the game has undergone an update that has already replaced  
     the "steam_api64.dll" file or if CreamAPI is still present,  
     then removes everything accordingly to restore the initial situation depending on that specific case.
+    The remover was created to work regardless of the game path,  
+    for example if you have the game on "C:" or "D:" etc., it works anyway.
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ---
 
@@ -106,6 +112,7 @@ then just follow the guide.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
+---
 <!-- ---
 
 - 💡 ***How to restore all to default***:
@@ -135,7 +142,6 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
  -->
----
 
 - 🧰 ***What I did to set up CreamAPI***:
   - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
