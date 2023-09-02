@@ -170,7 +170,7 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 
 - 📌 Other dlc unlockers that uses the old method, for older game versions (Automatons 1.202 and before):
 
-  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] use "Code + Download zip", not "Releases" on the right
+  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] (use "Code + Download zip", not "Releases" on the right)
   - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v1.201]
   - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [for v1.200]
 
