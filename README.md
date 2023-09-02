@@ -18,6 +18,7 @@ just restore the file from "backup" folder back to "Bin64" **BEFORE** applying t
 then just follow the installation guide.  
 If you are downloading v0.3 and you are not using v0.1, please ignore this warning.
 ---
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🕹️ ***Installation***:
   - Download from above.
   - Open your "Bin64" game folder, example:  
@@ -34,6 +35,12 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 - 🗑️ ***Uninstall***:
   - Just run `CreamAPI_Remover.cmd` to delete all CreamAPI files.  
     Note: if the game has undergone an update don't worry, the remover knows it ;)
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+- 🔄 ***Game patch that breaks the unlocker***:
+  - Just run `CreamAPI_Checker.cmd`, it recognizes that CreamAPI is no longer present and takes action.  
+    (it is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,
+    just run the checker, if some other changes are required I'll update the unlocker)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
