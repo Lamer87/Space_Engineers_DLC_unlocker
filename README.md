@@ -61,7 +61,7 @@ then just follow the installation guide.
     then removes everything accordingly to restore the initial situation depending on that specific case.  
 
   - Both the Installer and Remover were created to work regardless of the game path,  
-    i.e. if you have the game on "C:" or "D:" etc. it works anyway.
+    i.e. if you have the game on "C:", "E:", "Y:" etc. it works anyway.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
