@@ -158,27 +158,22 @@ see the "Troubleshooting" section below on how to check files from steam and wai
 
 ---
 
+- 🧊 If you want to play the **Frostbite Scenario**, you need some other files:  
+
+  - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker) (+ my DLC unlocker = it definitely works)
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+---
+
 - 📌 Other dlc unlockers that uses the old method, for older game versions (Automatons 1.202 and before):
 
   - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] use "Code + Download zip", not "Releases" on the right
   - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v1.201]
   - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [for v1.200]
 
-
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
----
-- 🧊 If you want to play the **Frostbite Scenario**, you need some other files:  
 
-  - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker) (+ my DLC unlocker = it definitely works)
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-<!-- ---
-- 🇮🇹 [ITA] Qui potete trovare la mia traduzione migliorata, che corregge diversi svarioni.
-
-  - [Traduzione Italiana Migliorata](https://github.com/Lamer87/Space_Engineers-Traduzione_Italiana_migliorata)
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
- -->
 ---
 
 
