@@ -3,7 +3,7 @@
 ### 🛞 All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* ✔️
 
 - 🔓 **Unlocker version: `v0.3`**
-- 🔄 Game update proof! in case it stops working, just run the checker!
+- 🔄 Game update proof! if it stops working, just run the checker!
 - 🚸 Newbies proof! now there is an installer/checker and a remover.
 - 🍦 Now using CreamAPI.
 - ‼️ The old .sbc file method no longer works, a different modification is now required.  
