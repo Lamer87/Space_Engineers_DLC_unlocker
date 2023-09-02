@@ -3,11 +3,11 @@
 ### ✔️ All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* 🛞
 
 - 🔓 **Unlocker version: `v0.3`**
+- 🚸 Easy with an installer/checker and a remover.
 - 🔄 Game updates proof! if it stops working, just run the checker!
-- 🚸 Newbies proof! Easy with an installer/checker and a remover.
 - 🍦 Now using CreamAPI, already set up for Space Engineers! The old method no longer works.  
   🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
-- 🍨 If you now how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) to build your own config.
+- 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) to build your own config.
 
 ---
 <!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`** -->  
