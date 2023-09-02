@@ -39,7 +39,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 - 🔄 ***Game patch that breaks the unlocker***:
   - Just run `CreamAPI_Checker.cmd`, it recognizes that CreamAPI is no longer present and takes action.  
     (it is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
-    just run the checker, if some other changes are required I'll update the unlocker)
+    just run the checker, if some other changes are required [new DLC release] I'll update the unlocker)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
