@@ -23,7 +23,7 @@ then just follow the installation guide.
   - Unzip all files and the folder from the archive in the game "Bin64" folder,  
     if you're asked to overwrite, just do it.
   - Run `CreamAPI_Checker.cmd` to install CreamAPI, it automatically makes necessary backup.  
-    Note: If the game is on "C:", you may need to run as admin (mouse right click, run as admin).
+    Note: If the game is on Windows drive (C:), you may need to run as admin (mouse right click, run as admin).
   - You can play.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
