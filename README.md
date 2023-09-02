@@ -5,8 +5,8 @@
 - 🔄 Unlocker version: `v0.3`
 - 🍦 Now using CreamAPI.
 - 🚸 Newbies proof! now there is an installer/checker and a remover.
-- ❗ The old .sbc file method no longer works, a different modification is now required.  
-  Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
+- ‼️ The old .sbc file method no longer works, a different modification is now required.  
+- 🔗 Check [this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/37) for more info.
 
 ---
 <!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`** -->  
