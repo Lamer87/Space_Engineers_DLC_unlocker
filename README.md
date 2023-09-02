@@ -74,25 +74,21 @@ then just follow the guide.
 
 ---
 
-- 💡 ***How the new installer and remover work***:
+- 💡 ***How the new Installer and Remover works, newbies proof***:
 
-  - Installer:
-    
+  - Installer `CreamAPI_Checker.cmd`:
+    The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
+    What does he do exactly? if CreamAPI is not yet present, so in the case of a new installation or  
+    after an update that replaces and updates the "steam_api64.dll" file,  
+    it creates a backup of the new original file, and restores the functioning of CreamAPI.  
+    Anyway, if it detects that CreamAPI is already present, it does nothing.  
+    The installer was created to work regardless of the path of the game,  
+    for example if you have the game on "C:" or "D:" etc., nothing changes.
 
-<!--  - new troubleshoting here for cmd:
-setted it to be used a prescindere dalla cartella del gioco
-se ci sono problemi, exec come admin
-rimuovere la cartella backup prima di applicare la nuova
-what does the checker/installer do, and if an update is present
-what does the remover do, and if an update is present
-
-what if:
-i updated the game or steam auto update,
-all dlc are locked now,
-if i want to remove creamapi
-remove creamapi after update -->
-
-
+  - Remover `CreamAPI_Remover.cmd`:
+    The remover first checks if the game has undergone an update that has already replaced  
+    the "steam_api64.dll" file or if CreamAPI is still present,  
+    then removes everything accordingly to restore the initial situation depending on that specific case.
 
 ---
 
