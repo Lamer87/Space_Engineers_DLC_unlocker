@@ -151,11 +151,15 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 
 ---
 
-- 📌 Other dlc unlockers that uses the old method, for older game versions (Automatons 1.202 and before):
+<details><summary> 📌 Click to show dlc unlockers for old game versions.</summary><p>
 
-  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202] (use "Code + Download zip", not "Releases" on the right)
+  Automatons 1.202 and before
+
+  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202]
   - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v1.201]
   - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [for v1.200]
+
+</p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
