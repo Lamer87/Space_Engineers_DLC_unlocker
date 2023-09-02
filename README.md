@@ -15,6 +15,7 @@
 >❗❗❗ PLEASE NOTE ❗❗❗ if you are already using the v0.1 ❗❗❗  
 just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.3,  
 then just follow the installation guide.
+If you are downloading v0.3 and you are not using v0.1, please ignore this warning.
 ---
 - 🕹️ ***Installation***:
   - Download from above.
