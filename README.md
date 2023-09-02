@@ -25,7 +25,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
   - ❗ If you are already using the v0.1 RESTORE the file inside "backup" folder to the "Bin64" game folder. ❗  
     ❗ if you don't do this, you will have to recheck all game files from steam. ❗
   - Unzip all files and the folder from the archive in the game "Bin64" folder,  
-    for who have v0.1: if you're asked to overwrite, just do it.
+    (for who have v0.1: if you're asked to overwrite, just do it)
   - Run `CreamAPI_Checker.cmd` to install CreamAPI, it automatically makes necessary backup.  
     Note: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin.
   - You can play.
