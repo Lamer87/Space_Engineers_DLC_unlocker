@@ -142,9 +142,9 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
   - Edited the creamapi.ini file based on how the game works (dll and other stuff) and its DLCs
   - Opened the folder:
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - Renamed the file "steam_api64.dll" to "steam_api64_o.dll"
+  - Renamed the file "steam_api64.dll" to "steam_api64_o.dll" (it's required)
   - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
-  - Started the game, all dlcs unlocked.
+  - Started the game = all dlcs unlocked.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
