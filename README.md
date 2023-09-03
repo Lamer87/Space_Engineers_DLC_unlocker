@@ -5,7 +5,7 @@
 ### 🔓 **Unlocker version: `v0.5`**
 
 - 🚸 Easy with an installer/checker and a remover.
-- 🔄 Game patches proof! if it stops working, just run the checker! (new DLC = update needed)
+- 🔄 Game patches proof! if it stops working, just run the checker! (update needed for a new DLC)
 - 🍦 Now using CreamAPI, already set up for Space Engineers! The old method no longer works.
 - 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) (compatible with a lot of games).
 
