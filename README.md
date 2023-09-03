@@ -22,7 +22,7 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
   - Download from above.
   - Open your "Bin64" game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - ❗ If you have v0.1 unlocker, RESTORE the file in "backup" folder to "Bin64" folder. ❗
+  - ❗ If you have v0.1 unlocker, RESTORE the file from "backup" folder to "Bin64" folder. ❗
   - Unzip all files and the folder from the archive in the game "Bin64" folder.
   - Run `CreamAPI_Checker.cmd` to install CreamAPI, it automatically makes necessary backup.  
     Note: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin.
