@@ -54,7 +54,7 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
 ---
 - 📇 ***Changelog***
   - v0.1: first manual version.
-  - v0.2: automated version test (not released).
+  - v0.2: automated version without support for new game patches (not released).
   - v0.3: automated version with easy installation and support for new game patches.
   - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
 
