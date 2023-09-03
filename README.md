@@ -41,7 +41,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 📂 ***Files and folders of `v0.4`***:
+- 📂 ***Files and folders of `v0.5`***:
   - `cream_api.ini` : the config file of CreamAPI
   - `CreamAPI_Checker.cmd` : install CreamAPI // check if a game update occur, and restore CreamAPI
   - `CreamAPI_Remover.cmd` : the file you need to easy remove CreamAPI and restore all to default
