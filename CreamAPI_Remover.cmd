@@ -23,6 +23,7 @@ copy /y Backup\Original\steam_api64.dll steam_api64.dll
 del /q /f cream_api.ini
 del /q /f CreamAPI_Checker.cmd
 rmdir /q /s Backup
+del /q /f readme.md >nul 2>nul rem [only used for GitHub version]
 echo.
 echo   # [92m CreamAPI removed, original file restored. [0m
 echo.
@@ -40,6 +41,7 @@ del /q /f steam_api64_o.dll >nul 2>nul
 del /q /f cream_api.ini
 del /q /f CreamAPI_Checker.cmd
 rmdir /q /s Backup
+del /q /f readme.md >nul 2>nul rem [only used for GitHub version]
 echo.
 echo   # [92m CreamAPI files removed. [0m
 echo.

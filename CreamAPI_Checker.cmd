@@ -6,6 +6,7 @@ echo.
 echo   # [33m Processing... [0m
 echo.
 move /y Backup\steam_api64.dll steam_api64.dll >nul 2>nul rem [only for v0.1 compatibility]
+del /q /f readme.md >nul 2>nul rem [only used for GitHub version]
 fc /b /c steam_api64.dll Backup\CreamAPI\steam_api64.dll >nul
 if errorlevel 1 goto files_differ
 echo.
