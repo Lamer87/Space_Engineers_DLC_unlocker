@@ -11,7 +11,7 @@
 
 ---
 >[💾 Download v0.5](https://mega.nz/file/2RR3zZhR#-aUswhyDFC5oup4XuRrlfBTN3bO5I2uNvRhYqR_Hw_w) - from Mega.nz  
- [💾 GitHub version NOT YET UPLOADED]<!-- (https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub, same as: click the green **`Code`** button then **`Download ZIP`** -->  
+ [💾 Download v0.5](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub, same as: click the green **`Code`** button then **`Download ZIP`**  
 
 >Now compatible with v0.1! You no longer need to manually restore your backup first.  
 >If you use the GitHub one: necessary files and folder are INSIDE the single folder in the archive.
