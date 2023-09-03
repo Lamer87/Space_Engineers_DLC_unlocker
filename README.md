@@ -6,7 +6,7 @@
 - 🚸 Easy with an installer/checker and a remover.
 - 🔄 Game patches proof! if it stops working, just run the checker! (new DLC = update needed)
 - 🍦 Now using CreamAPI, already set up for Space Engineers! The old method no longer works.
-- 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller).
+- 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) (compatible with a lot of games).
 
 ---
 >[💾 Click to download v0.4](https://mega.nz/file/WdgnmSAb#ofX0CJPxVFiqCMlhbZSuBdz7LF2ruweeaz5RE8RXm8w) from Mega  
