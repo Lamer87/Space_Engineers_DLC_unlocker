@@ -157,7 +157,7 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
 
 ---
 
-<details><summary> 📌 Click to show dlc unlockers for old game versions.</summary><p>
+<details><summary> 📌 Click to show dlc unlockers for old game versions (.sbc file method).</summary><p>
 
   Automatons 1.202 and before
 
