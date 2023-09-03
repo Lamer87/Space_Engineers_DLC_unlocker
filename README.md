@@ -2,20 +2,20 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* 🛞
 
-- 🔓 **Unlocker version: `v0.3`**
+- 🔓 **Unlocker version: `v0.4`**
 - 🚸 Easy with an installer/checker and a remover.
 - 🔄 Game updates proof! if it stops working, just run the checker!
 - 🍦 Now using CreamAPI, already set up for Space Engineers! The old method no longer works.
 - 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller).
 
 ---
->[💾 Click to download v0.3](https://mega.nz/file/7NgBEISQ#OEFa_XpR8l6kwdhhvBYGFQBcWTu8VfFFQIMoh3TB4hU) from Mega  
-<!-- >[💾 Click to download v0.3](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`**  
-Note: if you use the GitHub one, the files needed are inside a folder in the archive-->
+>[💾 Click to download v0.4](https://mega.nz/file/WdgnmSAb#ofX0CJPxVFiqCMlhbZSuBdz7LF2ruweeaz5RE8RXm8w) from Mega  
+<!-- >[💾 Click to download v?.?](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`**  
+Note: if you use the GitHub one, the files needed are inside the folder in the archive-->
 >❗❗❗ PLEASE NOTE ❗❗❗ if you are already using the v0.1 ❗❗❗  
-just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.3,  
+just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.4,  
 then just follow the installation guide.  
-If you are downloading v0.3 and you are not using v0.1, please ignore this warning.
+If you are downloading v0.4 and you are not using v0.1, please ignore this warning.
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🕹️ ***Installation***:
@@ -24,8 +24,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - ❗ If you are already using the v0.1 RESTORE the file inside "backup" folder to the "Bin64" game folder. ❗  
     ❗ if you don't do this, you will have to recheck all game files from steam. ❗
-  - Unzip all files and the folder from the archive in the game "Bin64" folder,  
-    (for who have v0.1: if you're asked to overwrite, just do it)
+  - Unzip all files and the folder from the archive in the game "Bin64" folder.
   - Run `CreamAPI_Checker.cmd` to install CreamAPI, it automatically makes necessary backup.  
     Note: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin.
   - You can play.
@@ -44,9 +43,8 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-- 📂 ***Files and folders in the archive `v0.3`***:
+- 📂 ***Files and folders in the archive `v0.4`***:
   - `cream_api.ini` : the config file of CreamAPI
-  - `steam_api64_o.dll` : an empty file in case of new installation, just to not show an error
   - `CreamAPI_Checker.cmd` : install CreamAPI // check if a game update occur, and restore CreamAPI
   - `CreamAPI_Remover.cmd` : the file you need to easy remove CreamAPI and restore all to default
   - `Backup\CreamAPI\steam_api64.dll` : the CreamAPI file used by the installer
@@ -82,7 +80,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
 
 - ⚠️ ***Troubleshooting***:
 
-  - If your antivirus say something, make an exception for the steam_api64.dll.  
+  - If your antivirus say something, make an exception for the "steam_api64.dll" file.  
     (it's safe, but it's like a crack and software houses don't like it when you play their games for free)
 
   - If you are not sure and want to restore default files via steam:  
@@ -148,7 +146,7 @@ If you are downloading v0.3 and you are not using v0.1, please ignore this warni
   - v0.1: first manual version.
   - v0.2: automated version test (not released).
   - v0.3: automated version with easy installation and support for new game patches.
-<!--  - v0.4: added a title and a parameter to a dos command in cmd files. -->
+  - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
