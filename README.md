@@ -42,7 +42,6 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 📂 ***Files and folders in the archive `v0.4`***:
   - `cream_api.ini` : the config file of CreamAPI
   - `CreamAPI_Checker.cmd` : install CreamAPI // check if a game update occur, and restore CreamAPI
@@ -50,6 +49,14 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
   - `Backup\CreamAPI\steam_api64.dll` : the CreamAPI file used by the installer
   - `Backup\Original\` : an empty folder used by the installer for the original file backup
   - `Backup\link` : a link to this page
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+- 📇 ***Changelog***
+  - v0.1: first manual version.
+  - v0.2: automated version test (not released).
+  - v0.3: automated version with easy installation and support for new game patches.
+  - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
@@ -137,16 +144,6 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
   - Renamed the file "steam_api64.dll" to "steam_api64_o.dll"
   - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
   - Started the game, all dlcs unlocked.
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
----
-###
-- 📇 ***Changelog***
-  - v0.1: first manual version.
-  - v0.2: automated version test (not released).
-  - v0.3: automated version with easy installation and support for new game patches.
-  - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
