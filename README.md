@@ -78,8 +78,8 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
     the "steam_api64.dll" file or if CreamAPI is still present,  
     then removes everything accordingly to restore the initial situation depending on the specific case.  
 
-  - Both the Installer and Remover were created to work regardless of the game path,  
-    i.e. if you have the game on "C:", "E:", "Y:" etc. it works anyway.
+  - Both Installer and Remover were created to work regardless of the game path,  
+    i.e. if you have the game on "C:", "E:\games", "Y:\folder" etc. it works anyway.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
