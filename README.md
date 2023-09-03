@@ -140,9 +140,9 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-###  
-
 ---
+
+### 
 
 - 📇 ***Changelog***
   - v0.1: first manual version.
