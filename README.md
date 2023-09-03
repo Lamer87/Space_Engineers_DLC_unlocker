@@ -12,9 +12,9 @@
 >[💾 Click to download v0.4](https://mega.nz/file/WdgnmSAb#ofX0CJPxVFiqCMlhbZSuBdz7LF2ruweeaz5RE8RXm8w) from Mega  
 <!-- >[💾 Click to download v?.?](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) from GitHub, or click the green **`Code`** button then **`Download ZIP`**  
 Note: if you use the GitHub one, the files needed are inside the folder in the archive-->
->❗❗❗ PLEASE NOTE ❗❗❗ if you are already using the v0.1 ❗❗❗  
-just restore the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.4,  
-then just follow the installation guide.  
+>❗❗❗ PLEASE NOTE ❗❗❗ if you are already using v0.1 ❗❗❗  
+RESTORE the file from "backup" folder back to "Bin64" **BEFORE** applying the v0.4,  
+then just follow the installation guide. If you mess: download it here [steam_api64.dll](https://mega.nz/file/TQo2TThA#uF92mP8_Wx6o793lRtTaT-jh_nukXWpRYVjB3PDQs_s)  
 If you are downloading v0.4 and you are not using v0.1, please ignore this warning.
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -22,8 +22,7 @@ If you are downloading v0.4 and you are not using v0.1, please ignore this warni
   - Download from above.
   - Open your "Bin64" game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - ❗ If you are already using the v0.1 RESTORE the file inside "backup" folder to the "Bin64" game folder. ❗  
-    ❗ if you don't do this, you will have to recheck all game files from steam. ❗
+  - ❗ If you have v0.1 unlocker, RESTORE the file in "backup" folder to "Bin64" folder. ❗
   - Unzip all files and the folder from the archive in the game "Bin64" folder.
   - Run `CreamAPI_Checker.cmd` to install CreamAPI, it automatically makes necessary backup.  
     Note: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin.
