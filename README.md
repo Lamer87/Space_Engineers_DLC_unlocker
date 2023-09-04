@@ -14,7 +14,7 @@
  [💾 Download v0.5](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub, same as: click the green **`Code`** button then **`Download ZIP`**  
 
 >Now compatible with v0.1! You no longer need to manually restore your backup first.  
->If you use the GitHub one: necessary files and folder are INSIDE the single folder in the archive.
+>If you use the GitHub zip: necessary files and folder are INSIDE the single folder in the archive.
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🕹️ ***Installation***:
