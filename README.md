@@ -47,7 +47,7 @@
   - `CreamAPI_Remover.cmd` : the file you need to easy remove CreamAPI and restore all to default
   - `Backup\CreamAPI\steam_api64.dll` : the CreamAPI file used by the installer
   - `Backup\Original\` : an empty folder used by the installer for the original file backup
-  - `Backup\url_link` : a link to this page (in GitHub zip version this link is in Backup\Original\)
+  - `Backup\url_link` : a link to this page (in GitHub zip this link is in Backup\Original\)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
