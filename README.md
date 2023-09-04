@@ -56,7 +56,7 @@
   - v0.2: automated version with easy installation (not released cause no support for new game patches).
   - v0.3: easier installation/removal and support for new game patches.
   - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
-  - v0.5: compatible with v0.1, no longer needed to manually restore backup first.
+  - v0.5: compatible with v0.1, if you have v0.1 you no longer needed to manually restore backup first.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
