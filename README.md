@@ -71,7 +71,8 @@
     it creates a backup of the new original file, and restores the functioning of CreamAPI.  
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the checker to restore CreamAPI.  
-    If it detects that CreamAPI is present and ready, it does nothing.  
+    If it detects that CreamAPI is present and ready, it does nothing.
+    The only time you need to update the unlocker is when a new DLC is released.  
 
   - Remover `CreamAPI_Remover.cmd`:  
     The remover first checks if the game has undergone an update that has already replaced  
