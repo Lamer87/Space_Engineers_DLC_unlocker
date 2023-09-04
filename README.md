@@ -90,7 +90,7 @@
   - If your antivirus say something, make an exception for the "steam_api64.dll" file.  
     (it's safe, but software houses don't like it when you play their games for free)
 
-  - If you are not sure and want to restore default files via steam:  
+  - If you are not sure and want to restore default files through steam:  
     <details><summary>click here to show how.</summary><p>
 
     ————————————————————————————————————————  
