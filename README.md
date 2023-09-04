@@ -10,7 +10,7 @@
 - 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) (compatible with a lot of games).
 
 ---
->[💾 Download v0.5](https://mega.nz/file/vVQ12Kxa#jqRYQSY4ppUzHVXJ9VzrMzFnYDYbf2PgWX42t6_nzPA) - from Mega.nz  
+>[💾 Download v0.5](https://mega.nz/file/fMZBDTQZ#cNsIOqj9-hQM6mTRIwmwfRUP_0PHvAkmPy9KAbjXhRM) - from Mega.nz  
  [💾 Download v0.5](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub, same as: click the green **`Code`** button then **`Download ZIP`**  
 
 >Now compatible with v0.1! You no longer need to manually restore your backup first.  
