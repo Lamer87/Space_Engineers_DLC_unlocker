@@ -30,7 +30,7 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🗑️ ***Uninstall***:
   - Just run `CreamAPI_Remover.cmd` to delete all CreamAPI files.  
-    Use it to get rid of CreamAPI or before updating to a new unlocker version  
+    Use it to get rid of CreamAPI or before updating to a new unlocker version.  
     Note: Don't worry if the game has been updated in the meantime, the remover knows it ;)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
