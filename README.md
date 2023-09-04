@@ -136,7 +136,16 @@
 
 ---
 
-- 🧰 ***What I did to set up CreamAPI***:
+- 🧊 If you want to play the **Frostbite "Scenario"**, you need some other files:  
+
+  - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker) (+ CreamAPI = definitely works)
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+---
+
+<details><summary> 🧰 Click to show what I did to set up CreamAPI:</summary><p>
+
   - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
   - Checked out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc) (steamdb.info)
   - Edited the creamapi.ini file based on how the game works (dll and other stuff) and its DLCs
@@ -146,13 +155,7 @@
   - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
   - Started the game = all dlcs unlocked.
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
----
-
-- 🧊 If you want to play the **Frostbite Scenario**, you need some other files:  
-
-  - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker) (+ CreamAPI = definitely works)
+</p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
