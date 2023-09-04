@@ -68,7 +68,7 @@
     The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
     What does he do exactly? if CreamAPI is not yet present so in the case of a new installation or  
     after an update that replaces and updates the "steam_api64.dll" file,  
-    it creates a backup of the new original file, and restores the functioning of CreamAPI.  
+    it creates a backup of the new original file and installs/restores CreamAPI..  
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the checker to restore CreamAPI.  
     If it detects that CreamAPI is present and ready, it does nothing.  
@@ -79,8 +79,8 @@
     the "steam_api64.dll" file or if CreamAPI is still present,  
     then removes everything accordingly to restore the initial situation depending on the specific case.  
 
-  - Both Installer and Remover were created to work regardless of the game path,  
-    i.e. if you have the game on "C:", "E:\games", "Y:\folder\steam" etc. it works anyway.
+  - Both Installer and Remover works regardless of the game path,  
+    i.e. if you have the game on "C:", "E:\games", "Y:\folder\steam" etc., it works anyway.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
