@@ -15,6 +15,7 @@
 
 >Backward compatible with all versions, just drop it in the "Bin64" folder and run CreamAPI_Tool.cmd,  
 >even without removing previous version first, the tool takes care of everything.  
+
 >If you use the GitHub zip: necessary files and folder to extract are INSIDE the single folder in the archive.
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
