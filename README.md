@@ -4,7 +4,7 @@
 
 ### 🔓 **Unlocker version: `v0.6`**
 
-- 🚸 Easy Tool installer/remover.
+- 🚸 Easy single Tool installer/remover.
 - 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
 - 🍦 Now using CreamAPI, properly configured for Space Engineers! The old method no longer works.
 - 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) (compatible with a lot of games).
