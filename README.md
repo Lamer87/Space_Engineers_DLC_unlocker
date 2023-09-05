@@ -73,15 +73,15 @@
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the Tool+C to restore CreamAPI.  
     If it detects that CreamAPI is present and ready, it does nothing.  
-    The only time you need to update the unlocker is when a new DLC is released.  
+    The only time you need to update the unlocker is when a new DLC is released.
 
   - Remover `CreamAPI_Tool.cmd + press R`:  
     The remover first checks if the game has undergone an update that has already replaced  
     the "steam_api64.dll" file or if CreamAPI is still present,  
-    then removes everything accordingly to restore the initial situation depending on the specific case.  
+    then removes it accordingly, depending on the specific case.
 
   - The Tool works regardless of the game path,  
-    i.e. if you have the game on "C:", "E:\games", "Y:\folder\steam" etc., it works anyway.
+    i.e. if you have the game on "C:\", "E:\games", "Y:\folder\steam" etc., it works anyway.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
