@@ -25,20 +25,20 @@
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3a- (Mega.nz zip) unzip all files and folder from the zip archive to the game "Bin64" folder
   - 3b- (GitHub zip) unzip all files and folder from **INSIDE** `zip\...main folder\` to the game "Bin64" folder
-  - 4 - Run `CreamAPI_Tool.cmd` and press "**C**" to install CreamAPI, it automatically makes necessary backup  
+  - 4 - Run `CreamAPI_Tool.cmd` and press "**C**" (x2) to install CreamAPI, it automatically makes necessary backup  
     Note: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin
   - 5 - You can play.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🗑️ ***Uninstall***:
-  - Run `CreamAPI_Tool.cmd` and press "**R**" to delete all CreamAPI files.  
+  - Run `CreamAPI_Tool.cmd` and press "**R**" (x2) to delete all CreamAPI files.  
     Note: Don't worry if the game has been updated in the meantime, it checks first ;)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🔄 ***If a game patch breaks the unlocker***:
-  - Run `CreamAPI_Tool.cmd` and press "**C**", it recognizes that CreamAPI is no longer present and takes action.  
+  - Run `CreamAPI_Tool.cmd` and press "**C**", if it recognizes that CreamAPI is no longer present, press "**C**".  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
-    just run the "Tool + **C**", however when a new DLC comes out you have to download the new unlocker version.
+    just run the "Tool + **C**" (x2), however when a new DLC comes out you have to download the new unlocker version.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
