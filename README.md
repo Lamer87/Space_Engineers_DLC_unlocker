@@ -11,7 +11,7 @@
 
 ---
 >[💾 Download v0.6](https://mega.nz/file/qB4hxBiC#ER_8_o-_s6t0bonfRitO2IH2zeJGnua7W3cpcnj1hV8) - from Mega.nz  
- [💾 Download v0.6](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub, same as: click the green **`Code`** button then **`Download ZIP`**  
+ [💾 Download v0.6](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub. Same as: click the green **`Code`** button then **`Download ZIP`**  
 
 >Backward compatible with all versions, just drop it in the "Bin64" folder and run CreamAPI_Tool.cmd,  
 >even without removing previous version first, the tool takes care of everything.  
