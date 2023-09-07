@@ -91,6 +91,8 @@
 
 - ⚠️ ***Troubleshooting***:
 
+  - If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd": please [see this](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/40)
+
   - If your antivirus say something, make an exception for the "steam_api64.dll" file.  
     (it's safe, but software houses don't like it when you play their games for free)
 
