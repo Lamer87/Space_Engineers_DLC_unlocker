@@ -36,8 +36,9 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🔄 ***If a game patch breaks the unlocker***:
-  - Run `CreamAPI_Tool.cmd` and press "**C**", if it recognizes that CreamAPI is no longer present, press "**C**"  
-    a second time. It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
+  - Run `CreamAPI_Tool.cmd` and press "**C**",  
+    if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
+    It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
     just run the "Tool + **C**(x2)", however when a new DLC comes out you have to download the new unlocker version.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
