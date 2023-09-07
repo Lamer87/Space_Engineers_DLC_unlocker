@@ -21,7 +21,7 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🕹️ ***Installation***:
   - 1 - Download from above
-  - 2 - Open your "Bin64" game folder, example:  
+  - 2 - Open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3a- (Mega.nz zip) unzip all files and folder from the zip archive to the game "Bin64" folder
   - 3b- (GitHub zip) unzip all files and folder from **INSIDE** `zip\...main folder\` to the game "Bin64" folder
