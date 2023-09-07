@@ -2,7 +2,7 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.203` - *Warfare Evolution & Decorative Pack #3* 🛞
 
-### 🔓 **Unlocker version: `v0.6`**
+### 🔓 **Unlocker version: `v0.7`**
 
 - 🚸 Easy single Tool installer/remover.
 - 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
@@ -10,8 +10,8 @@
 - 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) (compatible with a lot of games).
 
 ---
->[💾 Download v0.6](https://mega.nz/file/qB4hxBiC#ER_8_o-_s6t0bonfRitO2IH2zeJGnua7W3cpcnj1hV8) - from Mega.nz  
- [💾 Download v0.6](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub. Same as: click the green **`Code`** button then **`Download ZIP`**  
+>[💾 Download v0.7](https://mega.nz/file/zUYSwCyC#cX6yHMrvuNLS4gYW5Ob6HqG_WSsoR61Nyr25dnKATBk) - from Mega.nz  
+ [💾 Download v0.7](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub. Same as: click the green **`Code`** button then **`Download ZIP`**  
 
 >Backward compatible with all versions, just drop it in the "Bin64" folder and run CreamAPI_Tool.cmd,  
 >even without removing previous version first, the tool takes care of everything.
