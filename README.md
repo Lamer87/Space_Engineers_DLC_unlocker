@@ -43,7 +43,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 📂 ***Files and folders of `v0.6`***:
+- 📂 ***Files and folders of `v0.7`***:
   - `cream_api.ini` : CreamAPI config file
   - `CreamAPI_Tool.cmd` : Install / Check / Remove CreamAPI
   - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll used by the installer
