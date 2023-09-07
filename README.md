@@ -124,12 +124,12 @@
 - 📜 ***Notes***:
 
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-
-    - Unfortunately, skins and emotes cannot be unlocked.
+    - Armor Skins and Emotes cannot be unlocked.
+    - It is not possible to paste DLC items contained in projects when playing on a server.
 
   - I will update the unlocker if needed, or right after a new DLC release.
-
-    -  A new dlc requires editing cream_api.ini to add the [new dlc code](https://steamdb.info/app/244850/dlc).
+    - A new dlc requires editing cream_api.ini to add the [new dlc code](https://steamdb.info/app/244850/dlc).
+    - If you want you can also add it by yourself, towards the end of the cream_api.ini file.
 
   - If you want to buy the game:
     - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
