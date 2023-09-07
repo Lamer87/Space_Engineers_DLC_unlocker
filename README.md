@@ -59,7 +59,7 @@
   - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
   - v0.5: compatible with v0.1, if you have v0.1 you no longer needed to manually restore backup first.
   - v0.6: single .cmd tool with some fixes to the code, backward compatible with all versions, .ini revised.
-  - v0.7: Prevents extraction errors and using the wrong folder, other fixes to the code.
+  - v0.7: prevents extraction errors and using the wrong folder, other fixes to the code.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
