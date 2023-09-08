@@ -8,13 +8,13 @@
 - 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
 
 ---
->[💾 Download v0.7](https://mega.nz/file/zUYSwCyC#cX6yHMrvuNLS4gYW5Ob6HqG_WSsoR61Nyr25dnKATBk) - from Mega.nz  
- [💾 Download v0.7](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub / same as: click the green **`Code`** button then **`Download ZIP`**  
+>[💾 Download v0.7](https://mega.nz/file/zUYSwCyC#cX6yHMrvuNLS4gYW5Ob6HqG_WSsoR61Nyr25dnKATBk) - from Mega.nz: `file.zip \ *unlocker files*`  
 
->Backward compatible with all versions, just drop it in the "Bin64" folder and run CreamAPI_Tool.cmd,  
->even without removing previous version first, the tool takes care of everything.
+>[💾 Download v0.7](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) - from GitHub: `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
+<!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
->If you use the GitHub zip: necessary files and folder to extract are **INSIDE** the single folder in the archive.
+>v0.7: backward compatible with all versions, just drop it in the "Bin64" folder and run CreamAPI_Tool.cmd
+
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🕹️ ***Installation***:
