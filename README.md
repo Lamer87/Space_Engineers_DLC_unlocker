@@ -7,7 +7,6 @@
 - 🚸 Easy single Tool installer/remover, ALL AUTOMATED!
 - 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
 - 🍦 Now using CreamAPI, properly configured for Space Engineers! The old method no longer works.
-- 🍨 If you know how to, you can even use [CreamInstaller](https://github.com/pointfeev/CreamInstaller) (compatible with a lot of games).
 
 ---
 >[💾 Download v0.7](https://mega.nz/file/zUYSwCyC#cX6yHMrvuNLS4gYW5Ob6HqG_WSsoR61Nyr25dnKATBk) - from Mega.nz  
@@ -134,6 +133,7 @@
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires editing cream_api.ini to add the [new dlc code](https://steamdb.info/app/244850/dlc).
     - If you want you can also add it by yourself, towards the end of the cream_api.ini file.
+    - If you know how to, you can use [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
 
   - If you want to buy the game:
     - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
