@@ -4,9 +4,8 @@
 
 ### 🔓 **Unlocker version: `v0.7`**
 
-- 🚸 Easy single Tool installer/remover, ALL AUTOMATED!
+- 🚸 Easy single Tool installer / checker / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
-- 🍦 Now using CreamAPI, properly configured for Space Engineers! The old method no longer works.
 
 ---
 >[💾 Download v0.7](https://mega.nz/file/zUYSwCyC#cX6yHMrvuNLS4gYW5Ob6HqG_WSsoR61Nyr25dnKATBk) - from Mega.nz  
@@ -127,7 +126,8 @@
 - 📜 ***Notes***:
 
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-    - Armor Skins and Emotes cannot be unlocked.
+    - Now using CreamAPI, configured for Space Engineers. The old method no longer works.
+    - Anyway, Armor Skins and Emotes cannot be unlocked.
     - It is not possible to paste DLC items contained in projects when playing on a server.
 
   - I will update the unlocker if needed, or right after a new DLC release.
