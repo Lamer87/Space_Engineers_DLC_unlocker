@@ -48,7 +48,7 @@
     - In the game "Bin64" folder, open `cream_api.ini` with a text editor like notepad
     - Look below for the lines with the DLC codes and names
     - Remove the line(s) corresponding to the DLC(s) you already own
-    - Save the file and make a backup of the modified one if needed
+    - Save the file and backup it if you want
   - Now everything should work fine.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
