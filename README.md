@@ -25,7 +25,8 @@
   - 3b- (GitHub zip) unzip all files and folder from **INSIDE** `zip\...main folder\` to the game "Bin64" folder
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI, it automatically makes necessary backup  
     Note1: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin  
-    Note2: If there is any problem, please check the "Troubleshooting" section below
+    Note2: If you already own some DLC, go to the related section below, before playing  
+    Note3: If there is any problem, please check the "Troubleshooting" section below
   - 5 - You can play.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -39,6 +40,16 @@
     if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
     just run the Tool + "**C**"(x2), however when a new DLC comes out you need the new unlocker version.
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+- 💸 ***If you already own some DLC***:
+  - You need to remove the lines corresponding to your owned DLCs, from the "cream_api.ini" file, so:
+    - Follow the instructions for "Installation" first
+    - In the game "Bin64" folder, open `cream_api.ini` with a text editor like notepad
+    - Look below for the lines with the DLC codes and names
+    - Remove the line(s) corresponding to the DLC(s) you already own
+    - Save the file and make a backup of the modified one if needed
+  - Now everything should work fine.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -90,11 +101,11 @@
 
 - ⚠️ ***Troubleshooting***:
 
-  - If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd":  
-    please see [this thread](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/40)
-
   - If your antivirus say something, make an exception for the "steam_api64.dll" file.  
     (it's safe, but software houses don't like it when you play their games for free)
+
+  - If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd":  
+    please see [this thread](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/40)
 
   - If you are not sure and want to restore default files through steam:  
     <details><summary>click here to show how.</summary><p>
