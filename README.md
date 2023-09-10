@@ -50,6 +50,11 @@
     - Remove the entire line(s) corresponding to the DLC(s) you already own
     - Save the file and backup it if you want
   - Now everything should work fine.
+  - If you purchased a DLC but deactivated it from Steam, leave it in the list.  
+    Example: the Deluxe DLC, in addition to unlocking a player skin, makes you download a few GB  
+    of useless files related to a very old vanilla version of the game.  
+    With this method you can unlock what you need, keeping it deactivated from Steam  
+    and therefore without downloading few GB of data.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
