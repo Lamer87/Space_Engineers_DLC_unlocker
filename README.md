@@ -35,6 +35,7 @@
     Note: Don't worry if the game has been updated in the meantime, it checks first ;)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
 - 🔄 ***If a game patch breaks the unlocker***:
   - Run `CreamAPI_Tool.cmd` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
