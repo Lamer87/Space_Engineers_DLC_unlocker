@@ -25,7 +25,7 @@
   - 3b- (GitHub zip) unzip all files and folder from **INSIDE** `zip\...main folder\` to the game "Bin64" folder
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI, it automatically makes necessary backup  
     Note1: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin  
-    Note2: If you already own some DLC, go to the related section below, before playing  
+    Note2: If you already own some DLC please go to the related section below, before playing  
     Note3: If there is any problem, please check the "Troubleshooting" section below
   - 5 - You can play.
 
