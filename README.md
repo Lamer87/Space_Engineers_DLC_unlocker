@@ -23,6 +23,7 @@
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3a- (Mega.nz zip) unzip all files and "Backup" folder from the zip archive to the game "Bin64" folder
   - 3b- (GitHub zip) unzip all files and "Backup" folder from **INSIDE** `zip\...main folder\` to the "Bin64" folder
+    IMPORTANT: the "Backup" folder is also NECESSARY for operation!
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI, it automatically makes necessary backup  
     Note1: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin  
     Note2: If you already own some DLC please go to the related section below, before playing  
