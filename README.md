@@ -56,7 +56,7 @@
     Example: the Deluxe DLC, in addition to unlocking a player skin, makes you download a few GB  
     of useless files related to a very old vanilla version of the game.  
     With this method you can unlock what you need, keeping it deactivated from Steam  
-    and therefore without downloading few GB of data.
+    and therefore without downloading few GB of data (but losing dlc related armor skins).
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
