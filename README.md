@@ -29,12 +29,15 @@
   - 5 - You can play.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
 - 🗑️ ***Uninstall***:
   - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.  
     Note: Don't worry if the game has been updated in the meantime, it checks first ;)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 ---
+
 - 🔄 ***If a game patch breaks the unlocker***:
   - Run `CreamAPI_Tool.cmd` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
@@ -103,7 +106,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
--  📇 ***Changelog***:
+- 📇 ***Changelog***:
 
     <details><summary>click to show</summary><p>
 
@@ -180,24 +183,30 @@
 
 ---
 
-<details><summary> 🧰 Click to show what I did to set up CreamAPI:</summary><p>
+- 🧰 What I did to set up CreamAPI:
 
-  - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
-  - Checked out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc) (steamdb.info)
-  - Edited the creamapi.ini file based on how the game works (dll and other stuff) and its DLCs
-  - Opened the folder:
-    `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - Renamed the file "steam_api64.dll" to "steam_api64_o.dll" (it's required)
-  - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
-  - Started the game = all dlcs unlocked.
+    <details><summary>click to show</summary><p>
 
-</p></details>
+    ————————————————————————————————————————  
+
+    - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
+    - Checked out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc) (steamdb.info)
+    - Edited the creamapi.ini file based on how the game works (dll and other stuff) and its DLCs
+    - Opened the folder:
+      `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
+    - Renamed the file "steam_api64.dll" to "steam_api64_o.dll" (it's required)
+    - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
+    - Started the game = all dlcs unlocked.
+
+    ————————————————————————————————————————  
+
+    </p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ---
 
-<details><summary> 📌 Click to show dlc unlockers for old game versions (.sbc file method).</summary><p>
+<!-- <details><summary> 📌 Click to show dlc unlockers for old game versions (.sbc file method).</summary><p>
 
   Automatons 1.202 and before
 
@@ -209,7 +218,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
----
+--- -->
 
 
 
