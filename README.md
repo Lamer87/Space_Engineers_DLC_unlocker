@@ -14,7 +14,7 @@
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
 ---
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 - 🕹️ ***Installation***:
   - 1 - Download from above
   - 2 - Open your **"Bin64"** game folder, example:  
