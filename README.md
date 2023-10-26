@@ -13,8 +13,6 @@
 >[💾 v0.8 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
->v0.7: backward compatible, just drop `*unlocker files*` in the "Bin64" folder and run "CreamAPI_Tool.cmd"
-
 ---
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 🕹️ ***Installation***:
