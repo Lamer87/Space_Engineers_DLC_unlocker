@@ -42,7 +42,9 @@
   - Run `CreamAPI_Tool.cmd` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
-    just run the Tool + "**C**"(x2), however when a new DLC comes out you need the new unlocker version.
+    just run the Tool + "**C**"(x2).  
+    However when a new DLC comes out you need the new unlocker version,  
+    or just edit "cream_api.ini" accordingly, see "What I did to set up CreamAPI" at the end of this page.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 💸 ***If you already own some DLC***:
