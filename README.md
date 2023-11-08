@@ -8,7 +8,7 @@
 - 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
 
 ---
->[💾 v0.8 Download from Mega.nz](https://mega.nz/file/OFp0XSDJ#9tY5xPCvTqQaSDP-ruqrJKZA2HEY2zULQMG6qVKWFh4) : `file.zip \ *unlocker files*`  
+>[💾 v0.8 Download from Mega.nz](https://mega.nz/file/SVoCCKwB#5UD7c-T1t2FRNlqQPOkJj2EpqmZiKuo3OVDh9cKn1pI) : `file.zip \ *unlocker files*`  
 
 >[💾 v0.8 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
