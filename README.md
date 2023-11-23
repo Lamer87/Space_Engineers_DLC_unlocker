@@ -1,7 +1,3 @@
-# 🚧 UPDATING - PLEASE WAIT! 🔄
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
-
----
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### ✔️ All DLCs unlocked up to: `v1.203.5` - *Anniversary Pack* 🎂
@@ -9,11 +5,11 @@
 ### 🔓 **Unlocker version: `v1.0`**
 
 - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/)
-- 🚸 Easy single Tool installer / checker / remover, all automated!
-- 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
+- 🚸 Easy single tool installer / checker / remover, all automated!
+- 🔄 Game patches proof! if it stops working, just run the tool! (update needed only for new DLC)
 
 ---
->[💾 v1.0 Download from Mega.nz](please wait) : `file.zip \ *unlocker files*`  
+>[💾 v1.0 Download from Mega.nz](https://mega.nz/file/mNgFBCwT#s6oAnezigKxEfmGbbe3zywb1s8NQtct2FC7e2tBqCPc) : `file.zip \ *unlocker files*`  
 
 >[💾 v1.0 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
