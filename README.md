@@ -139,7 +139,7 @@
 
 - 💡 ***How the new Tool works, newbies proof***:
 
-  - Installer `CreamAPI_Tool.cmd + press C`:  
+  - Installer `tool + press C`:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
     What does it do exactly? if CreamAPI is not yet present so in the case of a new installation or  
     after an update that replaces and updates the "steam_api64.dll" file,  
@@ -149,12 +149,12 @@
     If it detects that CreamAPI is present and ready, it does nothing.  
     The only time you need to update the unlocker is when a new DLC is released.
 
-  - Remover `CreamAPI_Tool.cmd + press R`:  
+  - Remover `tool + press R`:  
     The remover first checks if the game has undergone an update that has already replaced  
     the "steam_api64.dll" file or if CreamAPI is still present,  
     then removes it accordingly, depending on the specific case.
 
-  - The Tool works regardless of the game path,  
+  - The tool works regardless of the game path,  
     i.e. if you have the game on "C:\", "E:\games", "Y:\folder\steam" etc., it works anyway.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -213,20 +213,6 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ---
-
-<!-- <details><summary> 📌 Click to show dlc unlockers for old game versions (.sbc file method).</summary><p>
-
-  Automatons 1.202 and before
-
-  - by [Wref](https://github.com/wrefgtzweve/SpaceEngineersDLCUnlocker) [for v1.202]
-  - by [0x000015](https://github.com/0x000015/SpaceEngineers-DLC-Bypass) [for v1.201]
-  - by [AdrianOkay](https://github.com/AdrianOkay/SpaceEngineersDLC-Unlocker) [for v1.200]
-
-</p></details>
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
---- -->
 
 
 
