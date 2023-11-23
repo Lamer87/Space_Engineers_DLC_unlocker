@@ -1,0 +1,255 @@
+#!/bin/bash
+
+clear
+echo
+echo "  ## ␛[107;30m Space Engineers DLC Unlocker v1.0 - CreamAPI - for Linux/OSX by DeathCamel58 ␛[0m  ␛[104m   ␛[101m   ␛[107m   ␛[101m   ␛[0m"
+echo
+
+# [### compatibility and sorting zone ###]
+mv -f Backup/steam_api64.dll Backup/Original > /dev/null 2>&1
+rm -f CreamAPI_Remover.cmd > /dev/null 2>&1 # [v0.2-v0.5]
+rm -f CreamAPI_Checker.cmd > /dev/null 2>&1 # [v0.2-v0.5]
+rm -f CreamAPI_Tool.cmd > /dev/null 2>&1 # [remove win version]
+rm -f readme.md > /dev/null 2>&1 # [GitHub version, not using .gitignore]
+mv -f Backup/Original/"Space Engineers DLC Unlocker - by Lamer87.url" Backup > /dev/null 2>&1
+if [ ! -e Backup/CreamAPI/steam_api64.dll ]; then
+  echo "File not found."
+  exit 1
+fi
+if [ ! -e cream_api.ini ]; then
+  echo "File not found."
+  exit 1
+fi
+if [ ! -e steam_api64.dll ]; then
+  echo "Wrong directory."
+  exit 1
+fi
+# [### compatibility and sorting zone ###]
+
+installer() {
+  echo
+  echo "   ! ␛[43;30m Processing... ␛[0m"
+  echo
+  cmp -s steam_api64.dll Backup/CreamAPI/steam_api64.dll
+  if [ $? -eq 1 ]; then
+    installer_nocreamapi
+  fi
+  sleep 1
+  echo
+  echo "   # ␛[92m No game update found. ␛[0m␛[102;30m CreamAPI is ok! ␛[0m"
+  echo
+  echo "   - ␛[92m Press any key to exit.␛[0m"
+  echo
+  read -n 1 -s -r -p ""
+  exit
+}
+
+installer_nocreamapi() {
+  echo
+  echo "   # ␛[91m Game update found or CreamAPI not installed␛[0m, do you want to:"
+  echo
+  echo "     ␛[92m make a new backup of original file and install/restore CreamAPI ␛[0m?"
+  echo
+  echo "   -  Press \"␛[102;30m C ␛[0m\" to install it, or \"␛[44;97m A ␛[0m\" to abort."
+  echo
+  read -n 1 -p "Your choice (C/A): " install_choice
+  echo
+
+  install_choice=$(echo "$install_choice" | tr '[:lower:]' '[:upper:]')
+
+  case $install_choice in
+    C)
+      installer_nocreamapi_continue
+      ;;
+    A)
+      abort
+      ;;
+  esac
+}
+
+installer_nocreamapi_continue() {
+  echo
+  echo "   ! ␛[43;30m Installing... ␛[0m"
+  echo
+  cp -f steam_api64.dll Backup/Original/ > /dev/null
+  rm -f steam_api64_o.dll > /dev/null 2>&1
+  mv steam_api64.dll steam_api64_o.dll
+  cp -f Backup/CreamAPI/steam_api64.dll steam_api64.dll > /dev/null
+  echo
+  echo "   # ␛[92m CreamAPI installed/restored. ␛[0m"
+  echo
+  echo "   # ␛[92m New backup of original file created in \"...\Bin64\Backup\Original\". ␛[0m"
+  echo
+  echo "   # ␛[102;30m You can play. ␛[0m - ␛[92m Press any key to exit.␛[0m"
+  echo
+  read -n 1 -s -r -p ""
+  exit
+}
+
+remover() {
+  echo
+  echo "   ! ␛[43;30m Processing... ␛[0m"
+  echo
+  cmp -s steam_api64.dll Backup/CreamAPI/steam_api64.dll
+  if [ $? -eq 1 ]; then
+    remover_nocreamapi
+  fi
+  sleep 1
+  echo
+  echo "   # ␛[92m No game update found␛[0m."
+  echo
+  echo "   -  Press \"␛[101;30m R ␛[0m\" to remove ␛[1mCreamAPI␛[0m, or \"␛[44;97m A ␛[0m\" to abort."
+  echo
+  read -n 1 -p "Your choice (R/A): " remove_choice
+  echo
+
+  remove_choice=$(echo "$remove_choice" | tr '[:lower:]' '[:upper:]')
+
+  case $remove_choice in
+    R)
+      remover_continue
+      ;;
+    A)
+      abort
+      ;;
+  esac
+}
+
+remover_continue() {
+  echo
+  echo "   ! ␛[43;30m Removing... ␛[0m"
+  echo
+  rm -f steam_api64.dll
+  mv steam_api64_o.dll steam_api64.dll > /dev/null 2>&1
+  cp -f Backup/Original/steam_api64.dll steam_api64.dll 2>/dev/null
+  rm -f cream_api.ini
+  rm -rf Backup
+  echo
+  echo "   # ␛[92m CreamAPI files removed, original file restored. ␛[0m"
+  echo
+  echo "   - ␛[102;30m Press any key to delete this file too and exit. ␛[0m"
+  echo
+  read -n 1 -s -r -p ""
+  rm -f CreamAPI_Tool.cmd
+  exit
+}
+
+remover_nocreamapi() {
+  echo
+  echo "   # ␛[91m Game update found or CreamAPI not installed␛[0m."
+  echo
+  echo "   -  Press \"␛[101;30m R ␛[0m\" to remove ␛[1mCreamAPI␛[0m, or \"␛[44;97m A ␛[0m\" to abort."
+  echo
+  read -n 1 -p "Your choice (R/A): " remove_choice_nocreamapi
+  echo
+
+  remove_choice_nocreamapi=$(echo "$remove_choice_nocreamapi" | tr '[:lower:]' '[:upper:]')
+
+  case $remove_choice_nocreamapi in
+    R)
+      remover_nocreamapi_continue
+      ;;
+    A)
+      abort
+      ;;
+  esac
+}
+
+remover_nocreamapi_continue() {
+  echo
+  echo "   ! ␛[43;30m Removing... ␛[0m"
+  echo
+  rm -f steam_api64_o.dll > /dev
+  /dev/null 2>&1
+  rm -f cream_api.ini
+  rm -rf Backup
+  echo
+  echo "   # ␛[92m CreamAPI files removed. ␛[0m"
+  echo
+  echo "   - ␛[102;30m Press any key to delete this file too and exit. ␛[0m"
+  echo
+  read -n 1 -s -r -p ""
+  rm -f CreamAPI_Tool.cmd
+  exit
+}
+
+abort() {
+  echo
+  echo "   # ␛[92m Exiting.␛[0m"
+  echo
+  sleep 2
+  exit
+}
+
+file_not_found() {
+  echo
+  echo "   # ␛[91m Something went wrong! ␛[0m"
+  echo
+  echo "   # ␛[91m Please extract ALL files AND the \"Backup\" folder from the zip archive again. ␛[0m"
+  echo
+  echo "   # ␛[92m They must be placed in .../SpaceEngineers/Bin64/ !!! ␛[0m"
+  echo
+  echo "   - ␛[92m Press any key to remove the extracted files and exit. ␛[0m"
+  echo
+  read -n 1 -s -r -p ""
+  rm -f cream_api.ini > /dev/null 2>&1
+  rm -rf Backup > /dev/null 2>&1
+  rm -f CreamAPI_Tool.cmd > /dev/null
+  exit
+}
+
+dir_wrong() {
+  echo
+  echo "   # ␛[91m Something went wrong! ␛[0m"
+  echo
+  echo "   # ␛[91m Please make sure to place files in the RIGHT folder. ␛[0m"
+  echo
+  echo "   # ␛[92m It must be: .../SpaceEngineers/Bin64/ !!! ␛[0m"
+  echo
+  echo "   # ␛[91m You are in the wrong folder here: ␛[0m"
+  echo
+  echo "   #  %PWD%"
+  echo
+  echo "   - ␛[92m Press any key to remove the extracted files and exit. ␛[0m"
+  echo
+  read -n 1 -s -r -p ""
+  rm -f cream_api.ini > /dev/null 2>&1
+  rm -rf Backup > /dev/null 2>&1
+  rm -f CreamAPI_Tool.cmd > /dev/null
+  exit
+}
+
+# Check for existence of required files and directories
+if [ ! -e Backup/CreamAPI/steam_api64.dll ]; then
+  file_not_found
+fi
+
+if [ ! -e cream_api.ini ]; then
+  file_not_found
+fi
+
+if [ ! -e steam_api64.dll ]; then
+  dir_wrong
+fi
+
+echo
+echo "   -  Press \"␛[102;30m C ␛[0m\" to Check/install, or \"␛[101;30m R ␛[0m\" to remove ␛[1mCreamAPI␛[0m."
+echo
+echo "   -  Press \"␛[44;97m A ␛[0m\" (or close this window) to abort."
+echo
+read -n 1 -p "Your choice (C/R/A): " choice
+echo
+
+choice=$(echo "$choice" | tr '[:lower:]' '[:upper:]')
+
+case $choice in
+  C)
+    installer
+    ;;
+  R)
+    remover
+    ;;
+  A)
+    abort
+    ;;
+esac
