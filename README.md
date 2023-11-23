@@ -1,16 +1,21 @@
+# 🚧 UPDATING - PLEASE WAIT! 🔄
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
+---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### ✔️ All DLCs unlocked up to: `v1.203.5` - *Anniversary Pack* 🎂
 
-### 🔓 **Unlocker version: `v0.8`**
+### 🔓 **Unlocker version: `v1.0`**
 
+- 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/)
 - 🚸 Easy single Tool installer / checker / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the Tool! (update needed only for new DLC)
 
 ---
->[💾 v0.8 Download from Mega.nz](https://mega.nz/file/SVoCCKwB#5UD7c-T1t2FRNlqQPOkJj2EpqmZiKuo3OVDh9cKn1pI) : `file.zip \ *unlocker files*`  
+>[💾 v1.0 Download from Mega.nz](please wait) : `file.zip \ *unlocker files*`  
 
->[💾 v0.8 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
+>[💾 v1.0 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
 ---
@@ -22,16 +27,19 @@
   - 3a- (Mega.nz zip) unzip all files and "Backup" folder from the zip archive to the game "Bin64" folder
   - 3b- (GitHub zip) unzip all files and "Backup" folder from **INSIDE** `zip\...main folder\` to the "Bin64" folder  
     IMPORTANT: the "Backup" folder is also NECESSARY for operation!
-  - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI, it automatically makes necessary backup  
-    Note1: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin  
-    Note2: If you already own some DLC please SEE the related section below, before playing  
-    Note3: If there is any problem, please check the "Troubleshooting" section below
+  - 4a - For Windows: run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
+  - 4b - For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI  
+    Note1: it automatically makes necessary backup, you can find it after install in "..\Bin64\Backup\Original"  
+    Note2: If the game is on "C:" drive, you may need to run it using mouse right button, run as admin  
+    Note3: If you already own some DLC please SEE the related section below, before playing  
+    Note4: If there is any problem, please check the "Troubleshooting" section below
   - 5 - You can play.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - 🗑️ ***Uninstall***:
-  - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.  
+  - For Windows: run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.
+  - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files.  
     Note: Don't worry if the game has been updated in the meantime, it checks first ;)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -39,10 +47,10 @@
 ---
 
 - 🔄 ***If a game patch breaks the unlocker***:
-  - Run `CreamAPI_Tool.cmd` and press "**C**",  
+  - Run `CreamAPI_Tool.cmd` or `CreamAPI_Linux` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
-    just run the Tool + "**C**"(x2).  
+    just run the tool + "**C**"(x2).  
     However when a new DLC comes out you need the new unlocker version,  
     or just edit "cream_api.ini" accordingly, see "What I did to set up CreamAPI" at the end of this page.
 
@@ -99,9 +107,10 @@
 
 ---
 
-- 📂 ***Files and folders of `v0.8`***:
+- 📂 ***Files and folders of `v1.0`***:
   - `cream_api.ini` : CreamAPI config file
-  - `CreamAPI_Tool.cmd` : Install / Check / Remove CreamAPI
+  - `CreamAPI_Tool.cmd` : for Windows - Install / Check / Remove CreamAPI
+  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI
   - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll used by the installer
   - `Backup\Original\` : empty folder used by the installer for the original dll backup
   - `Backup\url_link` : a link to this page
@@ -122,6 +131,7 @@
     - v0.6: single .cmd tool with some fixes to the code, backward compatible with all versions, .ini revised.
     - v0.7: prevents extraction errors and using the wrong folder, other fixes to the code and compatibility.
     - v0.8: added dlc "Anniversary Pack". Reuploaded 8 November 2023 fixing wrong version displayed in tool.
+    - v1.0: added Linux/OSX support, thanks to DeathCamel58 (link to his page in the title)
 
     ————————————————————————————————————————  
 
