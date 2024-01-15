@@ -1,6 +1,6 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.203.5` - *Anniversary Pack* 🎂
+### ✔️ All DLCs unlocked up to: `v1.203.6` - *Anniversary Pack* 🎂
 
 ### 🔓 **Unlocker version: `v1.0`**
 
