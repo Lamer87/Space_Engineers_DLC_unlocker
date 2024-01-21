@@ -166,7 +166,7 @@
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
     - Now using CreamAPI, configured for Space Engineers. The old method no longer works.
     - Anyway, Armor Skins and Emotes cannot be unlocked.
-    - It's NOT possible to paste DLC items contained in projects! both online and offline worlds.  
+    - It's NOT possible to paste DLC items contained in projects in both online and offline worlds!  
       But you can paste the corresponding ones of the dcls you purchased,  
       just check out at the above section: "***If you already own some DLC***".
 
