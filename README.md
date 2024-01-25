@@ -60,10 +60,10 @@
     - Save the file and backup it if you want
   - Now everything should work fine.
   - If you purchased a DLC but deactivated it from Steam, leave it in the list.  
-    Example: the Deluxe DLC, in addition to unlocking an few skins, makes you download a few GB  
+    Example: the Deluxe DLC, in addition to unlocking an few skins, makes you download 3GB  
     of useless files related to a very old vanilla version of the game.  
     With this method you can unlock just the blocks, keeping the dlc deactivated from Steam  
-    and therefore without downloading few GB of data (but losing dlc related skins).
+    and therefore without downloading 3GB of data (but losing dlc related skins).
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
