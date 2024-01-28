@@ -23,20 +23,25 @@
   - 3a- (Mega.nz zip) unzip all files and "Backup" folder from the zip archive to the game "Bin64" folder
   - 3b- (GitHub zip) unzip all files and "Backup" folder from **INSIDE** `zip\...main\` to the "Bin64" folder  
     IMPORTANT: the "Backup" folder is also NECESSARY for operation!
-  - 4a - For Windows: run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
-  - 4b - For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI  
-    Note1: it automatically makes necessary backup, you can find it after install in "..\Bin64\Backup\Original\"  
-    Note2: If the game is on "C:" drive you may need to run it using mouse right button, run as admin  
-    Note3: If you already own some DLC please SEE the related section below before playing  
-    Note4: If there is any problem please check the "Troubleshooting" section below
+  - 4a- For Windows: run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
+  - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI  
   - 5 - You can play.
+
+  Notes:  
+    - Necessary backups automatically done, you can find it (after install) in "..\Bin64\Backup\Original\"  
+    - If the game is on "C:" drive you may need to run it using mouse right button, run as admin  
+    - If you **already own some DLC** please SEE the related section below before playing  
+    - If there is any problem please check the **"Troubleshooting"** section below
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - 🗑️ ***Uninstall:***
   - For Windows: run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.
-  - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files.  
-    Note: Don't worry if the game has been updated in the meantime, it checks first ;)
+  - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files.
+
+    Note:
+    Don't worry if the game has been updated in the meantime,  
+    tool will first check, then restore the backup if necessary. ;)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
@@ -53,14 +58,15 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 - 💸 ***If you already own some DLC:***
   - You need to remove the lines corresponding to your owned DLCs, from the "cream_api.ini" file, so:
-    - Follow the instructions for "Installation" first
-    - In the game "Bin64" folder, open `cream_api.ini` with a text editor like notepad
-    - Look below for the lines with the DLC codes and names
-    - Remove the entire line(s) corresponding to the DLC(s) you already own
-    - Save the file and backup it if you want
-  - Now everything should work fine.
+    - Follow the instructions for "Installation" first.
+    - In the game "Bin64" folder, open `cream_api.ini` with a text editor like notepad.
+    - Look below for the lines with the DLC codes and names.
+    - Remove the entire line(s) corresponding to the DLC(s) you already own.
+    - Save the file and back it up if you want, so you don't lose it during uninstallation.
+    - Now everything should work fine.
+
   - If you purchased a DLC but deactivated it from Steam, leave it in the list.  
-    Example: the Deluxe DLC, in addition to unlocking an few skins, makes you download 3GB  
+    Example: the Deluxe DLC, in addition to unlocking few skins, makes you download 3GB  
     of useless files related to a very old vanilla version of the game.  
     With this method you can unlock just the blocks, keeping the dlc deactivated from Steam  
     and therefore without downloading 3GB of data (but losing dlc related skins).
@@ -74,7 +80,7 @@
     (it's safe, but software houses don't like it when you play their games for free)
 
   - If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd":  
-    please see [this thread](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/40)
+    please see [this little guide](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/40)
 
   - If you are not sure and want to restore default files through steam:  
     <details><summary>click here to show how.</summary><p>
@@ -224,7 +230,7 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
-<fino all'inizio di questa riga, incollare tutto all'inizio del readme
+<fino all'inizio di questa riga
 
 
 img empty:
@@ -232,9 +238,6 @@ img empty:
 
 img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
-
-main title link:
-(https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ✔️⚠️❗💡🔄🔂🍦🛞🕹️📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸
 -->
