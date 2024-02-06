@@ -7,6 +7,7 @@
 - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/)
 - 🚸 Easy single tool installer / checker / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the tool! (update needed only for new DLC)
+- ❗❗ If anyone has tried the Linux/OSX version, please answer a little question [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45).
 
 ---
 >[💾 v1.0 Download from Mega.nz](https://mega.nz/file/mNgFBCwT#s6oAnezigKxEfmGbbe3zywb1s8NQtct2FC7e2tBqCPc) : `file.zip \ *unlocker files*`  
