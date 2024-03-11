@@ -2,7 +2,8 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.203.6` - *Anniversary Pack* 🎂
 
-### 🔓 **Unlocker version: `v1.0`** (I'm going to release the 1.1 with an updated CreamAPI dll soon)
+### 🔓 **Unlocker version: `v1.0`**
+### (I'm going to release the 1.1 with an updated CreamAPI dll soon)
 
 - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/)
 - 🚸 Easy single tool installer / checker / remover, all automated!
