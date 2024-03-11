@@ -136,6 +136,14 @@
     - v0.7: prevents extraction errors and using the wrong folder, other fixes to the code and compatibility.
     - v0.8: added dlc "Anniversary Pack". Reuploaded 8 November 2023 fixing wrong version displayed in tool.
     - v1.0: added Linux/OSX support, thanks to DeathCamel58 (link to his page in the title)
+    - v1.1:  NOT UPLOADED YET !!!  
+            - updated CreamAPI from 4.5.0.0 to 5.1.0.0  
+            - added tips to the tool if you get errors as well as small additions to other messages  
+            - the tool detects if you have the old CreamAPI version and prompts you to update  
+            - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
+            - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check for old version)  
+            - now linux/osx version is clean, no more color codes
+            - linux/osx version will only get the "tips" update, not the whole thing (no knowledge sorry)
 
     ————————————————————————————————————————  
 
