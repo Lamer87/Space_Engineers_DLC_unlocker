@@ -142,8 +142,8 @@
             - the tool detects if you have the old CreamAPI version and prompts you to update  
             - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
             - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check for old version)  
-            - now linux/osx version is clean, no more color codes
-            - linux/osx version will only get the "tips" update, not the whole thing (no knowledge sorry)
+            - now linux/osx version is clean, no more color codes  
+            - linux/osx version will only get the "tips" update, not the whole thing (no knowledge sorry)  
 
     ————————————————————————————————————————  
 
