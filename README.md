@@ -111,11 +111,12 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.0`:***
+- 📂 ***Files and folders of `v1.1`:***
   - `cream_api.ini` : CreamAPI config file
   - `CreamAPI_Tool.cmd` : for Windows - Install / Check / Remove CreamAPI
   - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI
   - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll used by the installer
+  - `Backup\CreamAPI\old_versions\4.5.0.0\steam_api64.dll` : old CreamAPI (needed for check)
   - `Backup\Original\` : empty folder used by the installer for the original dll backup
   - `Backup\url_link` : a link to this page
 
@@ -143,7 +144,7 @@
             - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
             - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check for old version)  
             - now linux/osx version is clean, no more color codes  
-            - linux/osx version will only get the "tips" update, not the whole thing (no knowledge sorry)  
+            - linux/osx version will only get the "tips" update, not the "update section" (no knowledge sorry)  
 
     ————————————————————————————————————————  
 
