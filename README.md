@@ -81,7 +81,7 @@
 
   Notes:
     - If the game updates `steam_api64.dll` to a new version, you can just remove the backup
-    - How can I know if the game updated? CreamAPI dll takes ~680kb, legit takes ~290kb
+    - How can I know if the game has been updated? CreamAPI dll takes ~680kb, legit takes ~290kb
     - If something goes wrong, just take a look at the **"Troubleshooting"** section below
 
 <!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
