@@ -11,7 +11,7 @@
 
 - 🚸 Easy single tool installer / checker / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the tool!
-- 🔗 Update needed only for new DLC or new CreamAPI version.
+- 🔂 Update needed only for new DLC or new CreamAPI version.
 ---
 - ❗ Linux/OSX version REMOVED because it was just a mess. See [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45) (no knowledge to make it work).
 - ❗ Manual installation and uninstallation instructions added below the other ones.
