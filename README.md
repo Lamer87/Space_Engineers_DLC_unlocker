@@ -180,7 +180,7 @@
     - v0.7: prevents extraction errors and using the wrong folder, other fixes to the code and compatibility.
     - v0.8: added dlc "Anniversary Pack". Reuploaded 8 November 2023 fixing wrong version displayed in tool.
     - v1.0: added Linux/OSX support, thanks to DeathCamel58 (link to his page in the title)
-    - v1.1:  NOT UPLOADED YET !!!  
+    - v1.1:  
             - updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
             - the tool detects if you have the old CreamAPI version and prompts you to update  
             - added tips to the tool if you get errors as well as small additions to other messages  
