@@ -5,7 +5,7 @@
 ### 🔓 **Unlocker version: `v1.1`**
 ### 🍦 **CreamAPI version: `v5.1.0.0`** (updated!)
 
-- 💡 From CreamAPI page: fixed a typo in code while reading the SteamClient version (fixes Space Engineers)
+- 💡 From CreamAPI changelog: fixed a typo in code while reading the SteamClient version (fixes Space Engineers)
 - 🚸 Easy single tool installer / checker / UPDATER (new) / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the tool!
 - 🔂 Update needed only for new DLC or new CreamAPI version.
