@@ -61,13 +61,15 @@
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3 - Make a backup of `steam_api64.dll`
   - 4 - Rename `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
-  - 5 - Copy the new dll from the extracted archive `Backup\CreamAPI\steam_api64.dll` to the `Bin64` folder
+  - 5 - Copy the dll from the extracted archive `Backup\CreamAPI\steam_api64.dll` to the `Bin64` folder
   - 6 - Copy `creamapi.ini` from the extracted archive to the `Bin64` folder
   - 7 - You can play.
 
   Notes:
     - If you **already own some DLC** please SEE the related section below before playing  
     - If there is any problem please check the **"Troubleshooting"** section below
+    - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
+      delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~680kb, legit takes ~290kb
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -77,8 +79,8 @@
   - 3 - Rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
   Notes:
-    - If the game updated to a new version `steam_api64.dll` you can just remove the backup
-    - How can I know if the game updated? CreamAPI dll takes ~680kb, legit takes ~290kb.
+    - If the game updates `steam_api64.dll` to a new version, you can just remove the backup
+    - How can I know if the game updated? CreamAPI dll takes ~680kb, legit takes ~290kb
     - If something goes wrong, just take a look at the **"Troubleshooting"** section below
 
 <!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
@@ -88,7 +90,7 @@
 ---
 
 - 🔄 ***If a game patch breaks the unlocker:***
-  - Run `CreamAPI_Tool.cmd` or `CreamAPI_Linux` and press "**C**",  
+  - Run `CreamAPI_Tool.cmd` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
     just run the tool + "**C**"(x2).  
@@ -152,11 +154,13 @@
 - 📂 ***Files and folders of `v1.1`:***
   - `cream_api.ini` : CreamAPI config file
   - `CreamAPI_Tool.cmd` : for Windows - Install / Check / Remove CreamAPI
-  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI
   - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll used by the installer
   - `Backup\CreamAPI\old_versions\4.5.0.0\steam_api64.dll` : old CreamAPI (needed for check)
   - `Backup\Original\` : empty folder used by the installer for the original dll backup
   - `Backup\url_link` : a link to this page
+
+<!--  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI -->
+
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -181,8 +185,7 @@
             - the tool detects if you have the old CreamAPI version and prompts you to update  
             - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
             - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check for old version)  
-            - now linux/osx version is clean, no more color codes  
-            - linux/osx version will only get the "tips" update, not the "update section" (no knowledge sorry)  
+            - removed linux/osx version because it was a mess
 
     ————————————————————————————————————————  
 
@@ -219,8 +222,7 @@
 - 📜 ***Notes:***
 
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-    - Now using CreamAPI, configured for Space Engineers. The old method no longer works.
-    - Anyway, Armor Skins and Emotes cannot be unlocked.
+    - Armor Skins and Emotes cannot be unlocked.
     - It's NOT possible to paste DLC items contained in projects in both online and offline worlds!  
       But you can paste the corresponding ones of the DLCs you purchased,  
       just check out at the above section: "***If you already own some DLC***".
