@@ -156,7 +156,7 @@
   - `cream_api.ini` : CreamAPI config file
   - `CreamAPI_Tool.cmd` : for Windows - Install / Check / Remove CreamAPI
   - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll used by the installer
-  - `Backup\CreamAPI\old_versions\4.5.0.0\steam_api64.dll` : old CreamAPI (needed for check)
+  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old CreamAPI (needed for check)
   - `Backup\Original\` : empty folder used by the installer for the original dll backup
   - `Backup\url_link` : a link to this page
 
