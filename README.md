@@ -36,9 +36,10 @@
   - 5 - You can play.
 
   Notes:
-    - Necessary backups automatically done, you can find it (after install) in "..\Bin64\Backup\Original\"  
-    - If the game is on "C:" drive you may need to run it using mouse right button, run as admin  
-    - If you **already own some DLC** please SEE the related section below before playing  
+    - Necessary backup automatically done, you can find it in "..\Bin64\Backup\Original\"
+    - There is a check if you already have the old version, with a prompt to update
+    - If the game is on "C:" drive you may need to run it using mouse right button, run as admin
+    - If you **already own some DLC** please SEE the related section below before playing
     - If there is any problem please check the **"Troubleshooting"** section below
 
 <!--   - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI -->
@@ -66,7 +67,7 @@
   - 7 - You can play.
 
   Notes:
-    - If you **already own some DLC** please SEE the related section below before playing  
+    - If you **already own some DLC** please SEE the related section below before playing
     - If there is any problem please check the **"Troubleshooting"** section below
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
       delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~680kb, legit takes ~290kb
@@ -181,10 +182,10 @@
     - v1.0: added Linux/OSX support, thanks to DeathCamel58 (link to his page in the title)
     - v1.1:  NOT UPLOADED YET !!!  
             - updated CreamAPI from 4.5.0.0 to 5.1.0.0  
-            - added tips to the tool if you get errors as well as small additions to other messages  
             - the tool detects if you have the old CreamAPI version and prompts you to update  
+            - added tips to the tool if you get errors as well as small additions to other messages  
             - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
-            - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check for old version)  
+            - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check + can be useful)  
             - removed linux/osx version because it was a mess
 
     ————————————————————————————————————————  
