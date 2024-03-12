@@ -167,7 +167,7 @@
 ---
 - 📇 ***Changelog***:
 
-    <details><summary>click to show</summary><p>
+    <details><summary>click here to show.</summary><p>
 
     ————————————————————————————————————————  
 
