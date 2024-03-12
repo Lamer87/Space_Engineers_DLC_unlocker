@@ -71,12 +71,14 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🗑️ ***Manual Uninstallation:***
-  - 1 - Delete `steam_api64.dll` [see notes!] and `creamapi.ini`
-  - 2 - Rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
+- 🚮 ***Manual Uninstallation:***
+  - 1 - Chek Notes below FIRST!
+  - 2 - Delete `steam_api64.dll` and `creamapi.ini`
+  - 3 - Rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
   Notes:
     - If the game updated to a new version `steam_api64.dll` you can just remove the backup
+    - How can I know if the game updated? CreamAPI dll takes ~680kb, legit takes ~290kb.
     - If something goes wrong, just take a look at the **"Troubleshooting"** section below
 
 <!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
