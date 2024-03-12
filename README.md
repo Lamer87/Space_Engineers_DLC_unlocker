@@ -1,14 +1,16 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
+# 🚧 UPDATING - PLEASE WAIT! 🔄
+# just few minutes and the new version is ready!
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
+---
 ### ✔️ All DLCs unlocked up to: `v1.203.6` - *Anniversary Pack* 🎂
 
-### ❗❗ I'm going to release the 1.1 with an updated CreamAPI dll soon ❗❗
-
-## WORK IN PROGRESS, you can download v1.0 for now
-
 ### 🔓 **Unlocker version: `v1.1`**
-### 🍦 **CreamAPI version: `v5.1.0.0`**
+### 🍦 **CreamAPI version: `v5.1.0.0`** (updated!)
 
+- 💡 From CreamAPI page: fixed a typo in code while reading the SteamClient version (fixes Space Engineers)
 - 🚸 Easy single tool installer / checker / UPDATER (new) / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the tool!
 - 🔂 Update needed only for new DLC or new CreamAPI version.
@@ -199,7 +201,7 @@
 
 ---
 
-- 💡 ***How the new Tool works, newbies proof:***
+- ❔ ***How the new Tool works, newbies proof:***
 
   - Installer `tool + press C`:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
