@@ -32,7 +32,7 @@
   - 3a- (Mega.nz zip) unzip all files and "Backup" folder from the zip archive to the game "Bin64" folder
   - 3b- (GitHub zip) unzip all files and "Backup" folder from **INSIDE** `zip\...main\` to the "Bin64" folder  
     ❗ IMPORTANT: the "Backup" folder is also NECESSARY for operation!
-  - 4 - For Windows: run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
+  - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
   - 5 - You can play.
 
   Notes:
