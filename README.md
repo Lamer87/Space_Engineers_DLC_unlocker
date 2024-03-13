@@ -37,7 +37,7 @@
   - 5 - You can play.
 
   Notes:
-    - Necessary backup automatically done, you can find it in "..\Bin64\Backup\Original\"
+    - Necessary backup automatically done, you can find it in "`...\Bin64\Backup\Original\`"
     - There is a check if you already have the old version, with a prompt to update
     - If the game is on "C:" drive you may need to run it using mouse right button, run as admin
     - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
