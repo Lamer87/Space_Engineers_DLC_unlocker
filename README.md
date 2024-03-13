@@ -12,7 +12,7 @@
 ---
 - ❗ Linux/OSX version REMOVED because it was just a mess. See [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45) (no knowledge to make it work).
 - ❗ Manual installation and uninstallation instructions added below the Tool ones.
-<!-- - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/) -->
+
 
 ---
 >[💾 v1.1 Download from Mega.nz](https://mega.nz/file/fZJzFIZZ#o4o6ssFZc3nVzUepFu4PcJ7pT1TjNM5FgHOtl1yrvec) : `file.zip \ *unlocker files*`  
@@ -43,7 +43,6 @@
     - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
     - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
 
-<!--   - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI -->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -74,6 +73,7 @@
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
       delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~680kb, legit takes ~290kb
 
+
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - 🚮 ***Manual Uninstallation:***
@@ -85,8 +85,6 @@
     - If the game updates `steam_api64.dll` to a new version, you can just remove the backup
     - How can I know if the game has been updated? CreamAPI dll takes ~680kb, legit takes ~290kb
     - If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below (check files)
-
-<!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
 
 <br>
 
@@ -116,6 +114,7 @@
     of useless files related to a very old vanilla version of the game.  
     With this method you can unlock just the blocks, keeping the dlc deactivated from Steam  
     and therefore without downloading 3GB of data (but losing dlc related skins).
+
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -159,7 +158,7 @@
 
     </p></details>
 
-  - If you are not sure and want to restore default files through Steam:  
+  - If you are not sure and you need to restore default files through Steam:  
     <details><summary>click here to show how.</summary><p>
 
     ————————————————————————————————————————  
@@ -196,8 +195,6 @@
   - `Backup\Original\` : empty folder used by the installer for the original dll backup
   - `Backup\url_link` : a link to this page
 
-<!--  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI -->
-
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -233,7 +230,7 @@
 
 ---
 
-- ⚙️ ***How the new Tool works, newbies proof:***
+- ⚙️ ***How the Tool works, newbies proof:***
 
   - Installer `tool + press C`:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
@@ -327,6 +324,13 @@ img empty:
 
 img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
+
+Removed linux version:
+<!-- - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/) -->
+<!--   - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI -->
+<!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
+<!--  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI -->
+
 
 ✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔
 -->
