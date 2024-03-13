@@ -40,8 +40,8 @@
     - Necessary backup automatically done, you can find it in "..\Bin64\Backup\Original\"
     - There is a check if you already have the old version, with a prompt to update
     - If the game is on "C:" drive you may need to run it using mouse right button, run as admin
-    - If you **already own some DLC** please SEE the related section below before playing
-    - If there is any problem please check the **"Troubleshooting"** section below
+    - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
+    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
 
 <!--   - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI -->
 
@@ -69,8 +69,8 @@
   - 7 - You can play.
 
   Notes:
-    - If you **already own some DLC** please SEE the related section below before playing
-    - If there is any problem please check the **"Troubleshooting"** section below
+    - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
+    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
       delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~680kb, legit takes ~290kb
 
@@ -84,7 +84,7 @@
   Notes:
     - If the game updates `steam_api64.dll` to a new version, you can just remove the backup
     - How can I know if the game has been updated? CreamAPI dll takes ~680kb, legit takes ~290kb
-    - If something goes wrong, take a look at the **"Troubleshooting"** section below (check files)
+    - If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below (check files)
 
 <!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
 
