@@ -24,6 +24,7 @@
 > Bin64 folder without any trouble, then just run the Tool and you will be prompted to update CreamAPI.
 
 ---
+<br>
 
 - 🕹️ ***Installation with Tool:***
   - 1 - Download from above
@@ -52,9 +53,10 @@
     Note: Don't worry if the game has been updated in the meantime,  
     tool will first check, then restore the backup if necessary. ;)
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
+<br>
 
 - 🪛 ***Manual Installation:***
   - 1 - Download the archive and extract it to your desktop.
@@ -86,7 +88,7 @@
 
 <!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
 
@@ -99,6 +101,7 @@
     or just edit "cream_api.ini" accordingly, see "What I did to set up CreamAPI" at the end of this page.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
 - 💸 ***If you already own some DLC:***
   - You need to remove the lines corresponding to your owned DLCs, from the "cream_api.ini" file, so:
     - Follow the instructions for "Installation" first.
@@ -123,11 +126,43 @@
     (it's safe, but software houses don't like it when you play their games for free)
 
   - If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd":  
-    please see [this little guide](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/40)
+    <details><summary>click here for a little guide.</summary><p>
+
+    ————————————————————————————————————————  
+    ————————————————————————————————————————  
+
+    It may happen that Windows shows you this message to prevent the execution of the file,
+    which is obviously not certified, it is just a batch that moves/copies/deletes files related to CreamAPI.
+
+    How to run the Tool:
+
+
+    - 1 - Press on "More info"
+    <br>
+
+    [<img src="https://i.ibb.co/16gFzwL/Windows10-Smart-Screen-Blocked1.png" width="500"/>](https://i.ibb.co/16gFzwL/Windows10-Smart-Screen-Blocked1.png)
+
+    <br>
+    <br>
+
+    - 2 - Press on "Run anyway"
+    <br>
+
+    [<img src="https://i.ibb.co/DPdbCpz/Windows10-Smart-Screen-Blocked2.png" width="500"/>](https://i.ibb.co/DPdbCpz/Windows10-Smart-Screen-Blocked2.png)
+
+
+    ————————————————————————————————————————  
+    ————————————————————————————————————————  
+
+    <br>
+    <br>
+
+    </p></details>
 
   - If you are not sure and want to restore default files through Steam:  
     <details><summary>click here to show how.</summary><p>
 
+    ————————————————————————————————————————  
     ————————————————————————————————————————  
 
     Start file checking:  
@@ -145,10 +180,11 @@
       -Select "Local Files" on the left, then "Verify integrity of game files".
 
     ————————————————————————————————————————  
+    ————————————————————————————————————————  
 
     </p></details>
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
 
@@ -192,7 +228,7 @@
 
     </p></details>
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
 
@@ -216,7 +252,7 @@
   - The tool works regardless of the game path,  
     i.e. if you have the game on "C:\", "E:\games", "Y:\folder\steam" etc., it works anyway.
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
 
@@ -237,7 +273,7 @@
     - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
     - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
 
@@ -245,7 +281,7 @@
 
   - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker) (+ CreamAPI = definitely works)
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
 
@@ -268,7 +304,7 @@
 
     </p></details>
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+<br>
 
 ---
 
