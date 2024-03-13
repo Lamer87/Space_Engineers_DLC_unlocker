@@ -240,7 +240,7 @@
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the Tool+C to restore CreamAPI.  
     If it detects that CreamAPI is present and ready, it does nothing.  
-    If you have an old CreamAPI version, it prompts you to update it by pressing "U".
+    If you have an old CreamAPI version, it prompts you to update it by pressing "U".  
     The only time you need to update the unlocker is when a new DLC is released or CreamAPI gets updated.
 
   - Remover `tool + press R`:  
