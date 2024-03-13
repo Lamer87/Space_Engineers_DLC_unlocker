@@ -92,7 +92,7 @@
 
 ---
 
-- 🔄 ***If a game patch breaks the unlocker:***
+- 🧯 ***If a game patch breaks the unlocker:***
   - Run `CreamAPI_Tool.cmd` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
@@ -233,7 +233,7 @@
 
 ---
 
-- ⌨️ ***How the new Tool works, newbies proof:***
+- ⚙️ ***How the new Tool works, newbies proof:***
 
   - Installer `tool + press C`:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
@@ -328,5 +328,5 @@ img empty:
 img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
-✔️⚠️❗💡🔄🔂🍦🛞🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️
+✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯
 -->
