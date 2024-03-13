@@ -121,10 +121,10 @@
 
 - ⚠️ ***Troubleshooting:***
 
-  - If your antivirus say something, make an exception for the "steam_api64.dll" file.  
+  - 🦠 If your antivirus say something, make an exception for the "steam_api64.dll" file.  
     (it's safe, but software houses don't like it when you play their games for free)
 
-  - If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd":  
+  - 🛡️ If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd":  
     <details><summary>click here for a little guide.</summary><p>
 
     ————————————————————————————————————————  
@@ -158,7 +158,7 @@
 
     </p></details>
 
-  - If you are not sure and you need to restore default files through Steam:  
+  - ☑️ If you are not sure and you need to restore default files through Steam:  
     <details><summary>click here to show how.</summary><p>
 
     ————————————————————————————————————————  
