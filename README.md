@@ -204,7 +204,7 @@
 
     ————————————————————————————————————————  
 
-    - v0.1: first manual version.
+    - v0.1: first manual version. Uses CreamAPI 4.5.0.0 (till unlocker v1.0).
     - v0.2: automated version with easy installation (not released cause no support for new game patches).
     - v0.3: easier installation/removal and support for new game patches.
     - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
