@@ -200,7 +200,7 @@
 ---
 - 📑 ***Changelog***:
 
-    <details><summary>click here to show.</summary><p>
+    <details><summary>click here to show old versions.</summary><p>
 
     ————————————————————————————————————————  
 
@@ -213,18 +213,20 @@
     - v0.7: prevents extraction errors and using the wrong folder, other fixes to the code and compatibility.
     - v0.8: added dlc "Anniversary Pack". Reuploaded 8 November 2023 fixing wrong version displayed in tool.
     - v1.0: added Linux/OSX support, thanks to DeathCamel58 (link to his page in the title)
-    - v1.1:  
-            - updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
-            - the tool detects if you have the old CreamAPI version and prompts you to update  
-            - added tips to the tool if you get errors as well as small additions to other messages  
-            - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
-            - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check + can be useful)  
-            - removed linux/osx version because it was a mess (for more info, see discussions)
     <br>
 
     ————————————————————————————————————————  
 
     </p></details>
+
+    - v1.1:  
+            - updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
+            - the tool detects if you have the old CreamAPI version and prompts you to update  
+            - added tips to the tool if you get errors as well as small additions to other messages  
+            - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
+            - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check)  
+            - removed linux/osx version because it was a mess (for more info, see discussions)
+
 
 <br>
 
