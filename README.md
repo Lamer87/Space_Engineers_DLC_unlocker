@@ -97,7 +97,7 @@
 
   Note:
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
-    just run the tool + "**C**"(x2).  
+    just run the tool and press "**C**"(x2).  
     However when a new DLC comes out (or if creamapi is outdated) you need the new unlocker version.  
     For a new DLC, you can just edit "cream_api.ini", see last section at the end of the page.
 
