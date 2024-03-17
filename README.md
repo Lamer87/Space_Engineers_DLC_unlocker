@@ -82,7 +82,7 @@
   - 3 - Rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
   Notes:
-    - If the game updates to a new version the file `steam_api64.dll`, you can just remove the backup (steam_api64_o)
+    - If the game updates to a new version the file `steam_api64.dll`, just remove `steam_api64_o.dll`
     - How can I find out if the game has been updated? CreamAPI dll takes ~680kb, a legit one takes ~290kb
     - If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below to check files
 
