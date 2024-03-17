@@ -2,16 +2,16 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.203.6` - *Anniversary Pack* 🎂
 
-### 🔓 **Unlocker version: `v1.1`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
-### 🍦 **CreamAPI version: `v5.1.0.0`** (updated from 4.5.0.0)
+### 🔓 **Unlocker: `v1.1`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
+### 🍦 **CreamAPI: `v5.1.0.0`** (previous one: v4.5.0.0)
 
-- ❗ From CreamAPI changelog: fixed a typo in code while reading the SteamClient version (fixes Space Engineers)
-- 🚸 Easy single tool installer / checker / UPDATER (new) / remover, all automated!
-- 🔄 Game patches proof! if it stops working, just run the tool!
+- ❗ From CreamAPI page: fixed a typo in code while reading SteamClient version (for Space Engineers)
+- 🚸 Easy single tool: installer / checker / UPDATER (new) / remover, all automated!
+- 🔄 Game patches proof! if it stops working, just rerun the tool!
 - 🔕 Update needed only for new DLC or new CreamAPI version.
 ---
-- ❗ Linux/OSX version REMOVED because it was just a mess. See [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45) (no knowledge to make it work).
-- ❗ Manual installation and uninstallation instructions added below the Tool ones.
+- ❗ Linux/OSX version REMOVED because it was just a mess. See [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45) (no knowledge to make it work like win version).
+- ❗ For now, stick to manual installation and uninstallation instructions.
 
 
 ---
@@ -30,17 +30,17 @@
   - 1 - Download from above
   - 2 - Open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - 3a- (Mega.nz zip) unzip all files and "Backup" folder from the zip archive to the game "Bin64" folder
-  - 3b- (GitHub zip) unzip all files and "Backup" folder from **INSIDE** `zip\...main\` to the "Bin64" folder  
-    ❗ IMPORTANT: the "Backup" folder is also NECESSARY for operation!
+  - 3a- (Mega.nz zip) unzip files and "Backup" folder from the zip, to the game "Bin64" folder
+  - 3b- (GitHub zip) unzip files and "Backup" folder from `zip\...main` folder, to the "Bin64" folder  
+    ❗ IMPORTANT: the "Backup" folder is NECESSARY!
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
-  - 5 - You can play.
+  - 5 - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
+  - 6 - You can play.
 
   Notes:
     - Necessary backup automatically done, you can find it in "`...\Bin64\Backup\Original\`"
-    - There is a check if you already have the old version, with a prompt to update
+    - There is a check if you already have the old version, which asks you to update
     - If the game is on "C:" drive you may need to run it using mouse right button, run as admin
-    - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
     - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
 
 
@@ -50,7 +50,7 @@
   - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.
 
     Note: Don't worry if the game has been updated in the meantime,  
-    tool will first check, then restore the backup if necessary. ;)
+    tool will first check, then if necessary restore the backup. ;)
 
 <br>
 
@@ -58,20 +58,20 @@
 <br>
 
 - 🪛 ***Manual Installation:***
-  - 1 - Download the archive and extract it to your desktop.
-  - 2 - Open your **"Bin64"** game folder, example:  
+  - 1 - Download one the archives and extract it to your desktop.
+  - 2 - Now open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - 3 - Make a backup of `steam_api64.dll`
-  - 4 - Rename `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
-  - 5 - Copy the dll from the extracted archive `Backup\CreamAPI\steam_api64.dll` to the `Bin64` folder
-  - 6 - Copy `creamapi.ini` from the extracted archive to the `Bin64` folder
-  - 7 - You can play.
+  - 3 - Make a backup of the file `steam_api64.dll` in another folder (if somethings goes wrong)
+  - 4 - Rename the legit Bin64\ `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
+  - 5 - Copy `creamapi.ini` from the extracted archive to the `Bin64` folder
+  - 6 - Copy `Backup\CreamAPI\steam_api64.dll` from the extracted archive to the `Bin64` folder (just the file!)
+  - 7 - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
+  - 8 - You can play.
 
   Notes:
-    - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
     - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
-      delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~680kb, legit takes ~290kb
+      delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~680kb, a legit one takes ~290kb
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -82,38 +82,41 @@
   - 3 - Rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
   Notes:
-    - If the game updates `steam_api64.dll` to a new version, you can just remove the backup
-    - How can I know if the game has been updated? CreamAPI dll takes ~680kb, legit takes ~290kb
-    - If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below (check files)
+    - If the game updates to a new version the file `steam_api64.dll`, you can just remove the backup (steam_api64_o)
+    - How can I find out if the game has been updated? CreamAPI dll takes ~680kb, a legit one takes ~290kb
+    - If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below to check files
 
 <br>
 
 ---
 
 - 🧯 ***If a game patch breaks the unlocker:***
-  - Run `CreamAPI_Tool.cmd` and press "**C**",  
-    if it recognizes that CreamAPI is no longer present, press "**C**" a second time.  
+  - If you used the tool: run `CreamAPI_Tool.cmd` and press "**C**",  
+    if it recognizes that CreamAPI is no longer present, just press "**C**" another time.
+  - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"
+
+  Note:
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
     just run the tool + "**C**"(x2).  
-    However when a new DLC comes out you need the new unlocker version,  
-    or just edit "cream_api.ini" accordingly, see "What I did to set up CreamAPI" at the end of this page.
+    However when a new DLC comes out (or if creamapi is outdated) you need the new unlocker version.  
+    For a new DLC, you can just edit "cream_api.ini", see last section at the end of the page.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - 💸 ***If you already own some DLC:***
-  - You need to remove the lines corresponding to your owned DLCs, from the "cream_api.ini" file, so:
-    - Follow the instructions for "Installation" first.
-    - In the game "Bin64" folder, open `cream_api.ini` with a text editor like notepad.
-    - Look for the lines with DLC codes and names.
-    - Remove the entire line(s) corresponding to the DLC(s) you already own.
+  - You need to remove the lines corresponding to your owned DLCs from the "cream_api.ini" file, so:
+    - First, install CreamAPI (via tool or manual).
+    - Open "Bin64" folder and edit `cream_api.ini` with a text editor like notepad.
+    - Look for the lines with DLCs code numbers and names.
+    - Remove the ENTIRE line(s) corresponding to the DLC(s) you OWN.
     - Save the file and back it up if you want, so you don't lose it during uninstallation.
     - Now everything should work fine.
 
-  - If you purchased a DLC but deactivated it from Steam, leave it in the list.  
-    Example: the Deluxe DLC, in addition to unlocking few skins, makes you download 3GB  
+  - If you disabled any DLC from Steam game settings, leave it in the list.  
+    Example: the Deluxe DLC in addition to unlocking few skins, makes you download 3GB  
     of useless files related to a very old vanilla version of the game.  
-    With this method you can unlock just the blocks, keeping the dlc deactivated from Steam  
-    and therefore without downloading 3GB of data (but losing dlc related skins).
+    With this method you can unlock those blocks, keeping the dlc deactivated from Steam  
+    and therefore without downloading 3GB of data, but you lose dlc related skins.
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -121,17 +124,17 @@
 
 - ⚠️ ***Troubleshooting:***
 
-  - 🦠 If your antivirus say something, make an exception for the "steam_api64.dll" file.  
-    (it's safe, but software houses don't like it when you play their games for free)
+  - 🦠 If your antivirus detects anything, make an exception for the "steam_api64.dll" file.  
+    it's safe, but software houses don't like it when you play their games (or dlcs) for free.
 
-  - 🛡️ If you get the "Windows protected your PC" message when you launch "CreamAPI_Tool.cmd":  
-    <details><summary>click here for a little guide.</summary><p>
+  - 🛡️ If you get the message "Windows protected your PC" when you launch "CreamAPI_Tool.cmd":  
+    <details><summary>click here to show a little guide.</summary><p>
 
     ————————————————————————————————————————  
     ————————————————————————————————————————  
 
     It may happen that Windows shows you this message to prevent the execution of the file,
-    which is obviously not certified, it is just a batch that moves/copies/deletes files related to CreamAPI.
+    which is obviously just a batch that moves/copies/deletes files related to CreamAPI.
 
     How to run the Tool:
 
@@ -158,13 +161,13 @@
 
     </p></details>
 
-  - ☑️ If you are not sure and you need to restore default files through Steam:  
+  - ☑️ If you are not sure and you want to restore default files through Steam:  
     <details><summary>click here to show how.</summary><p>
 
     ————————————————————————————————————————  
     ————————————————————————————————————————  
 
-    Start file checking:  
+    Start the game files check:  
 
     - Directly from your browser:  
 
@@ -188,10 +191,10 @@
 ---
 
 - 📂 ***Files and folders of `v1.1`:***
-  - `cream_api.ini` : CreamAPI config file
-  - `CreamAPI_Tool.cmd` : for Windows - Install / Check / Remove CreamAPI
-  - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll used by the installer
-  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old CreamAPI (needed for check)
+  - `cream_api.ini` : CreamAPI config file (you can edit unlocked DLCs here)
+  - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
+  - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll file
+  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old CreamAPI (for update check)
   - `Backup\Original\` : empty folder used by the installer for the original dll backup
   - `Backup\url_link` : a link to this page
 
@@ -204,15 +207,15 @@
 
     ————————————————————————————————————————  
 
-    - v0.1: first manual version. Uses CreamAPI 4.5.0.0 (till unlocker v1.0).
-    - v0.2: automated version with easy installation (not released cause no support for new game patches).
-    - v0.3: easier installation/removal and support for new game patches.
-    - v0.4: removed a useless file, improved cmd files to prevent errors and added colors.
-    - v0.5: compatible with v0.1, if you have v0.1 you no longer needed to manually restore backup first.
-    - v0.6: single .cmd tool with some fixes to the code, backward compatible with all versions, .ini revised.
-    - v0.7: prevents extraction errors and using the wrong folder, other fixes to the code and compatibility.
-    - v0.8: added dlc "Anniversary Pack". Reuploaded 8 November 2023 fixing wrong version displayed in tool.
-    - v1.0: added Linux/OSX support, thanks to DeathCamel58 (link to his page in the title)
+    - v0.1: First manual installation version. Uses CreamAPI 4.5.0.0 (till unlocker v1.0).
+    - v0.2: (no public release) Automated tools version with easy installation. No support for game patches.
+    - v0.3: Easier installation/removal and support for new game patches.
+    - v0.4: Removed a useless file. Improved tools to prevent errors. Added colors.
+    - v0.5: Compatibility with v0.1, it is no longer necessary to restore the backup first.
+    - v0.6: Single tool.cmd with fixes to the code. Backward compatible with all versions. ".ini" revised.
+    - v0.7: Prevents extraction errors and using the wrong folder. Other fixes to code and compatibility.
+    - v0.8: Added dlc "Anniversary Pack". Reuploaded 8 November 2023 fixing wrong version displayed.
+    - v1.0: Added Linux/OSX support, thanks to DeathCamel58
     <br>
 
     ————————————————————————————————————————  
@@ -220,12 +223,12 @@
     </p></details>
 
     - v1.1:  
-            - updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
-            - the tool detects if you have the old CreamAPI version and prompts you to update  
-            - added tips to the tool if you get errors as well as small additions to other messages  
-            - added tips to creamapi.ini to make it easier for you if you want to make changes yourself  
-            - you can find the old 4.5.0.0 CreamAPI in the backup folder (needed to check)  
-            - removed linux/osx version because it was a mess (for more info, see discussions)
+            - Updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
+            - The tool detects if you have the old CreamAPI version and prompts you to update  
+            - Added tips to the tool if you get errors, as well as small additions to other messages  
+            - Added tips to creamapi.ini, to make it easier for you if you want to make any changes  
+            - You can find the old 4.5.0.0 CreamAPI in the backup folder (needed for update check)  
+            - Removed linux/osx version because it was a mess (for more info, see discussions)
 
 
 <br>
@@ -237,69 +240,72 @@
   - Installer `tool + press C`:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game update.  
     What does it do exactly? if CreamAPI is not yet present so in the case of a new installation or  
-    after an update that replaces and updates the "steam_api64.dll" file,  
-    it creates a backup of the new original file and installs/restores CreamAPI.  
+    after an update that replaces the "steam_api64.dll" file,  
+    it creates a backup of the new original file and installs/restores CreamAPI functionality.  
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the Tool+C to restore CreamAPI.  
     If it detects that CreamAPI is present and ready, it does nothing.  
     If you have an old CreamAPI version, it prompts you to update it by pressing "U".  
-    The only time you need to update the unlocker is when a new DLC is released or CreamAPI gets updated.
+    The only time you need to update the unlocker is when a new DLC comes out or CreamAPI gets updated.
 
   - Remover `tool + press R`:  
-    The remover first checks if the game has undergone an update that has already replaced  
-    the "steam_api64.dll" file or if CreamAPI is still present,  
-    then removes it accordingly, depending on the specific case.
+    The remover first checks if the game has undergone an update that replaced  
+    the "steam_api64.dll" file, or if CreamAPI is still present,  
+    then removes it accordingly.
 
-  - The tool works regardless of the game path,  
-    i.e. if you have the game on "C:\", "E:\games", "Y:\folder\steam" etc., it works anyway.
+  - The tool works regardless of the game path.  
+    Examples: if you have the game on "C:\games", "E:\whatever", "Y:\folder\steam", it works anyway.
 
 <br>
 
 ---
 
-- 📜 ***Other notes:***
+- 📜 ***Other Notes:***
 
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-    - Armor Skins and Emotes cannot be unlocked.
-    - It's NOT possible to paste DLC items contained in projects in both online and offline worlds!  
+    - Armor Skins and Emotes cannot be unlocked (there is no way).
+    - It's NOT possible to paste DLC items contained in projects, in both online and offline worlds!  
       But you can paste the corresponding ones of the DLCs you purchased,  
-      just check out at the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own some DLC***".
+      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own some DLC***".
 
   - I will update the unlocker if needed, or right after a new DLC release.
-    - A new dlc requires editing cream_api.ini to add the [new dlc code](https://steamdb.info/app/244850/dlc).
-    - If you want you can also add it by yourself, towards the end of the cream_api.ini file.
-    - If you know how to, you can use [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
+    - A new dlc requires editing cream_api.ini to add the a new [dlc code](https://steamdb.info/app/244850/dlc).
+    - If you want you can also add it by yourself, there are tips inside cream_api.ini (use notepad).
+    - As an alternative to this tool, you can use [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
 
-  - If you want to buy the game:
-    - Space Engineers on [Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/)
-    - Space Engineers on [CDKeys.com](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
-
-<br>
-
----
-
-- 🧊 If you want to play the **Frostbite "Scenario"**, you need some other files:  
-
-  - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker) (+ CreamAPI = definitely works)
+  - If you want to buy the game (or dlcs):
+    - [Steam Store - Space Engineers](https://store.steampowered.com/app/244850/Space_Engineers/)
+    - [CDKeys.com - Space Engineers](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
 <br>
 
 ---
 
-- 🧰 What I did to set up CreamAPI:
+- 🧊 If you want to play the **Frostbite "Scenario"**, you need these files too:  
 
-    <details><summary>click to show</summary><p>
+  - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
+    This + CreamAPI = it works.
+
+<br>
+
+---
+
+- 🧰 What I need to do to setup CreamAPI?
+
+    <details><summary>Click here to show.</summary><p>
 
     ————————————————————————————————————————  
 
-    - Downloaded CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
-    - Checked out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc) (steamdb.info)
-    - Edited the creamapi.ini file based on how the game works (dll and other stuff) and its DLCs
-    - Opened the folder:
+    - Download CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
+    - Check out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc) (steamdb.info)
+    - Edit creamapi.ini file based on how the game works (dll and other stuff) and its DLCs  
+    - In creamapi.ini, delete the lines corresponding to your purchased DLCs
+    - Open the game folder (example):
       `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-    - Renamed the file "steam_api64.dll" to "steam_api64_o.dll" (it's required)
-    - Placed here the CreamAPI files ("creamapi.ini" and the new "steam_api64.dll")
-    - Started the game = all dlcs unlocked.
+    - Rename the file "steam_api64.dll" to "steam_api64_o.dll" (it's necessary)
+    - Place here (Bin64) these 2 CreamAPI files, "creamapi.ini" and the new "steam_api64.dll"
+    - Start the game.
+    <br>
 
     ————————————————————————————————————————  
 
@@ -319,7 +325,7 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
-<fino all'inizio di questa riga
+< fino all'inizio di questa riga
 
 
 img empty:
@@ -328,11 +334,11 @@ img empty:
 img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
-Removed linux version:
-<!-- - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/) -->
-<!--   - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI -->
-<!--   - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files. -->
-<!--  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI -->
+Removed linux version lines:
+  - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/)
+  - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI
+  - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files.
+  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI
 
 
 ✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔
