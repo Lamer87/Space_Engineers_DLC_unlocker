@@ -104,7 +104,7 @@
   - You need to remove the lines corresponding to your owned DLCs, from the "cream_api.ini" file, so:
     - Follow the instructions for "Installation" first.
     - In the game "Bin64" folder, open `cream_api.ini` with a text editor like notepad.
-    - Look below for the lines with the DLC codes and names.
+    - Look for the lines with DLC codes and names.
     - Remove the entire line(s) corresponding to the DLC(s) you already own.
     - Save the file and back it up if you want, so you don't lose it during uninstallation.
     - Now everything should work fine.
