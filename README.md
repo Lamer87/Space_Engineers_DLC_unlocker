@@ -126,7 +126,7 @@
 
   - 🦠 If your antivirus detects anything, make an exception for the "steam_api64.dll" file.  
     it's safe, but software houses don't like it when you play their games (or dlcs) for free.
-<br>
+  <br>
 
   - 🛡️ If you get the message "Windows protected your PC" when you launch "CreamAPI_Tool.cmd":  
     <details><summary>click here to show a little guide.</summary><p>
@@ -161,7 +161,7 @@
     <br>
 
     </p></details>
-<br>
+  <br>
 
   - ☑️ If you are not sure and you want to restore default files through Steam:  
     <details><summary>click here to show how.</summary><p>
