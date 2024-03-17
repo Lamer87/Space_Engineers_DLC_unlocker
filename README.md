@@ -283,7 +283,7 @@
 
 ---
 
-- 🧊 If you want to play the **Frostbite "Scenario"**, you need these files too:  
+- 🧊 If you want to play the **Frostbite "Scenario"**, you need other files too:  
 
   - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
     This + CreamAPI = it works.
