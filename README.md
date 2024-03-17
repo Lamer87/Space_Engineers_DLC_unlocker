@@ -301,7 +301,7 @@
     - Download CreamAPI from the [source page](https://cs.rin.ru/forum/viewtopic.php?f=29&t=70576) (cs.rin.ru)
     - Check out the Space Engineers DLC on its [database page](https://steamdb.info/app/244850/dlc) (steamdb.info)
     - Edit creamapi.ini file based on how the game works (dll and other stuff) and its DLCs  
-    - In creamapi.ini, delete the lines corresponding to your purchased DLCs
+    - In creamapi.ini, remove the lines corresponding to your purchased DLCs
     - Open the game folder (example):
       `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
     - Rename the file "steam_api64.dll" to "steam_api64_o.dll" (it's necessary)
