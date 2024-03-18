@@ -3,7 +3,7 @@
 ### ✔️ All DLCs unlocked up to: `v1.203.6` - *Anniversary Pack* 🎂
 
 ### 🔓 **Unlocker: `v1.1`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
-### 🍦 **CreamAPI: `v5.1.0.0`** (previous one: v4.5.0.0)
+### 🍦 **CreamAPI: `v5.1.0.0`** (previous: v4.5.0.0)
 
 - ❗ From CreamAPI page: fixed a typo in code while reading SteamClient version (for Space Engineers)
 - 🚸 Easy single tool: installer / checker / UPDATER (new) / remover, all automated!
