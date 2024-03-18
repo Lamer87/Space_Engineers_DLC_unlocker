@@ -34,7 +34,7 @@
   - 3b- (GitHub zip) unzip files and "Backup" folder from `zip\...main` folder, to the "Bin64" folder  
     ❗ IMPORTANT: the "Backup" folder is NECESSARY!
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
-  - 5 - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
+  - 5 - **If you already any some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
   - 6 - You can play.
 
   Notes:  
@@ -65,7 +65,7 @@
   - 4 - Rename the legit Bin64\ `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
   - 5 - Copy `creamapi.ini` from the extracted archive to the `Bin64` folder
   - 6 - Copy `Backup\CreamAPI\steam_api64.dll` from the extracted archive to the `Bin64` folder (just the file!)
-  - 7 - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
+  - 7 - **If you already any some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
   - 8 - You can play.
 
   Notes:  
@@ -104,7 +104,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 💸 ***If you already own some DLC:***
+- 💸 ***If you already any some DLC:***
   - You need to remove the lines corresponding to your owned DLCs from the "cream_api.ini" file, so:
     - First, install CreamAPI (via tool or manual).
     - Open "Bin64" folder and edit `cream_api.ini` with a text editor like notepad.
@@ -270,7 +270,7 @@
     - Armor Skins and Emotes cannot be unlocked (there is no way).
     - It's NOT possible to paste DLC items contained in projects, in both online and offline worlds!  
       But you can paste the corresponding ones of the DLCs you purchased,  
-      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own some DLC***".
+      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already any some DLC***".
 
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires editing cream_api.ini to add the a new [dlc code](https://steamdb.info/app/244850/dlc).
