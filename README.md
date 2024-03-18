@@ -26,7 +26,7 @@
 ---
 <br>
 
-- 🕹️ ***Installation with Tool:***
+### - 🕹️ ***Installation with Tool:***
   - 1 - Download from above
   - 2 - Open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
@@ -37,16 +37,16 @@
   - 5 - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
   - 6 - You can play.
 
-  Notes:
-    - Necessary backup automatically done, you can find it in "`...\Bin64\Backup\Original\`"
-    - There is a check if you already have the old version, which asks you to update
-    - If the game is on "C:" drive you may need to run it using mouse right button, run as admin
+  Notes:  
+    - Necessary backup automatically done, you can find it in "`...\Bin64\Backup\Original\`"  
+    - There is a check if you already have the old version, which asks you to update  
+    - If the game is on "C:" drive you may need to run it using mouse right button, run as admin  
     - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🗑️ ***Uninstallation with Tool:***
+#### - 🗑️ ***Uninstallation with Tool:***
   - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.
 
     Note: Don't worry if the game has been updated in the meantime,  
@@ -57,7 +57,7 @@
 ---
 <br>
 
-- 🪛 ***Manual Installation:***
+### - 🪛 ***Manual Installation:***
   - 1 - Download one the archives and extract it to your desktop.
   - 2 - Now open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
@@ -68,22 +68,22 @@
   - 7 - If you **already own some DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
   - 8 - You can play.
 
-  Notes:
-    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
+  Notes:  
+    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below  
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
       delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~680kb, a legit one takes ~290kb
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-- 🚮 ***Manual Uninstallation:***
+#### - 🚮 ***Manual Uninstallation:***
   - 1 - Chek Notes below FIRST!
   - 2 - Delete `steam_api64.dll` and `creamapi.ini`
   - 3 - Rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
-  Notes:
-    - If the game updates to a new version the file `steam_api64.dll`, just remove `steam_api64_o.dll`
-    - How can I find out if the game has been updated? CreamAPI dll takes ~680kb, a legit one takes ~290kb
+  Notes:  
+    - If the game updates to a new version the `steam_api64.dll` file, just remove `steam_api64_o.dll`  
+    - How can I find out if the game has been updated? CreamAPI dll takes ~680kb, a legit one takes ~290kb  
     - If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below to check files
 
 <br>
@@ -95,7 +95,7 @@
     if it recognizes that CreamAPI is no longer present, just press "**C**" another time.
   - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"
 
-  Note:
+  Note:  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
     just run the tool and press "**C**"(x2).  
     However when a new DLC comes out (or if creamapi is outdated) you need the new unlocker version.  
@@ -124,7 +124,7 @@
 
 - ⚠️ ***Troubleshooting:***
 
-  - 🦠 If your antivirus detects anything, make an exception for the "steam_api64.dll" file.  
+  - 🦠 If your antivirus detects the "steam_api64.dll" file, make an exception for it.  
     it's safe, but software houses don't like it when you play their games (or dlcs) for free.
   <br>
 
