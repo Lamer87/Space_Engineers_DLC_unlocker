@@ -321,7 +321,8 @@
 
 - 🇮🇹 Traduzione Italiana migliorata
 
-  - Qui potete trovare la mia traduzione ad un italiano decente, visto che quello del gioco fa pena. [LINK](https://github.com/Lamer87/Space_Engineers-Traduzione_Italiana_migliorata)
+  - Qui potete trovare la mia traduzione ad un italiano decente, visto che quello del gioco fa pena.  
+    [LINK](https://github.com/Lamer87/Space_Engineers-Traduzione_Italiana_migliorata)
 
 <br>
 
