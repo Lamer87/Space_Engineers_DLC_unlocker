@@ -335,12 +335,22 @@
 <!-- -->
 <!-- Useless code to use occasionally:
 
+
+UPDATE (all'inizio)>
 # 🚧 UPDATING - PLEASE WAIT! 🔄
 # just few minutes and the new version is ready!
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
 
 ---
 < fino all'inizio di questa riga
+
+
+DISCOUNT (dopo creamapi version, prima dei 3 trattini sulla stessa riga)>
+---
+
+### 🔥 Space Engineers and ALL its DLCs are 50% off on Steam right now!
+### 🔥 The "Ultimate Edition" (game + all dlcs, excluding already purchased) it's 58% off!
+### 🔥 Offer valid until April 13, 2024. [Click here if interested](https://store.steampowered.com/app/244850/Space_Engineers/).
 
 
 img empty:
