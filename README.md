@@ -7,12 +7,6 @@
 
 ---
 
-### 🔥 Space Engineers and ALL its DLCs are 50% off on Steam right now!
-### 🔥 The "Ultimate Edition" (game + all dlcs, excluding already purchased) it's 58% off!
-### 🔥 Offer valid until April 13, 2024. [Click here if interested](https://store.steampowered.com/app/244850/Space_Engineers/).
-
----
-
 - ❗ From CreamAPI page: fixed a typo in code while reading SteamClient version (for Space Engineers)
 - 🚸 Easy single tool: installer / checker / UPDATER (new) / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just rerun the tool!
