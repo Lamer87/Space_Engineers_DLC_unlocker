@@ -12,7 +12,7 @@
 - 🔕 Update needed only for new DLC or new CreamAPI version.
 ---
 - ❗ Linux/OSX version REMOVED because it was a mess. See [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45) (no knowledge to make it work like Win version).
-- ❗ For now, stick to manual installation and uninstallation instructions.
+- ❗ So please stick to manual installation and uninstallation instructions.
 
 
 ---
