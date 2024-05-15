@@ -1,19 +1,12 @@
-# 🚧 UPDATING - PLEASE WAIT! 🔄
-# ! DO NOT DOWNLOAD FOR NOW !
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
-
----
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.203.6` - *Anniversary Pack* 🎂
+### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡
 
-### 🔓 **Unlocker: `v1.1`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
-### 🍦 **CreamAPI: `v5.1`** (previous: v4.5)
+### 🔓 **Unlocker: `v1.2`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
+### 🍦 **CreamAPI: `v5.2`** (previous: v5.1)
 
 ---
 
-- ❗ From CreamAPI page: fixed a typo in code while reading SteamClient version (for Space Engineers)
 - 🚸 Easy single tool: installer / checker / UPDATER (new) / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just rerun the tool!
 - 🔕 Update needed only for new DLC or new CreamAPI version.
@@ -23,9 +16,9 @@
 
 
 ---
->[💾 v1.1 Download from Mega.nz](https://mega.nz/file/fZJzFIZZ#o4o6ssFZc3nVzUepFu4PcJ7pT1TjNM5FgHOtl1yrvec) : `file.zip \ *unlocker files*`  
+>[💾 v1.1 Download from Mega.nz]() : `file.zip \ *unlocker files*`  
 
->[💾 v1.1 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
+>[💾 v1.2 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
 > If you have an old version, no problem! You can easily extract the new version overwriting the old one in  
@@ -228,19 +221,23 @@
     - v0.7: Prevents extraction errors and using the wrong folder. Other fixes to code and compatibility.
     - v0.8: Added dlc "Anniversary Pack". Reuploaded 8 November 2023 fixing wrong version displayed.
     - v1.0: Added Linux/OSX support, thanks to DeathCamel58
+    - v1.1:  
+            - Updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
+            - The tool detects if you have the old CreamAPI version and prompts you to update  
+            - Added tips to the tool if you get errors, as well as small additions to other messages  
+            - Added tips to cream_api.ini, to make it easier for you if you want to make any changes  
+            - Removed linux/osx version because it was a mess (for more info, see discussions)  
+
     <br>
 
     ————————————————————————————————————————  
 
     </p></details>
 
-    - v1.1:  
-            - Updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
-            - The tool detects if you have the old CreamAPI version and prompts you to update  
-            - Added tips to the tool if you get errors, as well as small additions to other messages  
-            - Added tips to cream_api.ini, to make it easier for you if you want to make any changes  
-            - You can find the old 4.5.0.0 CreamAPI in the backup folder (needed for update check)  
-            - Removed linux/osx version because it was a mess (for more info, see discussions)
+    - v1.2:  
+            - Added last DLC "Signal Pack"  
+            - Updated CreamAPI from 5.1.0.0 to 5.2.0.0  
+            - You can find old CreamAPI versions in the backup folder (needed for update check)  
 
 
 <br>
@@ -372,5 +369,5 @@ Removed linux version lines:
   - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI
 
 
-✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔
+✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔📡
 -->
