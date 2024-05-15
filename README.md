@@ -196,8 +196,8 @@
 ---
 
 - 📂 ***Files and folders of `v1.2`:***
-  - `cream_api.ini` : CreamAPI config file (you can edit unlocked DLCs here)
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
+  - `cream_api.ini` : CreamAPI config file (you can edit unlocked DLCs here)
   - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll file
   - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old CreamAPI (for update check)
   - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : old CreamAPI (for update check)
