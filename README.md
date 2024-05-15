@@ -7,7 +7,7 @@
 
 ---
 
-- 🚸 Easy Windows single batch tool: installer / checker / updater / remover, all automated!
+- 🚸 Easy Windows batch tool: installer / checker / updater / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just rerun the tool!
 - 🔕 Update needed only for new DLC or new CreamAPI version.
 ---
