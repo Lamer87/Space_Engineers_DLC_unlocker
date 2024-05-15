@@ -59,7 +59,7 @@
 <br>
 
 ### - 🪛 ***Manual Installation:***
-  - 1 - Download one the archives and extract it to your desktop.
+  - 1 - Download one of the archives and extract it to your desktop.
   - 2 - Now open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3 - Make a backup of the file `steam_api64.dll` in another folder (if somethings goes wrong)
