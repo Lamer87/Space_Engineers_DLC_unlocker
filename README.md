@@ -16,7 +16,7 @@
 
 
 ---
->[💾 v1.2 Download from Mega.nz](https://mega.nz/file/uUxSUQLR#Tqfzb08inCQGCb2X9wLxd5VXMBNg9fDUEIDzANLSZoY) : `file.zip \ *unlocker files*`  
+>[💾 v1.2 Download from Mega.nz](https://mega.nz/file/nYIW1AgK#pl02G-k31ba7AJVQnUifQmzVkK-MvneCT5081x8qcZQ) : `file.zip \ *unlocker files*`  
 
 >[💾 v1.2 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
