@@ -11,9 +11,9 @@
 - 🔄 Game patches proof! if it stops working, just rerun the tool!
 - 🔕 Update needed only for new DLC or new CreamAPI version.
 ---
-- ❗ Linux/OSX version REMOVED because it was a mess. See [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45) (no knowledge to make it work like Win version).
-- ❗ So please stick to manual installation and uninstallation instructions.
-
+<!-- - ❗ CreamAPI is NOT compatible with [Plugin Loader](https://github.com/sepluginloader/PluginLoader) / [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
+ -->
+- ❗ Linux/OSX users please stick to manual install/uninstall instructions. More [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45).
 
 ---
 >[💾 v1.2 Download from Mega.nz](https://mega.nz/file/nYIW1AgK#pl02G-k31ba7AJVQnUifQmzVkK-MvneCT5081x8qcZQ) : `file.zip \ *unlocker files*`  
