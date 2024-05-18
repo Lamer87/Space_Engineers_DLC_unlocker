@@ -7,7 +7,7 @@
 
 ---
 
-- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) (put the launcher ".exe" in Bin64 before running this Tool)
+- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) (put the launcher ".exe" in Bin64 before running the Unlocker Tool)
 - 🚸 Easy Windows batch tool: installer / checker / updater / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just rerun the tool!
 - 🔕 Update needed only for new DLC or new CreamAPI release.
