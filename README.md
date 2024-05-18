@@ -246,7 +246,10 @@
             - If CreamAPI is already installed and PL too, the Tool prompts you tu rollback to v4.5.  
             - You can switch to the normal Tool version by moving/renaming the file "SpaceEngineersLauncher.exe"  
             - Switching to normal Tool version allows you to install/update to the latest CreamAPI version.  
-            - Obviously if you don't use Plugin Launcher, the Tool will work normally.
+            - Obviously if you don't use Plugin Launcher, the Tool will work normally.  
+            - You can completely erase Plugin Launcher, run the Tool and press "M".  
+            - If leaving the PL files causes problems even when starting the game without the launcher,  
+              I will add the ability to backup/restore the files so you don't have to remove launcher completely.  
 
 <br>
 
