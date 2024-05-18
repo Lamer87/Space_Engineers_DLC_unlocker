@@ -195,6 +195,27 @@
 
 ---
 
+- 📜 ***Other Notes:***
+
+  - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
+    - Armor Skins and Emotes cannot be unlocked (there is no way).
+    - It's NOT possible to paste DLC items contained in projects, in both online and offline worlds!  
+      But you can paste the corresponding ones of the DLCs you purchased,  
+      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own any DLC***".
+
+  - I will update the unlocker if needed, or right after a new DLC release.
+    - A new dlc requires editing cream_api.ini to add the a new [dlc code](https://steamdb.info/app/244850/dlc).
+    - If you want you can also add it by yourself, there are tips inside cream_api.ini (use notepad).
+    - As an alternative to this tool, you can use [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
+
+  - If you want to buy the game (or dlcs):
+    - [Steam Store - Space Engineers](https://store.steampowered.com/app/244850/Space_Engineers/)
+    - [CDKeys.com - Space Engineers](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
+
+<br>
+
+---
+
 - 📂 ***Files and folders of `v1.3`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can edit unlocked DLCs here)
@@ -275,27 +296,6 @@
 
   - The tool works regardless of the game path.  
     Examples: if you have the game on "C:\games", "E:\whatever", "Y:\folder\steam", it works anyway.
-
-<br>
-
----
-
-- 📜 ***Other Notes:***
-
-  - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-    - Armor Skins and Emotes cannot be unlocked (there is no way).
-    - It's NOT possible to paste DLC items contained in projects, in both online and offline worlds!  
-      But you can paste the corresponding ones of the DLCs you purchased,  
-      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own any DLC***".
-
-  - I will update the unlocker if needed, or right after a new DLC release.
-    - A new dlc requires editing cream_api.ini to add the a new [dlc code](https://steamdb.info/app/244850/dlc).
-    - If you want you can also add it by yourself, there are tips inside cream_api.ini (use notepad).
-    - As an alternative to this tool, you can use [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
-
-  - If you want to buy the game (or dlcs):
-    - [Steam Store - Space Engineers](https://store.steampowered.com/app/244850/Space_Engineers/)
-    - [CDKeys.com - Space Engineers](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
 <br>
 
