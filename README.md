@@ -248,8 +248,8 @@
             - Switching to normal Tool version allows you to install/update to the latest CreamAPI version.  
             - Obviously if you don't use Plugin Launcher, the Tool will work normally.  
             - You can completely erase Plugin Launcher, run the Tool and press "M".  
-            - If leaving the PL files causes problems even when starting the game without the launcher,  
-              I will add the ability to backup/restore the files so you don't have to remove launcher completely.  
+            - If leaving the PL files causes problems even when starting the game normally without the launcher,  
+              I will add the ability to backup/restore those files so you don't have to completely remove the launcher.  
 
 <br>
 
