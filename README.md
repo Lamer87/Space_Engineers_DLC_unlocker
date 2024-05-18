@@ -1,8 +1,3 @@
-# 🚧 UPDATING - PLEASE WAIT! 🔄
-# just few minutes and the new version is ready!
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
-
----
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡
@@ -20,7 +15,7 @@
 - ❗ Linux/OSX users please stick to manual install/uninstall instructions. More [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45).
 
 ---
->[💾 v1.3 Download from Mega.nz]() : `file.zip \ *unlocker files*`  
+>[💾 v1.3 Download from Mega.nz](https://mega.nz/file/7dJHgBAT#g1lS31QzLgK4M3D6lsowEpsNngTdDTze5V2phWQVp3k) : `file.zip \ *unlocker files*`  
 
 >[💾 v1.3 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
