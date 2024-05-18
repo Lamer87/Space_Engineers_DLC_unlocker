@@ -24,7 +24,8 @@
 >[💾 v1.3 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
-> PLEASE READ if you use Plugin Launcher: put the file "SpaceEngineersLauncher.exe" in the "Bin64" folder  
+> PLEASE READ if you use Plugin Launcher:  
+> put the file "SpaceEngineersLauncher.exe" in the "Bin64" folder  
 > BEFORE running the Tool, so you won't have compatibility problems.
 
 ---
