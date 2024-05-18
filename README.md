@@ -243,7 +243,7 @@
             - The Tool now recognizes the presence of "Plugin Launcher".  
             - If Plugin Launcher is present, CreamAPI v4.5 will be installed (compatible with PL).  
             - No need to remove the previous Tool version, just extract, overwrite and run.  
-            - If CreamAPI is already installed (and PL too), the Tool prompts you tu rollback to v4.5.  
+            - If CreamAPI is already installed and PL too, the Tool prompts you tu rollback to v4.5.  
             - You can switch to the normal Tool version by moving/renaming the file "SpaceEngineersLauncher.exe"  
             - Switching to normal Tool version allows you to install/update to the latest CreamAPI version.  
             - Obviously if you don't use Plugin Launcher, the Tool will work normally.
