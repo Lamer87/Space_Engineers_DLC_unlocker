@@ -1,8 +1,13 @@
+# 🚧 UPDATING - PLEASE WAIT! 🔄
+# just few minutes and the new version is ready!
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
+---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡
 
-### 🔓 **Unlocker: `v1.2`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
+### 🔓 **Unlocker: `v1.3`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
 ### 🍦 **CreamAPI: `v5.2`** (previous: v5.1)
 
 ---
@@ -11,8 +16,6 @@
 - 🔄 Game patches proof! if it stops working, just rerun the tool!
 - 🔕 Update needed only for new DLC or new CreamAPI version.
 ---
-- ❗ [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) **ONLY** works with CreamAPI 4.5.0.0:  
-  I'll release the v1.3 so if the launcher is present, the tool will install the old creamapi for compatibility.
 - ❗ Linux/OSX users please stick to manual install/uninstall instructions. More [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45).
 
 ---
@@ -21,8 +24,8 @@
 >[💾 v1.2 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
-> If you have an old version, no problem! You can easily extract the new version overwriting the old one in  
-> Bin64 folder without any trouble, then just run the Tool and you will be prompted to update CreamAPI.
+> If you use Plugin Launcher, please put the file "SpaceEngineersLauncher.exe" in the "Bin64" folder  
+> BEFORE running the Tool, so you won't have compatibility problems.
 
 ---
 <br>
@@ -195,7 +198,7 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.2`:***
+- 📂 ***Files and folders of `v1.3`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can edit unlocked DLCs here)
   - `Backup\CreamAPI\steam_api64.dll` : CreamAPI dll file
@@ -229,6 +232,9 @@
             - Added tips to cream_api.ini, to make it easier for you if you want to make any changes  
             - Removed linux/osx version because it was a mess (for more info, see discussions)  
             - You can find old CreamAPI versions in the backup folder (needed for update check)  
+    - v1.2:  
+            - Added last DLC "Signal Pack"  
+            - Updated CreamAPI from 5.1.0.0 to 5.2.0.0  
 
     <br>
 
@@ -236,10 +242,14 @@
 
     </p></details>
 
-    - v1.2:  
-            - Added last DLC "Signal Pack"  
-            - Updated CreamAPI from 5.1.0.0 to 5.2.0.0  
-
+    - v1.3:  
+            - The Tool now recognizes the presence of "Plugin Launcher".  
+            - If Plugin Launcher is present, CreamAPI v4.5 will be installed (compatible with PL).  
+            - No need to remove the previous Tool version, just extract, overwrite and run.  
+            - If CreamAPI is already installed (and PL too), the Tool prompts you tu rollback to v4.5.  
+            - You can switch to the normal Tool version by moving/renaming the file "SpaceEngineersLauncher.exe"  
+            - Switching to normal Tool version allows you to install/update to the latest CreamAPI version.  
+            - Obviously if you don't use Plugin Launcher, the Tool will work normally.
 
 <br>
 
