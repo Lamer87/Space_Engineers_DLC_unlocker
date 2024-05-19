@@ -11,7 +11,6 @@
 - 🚸 Easy Windows batch tool: installer / checker / updater / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just rerun the tool!
 - 🔕 Update needed only for new DLC or new CreamAPI release.
----
 - ❗ Linux/OSX users please stick to manual install/uninstall instructions. More [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/45).
 
 ---
