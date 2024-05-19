@@ -20,8 +20,7 @@
 <!-- same as: click the green **`Code`** button then **`Download ZIP`** -->
 
 > PLEASE READ if you use Plugin Launcher:  
-> put the file "SpaceEngineersLauncher.exe" in the "Bin64" folder  
-> BEFORE running the Tool, so you won't have compatibility problems.
+> put "SpaceEngineersLauncher.exe" in "Bin64" folder BEFORE running the Tool, so you won't have any issues.
 
 ---
 <br>
