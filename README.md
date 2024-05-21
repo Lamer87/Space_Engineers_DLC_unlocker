@@ -113,7 +113,8 @@
     - Now everything should work fine.
 
   - For a new dlc:
-    - Download the updated Tool and extract it in Bin64 WITHOUT overwriting your modified `cream_api.ini`
+    - Download the updated Tool
+    - Extract it in Bin64 WITHOUT overwriting your modified `cream_api.ini`
     - Edit the new `cream_api.ini` and copy the last dlc string.
     - Paste it in your modified ini, save and play.
 
