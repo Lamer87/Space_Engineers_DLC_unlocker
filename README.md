@@ -3,11 +3,11 @@
 ### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡
 
 ### 🔓 **Unlocker: `v1.3`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
-### 🍦 **CreamAPI: `v5.2`** (for Plugin Launcher: v4.5)
+### 🍦 **CreamAPI: `v5.2`**
 
 ---
 
-- 🗃️ Now compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher)
+- 🗃️ Now compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) (using CreamAPI v4.5 for compatibility)
 - 🚸 Easy Windows batch tool: installer / checker / updater / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the tool again!
 - 🔕 Update needed only for new DLC or new CreamAPI release.
