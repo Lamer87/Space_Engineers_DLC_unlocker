@@ -50,7 +50,7 @@
   - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.
 
     Note: Don't worry if the game has been updated in the meantime,  
-    tool will first check, then only if necessary restore the backup. ;)
+    tool will first check, then restore the backup (only if necessary).
 
 <br>
 
