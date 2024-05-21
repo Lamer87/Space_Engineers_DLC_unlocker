@@ -112,9 +112,10 @@
     - Save the file and back it up if you want, so you don't lose it during uninstallation.
     - Now everything should work fine.
 
-  - For a new dlc, download the updated tool and then you can:
-    - Edit the new `cream_api.ini`
-    - Copy/paste the last dlc string in your modified ini.
+  - For a new dlc:
+    - Download the updated Tool and extract it in Bin64 WITHOUT overwriting your modified `cream_api.ini`
+    - Edit the new `cream_api.ini` and copy the last dlc string.
+    - Paste it in your modified ini, save and play.
 
   - If you disabled any DLC from Steam game settings, leave it in the list.  
 <!--    Example: the Deluxe DLC in addition to unlocking few skins, makes you download 3GB  
