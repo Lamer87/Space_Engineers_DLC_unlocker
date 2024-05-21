@@ -69,7 +69,7 @@
   - 8 - You can play.
 
   Notes:  
-    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
+    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below  
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
       delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~700kb, a legit one takes ~290kb
 
