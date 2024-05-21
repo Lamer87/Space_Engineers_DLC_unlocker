@@ -7,7 +7,7 @@
 
 ---
 
-- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher)
+- 🗃️ Now compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher)
 - 🚸 Easy Windows batch tool: installer / checker / updater / remover, all automated!
 - 🔄 Game patches proof! if it stops working, just run the tool again!
 - 🔕 Update needed only for new DLC or new CreamAPI release.
