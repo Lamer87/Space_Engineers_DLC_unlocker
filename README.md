@@ -20,7 +20,7 @@
 
   - PLEASE **READ** if you use **Plugin Launcher**:  
   put "SpaceEngineersLauncher.exe" in "Bin64" folder BEFORE running the Tool, so you won't have any issues.  
-  Or, if you add it later, make sure to run the tool again before playing.
+  Or, if you add it afterwards, make sure to run the Tool AGAIN before playing.
 
 ---
 <br>
