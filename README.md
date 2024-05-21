@@ -39,7 +39,7 @@
   Notes:  
     - Necessary backup automatically done, you can find it in "`...\Bin64\Backup\Original\`"  
     - There is a check if you already have the old version, which asks you to update  
-    - There is a check if you have Plugin Launcher, which asks you to rollback if CreamAPI is present  
+    - There is a check if you have Plugin Launcher, which asks you to rollback if CreamAPI is already installed  
     - If the game is on "C:" drive you may need to run it using mouse right button, run as admin  
     - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
 
