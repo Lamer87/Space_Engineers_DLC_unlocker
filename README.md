@@ -197,7 +197,7 @@
 - 📜 ***Other Notes:***
 
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-    - Armor Skins and Emotes cannot be unlocked (there is no way).
+    - **Armor Skins and Emotes cannot be unlocked (there is no way).**
     - It's NOT possible to paste DLC items contained in projects, in both online and offline worlds!  
       But you can paste the corresponding ones of the DLCs you purchased,  
       check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own any DLC***".
