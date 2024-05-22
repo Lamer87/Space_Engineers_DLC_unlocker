@@ -163,11 +163,13 @@
 
     - 3 - If the "Run anyway" button is missing:
 
-      - Start menu, Settings, Update & Security, Windows Security (on the left), App & Browser Control,  
-        Reputation-based protection settings, Check apps and files: "WARN" or "OFF" (depends on win version)
+      - Go to: Start menu, Settings, Update & Security,  
+        Windows Security (on the left), App & Browser Control,  
+        click on "Reputation-based protection settings",  
+        in "Check apps and files": choose "WARN" or "OFF" (depends on your win version)
 
-      - Fast alternative: copy/paste this into the url bar and press Enter,  
-        then on "Check apps and files" choose "WARN" or "OFF" (depends on win version):
+      - FAST alternative: copy/paste this into the url bar and press Enter,  
+        then in "Check apps and files" choose "WARN" or "OFF" (depends on your win version):
 
       ```
       windowsdefender://smartscreenpua
