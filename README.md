@@ -160,7 +160,6 @@
     [<img src="https://i.ibb.co/DPdbCpz/Windows10-Smart-Screen-Blocked2.png" width="500"/>](https://i.ibb.co/DPdbCpz/Windows10-Smart-Screen-Blocked2.png)
 
     <br>
-    <br>
 
     - 3 - If the "Run anyway" button is missing:
 
