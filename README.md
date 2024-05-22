@@ -167,13 +167,13 @@
       - Start menu, Settings, Update & Security, Windows Security (on the left), App & Browser Control,  
         Reputation-based protection settings, Check apps and files: "WARN" or "OFF" (depends on win version)
 
-      - Alternative: copy/paste this into the url bar and press Enter
+      - Fast alternative: copy/paste this into the url bar and press Enter,  
+        then choose "WARN" or "OFF" (depends on win version):
 
       ```
       windowsdefender://smartscreenpua
       ```
 
-      - Choose "WARN" or "OFF" (depends on win version)
     <br>
 
     ————————————————————————————————————————  
