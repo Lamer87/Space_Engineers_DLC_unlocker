@@ -168,7 +168,7 @@
         Reputation-based protection settings, Check apps and files: "WARN" or "OFF" (depends on win version)
 
       - Fast alternative: copy/paste this into the url bar and press Enter,  
-        then choose "WARN" or "OFF" (depends on win version):
+        then on "Check apps and files" choose "WARN" or "OFF" (depends on win version):
 
       ```
       windowsdefender://smartscreenpua
