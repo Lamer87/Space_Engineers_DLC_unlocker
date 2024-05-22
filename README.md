@@ -159,6 +159,22 @@
 
     [<img src="https://i.ibb.co/DPdbCpz/Windows10-Smart-Screen-Blocked2.png" width="500"/>](https://i.ibb.co/DPdbCpz/Windows10-Smart-Screen-Blocked2.png)
 
+    <br>
+    <br>
+
+    - 3 - If the "Run anyway" button is missing:
+
+      - Start menu, Settings, Update & Security, Windows Security (on the left), App & Browser Control,  
+        Reputation-based protection settings, Check apps and files: "WARN" or "OFF" (depends on win version)
+
+      - Alternative: copy/paste this into the url bar and press Enter
+
+      ```
+      windowsdefender://smartscreenpua
+      ```
+
+      - Choose "WARN" or "OFF" (depends on win version)
+    <br>
 
     ————————————————————————————————————————  
     ————————————————————————————————————————  
