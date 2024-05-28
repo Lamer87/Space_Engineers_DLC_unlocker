@@ -47,7 +47,7 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 #### - 🗑️ ***Uninstallation with Tool:***
-  - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files.
+  - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to delete all CreamAPI files. <!-- [v1.4], then make a choice -->
 
     Note: Don't worry if the game has been updated in the meantime,  
     tool will first check, then restore the backup (only if necessary).
@@ -293,6 +293,8 @@
             - Obviously if you don't use Plugin Launcher, the Tool will work normally.  
             - You can completely erase Plugin Launcher, run the Tool and press "M".  
 
+<!-- [v1.4] - Added more options in the Removing zone -->
+
 <br>
 
 ---
@@ -313,6 +315,8 @@
   - Remover `Tool + press R`:  
     The remover first checks if the game has undergone an update that replaced  
     the "steam_api64.dll" file or if CreamAPI is still present, then removes it accordingly.
+<!-- [v1.4] You can chose "R" to just restore the backup, keeping creamapi files or
+"E" to completely get rid of creamapi files while restoring the backup -->
 
   - The tool works regardless of the game path.  
     Examples: if you have the game on "C:\games", "E:\whatever", "Y:\folder\steam", it works anyway.
