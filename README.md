@@ -6,8 +6,8 @@
 ### 🍦 **CreamAPI: `v5.2`**
 
 ## IMPORTANT NOTICE:
-### DO NOT delete purchased dlcs in cream_api.ini, as it had to be done before.
-### So, leave the file as is!
+DO NOT delete purchased dlcs in cream_api.ini, as it had to be done before.
+So, leave the file as is!
 
 ---
 
