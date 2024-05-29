@@ -37,8 +37,7 @@ So, leave the file as is!
   - 3b- (GitHub) unzip files and "Backup" folder inside `zip\***main` folder, to "Bin64" folder  
     ❗ IMPORTANT: the "Backup" folder is NECESSARY!
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
-  - 5 - **If you already own any DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
-  - 6 - You can play.
+  - 5 - You can play.
 
   Notes:  
     - Necessary backup automatically done, you can find it in "`...\Bin64\Backup\Original\`"  
@@ -69,8 +68,7 @@ So, leave the file as is!
   - 4 - Rename the legit Bin64\ `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
   - 5 - Copy `cream_api.ini` from the extracted archive to the `Bin64` folder
   - 6 - Copy `Backup\CreamAPI\steam_api64.dll` from the extracted archive to the `Bin64` folder (just the file!)
-  - 7 - **If you already own any DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
-  - 8 - You can play.
+  - 7 - You can play.
 
   Notes:  
     - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below  
@@ -408,7 +406,9 @@ Lines backup of the removed linux version:
     With this method you can unlock those blocks, keeping the dlc deactivated from Steam  
     and therefore without downloading 3GB of data, but you lose dlc related skins.
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker) -->
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+  - 5 - **If you already own any DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
 
 
 ✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔📡
