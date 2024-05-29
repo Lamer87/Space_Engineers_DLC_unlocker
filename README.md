@@ -44,7 +44,7 @@ So, leave the file as is!
     - There is a check if you already have the old version, which asks you to update  
     - There is a check if you have Plugin Launcher, which asks you to rollback if CreamAPI is already installed  
     - If the game is on "C:" drive you may need to run it using mouse right button, run as admin  
-    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below
+    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -71,7 +71,7 @@ So, leave the file as is!
   - 7 - You can play.
 
   Notes:  
-    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below  
+    - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below  
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
       delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~700kb, a legit one takes ~290kb
 
@@ -85,7 +85,7 @@ So, leave the file as is!
   - B1 - Instead, if creamapi dll is still present: Delete `steam_api64.dll` and `cream_api.ini`
   - B2 - Then rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
-    Note: If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3) below to check files.
+    Note: If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check files.
 
 <br>
 
