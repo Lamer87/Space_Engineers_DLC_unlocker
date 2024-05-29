@@ -6,10 +6,10 @@
 ### 🍦 **CreamAPI: `v5.2`**
 
 **`IMPORTANT NOTICE !!!`**  
-DO NOT delete purchased dlcs in cream_api.ini, as it had to be done before.
-So, leave the file as is or dlcs blocks will remain locked!
-What changes? Now, we have lost the ability to paste DLC blocks within projects (online and offline).
-Before this, it was possible to paste those of purchased dlcs, deleting the lines from the ini file.
+DO NOT delete purchased dlcs in cream_api.ini, as it had to be done before.  
+So, leave the file as is or dlcs blocks will remain locked!  
+What changes? Now, we have lost the ability to paste DLC blocks within projects (online and offline).  
+Before this, it was possible to paste those of purchased dlcs, deleting the lines from the ini file.  
 Can't do anything about that guys, I'm sorry.
 
 ---
