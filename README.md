@@ -293,7 +293,7 @@
             - Obviously if you don't use Plugin Launcher, the Tool will work normally.  
             - You can completely erase Plugin Launcher, run the Tool and press "M".  
 
-<!-- [v1.4] - Added more options in the Removing zone
+<!-- [v1.4] - Added more options in the Removing zone (just restore backup or completely erase)
 - Added a "restart the Tool" button when it can be useful -->
 
 <br>
