@@ -5,7 +5,7 @@
 ### 🔓 **Unlocker: `v1.3`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
 ### 🍦 **CreamAPI: `v5.2`**
 
-## IMPORTANT NOTICE:
+IMPORTANT NOTICE:
 DO NOT delete purchased dlcs in cream_api.ini, as it had to be done before.
 So, leave the file as is!
 
