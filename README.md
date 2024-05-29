@@ -5,6 +5,9 @@
 ### 🔓 **Unlocker: `v1.3`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-4))
 ### 🍦 **CreamAPI: `v5.2`**
 
+## IMPORTANT NOTICE:
+### It is no longer necessary to delete purchased dlcs in cream_api.ini.
+
 ---
 
 - 🗃️ Now compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) (using CreamAPI v4.5 for compatibility)
