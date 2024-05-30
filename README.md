@@ -12,8 +12,8 @@ So, leave the file as is or dlcs blocks will remain locked! (you can overwrite t
 What changes? NOT SURE! but i think we have lost the ability to paste owned DLC blocks within projects.  
 Before this, it was possible to paste those of purchased dlcs, deleting the corresponding lines from the ini file.  
 Can't do anything about that guys, I'm sorry.  
-If anyone could verify this by pasting blocks from projects with dlc you own, PLEASE report it [here!](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51)
-I don't have time to check it myself.
+If anyone could verify this by pasting blocks from projects with dlc you own, PLEASE report it [here!](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51)  
+I don't have time to check it myself.  
 
 ---
 
