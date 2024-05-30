@@ -58,8 +58,9 @@ I don't have the time to check this.
 #### - 🗑️ ***Uninstallation with Tool:***
   - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to remove CreamAPI files. <!-- [v1.4] [rimuovere x2], then make a choice -->
 
-  Note: Don't worry if the game has been updated in the meantime,  
-  tool will first check, then restore the backup (only if necessary).
+  Note:  
+    Don't worry if the game has been updated in the meantime,  
+    tool will first check, then restore the backup (only if necessary).
 
 <br>
 
@@ -93,7 +94,8 @@ I don't have the time to check this.
     - Delete `steam_api64.dll` and `cream_api.ini`
     - rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
-  Note: If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check files.
+  Note:  
+    If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check files.
 
 <br>
 
