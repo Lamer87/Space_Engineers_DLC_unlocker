@@ -6,14 +6,14 @@
 ### 🍦 **CreamAPI: `v5.2`**
 
 **`IMPORTANT NOTICE !!!`**  
-DO NOT delete purchased dlcs in "cream_api.ini" file, as it had to be done before.  
-So, leave the file as is or dlcs blocks will remain locked! (you can overwrite the ini with the one in the zip)  
+DO NOT delete OWNED dlcs from "cream_api.ini", as it had to be done before.  
+Leave the file as is or dlcs blocks will remain locked! (you can overwrite your ini with the one in the zip)  
 
 What changes? NOT SURE! but i think we have lost the ability to paste owned DLC blocks within projects.  
-Before this, it was possible to paste those of purchased dlcs, deleting the corresponding lines from the ini file.  
+Before [this](https://steamdb.info/patchnotes/14430725/), it was possible to paste those of purchased dlcs, deleting the corresponding lines from the ini file.  
 Can't do anything about that guys, I'm sorry.  
-If anyone could verify this by pasting blocks from projects with dlc you own, PLEASE report it [here!](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51)  
-I don't have the time to check this.  
+If anyone could verify this by pasting blocks from projects with dlc you own, PLEASE report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51).  
+I don't have the time to check.  
 
 ---
 
@@ -28,9 +28,9 @@ I don't have the time to check this.
 
 >[💾 v1.3 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 
-  - PLEASE **READ** if you use **`Plugin Launcher`**:  
+  - If you use **`Plugin Launcher`**:  
   put "SpaceEngineersLauncher.exe" in "Bin64" folder BEFORE running the Tool.  
-  Or, if you add it afterwards, make sure to run the Tool AGAIN before playing.
+  If you add it afterwards, make sure to run the Tool AGAIN before playing.
 
 ---
 <br>
@@ -74,7 +74,8 @@ I don't have the time to check this.
   - 3 - Make a backup of the file `steam_api64.dll` in another folder (if somethings goes wrong)
   - 4 - Rename the legit Bin64\ `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
   - 5 - Copy `cream_api.ini` from the extracted archive to the `Bin64` folder
-  - 6 - Copy `Backup\CreamAPI\steam_api64.dll` from the extracted archive to the `Bin64` folder (just the file!)
+  - 6a - Copy `Backup\CreamAPI\steam_api64.dll` from the extracted archive to the `Bin64` folder (just the file!)
+  - 6b - For **Plugin Launcher**, copy this file instead: `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll`
   - 7 - You can play.
 
   Notes:  
@@ -103,7 +104,7 @@ I don't have the time to check this.
 ---
 
 - 🧯 ***If a game patch breaks the unlocker:***
-  - If you used the tool: run `CreamAPI_Tool.cmd` and press "**C**",  
+  - If you used the Tool: run `CreamAPI_Tool.cmd` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, just press "**C**" again.
   - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"
 
@@ -210,7 +211,7 @@ I don't have the time to check this.
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
     - **Armor Skins and Emotes can NOT be unlocked (there is no way).**
     - It is NO LONGER possible to paste DLC items contained in projects, not even from owned DLCs,  
-      in both online and offline worlds! (If you could check this, please report the result [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51))
+      in both online and offline worlds! (If you could check this, please report [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51))
 
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires editing cream_api.ini to add the new [dlc code](https://steamdb.info/app/244850/dlc).
@@ -280,7 +281,7 @@ I don't have the time to check this.
             - Obviously if you don't use Plugin Launcher, the Tool will work normally.  
             - You can completely erase Plugin Launcher, run the Tool and press "M".  
 
-<!-- [v1.4] - Added more options in the Removing zone (just restore backup or completely erase)
+<!-- [v1.4] - Added more options in the Removing zone (just restore backup + completely erase)
 - Added a "restart the Tool" button when it can be useful -->
 
 <br>
@@ -303,8 +304,8 @@ I don't have the time to check this.
   - Remover `Tool + press R`:  
     The remover first checks if the game has undergone an update that replaced  
     the "steam_api64.dll" file or if CreamAPI is still present, then removes it accordingly.
-<!-- [v1.4] [da mettere prima dell'attuale] You can chose "R" to just restore the backup, keeping creamapi files or
-"E" to completely get rid of creamapi files while restoring the backup -->
+<!-- [v1.4] [da mettere prima dell'attuale] You can chose "R" again to just restore the backup, keeping creamapi files  
+or "E" to completely get rid of creamapi files while restoring the backup. -->
 
   - The tool works regardless of the game path.  
     Examples: if you have the game on "C:\games", "E:\whatever", "Y:\folder\steam", it works anyway.
