@@ -104,7 +104,7 @@ I don't have the time to check this.
 
 - 🧯 ***If a game patch breaks the unlocker:***
   - If you used the tool: run `CreamAPI_Tool.cmd` and press "**C**",  
-    if it recognizes that CreamAPI is no longer present, just press "**C**" another time.
+    if it recognizes that CreamAPI is no longer present, just press "**C**" again.
   - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"
 
   Note:  
