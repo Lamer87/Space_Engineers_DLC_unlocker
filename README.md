@@ -28,7 +28,7 @@ I don't have the time to check this.
 
 >[💾 v1.3 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) : `file.zip \ Space_Engineers_DLC_unlocker-main \ *unlocker files*`
 
-  - PLEASE **READ** if you use **Plugin Launcher**:  
+  - PLEASE **READ** if you use **`Plugin Launcher`**:  
   put "SpaceEngineersLauncher.exe" in "Bin64" folder BEFORE running the Tool.  
   Or, if you add it afterwards, make sure to run the Tool AGAIN before playing.
 
