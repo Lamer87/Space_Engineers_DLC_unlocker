@@ -7,7 +7,7 @@
 
 **`IMPORTANT NOTICE !!!`**  
 DO NOT delete purchased dlcs in cream_api.ini, as it had to be done before.  
-So, leave the file as is or dlcs blocks will remain locked! (you can overwrite it with the one in the zip)  
+So, leave the file as is or dlcs blocks will remain locked! (you can overwrite the ini with the one in the zip)  
 
 What changes? NOT SURE! but i think we have lost the ability to paste owned DLC blocks within projects.  
 Before this, it was possible to paste those of purchased dlcs, deleting the corresponding lines from the ini file.  
