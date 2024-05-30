@@ -205,9 +205,8 @@ I don't have the time to check this.
 
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
     - **Armor Skins and Emotes can NOT be unlocked (there is no way).**
-    - It's NOT possible to paste DLC items contained in projects, in both online and offline worlds!  
-<!--       But you can paste the corresponding ones of the DLCs you purchased,  
-      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own any DLC***". -->
+    - It is NO LONGER possible to paste DLC items contained in projects, not even from owned DLCs,  
+      in both online and offline worlds! (If you could check this, please report the result [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51))
 
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires editing cream_api.ini to add the new [dlc code](https://steamdb.info/app/244850/dlc).
@@ -415,6 +414,9 @@ Lines backup of the removed linux version:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
   - 5 - **If you already own any DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
+
+      But you can paste the corresponding ones of the DLCs you purchased,  
+      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own any DLC***".
 
 
 ✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔📡
