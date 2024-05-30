@@ -8,9 +8,11 @@
 **`IMPORTANT NOTICE !!!`**  
 DO NOT delete purchased dlcs in cream_api.ini, as it had to be done before.  
 So, leave the file as is or dlcs blocks will remain locked!  
-What changes? Now, we have lost the ability to paste DLC blocks within projects (online and offline).  
+
+What changes? NOT SURE but now we have lost the ability to paste DLC blocks within projects (online and offline).  
 Before this, it was possible to paste those of purchased dlcs, deleting the lines from the ini file.  
 Can't do anything about that guys, I'm sorry.
+If anyone could verify this by pasting blocks from projects with dlc you own, please report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51)
 
 ---
 
