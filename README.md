@@ -58,8 +58,8 @@ I don't have the time to check this.
 #### - 🗑️ ***Uninstallation with Tool:***
   - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to remove CreamAPI files. <!-- [v1.4] [rimuovere x2], then make a choice -->
 
-    Note: Don't worry if the game has been updated in the meantime,  
-    tool will first check, then restore the backup (only if necessary).
+  Note: Don't worry if the game has been updated in the meantime,  
+  tool will first check, then restore the backup (only if necessary).
 
 <br>
 
@@ -85,13 +85,15 @@ I don't have the time to check this.
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 #### - 🚮 ***Manual Uninstallation:***
-  - A1 - If the game updates to a new version the `steam_api64.dll` file:
+  - First, take a look at `steam_api64.dll` to see if it is still the creamapi file or a legit one:  
+    CreamAPI dll= ~700kb. Legit dll= ~290kb.
+  - A - If it's a legit dll:
     - just remove `steam_api64_o.dll` and `cream_api.ini` and you are done!
-    - How can I find out if the game has been updated: CreamAPI dll = ~700kb, legit dll = ~290kb
-  - B1 - Instead, if creamapi dll is still present: Delete `steam_api64.dll` and `cream_api.ini`
-  - B2 - Then rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
+  - B - If creamapi dll is still present:
+    - Delete `steam_api64.dll` and `cream_api.ini`
+    - rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
 
-    Note: If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check files.
+  Note: If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check files.
 
 <br>
 
