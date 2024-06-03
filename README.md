@@ -303,11 +303,11 @@ I don't have the time to check.
     If you have an old CreamAPI version, it prompts you to update it by pressing "U".  
     The only time you need to update the unlocker is when a new DLC comes out or CreamAPI gets updated.
 
-  - Remover `Tool + press R`:  
+  - Remover `Tool + press R`: <!-- [v1.4] You can chose "R" again to just restore the backup, keeping creamapi files  
+or "E" to completely get rid of creamapi files while restoring the backup. -->  
     The remover first checks if the game has undergone an update that replaced  
     the "steam_api64.dll" file or if CreamAPI is still present, then removes it accordingly.
-<!-- [v1.4] [da mettere prima dell'attuale] You can chose "R" again to just restore the backup, keeping creamapi files  
-or "E" to completely get rid of creamapi files while restoring the backup. -->
+
 
   - The tool works regardless of the game path.  
     Examples: if you have the game on "C:\games", "E:\whatever", "Y:\folder\steam", it works anyway.
