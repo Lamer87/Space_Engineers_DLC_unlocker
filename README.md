@@ -9,7 +9,7 @@
 DO NOT delete OWNED dlcs from "cream_api.ini", as it had to be done before.  
 Leave the file as is or dlcs blocks will remain locked! (you can overwrite your ini with the one in the zip)  
 
-From my quick test: I can use the skins and emotes from the dlcs I own, so it should only be a matter of pasting blueprints.  
+Quick test: I can use the skins and emotes from the dlcs I own, so it should only be a matter of pasting blueprints.  
 If anyone could verify this by pasting blocks from projects with blocks of dlc you own,  
 WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51).  
 
