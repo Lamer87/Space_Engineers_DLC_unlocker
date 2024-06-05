@@ -9,12 +9,9 @@
 DO NOT delete OWNED dlcs from "cream_api.ini", as it had to be done before.  
 Leave the file as is or dlcs blocks will remain locked! (you can overwrite your ini with the one in the zip)  
 
-What changes? I think we have lost the ability to paste owned DLC blocks within projects.  
-Before [this](https://steamdb.info/patchnotes/14430725/), it was possible to paste those of purchased dlcs, deleting the corresponding lines from the ini file.  
-Can't do anything about that guys, I'm sorry.  
+From my quick test: I can use the skins and emotes from the dlcs I own, so it should only be a matter of pasting blueprints.
 If anyone could verify this by pasting blocks from projects with blocks of dlc you own,  
-WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51) (works or not).  
-I don't have the time to check.  
+WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51).  
 
 ---
 
@@ -284,7 +281,8 @@ I don't have the time to check.
             - You can completely erase Plugin Launcher, run the Tool and press "M".  
 
 <!-- [v1.4] - Added more options in the Removing zone (just restore backup + completely erase)
-- Added a "restart the Tool" button when it can be useful -->
+- Added a "restart the Tool" button when it can be useful
+- Some edits to cream_api.ini -->
 
 <br>
 
