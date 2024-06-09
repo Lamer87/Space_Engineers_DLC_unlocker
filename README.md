@@ -207,10 +207,12 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
 - 📜 ***Other Notes:***
 
   - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
-    - **Armor Skins and Emotes can NOT be unlocked (there is no way).**
-    - It is NO LONGER possible to paste DLC items contained in projects, not even from owned DLCs,  
+    - **Armor Skins and Emotes can NOT be unlocked (there is no way).**  
+      You can use those of dlcs you own.
+    - **It is NO LONGER possible to paste DLC items contained in projects**, not even from owned DLCs,  
       in both online and offline worlds! (If you could check this, please report [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51)).  
-      The reason: now if owned dlc are deleted from the ini, they remain deactivated ingame.
+      If owned dlc are deleted from the ini, they remain deactivated ingame.  
+      So, the only way is to maintain all dlc enabled via ini.
 
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires editing cream_api.ini to add the new [dlc code](https://steamdb.info/app/244850/dlc).
@@ -218,7 +220,7 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
 
   - As an alternative to this tool, you can use [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
 
-  - If you want to buy the game (or dlcs to unlock skins and emotes):
+  - If you want to buy the game (or dlcs to unlock skins, emotes and blueprint pasting):
     - [Steam Store - Space Engineers](https://store.steampowered.com/app/244850/Space_Engineers/)
     - [CDKeys.com - Space Engineers](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
@@ -280,9 +282,10 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
             - Obviously if you don't use Plugin Launcher, the Tool will work normally.  
             - You can completely erase Plugin Launcher, run the Tool and press "M".  
 
-<!-- [v1.4] - Added more options in the Removing zone (just restore backup + completely erase)
-- Added a "restart the Tool" button when it can be useful
-- Some edits to cream_api.ini -->
+<!--    - v1.4  
+            - Added more options in the Removing zone (just restore backup + completely erase)
+            - Added a "restart the Tool" button when it can be useful
+            - Some edits to cream_api.ini -->
 
 <br>
 
@@ -385,43 +388,6 @@ img empty:
 
 img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
-
-
-Lines backup of the removed linux version:
-  - 🐧 Now with Linux/OSX support! Thanks to [DeathCamel58](https://github.com/DeathCamel58/Space_Engineers_DLC_unlocker/)
-  - 4b- For Linux/OSX: run `CreamAPI_Linux` and press "**C**"(x2) to install CreamAPI
-  - For Linux/OSX: run `CreamAPI_Linux` and press "**R**"(x2) to delete all CreamAPI files.
-  - `CreamAPI_Linux` : for Linux/OSX - Install / Check / Remove CreamAPI
-
-
----
-- 💸 ***If you already own any DLC:***
-  - You need to remove the lines corresponding to your owned DLCs from the "cream_api.ini" file, so:
-    - First, install CreamAPI (via tool or manual).
-    - In "Bin64" folder, edit `cream_api.ini` with a text editor like notepad.
-    - Look for the lines with DLCs code numbers and names.
-    - Remove the ENTIRE lines corresponding to the DLCs you OWN.
-    - Save the file and back it up if you want, so you don't lose it during uninstallation.
-    - Now everything should work fine.
-
-  - For a new dlc:
-    - Download the updated Tool
-    - Extract it in Bin64 WITHOUT overwriting your modified `cream_api.ini`
-    - Edit the new `cream_api.ini` and copy the last dlc string.
-    - Paste it in your modified ini, save and play.
-
-  - If you disabled any DLC from Steam game settings, leave it in the list.  
-<!--    Example: the Deluxe DLC in addition to unlocking few skins, makes you download 3GB  
-    of useless files related to a very old vanilla version of the game.  
-    With this method you can unlock those blocks, keeping the dlc deactivated from Steam  
-    and therefore without downloading 3GB of data, but you lose dlc related skins.
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
-  - 5 - **If you already own any DLC** please SEE the [related section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below before playing
-
-      But you can paste the corresponding ones of the DLCs you purchased,  
-      check out the [above section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2): "***If you already own any DLC***".
 
 
 ✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔📡
