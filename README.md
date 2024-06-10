@@ -37,8 +37,8 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
   - 1 - Download from above
   - 2 - Open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - 3a- (Mega.nz) unzip files and "Backup" folder from the zip, to the game "Bin64" folder
-  - 3b- (GitHub) unzip files and "Backup" folder inside `zip\***main` folder, to the game "Bin64" folder  
+  - 3a- (Mega.nz) unzip files and "Backup" folder from the zip, to "Bin64" folder
+  - 3b- (GitHub) unzip files and "Backup" folder inside `zip\***main` folder, to "Bin64" folder  
     ❗ IMPORTANT: the "Backup" folder is NECESSARY!
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
   - 5 - You can play.
@@ -71,12 +71,12 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3 - Make a backup of the file `steam_api64.dll` in another folder (if somethings goes wrong)
   - 4 - Rename the legit Bin64\ `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
-  - 5 - Copy `cream_api.ini` from the extracted archive to the `Bin64` folder
+  - 5 - Copy `cream_api.ini` from the extracted archive to `Bin64` folder
   - 6 -  
       - If you don't use Plugin Launcher:  
-        Copy the file `Backup\CreamAPI\steam_api64.dll` to the `Bin64` folder
+        Copy the file `Backup\CreamAPI\steam_api64.dll` to `Bin64` folder
       - If you use **Plugin Launcher**:  
-        Copy the file `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` to the `Bin64` folder
+        Copy the file `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` to `Bin64` folder
   - 7 - You can play.
 
   Notes:  
