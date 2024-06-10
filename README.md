@@ -235,7 +235,7 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
   - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old (update check, Plugin Launcher need it)
   - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : old (just for update check)
   - `Backup\Original\` : empty folder used for the legit dll backup
-  - `Backup\url_link` : a link to this page (in GitHub zip is in Backup\Original\ till you run Tool)
+  - `Backup\url_link` : a link to this page (in GitHub zip is in 'Backup\Original\' till you run the Tool)
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
