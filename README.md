@@ -215,7 +215,7 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
       So, the only way is to maintain all dlc enabled via ini.
 
   - I will update the unlocker if needed, or right after a new DLC release.
-    - A new dlc requires editing cream_api.ini to add the new [dlc code](https://steamdb.info/app/244850/dlc).
+    - A new dlc requires editing cream_api.ini to add the new dlc code. [You can find it here](https://steamdb.info/app/244850/dlc).
     - If you want you can also add it by yourself, there are tips inside cream_api.ini (use notepad).
 
   - As an alternative to this tool, you can use [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
