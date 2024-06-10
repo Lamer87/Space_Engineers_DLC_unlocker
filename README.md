@@ -114,11 +114,6 @@ WHILE using a full "cream_api.ini" (all dlcs present) PLEASE report it [here](ht
   - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"  
     CreamAPI dll= ~700/800kb. Legit dll= ~290kb.
 
-  Note:  
-    It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
-    just run the tool and press "**C**"(x2).  
-    However, when a new DLC comes out (or if creamapi is outdated) you need the new unlocker version.  
-    For a new DLC, you can just edit "cream_api.ini", there are tips inside it.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
