@@ -72,8 +72,11 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
   - 3 - Make a backup of the file `steam_api64.dll` in another folder (if somethings goes wrong)
   - 4 - Rename the legit Bin64\ `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
   - 5 - Copy `cream_api.ini` from the extracted archive to the `Bin64` folder
-  - 6a - Copy `Backup\CreamAPI\steam_api64.dll` from the extracted archive to the `Bin64` folder (just the file!)
-  - 6b - For **Plugin Launcher**, copy this file instead: `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll`
+  - 6 -  
+      - No Plugin Launcher:  
+        Copy `Backup\CreamAPI\steam_api64.dll` from the extracted archive to the `Bin64` folder
+      - If you use **Plugin Launcher**:  
+        copy `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` from the extracted archive to the `Bin64` folder
   - 7 - You can play.
 
   Notes:  
