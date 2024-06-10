@@ -339,10 +339,10 @@ or "E" to completely get rid of creamapi files while restoring the backup. -->
 
 ---
 
-- 🧊 If you want to play the **Frostbite "Scenario"**, you need the Scenario files:
+- 🧊 If you want to play the **Frostbite "Scenario"**, you need Scenario files too.
 
-  - [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
-    This + CreamAPI = works?
+  - These files are downloaded only when you purchase the dlc:  
+    [Frostbite Scenario unlocker](https://github.com/Lamer87/Space-Engineers-Frostbite-Scenario-Unlocker)  
 
 <br>
 
