@@ -11,7 +11,7 @@ Leave the file as is or owned dlc blocks will remain locked! (you can overwrite 
 
 Quick test: I can use skins and emotes of dlcs I own, so it should only be a matter of pasting blueprints.  
 If anyone could verify this by pasting blocks from projects with blocks of dlc you own,  
-WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51).  
+WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51). (I have no time to check)  
 
 ---
 
