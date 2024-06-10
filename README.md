@@ -82,19 +82,19 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
   Notes:  
     - If there is any problem please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below  
     - If a game patch breaks the unlocker (overwritten `steam_api64.dll` with a new one):  
-      delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~700kb, a legit one takes ~290kb
+      delete `steam_api64_o.dll` and redo installation. CreamAPI dll takes ~700/800kb, a legit one takes ~290kb
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 #### - 🚮 ***Manual Uninstallation:***
-  - First, take a look at `steam_api64.dll` to see if it is still the creamapi file or a legit one:  
-    CreamAPI dll= ~700kb. Legit dll= ~290kb.
+  - First, take a look at `steam_api64.dll` to see if it is still the creamapi file or a legit one...  
+    CreamAPI dll= ~700/800kb. Legit dll= ~290kb.
   - A - If it's a legit dll:
     - just remove `steam_api64_o.dll` and `cream_api.ini` and you are done!
   - B - If creamapi dll is still present:
     - Delete `steam_api64.dll` and `cream_api.ini`
-    - rename `steam_api64_o.dll` to `steam_api64.dll` (or restore your backup)
+    - rename `steam_api64_o.dll` to `steam_api64.dll`
 
   Note:  
     If something goes wrong, take a look at the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check files.
