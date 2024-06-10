@@ -47,7 +47,7 @@ WHILE using a full "cream_api.ini" (all dlcs present) PLEASE report it [here](ht
     - You can find the legit dll backup in "`...\Bin64\Backup\Original\`" after installation.  
     - There is a check if you have an old CreamAPI version, prompting you to update.  
     - There is a check if you have Plugin Launcher, prompting you to rollback if CreamAPI is installed.  
-    - **If a game patch breaks the unlocker** plese see the related section below.  
+    - "**If a game patch breaks the unlocker**" plese see the related section below.  
     - If you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below.
 
 
@@ -83,7 +83,7 @@ WHILE using a full "cream_api.ini" (all dlcs present) PLEASE report it [here](ht
 <br>
 
   - Notes:  
-    - **If a game patch breaks the unlocker** plese see the related section below.  
+    - "**If a game patch breaks the unlocker**" plese see the related section below.  
     - If you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below.  
 
 
