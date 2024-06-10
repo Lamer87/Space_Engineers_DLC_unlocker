@@ -107,7 +107,8 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
 - 🧯 ***If a game patch breaks the unlocker:***
   - If you used the Tool: run `CreamAPI_Tool.cmd` and press "**C**",  
     if it recognizes that CreamAPI is no longer present, just press "**C**" again.
-  - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"
+  - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"  
+    CreamAPI dll= ~700/800kb. Legit dll= ~290kb.
 
   Note:  
     It is not necessary to download a new version of the unlocker when a game patch breaks CreamAPI,  
@@ -209,7 +210,7 @@ WHILE using a full "cream_api.ini" (all dlc present) PLEASE report it [here](htt
 
 - 📜 ***Other Notes:***
 
-  - This unlocker is meant to unlock DLC blocks, so you can use them without paying for DLC.
+  - This unlocker is meant to unlock ONLY DLC blocks so you can use them without paying for DLC.
     - **Armor Skins and Emotes can NOT be unlocked (there is no way).**  
       You can use those of dlcs you own.
     - **It is NO LONGER possible to paste DLC items contained in projects**, not even from owned DLCs,  
