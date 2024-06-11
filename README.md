@@ -5,13 +5,6 @@
 ### 🔓 **Unlocker: `v1.3`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3))
 ### 🍦 **CreamAPI: `v5.2`**
 
-**`IMPORTANT NOTICE ❗❗❗`**  
-DO NOT delete any more OWNED dlcs from "cream_api.ini".  
-Leave the file as is or owned dlc blocks will remain greyed out!  
-
-Quick test: I can use skins and emotes of dlcs I own, so it should only be a matter for pasting blueprints.  
-If anyone could verify this by pasting projects with blocks of dlc you own,  
-WHILE using a full "cream_api.ini" (all dlcs present) PLEASE report it [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51). (I have no time to check)  
 
 ---
 
@@ -21,11 +14,16 @@ WHILE using a full "cream_api.ini" (all dlcs present) PLEASE report it [here](ht
 - 🐧 Linux/OSX users please stick to [Manual Installation/Uninstallation instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
 
 ---
-[💾 v1.3 Download from Mega.nz](https://mega.nz/file/7dJHgBAT#g1lS31QzLgK4M3D6lsowEpsNngTdDTze5V2phWQVp3k) = file.zip\ `*Tool files*`
+### - 🔗 ***Download:***
 
-[💾 v1.3 Download from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files*`
+- [💾 v1.3 from Mega.nz](https://mega.nz/file/7dJHgBAT#g1lS31QzLgK4M3D6lsowEpsNngTdDTze5V2phWQVp3k) = file.zip\ `*Tool files and folder*`
 
-- If you use **`Plugin Launcher`**:  
+- [💾 v1.3 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+
+  - DO NOT delete OWNED dlcs from "cream_api.ini",  
+  leave the file as is or owned dlc blocks will remain greyed out!
+
+  - If you use **`Plugin Launcher`**:  
   put "SpaceEngineersLauncher.exe" in "Bin64" folder BEFORE running the Tool.  
   If you add it afterwards, make sure to run the Tool AGAIN before playing.
 
