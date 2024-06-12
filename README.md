@@ -28,6 +28,7 @@
   If you add it afterwards, make sure to run the Tool AGAIN before playing.
 
 ---
+---
 <br>
 
 ### - 🕹️ ***Installation with Tool:***
@@ -101,23 +102,20 @@
   - Note:  
     If you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check game files.
 
-<br>
-
----
----
-
-- 🧯 ***If a game patch breaks the unlocker:***
-
-  - If you used the Tool: run `CreamAPI_Tool.cmd` and press "**C**",  
-    if it recognizes that CreamAPI is no longer present, just press "**C**" again.
-  - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"  
-    CreamAPI dll= ~700/800kb. Legit dll= ~290kb.
-
-
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
 ---
 
 - ⚠️ ***Troubleshooting:***
+
+  - 🧯 ***If a game patch breaks the unlocker:***
+
+    - If you used the Tool: run `CreamAPI_Tool.cmd` and press "**C**",  
+    if it recognizes that CreamAPI is no longer present, just press "**C**" again.
+    - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"  
+    CreamAPI dll= ~700/800kb. Legit dll= ~290kb.
+
+    <br>
 
   - 🦠 If your antivirus detects "steam_api64.dll" as a trojan, make an exception for it.  
     It's safe, but software houses don't like it when you play their dlcs for free.
@@ -282,7 +280,7 @@
             - You can completely erase Plugin Launcher and all its files, run the Tool and press "M"  
 
 <!--    - v1.4  
-            - Added more options in the Removing zone (restore backup or completely erase)
+            - More options in the Removing zone (restore backup, completely erase)
             - Added a "restart the Tool" button when it can be useful
             - Some edits to cream_api.ini -->
 
