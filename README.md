@@ -208,7 +208,7 @@
     - **Armor Skins and Emotes can NOT be unlocked.**  
       There is no way, cause Steam checks. You can use those of dlcs you own.
     - **It's NOT possible to paste DLC items contained in projects**, in both online and offline worlds!  
-      Even from owned DLC? (If you could check this, please report in [issues](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues)).  
+      Even from owned DLC? (If you could check this, please report in [Discussions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions)).  
       Now if owned dlcs are deleted from the ini, blocks remain greyed out ingame.
 
   - I will update the unlocker if needed, or right after a new DLC release.
