@@ -8,10 +8,10 @@
 
 ---
 
-- 🗃️ Now compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) (using CreamAPI v4.5)
-- 🔄 Game patches proof! if it stops working, just run the tool again!
+- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) (using CreamAPI v4.5).
+- 🔄 Game patches proof! if it stops working, just run the tool again.
 - 🔕 Update needed only for new DLC or new CreamAPI release.
-- 🐧 Linux/OSX users please stick to [Manual Installation/Uninstallation instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
+- 🐧 Linux/OSX users please stick to [Manual Install/Uninstall instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
 
 ---
 ### - 🔗 ***Download:***
