@@ -207,10 +207,9 @@
   - This unlocker is meant to unlock only DLC blocks.
     - **Armor Skins and Emotes can NOT be unlocked.**  
       There is no way, cause Steam checks. You can use those of dlcs you own.
-    - **It is NO LONGER possible to paste DLC items contained in projects**, in both online and offline worlds!  
-      Even from owned DLCs??? (If you could check this, please report [here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/51), I have no time to check).  
-      Now if owned dlcs are deleted from the ini, blocks remain greyed out ingame.  
-      So, the only way is to leave all dlcs inside ini file.
+    - **It's NOT possible to paste DLC items contained in projects**, in both online and offline worlds!  
+      Even from owned DLC? (If you could check this, please report in [issues](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues)).  
+      Now if owned dlcs are deleted from the ini, blocks remain greyed out ingame.
 
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires to add a new dlc code in cream_api.ini. [You can find it here](https://steamdb.info/app/244850/dlc).
