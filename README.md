@@ -110,7 +110,8 @@
     if it recognizes that CreamAPI is no longer present, just press "**C**" again.
 
     - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation"  
-    CreamAPI dll= ~700/800kb. Legit dll= ~290kb.
+    CreamAPI dll= ~700/800kb.  
+    Legit dll= ~290kb.
 
     <br>
 
