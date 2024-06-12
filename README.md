@@ -115,7 +115,7 @@
 
     <br>
 
-  - 🦠 If your antivirus detects "steam_api64.dll" as a trojan, make an exception for it.  
+  - 🦠 If your antivirus detects "steam_api64.dll" as a malware, make an exception for it.  
     It's safe, but software houses don't like it when you play their dlcs for free.
   <br>
 
