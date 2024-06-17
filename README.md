@@ -78,8 +78,8 @@
 
 <br>
 
-  - Notes:  
-    - If a game patch breaks the unlocker or if you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below.  
+  - Note:  
+    If a game patch breaks the unlocker or if you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below.  
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
