@@ -36,14 +36,15 @@
   - 2 - Open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3a- (Mega.nz) extract files and "Backup" folder from the zip, to "Bin64" folder
-  - 3b- (GitHub) extract files and "Backup" folder inside `zip\Space...-main\` folder, to "Bin64" folder  
+  - 3b- (GitHub) extract files and "Backup" folder inside `zip\Space...-main\` folder, to "Bin64" folder
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
   - 5 - You can play
 
 <br>
 
-  - You can find the legit dll backup in "`...\Bin64\Backup\Original\`" after installation.  
-  - If a game patch breaks the unlocker or if you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below.  
+| - If a game patch breaks the unlocker or if you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below. |  
+|:--- |
+| - You can find the legit dll backup in "`...\Bin64\Backup\Original\`" after installation. |
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -53,9 +54,11 @@
 
 <br>
 
-  - Don't worry if the game has been updated in the meantime, because the Tool checks it.
+| - Don't worry if the game has been updated in the meantime, because the Tool checks it. |  
+|:--- |
 
 <br>
+
 
 ---
 <br>
@@ -76,7 +79,8 @@
 
 <br>
 
-  - If a game patch breaks the unlocker or if you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below.  
+| - If a game patch breaks the unlocker or if you need help, please check the [Troubleshooting section](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below. |  
+|:--- |
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -92,7 +96,9 @@
 
 <br>
 
-  - If you need help, please check the Troubleshooting section[](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below to check game files.
+| - If you need help, please check the Troubleshooting section[](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-2) below. |  
+|:--- |
+
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
