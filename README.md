@@ -21,7 +21,7 @@
 - [💾 v1.3 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
   - DO NOT delete OWNED dlcs from "cream_api.ini",  
-  leave the file as is or owned dlc blocks will remain greyed out!
+  leave the file as is or owned dlc blocks will be greyed out!
 
   - If you use **`Plugin Launcher`**:  
   put "SpaceEngineersLauncher.exe" in "Bin64" folder BEFORE running the Tool.  
