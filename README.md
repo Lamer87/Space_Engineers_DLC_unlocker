@@ -20,6 +20,8 @@
 
 - [💾 v1.3 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
+- Important notes!
+
   - DO NOT remove OWNED dlcs from "cream_api.ini",  
   leave the file as is or owned dlc blocks will be greyed out!
 
