@@ -204,7 +204,7 @@
 
 ---
 
-- 📜 ***Other Notes:***
+- 📜 ***Notes:***
 
   - This unlocker is meant to unlock ONLY DLC blocks.
     - **Armor Skins and Emotes can NOT be unlocked.**  
