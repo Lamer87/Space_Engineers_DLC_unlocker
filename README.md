@@ -124,7 +124,7 @@
   <br>
 
   - 🛡️ If you get the message "Windows protected your PC" when you launch "CreamAPI_Tool.cmd":  
-    <details><summary>click here to show a little guide.</summary><p>
+    <details><summary>click here to show how to run it.</summary><p>
 
     ————————————————————————————————————————  
     ————————————————————————————————————————  
