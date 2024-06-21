@@ -262,7 +262,7 @@
             - Added tips to errors, as well as small additions to other messages  
             - Added tips to cream_api.ini, to make it easier for you if you want to add new dlcs  
             - Removed linux/osx version because it was a mess (for more info, see discussions)  
-            - Old CreamAPI versions in backup\creamapi\ folder (needed for update check)  
+            - Old CreamAPI version in backup\creamapi\ folder (needed for update check)  
     - v1.2:  
             - Added DLC "Signal Pack"  
             - Updated CreamAPI from 5.1.0.0 to 5.2.0.0  
