@@ -232,11 +232,12 @@
 - 📂 ***Files and folders of `v1.3`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
+  - `Backup\Original\` : folder used for the legit dll backup
+  - `Backup\url_link` : a link to this page (in GitHub zip, is in 'Backup\Original\' till you run the Tool)
   - `Backup\CreamAPI\steam_api64.dll` : Latest CreamAPI dll file
   - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old (update check; Plugin Launcher need this one)
   - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : old (update check)
-  - `Backup\Original\` : folder used for the legit dll backup
-  - `Backup\url_link` : a link to this page (in GitHub zip, is in 'Backup\Original\' till you run the Tool)
+<!-- [v1.4]  - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : old (update check) -->
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -247,7 +248,7 @@
 
     ————————————————————————————————————————  
 
-    - v0.1: First manual version; Uses CreamAPI 4.5.0.0 (till unlocker v1.0)
+    - v0.1: First manual version; Uses CreamAPI 4.5 (till unlocker v1.0)
     - v0.2: Automated cmd tools; Not released cause no support for game patches
     - v0.3: Easier tools and support for new game patches
     - v0.4: Removed a useless file; Improved tools to prevent errors. Added colors
@@ -257,7 +258,7 @@
     - v0.8: Added DLC "Anniversary Pack"; Reuploaded fixing wrong version displayed
     - v1.0: Added Linux/OSX support
     - v1.1:  
-            - Updated CreamAPI from 4.5.0.0 to 5.1.0.0 (contains a specific fix for Space Engineers)  
+            - Updated CreamAPI from v4.5 to v5.1 (contains a specific fix for Space Engineers)  
             - The tool detects if you have the old CreamAPI version and prompts you to update  
             - Added tips to errors, as well as small additions to other messages  
             - Added tips to cream_api.ini, to make it easier for you if you want to add new dlcs  
@@ -265,7 +266,7 @@
             - Old CreamAPI version in backup\creamapi\ folder (needed for update check)  
     - v1.2:  
             - Added DLC "Signal Pack"  
-            - Updated CreamAPI from 5.1.0.0 to 5.2.0.0  
+            - Updated CreamAPI from v5.1 to v5.2  
 
     <br>
 
@@ -281,9 +282,10 @@
             - You can completely erase Plugin Launcher and all its files, run the Tool and press "M"  
 
 <!--    - v1.4  
-            - More options in the Removing zone (just restore backup or remove files)
-            - Added a "restart the Tool" button when it can be useful
-            - Some edits to cream_api.ini -->
+            - More options in the Removing zone (just restore backup or remove files)  
+            - Added a "restart the Tool" button when it can be useful  
+            - Some edits to cream_api.ini  
+            - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher *need test*) -->
 
 <br>
 
