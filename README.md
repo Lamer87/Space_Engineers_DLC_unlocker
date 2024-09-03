@@ -203,6 +203,33 @@
 
     </p></details>
 
+  <br>
+
+  - ⁉️ If your game have bugs/crashes using **Plugin Launcher**, please try **WITHOUT** it,  
+      use just CreamAPI and try the game **BEFORE posting in issues**, THANKS...  
+
+    <details><summary>Simple explanation:</summary><p>
+
+    ————————————————————————————————————————  
+
+    Plugin Launcher only works with the old CreamAPI v4.5, tested up to v5.3 (not working).
+
+    | What | Last update |
+    |:--- |:---:|
+    | Base game | 13 May 2024 |
+    | CreamAPI v5.3 | 01 Jul 2024 |
+    | --- | --- |
+    | Plugin Launcher | 29 Sep 2023 |
+    | CreamAPI v4.5 | 04 Jan 2021 |
+
+    Maybe something needs an update to stop crashes?  
+    So, please, do not blame CreamAPI if you are using Plugin Launcher ;)  
+    TRY the game using ONLY CreamAPI before posting here.
+
+    ————————————————————————————————————————  
+
+    </p></details>
+
 <br>
 
 ---
