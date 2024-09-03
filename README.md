@@ -5,6 +5,11 @@
 ### 🔓 **Tool: `v1.4`** (3/Sep/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
+---
+
+#### 🔥 Space Engineers and ALL its DLCs are 50% off on Steam right now!
+#### 🔥 The "Ultimate Edition" (game + all dlcs, excluding already purchased) it's 58% off!
+#### 🔥 Offer valid until September 9, 2024. [Go to Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/).
 
 ---
 
