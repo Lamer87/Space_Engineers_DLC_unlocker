@@ -2,7 +2,7 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡
 
-### 🔓 **Tool: `v1.3`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3))
+### 🔓 **Tool: `v1.4`** ([changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3))
 ### 🍦 **CreamAPI: `v5.2`**
 
 
@@ -16,9 +16,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.3 from Mega.nz](https://mega.nz/file/7dJHgBAT#g1lS31QzLgK4M3D6lsowEpsNngTdDTze5V2phWQVp3k) = file.zip\ `*Tool files and folder*`
+- [💾 v1.4 from Mega.nz](https://mega.nz/file/aJRgjQ6L#6kZ4McdnySaSB26r0l5B22h99dA7vfjOIysKJhSovpg) = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.3 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.4 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 - Important notes!
 
