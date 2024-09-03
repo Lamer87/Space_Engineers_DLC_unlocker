@@ -284,7 +284,7 @@
             - More options in the Removing zone (just restore backup or remove files)  
             - Added a "restart the Tool" button when it can be useful  
             - Some edits to cream_api.ini  
-            - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher *testing now*)  
+            - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher need 4.5)  
 
 <br>
 
