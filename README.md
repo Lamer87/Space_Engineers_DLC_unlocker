@@ -2,7 +2,7 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡
 
-### 🔓 **Tool: `v1.4`** (3/September/24) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.4`** (3/Sep/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 
