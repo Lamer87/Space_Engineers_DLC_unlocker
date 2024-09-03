@@ -229,7 +229,7 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.3`:***
+- 📂 ***Files and folders of `v1.4`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup
@@ -237,7 +237,7 @@
   - `Backup\CreamAPI\steam_api64.dll` : Latest CreamAPI dll file
   - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old (update check; Plugin Launcher need this one)
   - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : old (update check)
-<!-- [v1.4]  - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : old (update check) -->
+  - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : old (update check)
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -267,13 +267,6 @@
     - v1.2:  
             - Added DLC "Signal Pack"  
             - Updated CreamAPI from v5.1 to v5.2  
-
-    <br>
-
-    ————————————————————————————————————————  
-
-    </p></details>
-
     - v1.3:  
             - The Tool now recognizes the presence of "Plugin Launcher"  
             - If Plugin Launcher is present, CreamAPI v4.5 will be installed (compatible with PL)  
@@ -281,11 +274,17 @@
             - You can switch to last creamapi by removing the file "SpaceEngineersLauncher.exe"  
             - You can completely erase Plugin Launcher and all its files, run the Tool and press "M"  
 
-<!--    - v1.4  
+    <br>
+
+    ————————————————————————————————————————  
+
+    </p></details>
+
+    - v1.4  
             - More options in the Removing zone (just restore backup or remove files)  
             - Added a "restart the Tool" button when it can be useful  
             - Some edits to cream_api.ini  
-            - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher *need test*) -->
+            - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher *testing now*)  
 
 <br>
 
@@ -304,8 +303,9 @@
     If you have an old CreamAPI version, it prompts you to update it by pressing "U".  
     The only time you need to update the unlocker is when a new DLC comes out.
 
-  - Remover `Tool + press R`: <!-- [v1.4] You can chose "R" again to just restore the backup, keeping creamapi files  
-or "E" to completely get rid of creamapi files while restoring the backup. -->  
+  - Remover `Tool + press R`:  
+    You can chose "R" again to just restore the backup, keeping creamapi files  
+    or "E" to completely get rid of creamapi files while restoring the backup.  
     The remover first checks if the game has undergone an update that replaced  
     the "steam_api64.dll" file or if CreamAPI is still present, then removes it accordingly.
 
