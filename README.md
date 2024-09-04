@@ -379,7 +379,7 @@
 <br>
 
 ---
-
+  <!--  
 - 🇮🇹 Traduzione Italiana migliorata
 
   - Qui trovate la mia traduzione ad un italiano decente, visto che quello del gioco fa cagare.  
@@ -388,7 +388,7 @@
 <br>
 
 ---
-
+  -->
 
 
 <!-- -->
