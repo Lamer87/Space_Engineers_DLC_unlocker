@@ -29,8 +29,6 @@
   leave the file as is or owned dlc blocks will be greyed out!
 
   - If you use **`Plugin Launcher`**:  
-  put "SpaceEngineersLauncher.exe" in "Bin64" folder BEFORE running the Tool.  
-  If you add it afterwards, make sure to run the Tool AGAIN before playing.  
   If the game crashes PLEASE try WITHOUT Plugin Launcher, before posting in issues.
 
 ---
