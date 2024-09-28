@@ -5,6 +5,8 @@
 ### 🔓 **Tool: `v1.4`** (3/Sep/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
+### Thanks to a guy ([here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/53)), Plugin Launcher now works with the latest version of CreamAPI.
+### This weekend I will update the Tool to make the necessary changes (v1.5).
 ---
 
 #### 🔥 Space Engineers and ALL its DLCs are 50% off on Steam right now!
