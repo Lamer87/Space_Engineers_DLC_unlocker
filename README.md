@@ -7,7 +7,7 @@
 
 ---
 ### Thanks to a guy ([here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/53)), Plugin Launcher now works with the latest version of CreamAPI.
-### This weekend I will update the Tool to make the necessary changes (v1.5).
+### I'll update the Tool to make the necessary changes (v1.5).
 
 ---
 
