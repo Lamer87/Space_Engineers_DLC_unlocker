@@ -7,7 +7,7 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡
 
-### 🔓 **Tool: `v1.4`** (3/Sep/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.5`** (28/Sep/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
@@ -16,7 +16,7 @@
 
 ---
 
-- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher) (using CreamAPI v4.5).
+- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher), now using LATEST CreamAPI!
 - 🔄 Game patches proof! if it stops working, just run the tool again.
 - 🔕 Update needed only when a new DLC is released.
 - 🐧 Linux/OSX users please stick to [Manual Install/Uninstall instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
@@ -61,7 +61,7 @@
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 #### - 🗑️ ***Uninstallation with Tool:***
-  - Run `CreamAPI_Tool.cmd` and press "**R**"(x2) to remove CreamAPI files. <!-- [v1.4] [rimuovere x2], then make a choice -->
+  - Run `CreamAPI_Tool.cmd` and press "**R**" then make a choice.
 
 <br>
 
@@ -81,11 +81,7 @@
   - 3 - Make a backup of the legit `steam_api64.dll` in another folder (if somethings goes wrong)
   - 4 - Rename the legit Bin64\ `steam_api64.dll` to `steam_api64_o.dll` (adding an underscore and letter "o")
   - 5 - Copy `cream_api.ini` from the extracted archive to `Bin64` folder
-  - 6 -  
-      - If you do NOT use **Plugin Launcher**:  
-        Copy the file `Backup\CreamAPI\steam_api64.dll` to `Bin64` folder
-      - If you USE **Plugin Launcher**:  
-        Copy the file `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` to `Bin64` folder
+  - 6 - Copy the file `Backup\CreamAPI\steam_api64.dll` to `Bin64` folder
   - 7 - You can play
 
 <br>
@@ -216,11 +212,10 @@
   - ⁉️ If your game have bugs/crashes using **Plugin Launcher**, please try **WITHOUT** it,  
       use just CreamAPI with the BASE game executable and try it **BEFORE posting in issues**, THANKS...  
 
+<!-- 
     <details><summary>Simple explanation:</summary><p>
 
     ————————————————————————————————————————  
-
-    Plugin Launcher only works with the old CreamAPI v4.5, tested up to v5.3 (not working).
 
     | What | Last update |
     |:--- |:---:|
@@ -238,7 +233,7 @@
 
     </p></details>
 
-<br>
+<br> -->
 
 ---
 
@@ -265,7 +260,7 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.4`:***
+- 📂 ***Files and folders of `v1.5`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup
@@ -309,6 +304,11 @@
             - If CreamAPI is already installed and PL too, the Tool prompts you tu rollback to v4.5  
             - You can switch to last creamapi by removing the file "SpaceEngineersLauncher.exe"  
             - You can completely erase Plugin Launcher and all its files, run the Tool and press "M"  
+    - v1.4  
+            - More options in the Removing zone (just restore backup or remove files)  
+            - Added a "restart the Tool" button when it can be useful  
+            - Some edits to cream_api.ini  
+            - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher need 4.5)  
 
     <br>
 
@@ -316,11 +316,11 @@
 
     </p></details>
 
-    - v1.4  
-            - More options in the Removing zone (just restore backup or remove files)  
-            - Added a "restart the Tool" button when it can be useful  
-            - Some edits to cream_api.ini  
-            - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher need 4.5)  
+    - v1.5  
+            - Very important FIX to cream_api.ini for Plugin Launcher compatibility  
+            - Plugin Launcher now works with latest CreamAPI version  
+            - All this thanks to Vidkol18  
+            - Partially rewrote the Tool to remove parts no longer needed
 
 <br>
 
