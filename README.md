@@ -7,10 +7,6 @@
 
 ---
 
-### ❗ Thanks to a guy ([here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/53)), Plugin Launcher now works with the latest CreamAPI version. ❗
-#### If you already have Tool: download v1.5, overwrite, run Tool, update with "U", play using Plugin Launcher exe.
----
-
 - 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher), now using LATEST CreamAPI version!
 - 🔄 Game patches proof! if it stops working, just run the tool again.
 - 🔕 Update needed only when a new DLC is released.
@@ -22,14 +18,6 @@
 - [💾 v1.5 from Mega.nz](https://mega.nz/file/rcImxKaa#0Fw734PwCsky7LPujHL8YlqF7QRygmpG8RgzVWjuwBM) = file.zip\ `*Tool files and folder*`
 
 - [💾 v1.5 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
-
-- Important notes!
-
-  - DO NOT remove OWNED dlcs from "cream_api.ini",  
-  leave the file as is or owned dlc blocks will be greyed out!
-
-  - If you use **`Plugin Launcher`**:  
-  If the game crashes PLEASE try WITHOUT Plugin Launcher, before posting in issues.
 
 ---
 ---
@@ -242,6 +230,7 @@
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires to add a new dlc code in cream_api.ini. You can find the code [here](https://steamdb.info/app/244850/dlc).
     - If you want you can also add it by yourself, there are tips inside cream_api.ini (use notepad).
+    - Do NOT remove owned dlcs from "cream_api.ini", leave the file as is or owned dlc blocks will be greyed out.
 
   - An alternative to this tool is [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
 
