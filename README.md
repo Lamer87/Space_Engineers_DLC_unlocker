@@ -1,9 +1,15 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡 <!-- new *Contact* 🛸 -->
+### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡 <!-- new *Contact* 💀 -->
 
 ### 🔓 **Tool: `v1.5`** (28/Sep/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
+
+#### ❗
+#### New Space Engineers update release on Monday 14th, 5pm UTC.
+#### It looks like it's not a DLC but a big free update, we'll see.
+#### Finally some end-game content after YEARS.
+#### ❗
 
 ---
 
