@@ -96,8 +96,8 @@
 
   - 🧯 If a game patch breaks the unlocker:
 
-    - If you used the Tool: run `CreamAPI_Tool.cmd` and press "**C**",  
-    if it recognizes that CreamAPI is no longer present, just press "**C**" again.
+    - If you used the Tool: run `CreamAPI_Tool.cmd`,  
+    if it recognizes that CreamAPI is no longer present, just press "**C**".
 
     - If you did manual installation, remove the file `steam_api64_o.dll` then redo "Manual Installation".  
     CreamAPI dll= ~700/800kb.  
