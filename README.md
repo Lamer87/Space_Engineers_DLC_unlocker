@@ -6,9 +6,9 @@
 ---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.204` - *Signal Pack* 📡 <!-- new *Contact* 💀 -->
+### ✔️ All DLCs unlocked up to: `v1.205` - *Contact* 💀
 
-### 🔓 **Tool: `v1.5`** (28/Sep/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.6`** (14/Oct/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
@@ -21,9 +21,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.5 from Mega.nz](https://mega.nz/file/rcImxKaa#0Fw734PwCsky7LPujHL8YlqF7QRygmpG8RgzVWjuwBM) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6 from Mega.nz]() = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.5 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.6 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
@@ -35,7 +35,7 @@
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
   - 3a- (Mega.nz) extract files and "Backup" folder from the zip, to "Bin64" folder
   - 3b- (GitHub) extract files and "Backup" folder inside `zip\Space...-main\` folder, to "Bin64" folder
-  - 4 - Run `CreamAPI_Tool.cmd` and press "**C**"(x2) to install CreamAPI
+  - 4 - Run `CreamAPI_Tool.cmd` and press "**C**" to install CreamAPI
   - 5 - You can play
 
 <br>
@@ -199,27 +199,6 @@
   - ⁉️ If your game have bugs/crashes using **Plugin Launcher**, please try **WITHOUT** it,  
       use just CreamAPI with the BASE game executable and try it **BEFORE posting in issues**, THANKS...  
 
-<!-- 
-    <details><summary>Simple explanation:</summary><p>
-
-    ————————————————————————————————————————  
-
-    | What | Last update |
-    |:--- |:---:|
-    | Base game | 13 May 2024 |
-    | CreamAPI v5.3 | 01 Jul 2024 |
-    | --- | --- |
-    | Plugin Launcher | 29 Sep 2023 |
-    | CreamAPI v4.5 | 04 Jan 2021 |
-
-    Maybe something needs an update to stop crashes?  
-    So, please, do not blame CreamAPI if you are using Plugin Launcher ;)  
-    TRY the game using ONLY CreamAPI before posting here.
-
-    ————————————————————————————————————————  
-
-    </p></details>
- -->
 <br>
 
 ---
@@ -248,13 +227,13 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.5`:***
+- 📂 ***Files and folders of `v1.6`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup
   - `Backup\url_link` : a link to this page (in GitHub zip, is in 'Backup\Original\' till you run the Tool)
   - `Backup\CreamAPI\steam_api64.dll` : Latest CreamAPI dll file
-  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old (update check; Plugin Launcher need this one)
+  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old (update check)
   - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : old (update check)
   - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : old (update check)
 
@@ -297,6 +276,11 @@
             - Added a "restart the Tool" button when it can be useful  
             - Some edits to cream_api.ini  
             - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher need 4.5)  
+    - v1.5  
+            - Very important FIX to cream_api.ini for Plugin Launcher compatibility  
+            - Plugin Launcher now works with latest CreamAPI version  
+            - All this thanks to Vidkol18  
+            - Partially rewrote the Tool to remove parts no longer needed  
 
     <br>
 
@@ -304,11 +288,9 @@
 
     </p></details>
 
-    - v1.5  
-            - Very important FIX to cream_api.ini for Plugin Launcher compatibility  
-            - Plugin Launcher now works with latest CreamAPI version  
-            - All this thanks to Vidkol18  
-            - Partially rewrote the Tool to remove parts no longer needed
+    - v1.6  
+            - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.
+            - Added DLC "Contact".  
 
 <br>
 
@@ -316,14 +298,13 @@
 
 - ⚙️ ***How the Tool works, newbies proof:***
 
-  - Installer `Tool + press C`:  
+  - Installer:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game patch.  
     What does it do exactly? if CreamAPI is not yet present so in the case of a new installation or  
     after an update that replaces the "steam_api64.dll" file,  
     it creates a backup of the new original file and installs/restores CreamAPI functionality.  
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
-    just run the Tool+C to check and restore CreamAPI.  
-    If it detects that CreamAPI is present and ready, it does nothing.  
+    just run the Tool to check and restore CreamAPI.  
     If you have an old CreamAPI version, it prompts you to update it by pressing "U".  
     The only time you need to update the unlocker is when a new DLC comes out.
 
