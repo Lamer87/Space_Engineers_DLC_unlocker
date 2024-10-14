@@ -1,9 +1,3 @@
-# 🚧 UPDATING - PLEASE WAIT! 🔄
-# just few minutes and the new version is ready!
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
-
----
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### ✔️ All DLCs unlocked up to: `v1.205` - *Contact* 💀
@@ -21,7 +15,7 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6 from Mega.nz]() = file.zip\ `*Tool files and folder*`
+- [💾 v1.6 from Mega.nz](https://mega.nz/file/CQQByaxB#FZp1035N6Igw163qlh4cMkIzw6b502op9KnSsOCwOdg) = file.zip\ `*Tool files and folder*`
 
 - [💾 v1.6 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
