@@ -283,7 +283,7 @@
     </p></details>
 
     - v1.6  
-            - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.
+            - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
             - Added DLC "Contact".  
 
 <br>
