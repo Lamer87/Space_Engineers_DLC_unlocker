@@ -21,7 +21,7 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6 from Mega.nz](https://mega.nz/file/PIQw0BTD#gl_rioWZxxZ6lKjlmTCIktmBL5c-kt8CZ7lYRCQQkIY) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6 from Mega.nz]() = file.zip\ `*Tool files and folder*`
 
 - [💾 v1.6 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
