@@ -211,6 +211,9 @@
     - If you want you can also add it by yourself, there are tips inside cream_api.ini (use notepad).
     - Do NOT remove owned dlcs from "cream_api.ini", leave the file as is or owned dlc blocks will be greyed out.
 
+  - What if I want the "Flush Cockpit" without registering for newsletter?
+    - It's very simple, just enter a fake email address in the form. No confirmation required.
+
   - An alternative to this tool is [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
 
   - If you want to buy the game (or dlcs to unlock skins, emotes and blueprint pasting):
