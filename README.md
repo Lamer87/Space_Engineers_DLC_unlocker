@@ -206,15 +206,23 @@
       Even from owned DLC? (If you could check this, please report in [Discussions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions)).  
       Now if owned dlcs are deleted from the ini, blocks remain greyed out ingame.
 
+  <br>
+
   - I will update the unlocker if needed, or right after a new DLC release.
     - A new dlc requires to add a new dlc code in cream_api.ini. You can find the code [here](https://steamdb.info/app/244850/dlc).
     - If you want you can also add it by yourself, there are tips inside cream_api.ini (use notepad).
     - Do NOT remove owned dlcs from "cream_api.ini", leave the file as is or owned dlc blocks will be greyed out.
 
+  <br>
+
   - What if I want the "Flush Cockpit" without registering for newsletter?
     - It's very simple, just enter a fake email address in the form. No confirmation required.
 
+  <br>
+
   - An alternative to this tool is [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
+
+  <br>
 
   - If you want to buy the game (or dlcs to unlock skins, emotes and blueprint pasting):
     - [Steam Store - Space Engineers](https://store.steampowered.com/app/244850/Space_Engineers/)
