@@ -220,7 +220,7 @@
 
   <br>
 
-  - An alternative to this tool is [CreamInstaller](https://github.com/pointfeev/CreamInstaller), compatible with a lot of games.
+  - An alternative to this tool is [CreamInstaller](https://github.com/CyberSys/CreamInstaller), compatible with a lot of games.
 
   <br>
 
