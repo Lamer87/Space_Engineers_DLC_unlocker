@@ -2,7 +2,7 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.205` - *Contact* 💀
 
-### 🔓 **Tool: `v1.6`** (14/Oct/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.6.1`** (20/Oct/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
@@ -15,9 +15,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6 from Mega.nz](https://mega.nz/file/CQQByaxB#FZp1035N6Igw163qlh4cMkIzw6b502op9KnSsOCwOdg) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6.1 from Mega.nz](https://mega.nz/file/KBRByCTQ#ks7E1FEJrATeyAv_JqEijuCURwg8boDkNgqy1ZGZHJ4) = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.6 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.6.1 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
@@ -296,6 +296,7 @@
     - v1.6  
             - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
             - Added DLC "Contact".  
+            - v1.6.1 = Much faster initial check.  
 
 <br>
 
