@@ -221,6 +221,7 @@
   <br>
 
   - An alternative to this tool is [CreamInstaller](https://github.com/CyberSys/CreamInstaller), compatible with a lot of games.
+    - Github download page is down, see [here](https://www.reddit.com/r/Creaminstaller/) for updates and download.
 
   <br>
 
