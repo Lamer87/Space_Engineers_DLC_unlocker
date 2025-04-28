@@ -304,7 +304,7 @@
     </p></details>
 
     - v1.6.2  
-            - very little changes to cmd file.  
+            - Very little changes to cmd file.  
             - Added DLC "Fieldwork".  
 
 <br>
