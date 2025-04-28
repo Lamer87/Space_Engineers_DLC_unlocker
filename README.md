@@ -1,13 +1,18 @@
+# 🚧 UPDATING - PLEASE WAIT! 🔄
+# just few minutes and the new version is ready!
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
+---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ### ✔️ All DLCs unlocked up to: `v1.205` - *Contact* 💀
 
-### 🔓 **Tool: `v1.6.1`** (20/Oct/2024) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.6.2`** (28/April/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
 
-- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher), now using LATEST CreamAPI version!
+- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
 - 🔄 Game patches proof! if it stops working, just run the tool again.
 - 🔕 Update needed only when a new DLC is released.
 - 🐧 Linux/OSX users please stick to [Manual Install/Uninstall instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
@@ -15,9 +20,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6.1 from Mega.nz](https://mega.nz/file/KBRByCTQ#ks7E1FEJrATeyAv_JqEijuCURwg8boDkNgqy1ZGZHJ4) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6.2 from Mega.nz](www) = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.6.1 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.6.2 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
@@ -233,7 +238,7 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.6`:***
+- 📂 ***Files and folders of `v1.6.x`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup
@@ -287,6 +292,10 @@
             - Plugin Launcher now works with latest CreamAPI version  
             - All this thanks to Vidkol18  
             - Partially rewrote the Tool to remove parts no longer needed  
+    - v1.6  
+            - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
+            - Added DLC "Contact".  
+            - v1.6.1 = Much faster check at start.  
 
     <br>
 
@@ -294,10 +303,9 @@
 
     </p></details>
 
-    - v1.6  
-            - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
-            - Added DLC "Contact".  
-            - v1.6.1 = Much faster check at start.  
+    - v1.6.2  
+            - very little changes to cmd file.  
+            - Added DLC "Fieldwork".  
 
 <br>
 
