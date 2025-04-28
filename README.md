@@ -288,8 +288,8 @@
             - All this thanks to Vidkol18  
             - Partially rewrote the Tool to remove parts no longer needed  
     - v1.6  
-            - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
             - Added DLC "Contact".  
+            - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
             - v1.6.1 = Much faster check at start.  
 
     <br>
@@ -299,8 +299,8 @@
     </p></details>
 
     - v1.6.2  
-            - Very little changes to cmd file.  
             - Added DLC "Fieldwork".  
+            - Very little changes to cmd file.  
             - No update for CreamAPI since 5.3 release (means it still works)  
 
 <br>
