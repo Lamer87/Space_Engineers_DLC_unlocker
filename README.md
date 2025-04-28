@@ -301,6 +301,7 @@
     - v1.6.2  
             - Very little changes to cmd file.  
             - Added DLC "Fieldwork".  
+            - No update for CreamAPI since 5.3 release (means it still works)  
 
 <br>
 
