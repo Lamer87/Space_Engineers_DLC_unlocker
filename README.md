@@ -220,8 +220,8 @@
 
   <br>
 
-  - An alternative to this tool is [CreamInstaller](https://github.com/CyberSys/CreamInstaller) ([download page](https://github.com/pointfeev/CreamInstaller)), compatible with a lot of games.
-    - Github download page is down, see [here](https://www.reddit.com/r/Creaminstaller/) for updates and download.
+  - An alternative to this tool is [CreamInstaller](https://github.com/CyberSys/CreamInstaller) ([NEW download page](https://github.com/sudojoao/CreamAPI)), compatible with a lot of games.
+    - See [here on reddit](https://www.reddit.com/r/Creaminstaller/), for updates and download.
 
   <br>
 
