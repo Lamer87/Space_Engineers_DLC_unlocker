@@ -190,7 +190,7 @@
 
   <br>
 
-  - ⁉️ If your game have bugs/crashes using **Plugin Launcher**, please try **WITHOUT** it,  
+  - ⁉️ If your game have bugs/crashes using any **Plugin Launcher**, please try **WITHOUT** it,  
       use just CreamAPI with the BASE game executable and try it **BEFORE posting in issues**, THANKS...  
 
 <br>
