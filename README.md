@@ -7,7 +7,7 @@
 
 ---
 
-- 🗃️ Compatible with [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
+- 🗃️ Compatible with [Pulsar](https://github.com/SpaceGT/Pulsar), [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher) and the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
 - 🔄 Game patches proof! if it stops working, just run the tool again.
 - 🔕 Update needed only when a new DLC is released.
 - 🐧 Linux/OSX users please stick to [Manual Install/Uninstall instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
