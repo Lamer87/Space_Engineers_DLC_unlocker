@@ -202,7 +202,7 @@
   - This unlocker is meant to unlock ONLY DLC blocks.
     - **Armor Skins and Emotes can NOT be unlocked.**  
       There is no way, cause Steam checks. You can use those of dlcs you own.
-    - **It's NOT possible to paste DLC items contained in projects**,  
+    - **It's NOT possible to paste DLC blocks contained in projects**,  
       in both online and offline worlds, with just base game.  
       A workaround is to use the mod "[Instant Projector](https://steamcommunity.com/sharedfiles/filedetails/?id=2096677783)" as suggested in this [discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/discussions/44#discussioncomment-11069593).  
 
