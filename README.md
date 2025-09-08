@@ -7,7 +7,7 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.206` - *Fieldwork Pack* ⚗️
 
-### 🔓 **Tool: `v1.6.2`** (28/April/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.6.3`** (8/September/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
@@ -20,9 +20,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6.2 from Mega.nz](https://mega.nz/file/fV4i0CzQ#jF1-VIZRr0VpsfhtaMQ2_2mm3RF0-GxwpUXVQpt0lNY) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6.3 from Mega.nz](https://mega.nz/file/vZQw1Dxb#0wGidKjguL5t8Yyw2uQXebSIhrfIdLFXWywfu5EFYa0) = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.6.2 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.6.3 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
@@ -282,20 +282,24 @@
             - If CreamAPI is already installed and PL too, the Tool prompts you tu rollback to v4.5  
             - You can switch to last creamapi by removing the file "SpaceEngineersLauncher.exe"  
             - You can completely erase Plugin Launcher and all its files, run the Tool and press "M"  
-    - v1.4  
+    - v1.4:  
             - More options in the Removing zone (just restore backup or remove files)  
             - Added a "restart the Tool" button when it can be useful  
             - Some edits to cream_api.ini  
             - Updated CreamAPI from v5.2 to v5.3 for base game (Plugin Launcher need 4.5)  
-    - v1.5  
+    - v1.5:  
             - Very important FIX to cream_api.ini for Plugin Launcher compatibility  
             - Plugin Launcher now works with latest CreamAPI version  
             - All this thanks to Vidkol18  
             - Partially rewrote the Tool to remove parts no longer needed  
-    - v1.6  
+    - v1.6:  
             - Added DLC "Contact".  
             - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
             - v1.6.1 = Much faster check at start.  
+    - v1.6.2:  
+            - Added DLC "Fieldwork".  
+            - Very little changes to cmd file.  
+            - No update for CreamAPI since 5.3 release (means it still works)  
 
     <br>
 
@@ -303,10 +307,8 @@
 
     </p></details>
 
-    - v1.6.2  
-            - Added DLC "Fieldwork".  
-            - Very little changes to cmd file.  
-            - No update for CreamAPI since 5.3 release (means it still works)  
+    - v1.6.3  
+            - Added DLC "Apex Survival Pack".  
 
 <br>
 
