@@ -22,7 +22,7 @@
 ---
 <br>
 
-### - 🕹️ ***Installation with Tool:***
+### - 🕹️ ***Installation using Tool:***
   - 1 - Download any from above
   - 2 - Open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
@@ -40,7 +40,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-#### - 🗑️ ***Uninstallation with Tool:***
+#### - 🗑️ ***Uninstallation using Tool:***
   - Run `CreamAPI_Tool.cmd` and press "**R**" then make a choice.
 
 <br>
