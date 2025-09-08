@@ -9,8 +9,7 @@
 
 - 🗃️ Compatible with [Pulsar](https://github.com/SpaceGT/Pulsar), [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher) and the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
 - 🔄 Game patches proof! if it stops working, just run the tool again.
-- 🔕 Update needed only when a new DLC is released.
-- 🐧 Linux/OSX users please stick to [Manual Install/Uninstall instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
+- 🔕 Update needed only when a new DLC is released: just download, overwrite and launch the tool.
 
 ---
 ### - 🔗 ***Download:***
@@ -55,7 +54,7 @@
 ---
 <br>
 
-### - 🪛 ***Manual Installation:***
+### - 🪛 ***Manual Installation (also valid for Linux/OSX users):***
   - 1 - Download any of the archives and extract it to your desktop.
   - 2 - Now open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
@@ -404,6 +403,7 @@ Steam sales (dopo creamapi version, dopo i 3 trattini)>
 
 ---
 
+- 🐧 Linux/OSX users please stick to [Manual Install/Uninstall instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
 
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
