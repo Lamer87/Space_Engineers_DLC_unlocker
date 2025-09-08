@@ -5,7 +5,7 @@
 ---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.206` - *Fieldwork Pack* ⚗️
+### ✔️ All DLCs unlocked up to: `v1.206` - *Apex Survival Pack* 🌾
 
 ### 🔓 **Tool: `v1.6.3`** (8/September/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
