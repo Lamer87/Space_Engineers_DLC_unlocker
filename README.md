@@ -5,7 +5,7 @@
 ---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.206` - *Apex Survival Pack* 🌱
+### ✔️ All DLCs unlocked up to: `v1.207` - *Apex Survival Pack* 🌱
 
 ### 🔓 **Tool: `v1.6.3`** (8/September/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
@@ -257,7 +257,7 @@
 
     ————————————————————————————————————————  
 
-    - v0.1: First manual version; Uses CreamAPI 4.5 (till unlocker v1.0)
+    - v0.1: First manual version; Uses CreamAPI 4.5
     - v0.2: Automated cmd tools; Not released cause no support for game patches
     - v0.3: Easier tools and support for new game patches
     - v0.4: Removed a useless file; Improved tools to prevent errors. Added colors
@@ -293,11 +293,11 @@
             - All this thanks to Vidkol18  
             - Partially rewrote the Tool to remove parts no longer needed  
     - v1.6:  
-            - Added DLC "Contact".  
+            - Added DLC "Contact Pack".  
             - Rewrote the Tool, now check is automated at the start, no more pressing "C" to check.  
             - v1.6.1 = Much faster check at start.  
     - v1.6.2:  
-            - Added DLC "Fieldwork".  
+            - Added DLC "Fieldwork Pack".  
             - Very little changes to cmd file.  
             - No update for CreamAPI since 5.3 release (means it still works)  
 
