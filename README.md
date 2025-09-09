@@ -236,11 +236,11 @@
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup
-  - `Backup\url_link` : a link to this page (in GitHub zip, is in 'Backup\Original\' till you run the Tool)
+  - `Backup\url_link` : a link to this page
   - `Backup\CreamAPI\steam_api64.dll` : Latest CreamAPI dll file
-  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : old (update check)
-  - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : old (update check)
-  - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : old (update check)
+  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : for old version check
+  - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : for old version check
+  - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : for old version check
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
