@@ -142,7 +142,7 @@
         click on "Reputation-based protection settings",  
         in "Check apps and files": choose "WARN" or "OFF" (depends on your win version)
 
-      - FAST alternative: copy/paste this into the url bar and press Enter,  
+      - FAST alternative: copy/paste this into your browser url bar and press Enter,  
         then in "Check apps and files" choose "WARN" or "OFF" (depends on your win version):
 
       ```
@@ -170,7 +170,7 @@
 
     - Do it directly from the browser:  
 
-      Copy/paste this link into the url bar and press Enter (even with Steam closed)  
+      Copy/paste this link into your browser url bar and press Enter (even with Steam closed)  
       ```
       steam://validate/244850
       ```
