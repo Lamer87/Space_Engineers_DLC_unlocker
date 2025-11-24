@@ -22,7 +22,7 @@ UPDATE (all'inizio)>
 
 - [💾 v1.6.4 from Mega.nz]() = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.6.4 from GitHub](https/////://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.6.4 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
@@ -300,6 +300,8 @@ UPDATE (all'inizio)>
             - Added DLC "Fieldwork Pack".  
             - Very little changes to cmd file.  
             - No update for CreamAPI since 5.3 release (means it still works)  
+    - v1.6.3  
+            - Added DLC "Apex Survival Pack".  
 
     <br>
 
@@ -307,8 +309,8 @@ UPDATE (all'inizio)>
 
     </p></details>
 
-    - v1.6.3  
-            - Added DLC "Apex Survival Pack".  
+    - v1.6.4  
+            - Added DLC "Core Systems Pack".  
 
 <br>
 
