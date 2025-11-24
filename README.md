@@ -1,8 +1,14 @@
+UPDATE (all'inizio)>
+# 🚧 UPDATING - PLEASE WAIT! 🔄
+# just few minutes and the new version is ready!
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1000"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker)
+
+---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.207` - *Apex Survival Pack* 🌱
+### ✔️ All DLCs unlocked up to: `v1.208` - *Core Systems Pack* 🌱
 
-### 🔓 **Tool: `v1.6.3`** (8/September/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.6.4`** (24/November/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
@@ -14,9 +20,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6.3 from Mega.nz](https://mega.nz/file/vZQw1Dxb#0wGidKjguL5t8Yyw2uQXebSIhrfIdLFXWywfu5EFYa0) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6.4 from Mega.nz]() = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.6.3 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.6.4 from GitHub](https/////://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
