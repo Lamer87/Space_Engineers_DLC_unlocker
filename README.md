@@ -219,7 +219,7 @@
 
   <br>
 
-  - An alternative to this tool is [CreamInstaller](https://github.com/CyberSys/CreamInstaller) ([NEW download page](https://github.com/sudojoao/CreamAPI)), compatible with a lot of games.
+  - An alternative to this tool is [CreamInstaller](https://github.com/CyberSys/CreamInstaller), compatible with a lot of games.
     - See [here on reddit](https://www.reddit.com/r/Creaminstaller/), for updates and download.
 
   <br>
