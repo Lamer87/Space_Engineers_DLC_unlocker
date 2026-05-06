@@ -249,9 +249,9 @@
   - `Backup\Original\` : folder used for the legit dll backup
   - `Backup\url_link` : a link to this page
   - `Backup\CreamAPI\steam_api64.dll` : Latest CreamAPI dll file
-  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : for old version check
-  - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : for old version check
-  - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : for old version check
+  - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : for old version check (cut from 1.6.6)
+  - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : for old version check (cut from 1.6.6)
+  - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : for old version check (cut from 1.6.6)
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
