@@ -5,9 +5,9 @@
 ---
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.208` - *Core Systems Pack* 🚽
+### ✔️ All DLCs unlocked up to: `v1.208` - *Economy 2 Pack* 💰
 
-### 🔓 **Tool: `v1.6.4`** (24/November/2025) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.6.5`** (06/May/2026) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
@@ -301,6 +301,8 @@
             - No update for CreamAPI since 5.3 release (means it still works)  
     - v1.6.3  
             - Added DLC "Apex Survival Pack".  
+    - v1.6.4  
+            - Added DLC "Core Systems Pack".  
 
     <br>
 
@@ -308,8 +310,8 @@
 
     </p></details>
 
-    - v1.6.4  
-            - Added DLC "Core Systems Pack".  
+    - v1.6.5  
+            - Added DLC "Economy 2 Pack".  
 
 <br>
 
@@ -409,8 +411,6 @@ Steam sales (dopo creamapi version, dopo i 3 trattini)>
 #### 🔥 Offer valid until September 9, 2024. [Go to Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/).
 
 ---
-
-- 🐧 Linux/OSX users please stick to [Manual Install/Uninstall instructions](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#---manual-installation).
 
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
