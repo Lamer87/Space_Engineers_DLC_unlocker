@@ -306,8 +306,8 @@
     </p></details>
 
     - v1.6.5  
-            - Added DLC "Economy 2 Pack".
-            - Starting from next update 1.6.6, there will be no more "update creamapi" feature,
+            - Added DLC "Economy 2 Pack".  
+            - Starting from next update 1.6.6, there will be no more "update creamapi" feature,  
               because nowadays it's pointless. I'll add it back if creamapi will be updated.
 
 
