@@ -142,10 +142,10 @@
         click on "Reputation-based protection settings",  
         in "Check apps and files": choose "WARN" or "OFF" (depends on your win version)
 
-      - WINDOWS 11 Go to: Start menu, Settings, Privacy & Security,  
+      - WINDOWS 11 - Go to: Start menu, Settings, Privacy & Security,  
         Windows Security, click on the right to open Windows Security.  
         App & Browser Control, click on "Reputation-based protection settings",  
-        in "Check apps and files": choose "WARN" or "OFF" (depends on your win version)
+        disable "Check apps and files"
 
       - FAST alternative: copy/paste this into your browser url bar and press Enter,  
         then in "Check apps and files" choose "WARN" or "OFF" (depends on your win version):
