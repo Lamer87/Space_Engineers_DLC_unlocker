@@ -319,7 +319,7 @@
     - v1.6.5  
             - Added DLC "Economy 2 Pack".  
             - Starting from next tool update (1.6.6), the "update creamapi" feature will be disabled  
-            because pointless, being on 5.3.0.0 since 6/2024.  
+            because pointless, being on 5.3.0.0 since June 2024.  
             I'll add it back if creamapi will be updated.
 
 
