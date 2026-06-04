@@ -322,6 +322,13 @@
             because pointless, being on 5.3.0.0 since June 2024.  
             I'll add it back if creamapi will be updated.
 
+<!--  
+    - v1.6.6  
+            - Added DLC "another dlc, other money waste, because there is SE2 incoming".  
+            - The "update" functionality is disabled for now, not required till next creamapi release.
+            - Minor changes to the cmd to jump the update checks, so a little bit faster at start.
+            - A little bit lighter zip, cause the 3 old creamapi files are cut now.
+-->  
 
 <br>
 
