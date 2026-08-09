@@ -1,8 +1,8 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.209` - *Economy 2 Pack* 💰 TOMORROW I'LL UPDATE!
+### ✔️ All DLCs unlocked up to: `v1.210` - *Prosperity Pack* 🪜
 
-### 🔓 **Tool: `v1.6.5`** (06/May/2026) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.6.6`** (10/Aug/2026) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
@@ -14,9 +14,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6.5 from Mega.nz](https://mega.nz/file/yUQRlZKY#8KYCWanYu5x3Nn0nvTUG8C7r4XSIhv8c4AFqPIE6tz4) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6.6 from Mega.nz](https://mega.nz/file/nEZB3R6R#IXLhdp6pcZtXl1PItdoj8SvncIqiBNNwrXILZ9Y2IpY) = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.6.5 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.6.6 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
@@ -248,11 +248,12 @@
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup with a link to this page
   - `Backup\CreamAPI\steam_api64.dll` : Latest CreamAPI dll file
-    - the following files will be cut from v1.6.6:
+
+<!--  
   - `Backup\CreamAPI\old_v4.5.0.0\steam_api64.dll` : for old version check
   - `Backup\CreamAPI\old_v5.1.0.0\steam_api64.dll` : for old version check
   - `Backup\CreamAPI\old_v5.2.0.0\steam_api64.dll` : for old version check
-
+-->
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -309,6 +310,11 @@
             - Added DLC "Apex Survival Pack".  
     - v1.6.4  
             - Added DLC "Core Systems Pack".  
+    - v1.6.5  
+            - Added DLC "Economy 2 Pack".  
+            - Starting from next tool update (1.6.6), the "update creamapi" feature will be disabled  
+            because pointless, being on 5.3.0.0 since June 2024.  
+            I'll add it back if creamapi will be updated.
 
     <br>
 
@@ -316,19 +322,11 @@
 
     </p></details>
 
-    - v1.6.5  
-            - Added DLC "Economy 2 Pack".  
-            - Starting from next tool update (1.6.6), the "update creamapi" feature will be disabled  
-            because pointless, being on 5.3.0.0 since June 2024.  
-            I'll add it back if creamapi will be updated.
-
-<!--  
     - v1.6.6  
             - Added DLC "another dlc, other money waste, because there is SE2 incoming".  
             - The "update" functionality is disabled for now, not required till next creamapi release.
             - Minor changes to the cmd to jump the update checks, so a little bit faster at start.
-            - A little bit lighter zip, cause the 3 old creamapi files are cut now.
--->  
+            - A little bit lighter zip, cause the old 3 creamapi files are cut now.
 
 <br>
 
