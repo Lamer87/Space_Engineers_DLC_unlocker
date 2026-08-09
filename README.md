@@ -8,7 +8,7 @@
 ---
 
 - 🗃️ Compatible with [Pulsar](https://github.com/SpaceGT/Pulsar), [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher) and the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
-- 🔄 Game patches proof! if it stops working, just run the tool again.
+- 🔄 Game hotfixes proof! if it stops working, just run the tool again.
 - 🔕 Update only needed when a new DLC is released: just download, overwrite and launch the tool.
 
 ---
