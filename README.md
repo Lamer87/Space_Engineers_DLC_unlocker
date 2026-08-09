@@ -324,9 +324,9 @@
 
     - v1.6.6  
             - Added DLC "another dlc, other money waste, because there is SE2 incoming".  
-            - The "update" functionality is disabled for now, not required till next creamapi release.
-            - Minor changes to the cmd to jump the update checks, so a little bit faster at start.
-            - A little bit lighter zip, cause the old 3 creamapi files are cut now.
+            - The "update" functionality is disabled for now, not required till next creamapi release.  
+            - Minor changes to the cmd to jump the update checks, so a little bit faster at start.  
+            - A little bit lighter zip, cause the old 3 creamapi files are cut now.  
 
 <br>
 
