@@ -7,7 +7,7 @@
 
 ---
 
-- 🗃️ Compatible with [Pulsar](https://github.com/SpaceGT/Pulsar) TILL v2.3.1!!!, [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher) and the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
+- 🗃️ Compatible with ‼️ [Pulsar](https://github.com/SpaceGT/Pulsar) TILL v2.3.1 ‼️‼️‼️, [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher) and the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
 - 🔄 Game hotfixes proof! if it stops working, just run the tool again.
 - 🔕 Update only needed when a new DLC is released: just download, overwrite and launch the tool.
 
@@ -434,5 +434,5 @@ img download button:
 [<img src="https://i.ibb.co/JxM2nh7/Donwload-button-png-LITE.png" width="175"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip)
 
 
-✔️⚠️❗💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔📡
+✔️⚠️❗‼️💡🔄🔂🍦🛞⚙️🕹️📑📇📜📂🧰🚧🇮🇹🧊📌🔗🔓🚸⌨️🧯🔕🔔📡
 -->
