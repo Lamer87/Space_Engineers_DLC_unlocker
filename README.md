@@ -7,7 +7,7 @@
 
 ---
 
-- 🗃️ Compatible with ‼️‼️ [Pulsar](https://github.com/SpaceGT/Pulsar) TILL [v2.3.1](https://github.com/SpaceGT/Pulsar/releases/tag/v2.3.1) ‼️‼️ and [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher).
+- 🗃️ Compatible with ‼️‼️ [Pulsar](https://github.com/SpaceGT/Pulsar) TILL [v2.3.1](https://github.com/SpaceGT/Pulsar/releases/tag/v2.3.1), not working from v2.4.0 ‼️‼️ and [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher).
 - 🔄 Game hotfixes proof! if it stops working, just run the tool again.
 - 🔕 Update only needed when a new DLC is released: just download, overwrite and launch the tool.
 
