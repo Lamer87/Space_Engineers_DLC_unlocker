@@ -7,7 +7,7 @@
 
 ---
 
-- 🗃️ Compatible with ‼️ [Pulsar](https://github.com/SpaceGT/Pulsar) TILL v2.3.1 ‼️‼️‼️, [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher) and the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher).
+- 🗃️ Compatible with ‼️‼️ [Pulsar](https://github.com/SpaceGT/Pulsar) TILL v2.3.1 ‼️‼️, [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher).
 - 🔄 Game hotfixes proof! if it stops working, just run the tool again.
 - 🔕 Update only needed when a new DLC is released: just download, overwrite and launch the tool.
 
@@ -426,6 +426,8 @@ Steam sales (dopo creamapi version, dopo i 3 trattini)>
 #### 🔥 Offer valid until September 9, 2024. [Go to Steam Store](https://store.steampowered.com/app/244850/Space_Engineers/).
 
 ---
+
+the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher)
 
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
