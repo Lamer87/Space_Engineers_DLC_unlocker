@@ -2,12 +2,13 @@
 
 ### ✔️ All DLCs unlocked up to: `v1.210` - *Prosperity Pack* 🪜
 
-### 🔓 **Tool: `v1.6.6`** (10/Aug/2026) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
+### 🔓 **Tool: `v1.7.0 beta`** (22/Sep/2026) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
 
 ---
 
-- 🗃️ Compatible with [Pulsar](https://github.com/SpaceGT/Pulsar) UNTIL [v2.3.1](https://github.com/SpaceGT/Pulsar/releases/tag/v2.3.1), ‼️‼️ NOT compatible starting with v2.4.0 ‼️‼️ [Issue here](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/72)
+- 🗃️ Tool v1.6.6 = compatible with [Pulsar](https://github.com/SpaceGT/Pulsar) UNTIL [v2.3.1](https://github.com/SpaceGT/Pulsar/releases/tag/v2.3.1),
+- ‼️ Please try the new beta v1.7.0, test it and give me your feedback [here in this issue discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/72)
 - 🗃️ Compatible with [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher).
 - 🔄 Game hotfixes proof! if it stops working, just run the tool again.
 - 🔕 Update only needed when a new DLC is released: just download, overwrite and launch the tool.
@@ -15,9 +16,9 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6.6 from Mega.nz](https://mega.nz/file/nEZB3R6R#IXLhdp6pcZtXl1PItdoj8SvncIqiBNNwrXILZ9Y2IpY) = file.zip\ `*Tool files and folder*`
+- [💾 v1.6.6 from Mega.nz](https://mega.nz/file/nEZB3R6R#IXLhdp6pcZtXl1PItdoj8SvncIqiBNNwrXILZ9Y2IpY) STILL OLD VERSION = file.zip\ `*Tool files and folder*`
 
-- [💾 v1.6.6 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
+- [💾 v1.7.0 from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 
 ---
 ---
@@ -316,6 +317,11 @@
             - Starting from next tool update (1.6.6), the "update creamapi" feature will be disabled  
             because pointless, being on 5.3.0.0 since June 2024.  
             I'll add it back if creamapi will be updated.
+    - v1.6.6  
+            - Added DLC "Prosperity Pack".  
+            - The "update" functionality is disabled for now, not required till next creamapi release.  
+            - Minor changes to the cmd to jump the update checks, so a little bit faster at start.  
+            - A little bit lighter zip, cause the old 3 creamapi files are cut off now.  
 
     <br>
 
@@ -323,11 +329,8 @@
 
     </p></details>
 
-    - v1.6.6  
-            - Added DLC "Prosperity Pack".  
-            - The "update" functionality is disabled for now, not required till next creamapi release.  
-            - Minor changes to the cmd to jump the update checks, so a little bit faster at start.  
-            - A little bit lighter zip, cause the old 3 creamapi files are cut now.  
+    - v1.7.0 beta
+            - Trying to make Pulsar v2.4.* don't bypass creamapi
 
 <br>
 
