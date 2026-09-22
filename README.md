@@ -330,7 +330,7 @@
     </p></details>
 
     - v1.7.0 beta
-            - Trying to make Pulsar v2.4.* don't bypass creamapi
+            - Trying to make Pulsar v2.4.* to stop bypassing creamapi
 
 <br>
 
