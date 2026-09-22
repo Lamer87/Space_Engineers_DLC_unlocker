@@ -8,7 +8,7 @@
 ---
 
 - 🗃️ Tool v1.6.6 = compatible with [Pulsar](https://github.com/SpaceGT/Pulsar) UNTIL [v2.3.1](https://github.com/SpaceGT/Pulsar/releases/tag/v2.3.1)
-- ‼️‼️ Please try the new beta v1.7.0, test it with latest Pulsar and give me your feedback [here in this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/72)‼️‼️
+- ‼️ Please try the new beta v1.7.0, test it with latest Pulsar and give me your feedback [here in this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/72)‼️
 - 🗃️ Compatible with [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher).
 - 🔄 Game hotfixes proof! if it stops working, just run the tool again.
 - 🔕 Update only needed when a new DLC is released: just download, overwrite and launch the tool.
