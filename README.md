@@ -324,6 +324,7 @@
             - The "update" functionality is disabled for now, not required till next creamapi release.  
             - Minor changes to the cmd to jump the update checks, so a little bit faster at start.  
             - A little bit lighter zip, cause the old 3 creamapi files are cut off now.  
+            - Reuploaded just for adding "Warfare 3 Pack".  
 
     <br>
 
