@@ -1,6 +1,6 @@
 ## [Space Engineers DLC Unlocker](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-### ✔️ All DLCs unlocked up to: `v1.210` - *Prosperity Pack* 🪜
+### ✔️ All DLCs unlocked up to: `v1.211` - *Warfare 3 Pack* 🔫
 
 ### 🔓 **Tool: `v1.7.0 beta for Pulsar 2.4.*`** (22/Sep/2026) [[changelog](https://github.com/Lamer87/Space_Engineers_DLC_unlocker?tab=readme-ov-file#-3)]
 ### 🍦 **CreamAPI: `v5.3`**
