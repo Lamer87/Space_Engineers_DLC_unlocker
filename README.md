@@ -18,7 +18,7 @@
 ---
 ### - 🔗 ***Download:***
 
-- [💾 v1.6.6 from Mega.nz](https://mega.nz/file/XdRhzahC#fHK1B4s4v83GCCucrp_9gEY2edvDJjg5RfjzzYrLEgw) ⚠️ no Pulsar support ⚠️ = file.zip\ `*Tool files and folder*`
+- [💾 v1.6.6 from Mega.nz](https://mega.nz/file/XdRhzahC#fHK1B4s4v83GCCucrp_9gEY2edvDJjg5RfjzzYrLEgw) ⚠️ works with Pulsar until v2.3.1 ⚠️ = file.zip\ `*Tool files and folder*`
 
 - [💾 v1.7.0 BETA from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = file.zip\Space_Engineers_DLC_unlocker-main\ `*Tool files and folder*`
 - ‼️‼️ REQUIRED PULSAR FOLDER INSIDE BIN64 (SpaceEngineers\Bin64\ ***Pulsar*** \ renamed just like this) ‼️‼️
