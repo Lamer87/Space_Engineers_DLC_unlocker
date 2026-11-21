@@ -334,6 +334,7 @@
 
     - v1.7.0 beta
             - Trying to make Pulsar v2.4.* to stop bypassing creamapi
+            - Reuploaded just for adding "Warfare 3 Pack".
 
 <br>
 
