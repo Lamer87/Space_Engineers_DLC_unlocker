@@ -319,12 +319,6 @@
             - Starting from next tool update (1.6.6), the "update creamapi" feature will be disabled  
             because pointless, being on 5.3.0.0 since June 2024.  
             I'll add it back if creamapi will be updated.
-    - v1.6.6  
-            - Added DLC "Prosperity Pack".  
-            - The "update" functionality is disabled for now, not required till next creamapi release.  
-            - Minor changes to the cmd to jump the update checks, so a little bit faster at start.  
-            - A little bit lighter zip, cause the old 3 creamapi files are cut off now.  
-            - Reuploaded just for adding "Warfare 3 Pack".  
 
     <br>
 
@@ -332,6 +326,12 @@
 
     </p></details>
 
+    - v1.6.6  
+            - Added DLC "Prosperity Pack".  
+            - The "update" functionality is disabled for now, not required till next creamapi release.  
+            - Minor changes to the cmd to jump the update checks, so a little bit faster at start.  
+            - A little bit lighter zip, cause the old 3 creamapi files are cut off now.  
+            - Reuploaded just for adding "Warfare 3 Pack".  
     - v1.7.0 beta  
             - Trying to make Pulsar v2.4.* to stop bypassing creamapi  
             - Reuploaded just for adding "Warfare 3 Pack".
