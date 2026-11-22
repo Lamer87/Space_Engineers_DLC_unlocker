@@ -21,7 +21,7 @@
 
 - [💾 v1.7.0 BETA from GitHub](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/archive/refs/heads/main.zip) = `for Pulsar v2.4.*`
 
-- ‼️ For v1.7.0 BETA and Pulsar 2.4 IT'S REQUIRED the folder in Bin64: SpaceEngineers\Bin64\ ***Pulsar*** (renamed) ‼️‼️
+- ‼️ For v1.7.0 BETA and Pulsar 2.4 IT'S REQUIRED the folder in Bin64: SpaceEngineers\Bin64\ ***Pulsar*** (renamed) ‼️
 
 ---
 ---
