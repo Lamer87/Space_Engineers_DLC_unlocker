@@ -243,7 +243,7 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.6.x` / `v1.6.x`:***
+- 📂 ***Files and folders of `v1.6.x` / `v1.7.x`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup with a link to this page
