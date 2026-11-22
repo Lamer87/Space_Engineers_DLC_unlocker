@@ -11,8 +11,7 @@
 - ‼️ Please try the new beta v1.7.0, test it with latest Pulsar and give me your feedback [here in this discussion](https://github.com/Lamer87/Space_Engineers_DLC_unlocker/issues/72)‼️
 - ‼️ Only requirement: PULSAR FOLDER MUST BE INSIDE BIN64, NAMED just "Pulsar". ‼️
 - ‼️ (like this: SpaceEngineers\Bin64\Pulsar\) ‼️
-- 🗃️ Compatible with [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher).
-- 🔄 Game hotfixes proof! if it stops working, just run the tool again.
+- 🔄 Game hotfix proof! if it stops working, just run the tool again.
 - 🔕 Update only needed when a new DLC is released: just download, overwrite and launch the tool.
 
 ---
@@ -32,8 +31,7 @@
   - 1 - Download any from above
   - 2 - Open your **"Bin64"** game folder, example:  
     `C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Bin64\`
-  - 3a- (Mega.nz) extract files and "Backup" folder from the zip, to "Bin64" folder
-  - 3b- (GitHub) extract files and "Backup" folder inside `zip\Space...-main\` folder, to "Bin64" folder
+  - 3-  Extract `CreamAPI_Tool.cmd`, `cream_api.ini` and `Backup` folder to "Bin64" folder
   - 4 - Run `CreamAPI_Tool.cmd` and press "**C**" to install CreamAPI
   - 5 - You can play
 
@@ -99,7 +97,7 @@
 
 - ⚠️ ***Troubleshooting:***
 
-  - 🧯 If a game patch breaks the unlocker:
+  - 🧯 If a game patch or hotfix breaks the unlocker:
 
     - If you used the Tool: run `CreamAPI_Tool.cmd`,  
     if it recognizes that CreamAPI is no longer present, just press "**C**".
@@ -112,6 +110,7 @@
 
   - 🦠 If your antivirus detects "steam_api64.dll" as a malware, make an exception for it.  
     It's safe, but software houses don't like it when you play their dlcs for free.
+    Feel free not to believe it and pay for the DLCs.
   <br>
 
   - 🛡️ If you get the message "Windows protected your PC" when you launch "CreamAPI_Tool.cmd":  
@@ -206,7 +205,7 @@
 
   <br>
 
-  - ⁉️ If your game have bugs/crashes using any **Plugin Launcher**, please try **WITHOUT** it,  
+  - ⁉️ If your game have bugs/crashes using any **Pulsar**, please try **WITHOUT** it,  
       use just CreamAPI with the BASE game executable and try it **BEFORE posting in issues**, THANKS...  
 
 <br>
@@ -231,17 +230,12 @@
 
   <br>
 
-  - What if I want the "Flush Cockpit" without registering for newsletter?
-    - It's very simple, just enter a fake email address in the form. No confirmation required.
-
-  <br>
-
   - An alternative to this tool is [CreamInstaller](https://github.com/CyberSys/CreamInstaller), compatible with a lot of games.
     - See [here on reddit](https://www.reddit.com/r/Creaminstaller/), for updates and download.
 
   <br>
 
-  - If you want to buy the game (or dlcs to unlock skins, emotes and blueprint pasting):
+  - If you want to buy the game or dlcs to unlock skins, emotes and blueprint pasting:
     - [Steam Store - Space Engineers](https://store.steampowered.com/app/244850/Space_Engineers/)
     - [CDKeys.com - Space Engineers](https://www.cdkeys.com/catalogsearch/result/?q=space%20engineers)
 
@@ -249,7 +243,7 @@
 
 ---
 
-- 📂 ***Files and folders of `v1.6.x`:***
+- 📂 ***Files and folders of `v1.6.x` / `v1.6.x`:***
   - `CreamAPI_Tool.cmd` : Install / Check / Update / Remove CreamAPI
   - `cream_api.ini` : CreamAPI config file (you can add new DLCs in this file)
   - `Backup\Original\` : folder used for the legit dll backup with a link to this page
@@ -342,12 +336,12 @@
 
 ---
 
-- ⚙️ ***How the Tool works, newbies proof:***
+- ⚙️ ***How the Tool works:***
 
   - Installer:  
     The installer is used both to install CreamAPI and to check if everything is ok after a game patch.  
     What does it do exactly? if CreamAPI is not yet present so in the case of a new installation or  
-    after an update that replaces the "steam_api64.dll" file,  
+    after an update that replaces the file "steam_api64.dll",  
     it creates a backup of the new original file and installs/restores CreamAPI functionality.  
     So, if the game gets updated, you don't even have to download a new version of the unlocker,  
     just run the Tool to check and restore CreamAPI.  
@@ -355,7 +349,7 @@
     The only time you need to update the unlocker is when a new DLC comes out.
 
   - Remover `Tool + press R`:  
-    You can chose "R" again to just restore the backup, keeping creamapi files  
+    You can then press "R" again to just restore the backup, keeping creamapi files  
     or "E" to completely get rid of creamapi files while restoring the backup.  
     The remover first checks if the game has undergone an update that replaced  
     the "steam_api64.dll" file or if CreamAPI is still present, then removes it accordingly.
@@ -437,6 +431,7 @@ Steam sales (dopo creamapi version, dopo i 3 trattini)>
 
 ---
 
+- 🗃️ Compatible with [S.E. Launcher](https://github.com/StarCpt/SpaceEngineersLauncher).
 the discontinued [Plugin Launcher](https://github.com/sepluginloader/SpaceEngineersLauncher)
 
 img empty:
